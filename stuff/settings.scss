@@ -217,6 +217,14 @@
     .media-engine-video { border-radius: 10px;}
 }
 
+// Activity status
+.addGamePopout-2RY8Ju { 
+    background: var(--background-secondary);
+    box-shadow: none;
+
+    .divider-3573oO { display: none;}
+}
+
 // Game overlay
 .notificationSettings-1NQKPR { 
     max-width: unset;
@@ -260,6 +268,16 @@
 .avatarUploaderIndicator-2G-aIZ { display: none;}
 
 // Roles
-.customScroller-26gWhv>div { max-width: unset;}
+.customScroller-26gWhv>div, .contentWidth-xLB44s { max-width: unset;}
+.colorPickerCustom-2CWBn2 { 
+    background: var(--background-secondary); 
+    border: none; border-radius: 8px;
+}
+
+// Members
+.overflowRolesPopout-140n9i, .overflowRolesPopoutArrow-2O66oH { 
+    background: var(--background-secondary);
+    box-shadow: none;
+}
 
 }

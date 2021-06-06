@@ -241,19 +241,10 @@
 
 // GIF
 .contentWrapper-SvZHNd .inner-2P4tQO {
-    top: 14px;
+    height: 34px;
     background: var(--background-primary);
 
-    .input-3Xdcic {
-        font-size: 12px;
-        line-height: unset;
-        height: 28px;
-        margin: 0;
-        margin-top: -2px;
-        padding: 0 8px;
-    }
-
-    .iconLayout-3OgqU3 { width: 24px; height: 24px;}
+    .iconLayout-3OgqU3 { width: 30px; height: 30px;}
 }
 
 // -- Upload Modal --
@@ -517,5 +508,8 @@
 
 // Typing
 .typing-2GQL18 { z-index: 0;}
+
+// Delete message popout
+.message-2qRu38 { background: var(--background-secondary); box-shadow: none;}
 
 }

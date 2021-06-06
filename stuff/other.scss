@@ -223,16 +223,16 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     border-radius:  0 0 10px 10px;
 
     & > button {
-    width: auto;
-    flex-grow: 1;
-    box-shadow: none !important;
-    border-radius: 0;
-    height: auto;
+      width: auto; height: auto;
+      flex-grow: 1; margin: 0;
+      box-shadow: none !important;
+      border-radius: 0;
     }
 
     & > .lookLink-9FtZy- { background: #fff1;}
 
     .cancelButton-1mlh7b, .cancel-3ncp2g { margin-right: 0;}
+    .minorContainer-Oi4S_y { display: none;}
   }
   
   // Stream / Screenshare popout
