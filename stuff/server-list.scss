@@ -30,13 +30,19 @@
             .wrapper-25eVIn, .svg-1X37T1 { width: 42px;}
             .wrapper-1BJsBx { border-radius: 50%; overflow: hidden;}
 
+            .upperBadge-2XnnGB { top: 2px; right: -1px;}
+
             // Metion badge
-            .numberBadge-2s8kKX {
-                min-width: 25px;
-                background: var(--main-color) !important;
-                font-size: 8px;
+            .lowerBadge-29hYVK { 
+                bottom: 4px; right: -5px;
+
+                .numberBadge-2s8kKX {
+                    min-width: 25px;
+                    background: var(--main-color) !important;
+                    font-size: 8px;
+                }
+                &:last-child .numberBadge-2s8kKX { box-shadow: 0 0 10px 0 #0008;}
             }
-            &:last-child .numberBadge-2s8kKX { box-shadow: 0 0 10px 0 #0008;}
 
             // Server icon
             .wrapper-1BJsBx {

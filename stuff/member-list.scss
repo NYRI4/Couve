@@ -36,7 +36,6 @@
         grid-template-columns: 100%;
         grid-template-areas: "avatar" "infos" "activity";
         clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
-        border-radius: 10px;
         background-color: var(--background-secondary-alt-alt);
         overflow: hidden; backdrop-filter: blur(0);
         
@@ -137,7 +136,6 @@
     
     // Body
     .body-3iLsc4 {
-        background: transparent;
 
         .role-2irmRk {
             position: relative;
@@ -157,9 +155,6 @@
         }
     }
 
-    // Bottom
-    .footer-1fjuF6 { background: transparent;}
-
     // Avatar mask
     .mask-1l8v16 foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
 
@@ -167,35 +162,27 @@
 	transform: translateZ(0) !important;
 	--USRBG-banner-height: 100%;
 
-    &[style*="-user-"] {
-        --USRBG-banner-height: 120px;
-        --USRBG-avatar-offset: 76px;
-
-        .profileBanner-33-uE1 {
-            height: var(--USRBG-banner-height, 120px);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: var(--user-popout-position, center) center;
-            background-image: var(--user-background);
-        }
-
-        .avatarWrapperNormal-2tu8Ts { top: var(--USRBG-avatar-offset, 76px);}
+    .avatar-22FtUu::after {
+        content: '';
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%;
+        z-index: -1; opacity: 0.7;
+        height: var(--USRBG-banner-height, 60px);
+        pointer-events: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: var(--user-popout-position, center) center;
+        background-image: var(--user-background);
     }
 
-    &:not([style*="-user-"]) {
-        .avatar-22FtUu::after {
-            content: '';
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%;
-            z-index: -1;
-            height: var(--USRBG-banner-height, 60px);
-            pointer-events: none;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: var(--user-popout-position, center) center;
-            background-image: var(--user-background);
-        }
+    // Fix for BetterDiscord
+    &[style*="-user-"] { 
+        border-radius: unset;
+        background: linear-gradient(transparent 0%, var(--background-secondary) 2%, var(--background-secondary) 98%, transparent 100%);
+
+        .headerNormal-1l1Znk { border-radius: 8px 8px 0 0;}
+        .footer-1fjuF6 { border-radius: 0 0 8px 8px; overflow: hidden;}
     }
 }
 
