@@ -1,0 +1,72 @@
+:root {
+    
+.panels-j1Uci_ {
+    z-index: unset;
+
+    // Game part
+    .activityPanel-28dQGo {
+        height: 0;
+        visibility: hidden;
+        padding: 0;
+
+        .button-38aScr {
+            position: absolute;
+            bottom:121px;
+            left:167px;
+            z-index: 1;
+            visibility: visible;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0; left: -100%;
+                width: 200%; height: 100%;
+                background: linear-gradient(90deg, transparent, var(--background-secondary), var(--background-secondary));
+                z-index: -2;
+                pointer-events: none;
+            }
+        }
+    }
+
+    & > .container-3baos1 {
+        padding: 10px 15px;
+
+        // Avatar
+        .avatarWrapper-2yR4wp[aria-expanded="false"]{
+            position: fixed;
+            left: 29px; bottom: 29px;
+            z-index: 1;
+        }
+
+        // Username
+        .title-eS5yk3 { font-weight: 500;}
+
+        // Buttons
+        .button-14-BFJ { 
+            color: #888;
+
+            &[aria-checked="false"].enabled-2cQ-u7 { color: var(--main-color);}
+        }
+    }   
+}
+
+// Server call
+.noChat-18KtBD {
+
+    &.wrapper-2qzCYF {
+        background: #000;
+        margin: 0;
+        border-radius: 0;
+        animation: unset;
+
+        // Header top
+        .headerWrapper-3NUKsd .container-1r6BKw { width: unset;}
+
+        // Speaking ring
+        .border-3dQmSY.speaking-WDn8Wm { box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 4.5px var(--background-secondary);}
+        
+        // Button
+        .wrapper-3EGhDO .button-38aScr { border-radius: 50%;}
+        .colorable-1bkp8v.primaryDark-3mSFDl, .participantsButton-KYW-IW, .participantsButton-KYW-IW:hover { background: var(--background-secondary);}
+    }
+}}

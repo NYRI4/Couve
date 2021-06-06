@@ -1,0 +1,258 @@
+:root { 
+
+.layer-3QrUeG { 
+    transform: unset !important;
+
+    &.baseLayer-35bLyl { opacity: 1 !important;}
+    &:not(.baseLayer-35bLyl) { margin-left: 90px;}
+    
+    // Scroller
+    .sidebarRegion-VFTUkN {
+        flex: unset;
+        background: var(--background-tertiary);
+
+        .sidebarRegionScroller-3MXcoP {
+            justify-content: flex-start;
+            border-radius: 8px 0 0;
+
+            .sidebar-CFHs9e { 
+                width: 240px;
+            
+                .side-8zPYf6 .header-2RyJ0Y, .side-8zPYf6 .item-PXvHYJ { padding: 6px 30px; border-radius: 0;}
+                .side-8zPYf6 .item-PXvHYJ:hover { background: var(--background-secondary-alt);}
+                
+                // Discord social stuff
+                .socialLinks-3jqNFy {
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    // Powercord
+                    .powercord-pc-icon {
+                        svg {  border: none;}
+
+                        &::before {
+                            top: 0;
+                            width: 20px; height: 16px;
+                        }
+                        }
+                }
+
+                // Client informations
+                .info-1VyQPT { text-align: center;}
+            }
+            .sidebar-CFHs9e, .flexChild-faoVW3 { padding-left: 0 !important; padding-right: 0 !important;}
+            
+            &::-webkit-scrollbar { display: none;}
+        }
+    }
+
+    // Panel
+    .contentColumn-2hrIYH, .customColumn-Rb6toI { max-width: unset;}
+    .contentColumnDefault-1VQkGM { padding-right: 100px;}
+
+    // Close button
+    .closeButton-1tv5uR {
+
+        &:active { transform: none;}
+        
+        &::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0;
+            width: 90px; height: 100%;
+            z-index: 100;
+        }
+    }
+}
+
+// No titles
+.sectionTitle-2vauyC { display: none;}
+
+// -- User settings --
+
+// My account
+.background-1QDuV2 {
+    display: flex;
+    justify-content: space-around;
+
+    .profile-1eT9hT { 
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        padding: 16px 0; border-radius: 8px;
+        background: var(--background-primary);
+
+        // Avatar
+        .avatarUploader-3XDtmn {
+            margin-bottom: 15px;
+
+            .avatarUploaderInner-3UNxY3 { 
+                width: 100px; height: 100px;
+                border-radius: var(--avatar-radius);
+
+                .avatarUploaderIndicator-2G-aIZ { display: none;}
+            }
+        }
+
+        // User details
+        .details-2fkb7l {
+            margin: 0 0 15px 0;
+
+            // Badges
+            .badgeList-HtCfKd { 
+                justify-content: center;
+                margin-top: 12px;
+            }
+        }
+
+        // 3 dots
+        .menu-319q29 { margin: 0;}
+    }
+    
+    .fieldList-21DyL8 { 
+        background: transparent;
+        margin: 0; flex: 1;
+    }
+}
+
+// Privacy & Safety
+.item-26Dhrx {
+    background: var(--background-secondary);
+    transition: transform 200ms;
+
+    &:hover { background: var(--background-secondary);}
+}
+
+// Connections
+.accountList-33MS45 { 
+    background: var(--background-secondary);
+
+    .accountBtn-2Nozo3 .accountBtnInner-sj5jLs { background-color: transparent;}
+}
+
+.connectionHeader-2MDqhu { 
+    background: transparent;
+
+    .connectionDelete-2Odoln {
+        border-color: transparent;
+        border-radius: 50%; padding: 8px 8px 5px 8px;
+        transition: background 100ms;
+
+        &:hover { background: #fff2;}
+    }
+}
+
+// Nitro
+.premiumTabItem-1QTfBr .flex-1xMQg5 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    .icon-Zc-uZZ { margin-right: 5px;}
+}
+
+.hero-EvfTTA { max-width: unset;
+
+    & + .featuresHeader-4YwLcc { text-align: center;}
+}
+.feature-2w65J5 { background: var(--background-secondary);}
+
+// Boost
+.cardWrapper-2Min21 {
+    transform: translateZ(0);
+    overflow: hidden;
+    background: #0008;
+    --header-primary: #fff;
+
+    .tierLabel-39IsmN { color: #fff; font-weight: 500;}
+    .gemIndicatorContainer-2jdECl {
+        background: transparent;
+        backdrop-filter: blur(5px);
+
+        .gemWithoutLabel-7-ZvB_ {  color: #999;}
+    }
+
+    .icon-3o6xvg::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-image: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        z-index: -1; opacity: .5;
+        filter: blur(20px);
+    }
+}
+
+// Billing
+.paymentPane-3bwJ6A, .codeRedemptionRedirect-1wVR4b {
+    background: var(--background-secondary);
+    border: none;
+
+    .paginator-166-09, .bottomDivider-1K9Gao { background: transparent;}
+    .paymentRow-2e7VM6 { 
+        border: none;
+
+        .expandedInfo-3kfShd { background: var(--background-primary);}
+    }
+}
+
+// Voice settings
+.userSettingsVoice-iwdUCU {
+
+    .previewOverlay-2O7_KC {
+        background: var(--background-secondary);
+        border: none;
+        border-radius: 7px;
+    }
+    .media-engine-video { border-radius: 10px;}
+}
+
+// Game overlay
+.notificationSettings-1NQKPR { 
+    max-width: unset;
+
+    .wrapper-3jrx9n {
+        border: none;
+        background: var(--background-secondary);
+        border-radius: 20px;
+
+        .option-n0icdO {
+            margin: 10px;
+            border-radius: 16px;
+            background: var(--epicshadow1);
+
+            &:hover { background: var(--main-color); opacity: .4;}
+            &.selected-mKYnfr { background: var(--main-color); box-shadow: unset;}
+        }
+    }
+}
+
+// Hypesquad
+.membershipDialog-rVL-t_ { 
+    border-radius: 10px;
+    background: var(--background-secondary);
+
+    &:after { left:5px;}
+}
+.videoWrapper-3YdgHH { 
+    background: transparent;
+
+    iframe {
+        margin: auto;
+        border-radius: 10px;
+    }
+}
+
+
+// -- Server settings --
+
+// Overview
+.avatarUploaderIndicator-2G-aIZ { display: none;}
+
+// Roles
+.customScroller-26gWhv>div { max-width: unset;}
+
+}
