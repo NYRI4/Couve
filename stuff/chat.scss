@@ -145,6 +145,16 @@
 
         .unreadPillCap-3_K2q2 { display: none;}
     }
+
+    &#---new-messages-bar .content-1o0f9g {
+        border-radius: 5px 0 0 5px;
+
+        & + .unreadPill-2HyYtt {
+            border-radius: 0 5px 5px 0;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    } 
 }
 
 // Jump to present
@@ -511,5 +521,12 @@
 
 // Delete message popout
 .message-2qRu38 { background: var(--background-secondary); box-shadow: none;}
+
+// Reaction popout
+.container-1If-HZ, .reactors-Blmlhw { 
+    background: var(--background-secondary);
+
+    .scroller-1-nKid { background: var(--background-primary);}
+}
 
 }

@@ -3,8 +3,16 @@
 .layer-3QrUeG { 
     transform: unset !important;
 
-    &.baseLayer-35bLyl { opacity: 1 !important;}
-    &:not(.baseLayer-35bLyl) { margin-left: 90px;}
+    &.baseLayer-35bLyl { 
+        opacity: 1 !important;
+        transform: scale(1) !important;
+
+        &.stop-animations { transform: scale(1) !important;}
+    }
+    &:not(.baseLayer-35bLyl) { 
+        transform: scale(1) !important;
+        margin-left: 90px;
+    }
     
     // Scroller
     .sidebarRegion-VFTUkN {
@@ -80,19 +88,21 @@
 
 // My account
 .background-1QDuV2 {
-    display: flex;
+    display: flex; position: relative;
     justify-content: space-around;
 
     .profile-1eT9hT { 
-        flex-direction: column;
+        display: grid; flex: 1; position: relative;
+        grid-template-columns: auto auto;
+        justify-content: center;
         align-items: center;
-        flex: 1;
-        padding: 16px 0; border-radius: 8px;
+        padding: 16px 0;
+        border-radius: 8px;
         background: var(--background-primary);
 
         // Avatar
         .avatarUploader-3XDtmn {
-            margin-bottom: 15px;
+            margin-right: 15px;
 
             .avatarUploaderInner-3UNxY3 { 
                 width: 100px; height: 100px;
@@ -108,15 +118,19 @@
 
             // Badges
             .badgeList-HtCfKd { 
-                justify-content: center;
                 margin-top: 12px;
             }
         }
 
         // 3 dots
-        .menu-319q29 { margin: 0;}
+        .menu-319q29 { 
+            position: absolute;
+            top: 7px; right: 15px;
+            margin-left: -12px;
+            margin: 0;
+        }
     }
-    
+
     .fieldList-21DyL8 { 
         background: transparent;
         margin: 0; flex: 1;
