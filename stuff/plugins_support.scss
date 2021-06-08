@@ -7,6 +7,21 @@
     width: 800px;
 }
 
+// CustomStatusPresets
+.scale-3iLZhb.didRender-33z1u8 { transform: scale(1) !important;}
 
+#status-picker.menu-3sdvDG #status-picker-custom-status {
+    .labelContainer-1BLJti { padding: 0 16px;}
+
+    & + .layer-v9HyYc { 
+        top: 432px !important;
+        left: 359px !important;
+
+        .submenu-2-ysNh { 
+            background: var(--background-tertiary);
+            border-radius: 0 8px 8px 0;
+        }
+    }
+}
 
 }
