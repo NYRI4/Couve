@@ -84,13 +84,13 @@
 
 // Mentions
 .wrapper-3WhCwL {
-    background: transparent;
+    background: transparent !important;
     position: relative;
-    color: var(--main-color);
+    color: var(--main-color) !important;
 
     &.mention { border-radius: 5px;}
 
-    &:hover::after { opacity: .25;}
+    &:hover::after { opacity: .20;}
 
     &::after {
         content: "";
@@ -98,7 +98,7 @@
         top: 0; left: 0;
         width: 100%; height: 100%;
         background-color: var(--main-color);
-        opacity: .15; border-radius: 5px;
+        opacity: .08; border-radius: 5px;
         transition: opacity 200ms;
         pointer-events: none;
     }
@@ -427,6 +427,9 @@
 .textContainer-C0szpm { border-radius: 10px 10px 0 0;}
 .footer-2yA7Ep { border-radius: 0 0 10px 10px;}
 
+// Spoilers
+.spoilerText-3p6IlD.hidden-HHr2R9, .spoilerText-3p6IlD.hidden-HHr2R9:hover { background-color: var(--background-secondary);}
+
 // Spotify embeds
 .embedSpotify-tvxDCr { border-radius: 5px;}
 
@@ -450,7 +453,7 @@
 
         &::after {
             content: ">_<";
-            animation: blink 8s;
+            animation: blink 2.5s;
             animation-iteration-count: infinite;
             font-size: 50px;
             color: var(--textcolor);

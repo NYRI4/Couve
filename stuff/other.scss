@@ -210,6 +210,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   box-shadow: unset;
   border-radius: 10px;
 
+  form {
+    display: flex; flex-direction: column;
+    height: 100%;
+  }
+
   // Header
   .header-1TKi98 { text-align: center;}
 
@@ -222,18 +227,22 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     overflow: hidden;
     border-radius:  0 0 10px 10px;
 
-    & > button {
+    button {
       width: auto; height: auto;
       flex-grow: 1; margin: 0;
+      padding: 2px 16px;
       box-shadow: none !important;
-      border-radius: 0;
+      border-radius: 0; min-height: 45px;
     }
 
-    & > .lookLink-9FtZy- { background: #fff1;}
+    .lookLink-9FtZy- { background: #fff1;}
+
+    & > * { width: 100%; margin: 0;}
 
     .cancelButton-1mlh7b, .cancel-3ncp2g { margin-right: 0;}
     .minorContainer-Oi4S_y { display: none;}
   }
+  
   
   // Stream / Screenshare popout
   .qualitySettingsContainer-1gOtRJ { 

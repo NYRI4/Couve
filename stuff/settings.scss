@@ -5,12 +5,10 @@
 
     &.baseLayer-35bLyl { 
         opacity: 1 !important;
-        transform: scale(1) !important;
 
         &.stop-animations { transform: scale(1) !important;}
     }
     &:not(.baseLayer-35bLyl) { 
-        transform: scale(1) !important;
         margin-left: 90px;
     }
     
@@ -56,8 +54,7 @@
     }
 
     // Panel
-    .contentColumn-2hrIYH, .customColumn-Rb6toI { max-width: unset;}
-    .contentColumnDefault-1VQkGM { padding-right: 100px;}
+    .contentColumn-2hrIYH, .customColumn-Rb6toI { max-width: 95%;}
 
     // Close button
     .closeButton-1tv5uR {
@@ -287,6 +284,33 @@
     background: var(--background-secondary); 
     border: none; border-radius: 8px;
 }
+
+// Emoji
+.emojiAliasInput-1y-NBz .emojiInput-1aLNse { background: var(--background-primary);}
+
+// Audit log
+.auditLog-3jNbM6 { 
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .header-GwIGlr, .changeDetails-bk98pu { background: var(--background-secondary);}
+    .divider-1pnAR2 { display: none;}
+}
+
+// Widget
+.copyInput-2rOSt7 { 
+    border: none;
+    border-radius: 8px;
+}
+
+// Membership Screening
+.editCircle-y9c7xP, .editCircle-ityklj { background: var(--background-primary);}
+.formFieldWrapper-malor5 { border: none;}
+
+// Server Boost Status
+.background-3xPPFc { color: var(--background-secondary);}
+.tierInProgress-3mBoXq, .tierBody-x9kBBp, .tierHeaderLocked-1a2opw { background: var(--background-secondary);}
 
 // Members
 .overflowRolesPopout-140n9i, .overflowRolesPopoutArrow-2O66oH { 
