@@ -19,4 +19,4 @@ Soon
 
 ## Credits
 
-Of course all credits goes to abUwUser/A user, the original creator of this theme, see his repo [here](https://github.com/A-User-s-Discord-Themes/Couve)
+Of course all credits goes to abUwUser/A user, the original creator of this theme and AAGaming that maintained the theme, see his repo [here](https://github.com/A-User-s-Discord-Themes/Couve)
