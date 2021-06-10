@@ -437,6 +437,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 
 // -- User info --
+.avatarWrapper-2yR4wp .avatarSpeaking-2c8-9i { border-radius: var(--avatar-radius);}
 
 .avatarWrapper-2yR4wp[aria-expanded="true"] {
     position: fixed;

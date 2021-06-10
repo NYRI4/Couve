@@ -2228,6 +2228,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .scroller-3BxosC::-webkit-scrollbar-thumb {
   background: var(--epicshadow1);
 }
+:root .avatarWrapper-2yR4wp .avatarSpeaking-2c8-9i {
+  border-radius: var(--avatar-radius);
+}
 :root .avatarWrapper-2yR4wp[aria-expanded=true] {
   position: fixed;
   top: 0;
@@ -2302,53 +2305,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .tooltipPointer-3ZfirK {
   border-top-color: var(--background-secondary-alt) !important;
-}
-:root .powercord-toast {
-  background: var(--background-secondary);
-  min-width: 400px;
-  max-width: 600px;
-  border-radius: 7px;
-  border: unset;
-  transition: all 200ms;
-  overflow: hidden;
-  padding-left: 6px;
-  box-shadow: 0 0 20px 0 #111;
-}
-:root .powercord-toast .header {
-  background: transparent;
-  box-shadow: unset;
-}
-:root .powercord-toast .icon::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 8px;
-  background: currentColor;
-  opacity: 1;
-  z-index: -1;
-  pointer-events: none;
-}
-:root .powercord-toast[data-toast-type=info] .icon {
-  color: #419e85;
-}
-:root .powercord-toast .contents .inner {
-  background: var(--background-primary);
-  border: none;
-}
-:root .powercord-toast .progress-2XXRYo {
-  width: calc(100% - 6px);
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  background: transparent !important;
-  border-radius: 0;
-}
-:root .powercord-toast .progress-2XXRYo .progressBar-3u8FBM {
-  opacity: 0.2;
-  height: 100%;
 }
 :root .modal-1k91nT .title-3sZWYQ {
   margin: 8px;
@@ -2466,7 +2422,55 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   }
 }
 
-:root .root-SR8cQa .header-QKLPzZ .user-details-text {
+:root .powercord-toast {
+  background: var(--background-secondary);
+  min-width: 400px;
+  max-width: 600px;
+  border-radius: 7px;
+  border: unset;
+  transition: all 200ms;
+  overflow: hidden;
+  padding-left: 6px;
+  box-shadow: 0 0 20px 0 #111;
+}
+:root .powercord-toast .header {
+  background: transparent;
+  box-shadow: unset;
+}
+:root .powercord-toast .icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 8px;
+  background: currentColor;
+  opacity: 1;
+  z-index: -1;
+  pointer-events: none;
+}
+:root .powercord-toast[data-toast-type=info] .icon {
+  color: #419e85;
+}
+:root .powercord-toast .contents .inner {
+  background: var(--background-primary);
+  border: none;
+}
+:root .powercord-toast .progress-2XXRYo {
+  width: calc(100% - 6px);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background: transparent !important;
+  border-radius: 0;
+}
+:root .powercord-toast .progress-2XXRYo .progressBar-3u8FBM {
+  opacity: 0.2;
+  height: 100%;
+}
+:root .root-3QyAh1 .header-4zuFdR .user-details-text {
+  position: fixed;
   top: -70px;
   left: 0;
   right: unset;
