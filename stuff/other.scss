@@ -496,7 +496,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   }
 }
 
-// Strem previews
+// Stream previews
 .streamPreview-2-WUWT {
   background: var(--background-secondary);
   width: 330px;
@@ -517,6 +517,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   .input-cIJ7To { border-radius: 0;}
   .footerText-2a7NxZ { display: none;}
 }
+
+// Welcome popout
+.contentWrapper-3WC1ID { background: var(--background-primary);}
 
 // Keyboard Combos modal
 .keyboardShortcutsModal-3piNz7 { 

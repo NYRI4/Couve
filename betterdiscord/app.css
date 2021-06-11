@@ -1203,68 +1203,96 @@
   overflow: hidden;
 }
 :root .root-3QyAh1 {
-  background: transparent;
   width: 800px;
   flex-direction: row;
   overflow: unset;
   position: relative;
 }
 :root .root-3QyAh1 .topSection-y3p-_D {
+  position: relative;
   background: var(--background-secondary);
   width: 40%;
+  z-index: 1;
   border-radius: 10px 0 0 10px;
 }
-:root .root-3QyAh1 .header-4zuFdR .button-38aScr {
+:root .root-3QyAh1 .topSection-y3p-_D .banner-2QYc2d {
   position: absolute;
-  bottom: 18px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  border-radius: 10px 0 0 10px;
+}
+:root .root-3QyAh1 .topSection-y3p-_D .header-4zuFdR {
+  position: static;
+}
+:root .root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .avatar-AvHqJA {
+  position: relative;
+  top: 16px;
+  border: none;
+  background: none;
+  width: 80px !important;
+  height: 80px !important;
+}
+:root .root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .badgeList-1R1WgZ {
+  position: absolute;
+  top: 75px;
+  left: 120px;
+}
+:root .root-3QyAh1 .topSection-y3p-_D .nameTag-ECvD8P {
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 0;
+  left: 100px;
+  max-width: 200px;
+  margin-top: 16px;
+}
+:root .root-3QyAh1 .topSection-y3p-_D .relationshipButtons-pUQVkf {
+  position: absolute;
+  bottom: 20px;
   left: 18px;
   z-index: 1;
 }
-:root .root-3QyAh1 .header-4zuFdR .button-38aScr + div {
-  position: absolute;
-  bottom: 22px;
-  right: calc(22px + 60%);
-}
-:root .root-3QyAh1 .header-4zuFdR .mask-1l8v16 foreignObject {
+:root .root-3QyAh1 .topSection-y3p-_D .mask-1l8v16 foreignObject {
   border-radius: calc(var(--avatar-radius) * 2.1) !important;
 }
-:root .root-3QyAh1 .header-4zuFdR .profileBadges-9OJ14v {
+:root .root-3QyAh1 .topSection-y3p-_D .profileBadges-9OJ14v {
   flex-wrap: wrap;
   flex-flow: row wrap;
 }
-:root .root-3QyAh1 .header-4zuFdR + div {
-  background: transparent;
-}
-:root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB {
-  position: absolute;
+:root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF {
+  position: fixed;
   bottom: 18px;
   right: 18px;
   padding: 0;
 }
-:root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB.activityProfile-2bJRaP {
+:root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF.activityProfile-2bJRaP {
   right: unset;
   bottom: -140px;
   left: 5px;
   width: 750px;
   padding: 20px;
 }
-:root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB .customStatus-2pgT4N {
+:root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .customStatus-2pgT4N {
   max-width: 130px;
 }
-:root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB .assetsLargeImageActivityFeed-25vA7H, :root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB .assetsLargeImageActivityFeedXbox-3Tr-tf, :root .root-3QyAh1 .header-4zuFdR + div .activity-2M3PRB .assetsLargeImageProfile-3YXDex {
+:root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageActivityFeed-25vA7H, :root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageActivityFeedXbox-3Tr-tf, :root .root-3QyAh1 .topSection-y3p-_D .customStatusActivity-nmH3DF .assetsLargeImageProfile-3YXDex {
   width: 40px;
   height: 40px;
 }
-:root .root-3QyAh1 .header-4zuFdR + div .activityHeader-2shpl0 {
+:root .root-3QyAh1 .topSection-y3p-_D .activityHeader-2shpl0 {
   display: none;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr {
-  border-top: unset;
+:root .root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr {
+  position: relative;
+  top: 20px;
+  border-bottom: unset;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr .tabBar-3nvOPa {
+:root .root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa {
   flex-direction: column;
 }
-:root .root-3QyAh1 .tabBarContainer-37hZsr .tabBar-3nvOPa .item-PXvHYJ {
+:root .root-3QyAh1 .topSection-y3p-_D .tabBarContainer-37hZsr .tabBar-3nvOPa .item-PXvHYJ {
   height: 40px;
   border-bottom: unset;
 }
@@ -2314,6 +2342,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .modal-1k91nT .footerText-2a7NxZ {
   display: none;
+}
+:root .contentWrapper-3WC1ID {
+  background: var(--background-primary);
 }
 :root .keyboardShortcutsModal-3piNz7 {
   background: var(--background-primary);
