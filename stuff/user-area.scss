@@ -1,6 +1,7 @@
 :root {
     
 .panels-j1Uci_ {
+    position: relative;
     z-index: unset;
 
     // Game part
@@ -11,8 +12,7 @@
 
         .button-38aScr {
             position: absolute;
-            bottom:121px;
-            left:167px;
+            top: 9px; left: 167px;
             z-index: 1;
             visibility: visible;
 
