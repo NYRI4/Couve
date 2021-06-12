@@ -1064,8 +1064,13 @@
   overflow: hidden;
   backdrop-filter: blur(0);
 }
-:root .userPopout-xaxa6l .headerNormal-1mX3KY .profileBanner-33-uE1 {
-  height: 0;
+:root .userPopout-xaxa6l .headerNormal-1mX3KY .banner-2QYc2d {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  border-radius: 10px 0 0 10px;
 }
 :root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB {
   display: grid;
@@ -1629,6 +1634,7 @@
 }
 
 :root .panels-j1Uci_ {
+  position: relative;
   z-index: unset;
 }
 :root .panels-j1Uci_ .activityPanel-28dQGo {
@@ -1638,7 +1644,7 @@
 }
 :root .panels-j1Uci_ .activityPanel-28dQGo .button-38aScr {
   position: absolute;
-  bottom: 121px;
+  top: 9px;
   left: 167px;
   z-index: 1;
   visibility: visible;
