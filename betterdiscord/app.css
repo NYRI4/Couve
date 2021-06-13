@@ -1089,8 +1089,9 @@
 :root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .profileBadges-3cJaE1 {
   position: static;
   grid-area: badges;
+  justify-content: center;
   max-width: unset;
-  margin: 10px auto 0 auto;
+  margin-top: 10px;
 }
 :root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .profileBadges-3cJaE1 > * {
   margin: 0 4px;
@@ -1099,11 +1100,15 @@
   grid-area: status;
   color: white;
 }
-:root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .aboutMeSection-3bipSD {
+:root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .aboutMeSection---MkQa {
   grid-area: aboutme;
   background: transparent;
 }
-:root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .aboutMeSection-3bipSD .betaBadge-1JOhGD {
+:root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .aboutMeSection---MkQa .aboutMeTitle-2i3lnH {
+  margin-top: 10px;
+  justify-content: center;
+}
+:root .userPopout-xaxa6l .headerNormal-1mX3KY .headerTop-2cWpdB .aboutMeSection---MkQa .betaBadge-2EDLLs {
   background: var(--main-color) !important;
 }
 :root .userPopout-xaxa6l .headerNormal-1mX3KY .avatarWrapper-3r9PdD {
@@ -1227,6 +1232,8 @@
   z-index: -1;
   opacity: 0.6;
   border-radius: 10px 0 0 10px;
+  mask-image: linear-gradient(90deg, #000c, #0002);
+  -webkit-mask-image: linear-gradient(90deg, #000c, #0002);
 }
 :root .root-3QyAh1 .topSection-y3p-_D .header-4zuFdR {
   position: static;
