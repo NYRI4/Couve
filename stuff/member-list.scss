@@ -29,7 +29,8 @@
     box-shadow: unset !important;
     overflow: hidden;
     margin-right: 30px;
-    border-radius: 10px;
+    border-radius: unset;
+    background: linear-gradient(transparent 0%, var(--background-secondary) 2%, var(--background-secondary) 98%, transparent 100%);
 
     .headerNormal-1mX3KY {
         display: grid; position: relative;
@@ -37,6 +38,7 @@
         grid-template-areas: "avatar" "infos" "activity";
         clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
         background-color: var(--background-secondary-alt-alt);
+        border-radius: 8px 8px 0 0;
         overflow: hidden; backdrop-filter: blur(0);
         
         // Banner
@@ -166,6 +168,12 @@
         }
     }
 
+    // Footer 
+    .footer-1N3bR3 {
+        border-radius: 0 0 8px 8px;
+        overflow: hidden;
+    }
+
     // Avatar mask
     .mask-1l8v16 foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
 
@@ -185,15 +193,6 @@
         background-repeat: no-repeat;
         background-position: var(--user-popout-position, center) center;
         background-image: var(--user-background);
-    }
-
-    // Fix for BetterDiscord
-    &[style*="-user-"] { 
-        border-radius: unset;
-        background: linear-gradient(transparent 0%, var(--background-secondary) 2%, var(--background-secondary) 98%, transparent 100%);
-
-        .headerNormal-1mX3KY { border-radius: 8px 8px 0 0;}
-        .footer-1N3bR3 { border-radius: 0 0 8px 8px; overflow: hidden;}
     }
 }
 
