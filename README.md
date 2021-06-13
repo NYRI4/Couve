@@ -15,7 +15,14 @@ git clone https://github.com/NYRI4/Couve
 
 ### BetterDiscord
 
-Soon
+1. Go [here](https://betterdiscord.app/Download?id=315)
+2. Save the file into your theme folder
+
+## 🖌️ Customization
+
+Go into your theme folder
+- For BetterDiscord : `comfy.theme.css`
+- For Powercord/Vizality : `Couve > stuff > variables.scss`
 
 ## Credits
 
