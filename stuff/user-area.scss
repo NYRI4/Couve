@@ -6,25 +6,18 @@
 
     // Game part
     .activityPanel-28dQGo {
-        height: 0;
-        visibility: hidden;
+        height: 0; visibility: hidden;
         padding: 0;
+
+        .disabledButtonWrapper-3wH6-b { position: static;}
 
         .button-38aScr {
             position: absolute;
-            top: 9px; left: 167px;
-            z-index: 1;
+            bottom: 20px; right: 111px;
+            z-index: 1; color: var(--main-color);
             visibility: visible;
 
-            &::before {
-                content: "";
-                position: absolute;
-                top: 0; left: -100%;
-                width: 200%; height: 100%;
-                background: linear-gradient(90deg, transparent, var(--background-secondary), var(--background-secondary));
-                z-index: -2;
-                pointer-events: none;
-            }
+            &:hover { background-color: var(--background-modifier-selected);}
         }
     }
 

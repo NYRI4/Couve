@@ -205,7 +205,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 
 // Commom popout modal
-.root-1gCeng {
+.root-1gCeng, .modal-yWgWj- {
   background: var(--background-primary);
   box-shadow: unset;
   border-radius: 10px;
@@ -538,7 +538,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 // Removing borders
 .attachWrapper-2TRKBi, .panel-24C3ux, .peopleListItem-2nzedh, 
 .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .header-39GIC8, .headerCell-3L6rFG {
-    border: none;
+  border: none;
 }
 
 // UNSET TEXT TRANSFORM SOMETIMES IS BETTER THAN UPPERCASE TEXT TRANSFORM
@@ -547,7 +547,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 .calendarPicker-2yf6Ci .react-datepicker__current-month,
 :root .react-datepicker__day-name, .subSectionHeader-1bsAit
 {
-    TEXT-TRANSFORM: UNSET;
+  TEXT-TRANSFORM: UNSET;
 }
 
 // masks are wild
