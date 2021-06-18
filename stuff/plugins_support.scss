@@ -78,7 +78,7 @@
     }
 }
 
-// Game Activity Toggle
+// Game Activity Toggle - Powercord
 .panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"]
   {
     &::before {
@@ -91,5 +91,8 @@
 
   & > div { display: none;}
 }
+
+// Game Activity Toggle - BetterDiscord
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > div:first-child > svg[name="Gamepad"] { display: none;}
 
 }
