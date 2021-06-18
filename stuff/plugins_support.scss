@@ -78,4 +78,18 @@
     }
 }
 
+// Game Activity Toggle
+.panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"]
+  {
+    &::before {
+    position: fixed; content: "Switch Game Activity to status picker";
+    display: flex; justify-content: center; align-items: center;
+    left: 90px; bottom: 72px;
+    width: 240px; height: 52px;
+    background: var(--background-secondary);
+  }
+
+  & > div { display: none;}
+}
+
 }

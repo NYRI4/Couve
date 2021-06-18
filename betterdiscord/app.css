@@ -1640,22 +1640,22 @@
   z-index: unset;
 }
 :root .panels-j1Uci_ .activityPanel-28dQGo {
-  height: 0;
-  visibility: hidden;
-  padding: 0;
-}
-:root .panels-j1Uci_ .activityPanel-28dQGo .disabledButtonWrapper-3wH6-b {
-  position: static;
-}
-:root .panels-j1Uci_ .activityPanel-28dQGo .button-38aScr {
   position: absolute;
   bottom: 20px;
   right: 111px;
-  z-index: 1;
-  color: var(--main-color);
-  visibility: visible;
+  padding: 0;
+  border-radius: 8px;
 }
-:root .panels-j1Uci_ .activityPanel-28dQGo .button-38aScr:hover {
+:root .panels-j1Uci_ .activityPanel-28dQGo .gameWrapper-1jIQAX {
+  display: none;
+}
+:root .panels-j1Uci_ .activityPanel-28dQGo .actions-aUdUfC {
+  margin: 0;
+}
+:root .panels-j1Uci_ .activityPanel-28dQGo .actions-aUdUfC .button-38aScr {
+  color: var(--main-color);
+}
+:root .panels-j1Uci_ .activityPanel-28dQGo:hover {
   background-color: var(--background-modifier-selected);
 }
 :root .panels-j1Uci_ > .container-3baos1 {
@@ -1666,6 +1666,9 @@
   left: 29px;
   bottom: 29px;
   z-index: 1;
+}
+:root .panels-j1Uci_ > .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=false] + .nameTag-3uD-yy .subtext-3CDbHg {
+  max-width: 76px;
 }
 :root .panels-j1Uci_ > .container-3baos1 .title-eS5yk3 {
   font-weight: 500;
@@ -1693,6 +1696,9 @@
 }
 :root .noChat-18KtBD.wrapper-2qzCYF .colorable-1bkp8v.primaryDark-3mSFDl, :root .noChat-18KtBD.wrapper-2qzCYF .participantsButton-KYW-IW, :root .noChat-18KtBD.wrapper-2qzCYF .participantsButton-KYW-IW:hover {
   background: var(--background-secondary);
+}
+:root .noChat-18KtBD.wrapper-2qzCYF .css-1k9nrkn {
+  background: transparent;
 }
 
 :root .searchBar-6Kv8R2 {
@@ -2344,7 +2350,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .modal-1k91nT .input-cIJ7To {
   border-radius: 0;
 }
-:root .modal-1k91nT .footerText-2a7NxZ {
+:root .modal-1k91nT > div:last-child > div {
+  flex-direction: column-reverse;
+}
+:root .modal-1k91nT > div:last-child > div .footerText-2a7NxZ {
+  margin: 8px;
+}
+:root .modal-1k91nT .content-3CCvMx:before, :root .modal-1k91nT .title-3sZWYQ {
   display: none;
 }
 :root .contentWrapper-3WC1ID {
@@ -2524,4 +2536,19 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root #status-picker.menu-3sdvDG #status-picker-custom-status + .layer-v9HyYc .submenu-2-ysNh {
   background: var(--background-tertiary);
   border-radius: 0 8px 8px 0;
+}
+:root .panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"]::before {
+  position: fixed;
+  content: "Switch Game Activity to status picker";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 90px;
+  bottom: 72px;
+  width: 240px;
+  height: 52px;
+  background: var(--background-secondary);
+}
+:root .panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"] > div {
+  display: none;
 }

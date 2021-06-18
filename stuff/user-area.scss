@@ -6,29 +6,30 @@
 
     // Game part
     .activityPanel-28dQGo {
-        height: 0; visibility: hidden;
-        padding: 0;
+        position: absolute;
+        bottom: 20px; right: 111px;
+        padding: 0; border-radius: 8px;
 
-        .disabledButtonWrapper-3wH6-b { position: static;}
+        .gameWrapper-1jIQAX { display: none;}
+        .actions-aUdUfC { 
+            margin: 0;
 
-        .button-38aScr {
-            position: absolute;
-            bottom: 20px; right: 111px;
-            z-index: 1; color: var(--main-color);
-            visibility: visible;
-
-            &:hover { background-color: var(--background-modifier-selected);}
+            .button-38aScr { color: var(--main-color);}
         }
+
+        &:hover { background-color: var(--background-modifier-selected);}
     }
 
     & > .container-3baos1 {
         padding: 10px 15px;
 
         // Avatar
-        .avatarWrapper-2yR4wp[aria-expanded="false"]{
+        .avatarWrapper-2yR4wp[aria-expanded="false"] {
             position: fixed;
             left: 29px; bottom: 29px;
             z-index: 1;
+
+            & + .nameTag-3uD-yy .subtext-3CDbHg { max-width: 76px;}
         }
 
         // Username
@@ -61,5 +62,6 @@
         // Button
         .wrapper-3EGhDO .button-38aScr { border-radius: 50%;}
         .colorable-1bkp8v.primaryDark-3mSFDl, .participantsButton-KYW-IW, .participantsButton-KYW-IW:hover { background: var(--background-secondary);}
+        .css-1k9nrkn { background: transparent;}
     }
 }}

@@ -515,7 +515,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 .modal-1k91nT { 
   .title-3sZWYQ { margin: 8px;}
   .input-cIJ7To { border-radius: 0;}
-  .footerText-2a7NxZ { display: none;}
+  & > div:last-child > div { 
+    flex-direction: column-reverse;
+
+    .footerText-2a7NxZ { margin: 8px;}
+  }
+  .content-3CCvMx:before, .title-3sZWYQ { display: none;}
 }
 
 // Welcome popout
