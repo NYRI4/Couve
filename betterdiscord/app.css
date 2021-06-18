@@ -2552,6 +2552,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"] > div {
   display: none;
 }
-:root .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:first-child svg[name=Gamepad] {
-  display: none;
+:root .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:not([role=switch]):first-child + button:nth-child(2) {
+  margin-left: 32px;
 }

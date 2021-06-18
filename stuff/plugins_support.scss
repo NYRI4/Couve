@@ -92,7 +92,7 @@
   & > div { display: none;}
 }
 
-// Game Activity Toggle - BetterDiscord
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:first-child svg[name="Gamepad"] { display: none;}
+// Game Activity Toggle - BetterDiscord - Thanks DevilBro
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:not([role="switch"]):first-child + button:nth-child(2) { margin-left: 32px;}
 
 }
