@@ -414,6 +414,7 @@
 // Codeblocks
 .markup-2BOw-j code {
     border: none;
+    background: var(--colortransparency);
     border-radius: 10px;
 }
 .hljs .powercord-lines:after, .powercord-codeblock-lang { border: none;}
@@ -525,7 +526,9 @@
 // Delete message popout
 .message-2qRu38 { background: var(--background-secondary); box-shadow: none;}
 
-// Reaction popout
+// Reaction
+.reaction-1hd86g { background: var(--colortransparency);}
+
 .container-1If-HZ, .reactors-Blmlhw { 
     background: var(--background-secondary);
 

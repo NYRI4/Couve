@@ -440,6 +440,7 @@
 }
 :root .markup-2BOw-j code {
   border: none;
+  background: var(--colortransparency);
   border-radius: 10px;
 }
 :root .hljs .powercord-lines:after, :root .powercord-codeblock-lang {
@@ -552,6 +553,9 @@
 :root .message-2qRu38 {
   background: var(--background-secondary);
   box-shadow: none;
+}
+:root .reaction-1hd86g {
+  background: var(--colortransparency);
 }
 :root .container-1If-HZ, :root .reactors-Blmlhw {
   background: var(--background-secondary);
