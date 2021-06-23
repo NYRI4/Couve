@@ -32,7 +32,7 @@
     border-radius: unset;
     background: linear-gradient(transparent 0%, var(--background-secondary) 2%, var(--background-secondary) 98%, transparent 100%);
 
-    .headerNormal-1mX3KY {
+    .headerNormal-3KXFBt {
         display: grid; position: relative;
         grid-template-columns: 100%;
         grid-template-areas: "avatar" "infos" "activity";
@@ -49,7 +49,7 @@
         }
 
         // User infos
-        .headerTop-2cWpdB {
+        .headerTop-3vNv-a {
             display: grid; grid-area: infos;
             grid-template-columns: 100%;
             grid-template-areas: "username" "badges" "status" "aboutme";
@@ -61,7 +61,7 @@
             .headerText-15Q25Z { grid-area: username;}
 
             // Badges
-            .profileBadges-3cJaE1 { 
+            .profileBadges-ohc0Vu { 
                 position: static; grid-area: badges;
                 justify-content: center;
                 max-width: unset; margin-top: 10px;
@@ -70,7 +70,7 @@
             }
 
             // Status
-            .customStatus-oN4ZZY { 
+            .customStatus-2SDCR6 { 
                 grid-area: status;
                 color: white;
             }
@@ -123,7 +123,7 @@
         }
 
         // Activities
-        .activity-3v9l4T {
+        .activity-2INFPu {
             grid-area: activity;
             padding-bottom: 35px;
             backdrop-filter: blur(8px);
