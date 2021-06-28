@@ -26,174 +26,119 @@
 
 .userPopout-xaxa6l {
     background: var(--background-secondary);
-    box-shadow: unset !important;
-    overflow: hidden;
-    margin-right: 30px;
-    border-radius: unset;
-    background: linear-gradient(transparent 0%, var(--background-secondary) 2%, var(--background-secondary) 98%, transparent 100%);
+    box-shadow: unset !important; margin-right: 20px;
+    border-radius: 8px;
 
-    .headerNormal-3KXFBt {
-        display: grid; position: relative;
-        grid-template-columns: 100%;
-        grid-template-areas: "avatar" "infos" "activity";
-        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
-        background-color: var(--background-secondary-alt-alt);
-        border-radius: 8px 8px 0 0;
-        overflow: hidden; backdrop-filter: blur(0);
-        
         // Banner
         .banner-2QYc2d {
             position: absolute;
-            width: 100%; height: 100%;
-            z-index: -1; opacity: 0.6; 
+            width: 300px; height: 180px;
+            border-radius: 8px 8px 0 0;
+            -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+
+            &.bannerPremium-2hSAwz { background-color: transparent !important;}
         }
 
-        // User infos
-        .headerTop-3vNv-a {
-            display: grid; grid-area: infos;
-            grid-template-columns: 100%;
-            grid-template-areas: "username" "badges" "status" "aboutme";
-            text-align: center; padding-top: 16px;
-            background: transparent;
-            border-bottom: none; margin-bottom: 15px;
+    // User infos
+    .headerTop-3vNv-a {
+        display: flex; flex-direction: column-reverse;
+        text-align: center; padding-top: 110px;
+        padding-bottom: 20px; 
 
-            // Username
-            .headerText-15Q25Z { grid-area: username;}
+        .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
+        .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
 
-            // Badges
-            .profileBadges-ohc0Vu { 
-                position: static; grid-area: badges;
-                justify-content: center;
-                max-width: unset; margin-top: 10px;
+        // Badges
+        .profileBadges-ohc0Vu {
+            position: static;
+            justify-content: center;
+            max-width: unset;
 
-                & > * { margin: 0 4px;}
-            }
-
-            // Status
-            .customStatus-2SDCR6 { 
-                grid-area: status;
-                color: white;
-            }
-
-            // About Me
-            .aboutMeSection---MkQa { 
-                grid-area: aboutme;
-                background: transparent;
-
-                .aboutMeTitle-2i3lnH { 
-                    margin-top: 10px;
-                    justify-content: center;
-                }
-
-                .betaBadge-2EDLLs { background: var(--main-color) !important;}
-            }
+            & > * { margin: 0 3px;}
+            &:empty { margin-bottom: 20px;}
         }
 
-        // Avatar
-        .avatarWrapper-3r9PdD {
-            position: relative;
-            top: 0; left: 0;
-            grid-area: avatar;
-            margin: 15px auto 0 auto;
-
-            .avatar-37jOim { background: none; border: none;}
-
-            // View profile mask
-            .avatarHint-2A3RNb {
-                top: 0; left: 0;
-                border-radius: calc(var(--avatar-radius) * 2) !important;
-
-                foreignObject {  
-                    mask: none !important;
-
-                    // Custom Avatar Hint
-                    .avatarHintInner-1TvA8u {
-                        font-size: 0; text-transform: none;
-                        
-                        &::after {
-                            white-space: normal; text-align: center;
-                            content: var(--avatar-hint-text);
-                            color: var(--avatar-hint-color);
-                            font-size: var(--avatar-hint-size);
-                            font-family: var(--avatar-hint-font);
-                        }
-                    }
-                }
-            }
-        }
-
-        // Activities
-        .activity-2INFPu {
-            grid-area: activity;
-            padding-bottom: 35px;
-            backdrop-filter: blur(8px);
-
-            // Spotify bar
-            .bar-3urHkF {
-                position: fixed;
-                top: 0; left: 0;
-                width: 100%; height: 100%;
-                z-index: -1; pointer-events: none;
-                border-radius: 0;
-
-                .barInner-3NDaY_ {
-                    background: #fff2;
-                    border-radius: 0;
-                }
-            }
-
-            // Spotify icon
-            .spotifyIcon-2J9kSv { display: none;}
-        }
+        .headerText-1vVs-U { margin-bottom: 8px;}
     }
+
+    // Status + About Me
+    .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { padding: 16px 16px 0 16px;}
+
+    .divider-ewBQKj { display: none;}
     
     // Body
     .body-3HBlXn {
 
-        .role-2irmRk {
-            position: relative;
-            overflow: hidden;
-            z-index: 1; border: none;
-            padding: 5px;
+        // Activities
+        .activity-2INFPu {
+    
+            // Button
+            .button-38aScr { background-color: var(--main-color);}
+    
+            // Spotify icon
+            .spotifyIcon-2J9kSv { display: none;}
+        }
+        .bodyInnerWrapper-26fQXj {
+            padding-right: 16px;
 
-            .roleCircle-3xAZ1j::before {
-                content: "";
-                position: absolute;
-                top: 0; left: 0;
-                width: 100%; height: 100%;
-                background: inherit;
-                opacity: .2; z-index: -1;
-                pointer-events: none;
+            .role-2irmRk {
+                position: relative;
+                overflow: hidden;
+                z-index: 1; border: none;
+                padding: 5px;
+    
+                .roleCircle-3xAZ1j::before {
+                    content: "";
+                    position: absolute;
+                    top: 0; left: 0;
+                    width: 100%; height: 100%;
+                    background: inherit;
+                    opacity: .2; z-index: -1;
+                    pointer-events: none;
+                }
+            }
+
+            .note-1oo11U { margin: 0;}
+        } 
+
+        &::-webkit-scrollbar { display: none;}
+    }
+
+    // Avatar
+    .avatarWrapper-3r9PdD {
+        top: 0; left: 50%;
+        grid-area: avatar;
+        margin: 15px 0 0 -40px;
+
+        .avatar-37jOim { background: none; border: none;}
+
+        // View profile mask
+        .avatarHint-2A3RNb {
+            top: 0; left: 0;
+            border-radius: calc(var(--avatar-radius) * 2) !important;
+
+            foreignObject {  
+                mask: none !important;
+
+                // Custom Avatar Hint
+                .avatarHintInner-1TvA8u {
+                    font-size: 0; text-transform: none;
+                    
+                    &::after {
+                        white-space: normal; text-align: center;
+                        content: var(--avatar-hint-text);
+                        color: var(--avatar-hint-color);
+                        font-size: var(--avatar-hint-size);
+                        font-family: var(--avatar-hint-font);
+                    }
+                }
             }
         }
     }
 
-    // Footer 
-    .footer-1N3bR3 {
-        border-radius: 0 0 8px 8px;
-        overflow: hidden;
-    }
-
     // Avatar mask
     .mask-1l8v16 foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
-
-    // USRBG
-	transform: translateZ(0) !important;
-	--USRBG-banner-height: 100%;
-
-    .avatar-37jOim::after {
-        content: '';
-        position: fixed;
-        top: 0; left: 0;
-        width: 100%;
-        z-index: -1; opacity: 0.7;
-        height: var(--USRBG-banner-height, 60px);
-        pointer-events: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: var(--user-popout-position, center) center;
-        background-image: var(--user-background);
-    }
 }
 
 // User modal
@@ -233,9 +178,13 @@
                 height: 80px !important;
             }
 
-            .badgeList-1R1WgZ {
-                position: absolute;
-                top: 75px; left: 120px;
+            .headerTop-547GTz {
+                position: static;
+
+                .badgeList-1R1WgZ {
+                    position: absolute;
+                    top: 75px; left: 120px;
+                }
             }
         }
 
@@ -266,9 +215,10 @@
         // Custom Status
         .customStatusActivity-nmH3DF {
             position: fixed;
-            bottom: 18px;
-            right: 18px;
-            padding: 0;
+            bottom: 0; right: 0;
+            max-width: 460px; padding: 10px;
+            border-bottom-right-radius: 10px;
+            backdrop-filter: blur(8px);
 
             &.activityProfile-2bJRaP {
                 right: unset;
@@ -313,27 +263,57 @@
         width: 60%;
         min-height: 350px;
         border-radius: 0 10px 10px 0;
-    }
 
-    // USRBG
-    .header-4zuFdR .wrapper-3t9DeA::after {
-        content:'';
-        position:absolute;
-        top:-20px;
-        left:-20px;
-        width:320px;
-        height: 350px;
-        opacity:1;
-        pointer-events:none;
-        background: var(--user-background) center/cover no-repeat;
-        z-index: 0;
-        border-radius: 10px 0 0 10px;
-        mask-image: linear-gradient(90deg, #000c, #0002); // vscode thing
-        -webkit-mask-image: linear-gradient(90deg, #000c, #0002);
+        // Connected account
+        .connectedAccounts-QlRa4m {
+
+            .connectedAccount-2Jb-Z0 { 
+                border: none; border-radius: 8px;
+                background-color: var(--background-secondary);
+            }
+        }
+        
+        // Powercord connected account
+        .pc-connections .connectedAccounts-QlRa4m:empty::before { background-color: transparent;}
+
+        // Mutuals
+        .listScroller-3GmIYj {
+            display: grid; grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(20, 0fr); gap: 10px; padding-left: 8px;
+        
+            .listRow-1iDGel {
+                position: relative; z-index: 1;
+                height: 44px; margin: 0; padding-left: 10px;
+                border-radius: 8px; overflow: hidden;
+                background-color: var(--background-secondary);
+
+                .listAvatar-1BbvHX {
+                    position: absolute; 
+                    right: 0; z-index: -1;
+                    width: 62% !important; height: 250% !important; margin-right: 0;
+                    border-radius: 0;
+                    -webkit-mask-image: linear-gradient(-90deg, #0000008c, #00000000); 
+
+                    foreignObject { width: 100%; height: 100%;}
+                }
+            }
+
+            .empty-39KnKA {
+                grid-column: 1/3; grid-row: 1/22;
+                position: relative; z-index: 0; overflow: hidden;
+                margin: 0; padding-left: 10px;
+                border-radius: 8px;
+
+                .emptyIconFriends-2l7flK {
+                    position: absolute; z-index: -1;
+                    width: 80%; height: 80%; margin-left: -10px;
+                    opacity: 0.2;
+                }
+            }
+
+            .activityProfile-2bJRaP {
+                grid-column: 1/3;
+            }
+        }
     }
-    
-    .headerInfo-1Y1Vge,
-    .tabBarItem-3dfX8P,
-    .activity-2M3PRB,
-    .topSection-y3p-_D * { z-index: 1;}
 }}
