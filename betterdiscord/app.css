@@ -1632,7 +1632,7 @@
 :root .background-3xPPFc {
   color: var(--background-secondary);
 }
-:root .tierInProgress-3mBoXq, :root .tierBody-x9kBBp, :root .tierHeaderLocked-1a2opw {
+:root .tierInProgress-3mBoXq, :root .tierBody-3aUxuc, :root .tierHeaderLocked-3S508x, :root .tierHeaderUnlocked-3lTDnP {
   background: var(--background-secondary);
 }
 :root .overflowRolesPopout-140n9i, :root .overflowRolesPopoutArrow-2O66oH {
@@ -1986,7 +1986,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   background: var(--background-secondary);
 }
 :root .root-3R2ngo {
-  top: 0;
+  top: 40px;
   left: calc(90px + 240px);
   contain: unset;
 }
@@ -2031,10 +2031,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .root-3R2ngo .perksModal-fSYqOq .perk-2WeBWW {
   background: var(--background-secondary);
 }
-:root .root-3R2ngo .closeButton-1tv5uR:active {
+:root .root-3R2ngo .closeWrapper-9ScmSq {
+  padding-top: 72px;
+}
+:root .root-3R2ngo .closeWrapper-9ScmSq .closeButton-1tv5uR:active {
   transform: none;
 }
-:root .root-3R2ngo .closeButton-1tv5uR::before {
+:root .root-3R2ngo .closeWrapper-9ScmSq .closeButton-1tv5uR::before {
   content: "";
   position: fixed;
   top: 0;

@@ -146,52 +146,56 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 
 // Server boost 
 .root-3R2ngo{
-    top: 0;
-    left: calc(90px + 240px);
-    contain: unset;
+  top: 40px;
+  left: calc(90px + 240px);
+  contain: unset;
 
     .perksModal-fSYqOq {
-        background-color: var(--background-primary);
+      background-color: var(--background-primary);
 
-        // Card
-        .ctaBar-2UsjF2 {
-            background: var(--background-secondary);
-            border-radius: 10px; 
-        }
+      // Card
+      .ctaBar-2UsjF2 {
+        background: var(--background-secondary);
+        border-radius: 10px; 
+      }
 
-        // Slide
-        .progressBar-2Hd4f8 {
-            z-index: 1;
+      // Slide
+      .progressBar-2Hd4f8 {
+        z-index: 1;
 
-            .bar-_YsHvC { border-radius: 0;}
+        .bar-_YsHvC { border-radius: 0;}
 
-            .tierMarkerBackground-3q29am { z-index: -10;}
-            .tierMarkerBackground-3q29am, .barBackground-2EEiLw { background: var(--background-secondary-alt-alt);}
+        .tierMarkerBackground-3q29am { z-index: -10;}
+        .tierMarkerBackground-3q29am, .barBackground-2EEiLw { background: var(--background-secondary-alt-alt);}
 
-            .tierMarkerInProgress-24LMzJ { background: var(--background-primary) !important;}
-        }
+        .tierMarkerInProgress-24LMzJ { background: var(--background-primary) !important;}
+      }
 
-        // Carousel
-        .carouselContainerVisible-1JVIpW { 
-            left: -15%;
+      // Carousel
+      .carouselContainerVisible-1JVIpW { 
+        left: -15%;
             
-            .tierHeaderUnlocked-1n-OTI { 
-                background: #b377f3;
+          .tierHeaderUnlocked-1n-OTI { 
+            background: #b377f3;
 
-                .tierUnlocked-25K6Kv {
-                    background: #0006;
-                    color: #fff;
-                }
+              .tierUnlocked-25K6Kv {
+                background: #0006;
+                color: #fff;
+              }
             }
-            .tierHeaderLocked-1s2JJz { background: var(--background-secondary-alt-alt);}
-            .tierBody-16Chc9 { background: var(--background-secondary);}
-        }
 
-        // Perks
-        .perk-2WeBWW { background: var(--background-secondary);}
+        .tierHeaderLocked-1s2JJz { background: var(--background-secondary-alt-alt);}
+        .tierBody-16Chc9 { background: var(--background-secondary);}
+      }
+
+      // Perks
+      .perk-2WeBWW { background: var(--background-secondary);}
   }
 
-  .closeButton-1tv5uR {
+  .closeWrapper-9ScmSq {
+    padding-top: 72px;
+  
+    .closeButton-1tv5uR {
       &:active { transform: none;}
 
       &::before {
@@ -201,6 +205,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
           width: 330px; height: 100%;
           z-index: 100;
       } 
+    }
   }
 }
 
