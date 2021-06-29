@@ -1095,7 +1095,7 @@
   margin-bottom: 8px;
 }
 :root .userPopout-xaxa6l .customStatus-oN4ZZY, :root .userPopout-xaxa6l .aboutMeSection-1Fw5Ia {
-  padding: 16px 16px 0 16px;
+  padding-top: 12px;
 }
 :root .userPopout-xaxa6l .divider-ewBQKj {
   display: none;
@@ -1138,7 +1138,7 @@
   top: 0;
   left: 50%;
   grid-area: avatar;
-  margin: 15px 0 0 -40px;
+  margin: 15px 0 0 -50px;
 }
 :root .userPopout-xaxa6l .avatarWrapper-3r9PdD .avatar-37jOim {
   background: none;
