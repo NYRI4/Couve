@@ -84,54 +84,128 @@
 // -- User settings --
 
 // My account
-.background-1QDuV2 {
-    display: flex; position: relative;
-    justify-content: space-around;
+@media (max-width: 1100px) {
+    .accountProfileCard-1XCH88 { 
+        flex-direction: column;
 
-    .profile-1eT9hT { 
-        display: grid; flex: 1; position: relative;
-        grid-template-columns: auto auto;
-        justify-content: center;
-        align-items: center;
-        padding: 16px 0;
-        border-radius: 8px;
-        background: var(--background-primary);
-
-        // Avatar
-        .avatarUploader-3XDtmn {
-            margin-right: 15px;
-
-            .avatarUploaderInner-3UNxY3 { 
-                width: 100px; height: 100px;
-                border-radius: var(--avatar-radius);
-
-                .avatarUploaderIndicator-2G-aIZ { display: none;}
-            }
+        // Banner
+        .banner-2QYc2d {
+            border-radius: 8px 8px 0 0 !important;
+            height: 150px !important;
         }
 
-        // User details
-        .details-2fkb7l {
-            margin: 0 0 15px 0;
+        // User info
+        .userInfo-iCloHO { 
+            height: 150px !important; 
+            margin-left: 0 !important;
+            justify-content: space-evenly !important;
 
             // Badges
-            .badgeList-HtCfKd { 
-                margin-top: 12px;
+            .container-q03LZO { justify-content: center;}
+        }
+    }
+}
+
+.accountProfileCard-1XCH88 {
+    display: flex;
+    background-color: var(--background-secondary);
+
+    // Banner
+    .banner-2QYc2d {
+        border-radius: 8px 0 0 8px;
+        height: unset;
+    }
+
+    // User info
+    .userInfo-iCloHO {
+        position: absolute; display: grid;
+        grid-template-areas: "avatar username" 
+                             "avatar button";
+        gap: 20px; overflow: hidden;
+        height: 100%; padding: 0;
+        justify-content: flex-start;
+        margin-left: 40px;
+
+        // Avatar
+        .avatar-1uQSZT {
+            grid-area: avatar;
+            position: static;
+            width: 120px !important; height: 120px !important;
+            border: none; background: none;
+            align-self: center;
+
+            .mask-1l8v16 { width: 120px; height: 120px;}
+        }
+
+        // Username
+        & > div:nth-child(2) { 
+            grid-area: username;
+            align-self: flex-end;
+        }
+
+        // Edit profile
+        button:last-child { grid-area: button;}
+    }
+    
+    .background-1QDuV2 { margin: 0;}
+}
+
+// User profile
+// User Profile
+.userProfileCustomizationSection-8Vpo48 {
+  .baseLayout-2GkbfB { 
+    & > :first-child { flex: 2 auto;}
+
+    .profileBannerPreview-3_l0Wd {
+
+        // Banner
+        .banner-hcPdsd {
+            position: absolute;
+            height: 180px;
+            -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+        }
+        
+        // Avatar
+        .avatarUploader-2UF9NL {
+            top: 15px; left: 50%; margin-left: -40px;
+
+            .avatarUploaderInner-Oiob_P { 
+            border: none;
+            border-radius: var(--avatar-radius);
+        
+            .avatarUploaderIndicator-2G-aIZ { display: none;}
             }
         }
 
-        // 3 dots
-        .menu-319q29 { 
-            position: absolute;
-            top: 7px; right: 15px;
-            margin-left: -12px;
-            margin: 0;
-        }
-    }
+        // User infos
+        .headerTop-3vNv-a {
+            display: flex; flex-direction: column-reverse;
+            text-align: center; padding-top: 110px;
+            padding-bottom: 20px; 
 
-    .fieldList-21DyL8 { 
-        background: transparent;
-        margin: 0; flex: 1;
+            .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
+            .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
+
+            // Badges
+            .profileBadges-ohc0Vu {
+                position: static;
+                justify-content: center;
+                max-width: unset;
+
+                & > * { margin: 0 3px;}
+                &:empty { margin-bottom: 20px;}
+            }
+
+            .headerText-1vVs-U { margin-bottom: 8px;}
+        }
+
+    // Status + About Me
+    .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { padding-top: 12px;}
+
+    .divider-ewBQKj { display: none;}
     }
+  }
 }
 
 // Privacy & Safety
