@@ -1335,20 +1335,12 @@
 :root .root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj .activityProfile-2bJRaP {
   grid-column: 1/3;
 }
-:root .userPopout-xaxa6l[style*=-user-], :root .root-3QyAh1[style*=-user-] {
-  --USRBG-banner-height: calc(100% - 16px);
-  --USRBG-avatar-offset: 76px;
-}
 :root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d,
 :root .root-3QyAh1[style*=-user-] .banner-2QYc2d {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: var(--user-popout-position, center) center;
   background-image: var(--user-background);
-}
-:root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d,
-:root .root-3QyAh1[style*=-user-] .banner-2QYc2d {
-  height: var(--USRBG-banner-height, 120px);
 }
 
 :root .layer-3QrUeG {
@@ -2069,7 +2061,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .root-1gCeng form, :root .modal-yWgWj- form {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 :root .root-1gCeng .header-1TKi98, :root .modal-yWgWj- .header-1TKi98 {
   text-align: center;

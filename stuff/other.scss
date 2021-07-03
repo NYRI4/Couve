@@ -215,10 +215,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   box-shadow: unset;
   border-radius: 10px;
 
-  form {
-    display: flex; flex-direction: column;
-    height: 100%;
-  }
+  form { display: flex; flex-direction: column;}
 
   // Header
   .header-1TKi98 { text-align: center;}
