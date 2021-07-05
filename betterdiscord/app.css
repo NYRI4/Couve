@@ -2640,3 +2640,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:not([role=switch]):first-child + button:nth-child(2) {
   margin-left: 32px;
 }
+:root #MemberCount {
+  top: 48px;
+  margin-top: 0;
+}
+:root #MemberCount .membersGroup-v9BXpm {
+  padding: 18px 8px 0 16px;
+}
+:root #MemberCount + .members-1998pB {
+  padding-top: 70px;
+}
