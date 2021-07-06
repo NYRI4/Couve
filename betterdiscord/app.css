@@ -1235,7 +1235,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  max-width: 460px;
+  width: 460px;
   padding: 10px;
   border-bottom-right-radius: 10px;
   backdrop-filter: blur(8px);
@@ -2642,9 +2642,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root #MemberCount {
   top: 48px;
-  margin-top: 0;
 }
 :root #MemberCount .membersGroup-v9BXpm {
+  margin-top: 0;
   padding: 18px 8px 0 16px;
 }
 :root #MemberCount + .members-1998pB {
