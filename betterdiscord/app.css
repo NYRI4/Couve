@@ -2648,5 +2648,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   padding: 18px 8px 0 16px;
 }
 :root #MemberCount + .members-1998pB {
+  margin-top: 0;
   padding-top: 70px;
 }
