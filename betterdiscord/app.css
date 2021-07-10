@@ -2135,6 +2135,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .root-1gCeng .footer-2gL1pp, :root .modal-yWgWj- .footer-2gL1pp {
   padding: 0;
+  text-align: center;
   background: transparent;
   box-shadow: none;
   min-height: 45px;
@@ -2440,6 +2441,23 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .modal-1k91nT .content-3CCvMx:before, :root .modal-1k91nT .title-3sZWYQ {
   display: none;
+}
+:root .container-1CE3eW {
+  background-color: var(--background-primary);
+  border-radius: 8px;
+  --background-primary: #252a3e;
+  --background-secondary: #1e2337;
+  --background-secondary-alt-alt: #1b1d31;
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
+  --text-normal: #dcddde;
+}
+:root .container-1CE3eW .container-UC8Ug1 {
+  border: none;
+  background-color: var(--background-modifier-hover);
+}
+:root .container-1CE3eW .button-38aScr.lookBlank-3eh9lL {
+  color: var(--header-secondary);
 }
 :root .contentWrapper-3WC1ID {
   background: var(--background-primary);
