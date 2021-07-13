@@ -4,7 +4,7 @@
     "description": "A new look to discord",
     "version": "AutoUpdate",
     "author": "A user#8169, Nyria#3863",
-    "theme": "app.scss",
+    "theme": "betterdiscord/couve.theme.css",
     "consent": "false",
     "license": "GNU GPL"
 }
