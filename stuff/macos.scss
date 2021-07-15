@@ -1,0 +1,26 @@
+.platform-osx {
+  .guilds-1SWlCJ {
+    margin-top: 32px;
+
+    .scroller-1Bvpku {
+      padding-top: 0;
+    }
+  }
+
+  .avatarWrapper-2yR4wp[aria-expanded=true] {
+    top: 32px;
+
+    ~ .nameTag-3uD-yy {
+      top: 48px;
+    }
+  }
+
+  #status-picker {
+    top: -32px !important;
+    padding-top: 200px;
+  }
+}
+
+.typeMacOS-3EmCyP {
+  padding: 0 9px;
+}

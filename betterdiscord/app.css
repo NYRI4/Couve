@@ -2669,3 +2669,24 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   margin-top: 0;
   padding-top: 70px;
 }
+
+.platform-osx .guilds-1SWlCJ {
+  margin-top: 32px;
+}
+.platform-osx .guilds-1SWlCJ .scroller-1Bvpku {
+  padding-top: 0;
+}
+.platform-osx .avatarWrapper-2yR4wp[aria-expanded=true] {
+  top: 32px;
+}
+.platform-osx .avatarWrapper-2yR4wp[aria-expanded=true] ~ .nameTag-3uD-yy {
+  top: 48px;
+}
+.platform-osx #status-picker {
+  top: -32px !important;
+  padding-top: 200px;
+}
+
+.typeMacOS-3EmCyP {
+  padding: 0 9px;
+}
