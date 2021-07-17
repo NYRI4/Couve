@@ -209,6 +209,61 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   }
 }
 
+// Roles
+.role-2irmRk, .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ, .container-3XJ8ns .item-2J2GlB, .roleRow-1iQo_1 {
+  position: relative;
+  overflow: hidden; height: unset;
+  z-index: 1; border: none;
+  padding: 5px;
+}
+
+.role-2irmRk .roleCircle-3xAZ1j::before, .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ .roleDot-ZwSovK::before, 
+.container-3XJ8ns .item-2J2GlB .popoutRoleDot-1XPcoA::before, .roleRow-1iQo_1 .roleDot-2bTP_S::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: inherit;
+    opacity: .2; z-index: -1;
+    pointer-events: none;
+}
+
+// Role popout
+.container-3XJ8ns { 
+  border: none;
+
+  .item-2J2GlB { margin-right: 5px;}
+}
+
+// Roles in settings
+.sidebar-dLM-kh { 
+  border: none;
+
+  .list-I3aHXn { 
+    padding-left: 16px;
+
+    .item-PXvHYJ { 
+      padding: 6px 10px;
+      margin-bottom: 6px;
+      border-radius: 25px;
+    }
+  }
+}
+
+// Roles scroller
+#user-context-roles + .layer-v9HyYc .item-1tOPte {
+  flex-direction: row-reverse;
+
+  .iconContainer-2-XQPY { margin: 0 8px 0 0;}
+
+  .roleRow-1iQo_1 {
+    border-radius: 25px;
+
+    .roleDot-2bTP_S {
+      filter: none;
+    }
+  }
+}
 // Commom popout modal
 .root-1gCeng, .modal-yWgWj- {
   background: var(--background-primary);
@@ -216,6 +271,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   border-radius: 10px;
 
   form { display: flex; flex-direction: column;}
+
+  &.small-3iVZYw { min-height: unset;}
 
   // Header
   .header-1TKi98 { text-align: center;}
@@ -358,13 +415,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   box-shadow: unset;
 }
 
-.submenuPaddingContainer-fiOCHc { margin-left: -8px;}
+.submenuPaddingContainer-fiOCHc { margin-left: -8px; margin-right: -8px;}
 
 .button-F9qN4n, .button-F9qN4n:hover { background: var(--background-primary);}
 
 .item-1tOPte {
   margin: 0; padding: 8px 16px;
   border-radius: 0;
+  transition: background 200ms;
+  
+  &:hover, &.focused-3afm-j, &:active:not(.hideInteraction-1iHO1O) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
 }
 
 // -- Status Selector --
@@ -518,7 +580,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 .modal-1k91nT { 
   .title-3sZWYQ { margin: 8px;}
   .input-cIJ7To { border-radius: 0;}
-  & > div:last-child > div { 
+  & > .footer-1FPmkC > .content-3CCvMx { 
     flex-direction: column-reverse;
 
     .footerText-2a7NxZ { margin: 8px;}
@@ -565,7 +627,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 
 // Removing borders
 .attachWrapper-2TRKBi, .panel-24C3ux, .peopleListItem-2nzedh, 
-.rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .header-39GIC8, .headerCell-3L6rFG {
+.rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY, .header-39GIC8, .headerCell-3L6rFG, .containerBackground-LlUax5 {
   border: none;
 }
 

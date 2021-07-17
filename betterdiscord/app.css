@@ -1109,25 +1109,6 @@
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
   padding-right: 16px;
 }
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .role-2irmRk {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  border: none;
-  padding: 5px;
-}
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .role-2irmRk .roleCircle-3xAZ1j::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  opacity: 0.2;
-  z-index: -1;
-  pointer-events: none;
-}
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U {
   margin: 0;
 }
@@ -2121,6 +2102,56 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   height: 100%;
   z-index: 100;
 }
+:root .role-2irmRk, :root .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ, :root .container-3XJ8ns .item-2J2GlB, :root .roleRow-1iQo_1 {
+  position: relative;
+  overflow: hidden;
+  height: unset;
+  z-index: 1;
+  border: none;
+  padding: 5px;
+}
+:root .role-2irmRk .roleCircle-3xAZ1j::before, :root .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ .roleDot-ZwSovK::before,
+:root .container-3XJ8ns .item-2J2GlB .popoutRoleDot-1XPcoA::before, :root .roleRow-1iQo_1 .roleDot-2bTP_S::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
+  pointer-events: none;
+}
+:root .container-3XJ8ns {
+  border: none;
+}
+:root .container-3XJ8ns .item-2J2GlB {
+  margin-right: 5px;
+}
+:root .sidebar-dLM-kh {
+  border: none;
+}
+:root .sidebar-dLM-kh .list-I3aHXn {
+  padding-left: 16px;
+}
+:root .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ {
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  border-radius: 25px;
+}
+:root #user-context-roles + .layer-v9HyYc .item-1tOPte {
+  flex-direction: row-reverse;
+}
+:root #user-context-roles + .layer-v9HyYc .item-1tOPte .iconContainer-2-XQPY {
+  margin: 0 8px 0 0;
+}
+:root #user-context-roles + .layer-v9HyYc .item-1tOPte .roleRow-1iQo_1 {
+  border-radius: 25px;
+}
+:root #user-context-roles + .layer-v9HyYc .item-1tOPte .roleRow-1iQo_1 .roleDot-2bTP_S {
+  filter: none;
+}
 :root .root-1gCeng, :root .modal-yWgWj- {
   background: var(--background-primary);
   box-shadow: unset;
@@ -2129,6 +2160,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .root-1gCeng form, :root .modal-yWgWj- form {
   display: flex;
   flex-direction: column;
+}
+:root .root-1gCeng.small-3iVZYw, :root .modal-yWgWj-.small-3iVZYw {
+  min-height: unset;
 }
 :root .root-1gCeng .header-1TKi98, :root .modal-yWgWj- .header-1TKi98 {
   text-align: center;
@@ -2276,6 +2310,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .submenuPaddingContainer-fiOCHc {
   margin-left: -8px;
+  margin-right: -8px;
 }
 :root .button-F9qN4n, :root .button-F9qN4n:hover {
   background: var(--background-primary);
@@ -2284,6 +2319,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   margin: 0;
   padding: 8px 16px;
   border-radius: 0;
+  transition: background 200ms;
+}
+:root .item-1tOPte:hover, :root .item-1tOPte.focused-3afm-j, :root .item-1tOPte:active:not(.hideInteraction-1iHO1O) {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 :root #status-picker {
   position: fixed;
@@ -2433,10 +2472,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .modal-1k91nT .input-cIJ7To {
   border-radius: 0;
 }
-:root .modal-1k91nT > div:last-child > div {
+:root .modal-1k91nT > .footer-1FPmkC > .content-3CCvMx {
   flex-direction: column-reverse;
 }
-:root .modal-1k91nT > div:last-child > div .footerText-2a7NxZ {
+:root .modal-1k91nT > .footer-1FPmkC > .content-3CCvMx .footerText-2a7NxZ {
   margin: 8px;
 }
 :root .modal-1k91nT .content-3CCvMx:before, :root .modal-1k91nT .title-3sZWYQ {
@@ -2478,7 +2517,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   display: none;
 }
 :root .attachWrapper-2TRKBi, :root .panel-24C3ux, :root .peopleListItem-2nzedh,
-:root .rowWrapper-2fB6P0 + .rowWrapper-2fB6P0 .row-ZLfFhY, :root .header-39GIC8, :root .headerCell-3L6rFG {
+:root .rowWrapper-2fB6P0 + .rowWrapper-2fB6P0 .row-ZLfFhY, :root .header-39GIC8, :root .headerCell-3L6rFG, :root .containerBackground-LlUax5 {
   border: none;
 }
 :root .headerText-1HLrL7, :root .bodyTitle-Y0qMQz, :root .userInfoSectionHeader-CBvMDh,
