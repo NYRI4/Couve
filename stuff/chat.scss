@@ -215,6 +215,12 @@
 
     .container-2XeR5Z, .emojiItem-14v6tW.emojiItemSelected-1aLkfV { background: var(--background-primary);}
 
+    .imageLoading-bpSr0M { 
+        background-image: none !important;
+        background-color: var(--background-primary);
+        border-radius: 8px;
+    }
+
     .inspector-S2gM3e {
         position: absolute;
         top: -50px; right: 0; padding: 0 8px;
