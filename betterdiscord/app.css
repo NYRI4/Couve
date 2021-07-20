@@ -199,6 +199,7 @@
 }
 :root .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
   text-indent: -10000px;
+  font-size: 0;
   padding: 0 6px;
 }
 :root .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj .barButtonIcon-3t4V3d {
@@ -248,6 +249,11 @@
 }
 :root #emoji-picker-tab-panel .container-2XeR5Z, :root #emoji-picker-tab-panel .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
   background: var(--background-primary);
+}
+:root #emoji-picker-tab-panel .imageLoading-bpSr0M {
+  background-image: none !important;
+  background-color: var(--background-primary);
+  border-radius: 8px;
 }
 :root #emoji-picker-tab-panel .inspector-S2gM3e {
   position: absolute;
