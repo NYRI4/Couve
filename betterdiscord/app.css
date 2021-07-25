@@ -60,6 +60,9 @@
   border-radius: 4px;
   width: 100%;
 }
+:root .messagesWrapper-1sRNjr .scroller-2LSbBU::-webkit-scrollbar {
+  display: none;
+}
 :root .wrapper-2aW0bm {
   border: none;
   box-shadow: none;
@@ -648,6 +651,7 @@
 }
 
 :root .header-2V-4Sw {
+  box-shadow: none;
   padding: 25px;
 }
 :root > div:nth-last-child(5) {
