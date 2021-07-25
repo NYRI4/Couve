@@ -6,50 +6,6 @@
 @import url("https://a-user-s-discord-themes.github.io/premium-shit/Chat%20profile%20photo%20effects/app.css");
 @import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
-:root {
-  --main-color: #419e85;
-  --avatar-radius: 8px;
-}
-
-.theme-dark {
-  --background-primary: #252a3e;
-  --background-secondary: #1e2337;
-  --background-secondary-alt: #1c2438;
-  --background-secondary-alt-alt: #1b1d31;
-  --background-tertiary: #060c24;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --colortransparency: #0003;
-  --card: #212332;
-  --textcolor: #fff;
-  --epicshadow1: #fff3;
-  --font-display: var(--font-primary) !important;
-}
-
-.theme-light {
-  --background-primary: #fafafa;
-  --background-secondary: #f7f7f7;
-  --background-secondary-alt: #fff;
-  --background-secondary-alt-alt: #eee;
-  --background-tertiary: #fff;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --colortransparency: #0001;
-  --card: #aaaaaa;
-  --textcolor: #000;
-  --epicshadow1: #0003;
-}
-
-:root {
-  --revision: "2";
-  --elevation-low: none;
-  --premium-shit-cppf-radius: var(--avatar-radius);
-}
-
 :root .messagesWrapper-1sRNjr {
   flex-direction: column;
 }
@@ -925,7 +881,7 @@
 }
 :root .searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {
   position: absolute;
-  width: calc(100% - 40px);
+  width: 100%;
   background: linear-gradient(180deg, var(--background-secondary), transparent);
 }
 :root .searchResultsWrap-3-pOjs .scroller-3GIiMh {
@@ -2549,6 +2505,39 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
   rx: 4;
+}
+:root .ready-36e6Vk {
+  display: none;
+}
+:root .ready-36e6Vk + .text-3c9Zq1 {
+  top: 82px;
+}
+:root .ready-36e6Vk + .text-3c9Zq1::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background: url("https://i.imgur.com/2XrlegJ.png") center/80% no-repeat;
+  animation: jump 1s infinite;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-25px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 :root.full-motion .translate-2dAEQ6 {
   transform: translateZ(0);

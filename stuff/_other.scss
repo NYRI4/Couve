@@ -661,6 +661,31 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     &[mask="url(#svg-mask-status-online-mobile)"] { rx: 4;}
 }
 
+// Loading screen
+.ready-36e6Vk { 
+  display: none;
+
+  & + .text-3c9Zq1 {
+    top: 82px;
+
+    &::before {
+      content: ""; position: absolute;
+      bottom: 100px; left: 50px;
+      width: 200px; height: 200px;
+      background: url("https://i.imgur.com/2XrlegJ.png") center/80% no-repeat;
+      animation: jump 1s infinite;
+
+      @keyframes jump {
+        0% { transform:translateY(0);}
+        20% { transform:translateY(-25px);}
+        40% { transform:translateY(0);}
+        60% { transform:translateY(-12px);}
+        100% { transform:translateY(0);}
+      }
+    }
+  }
+}
+
 // Animation
 &.full-motion .translate-2dAEQ6 {
     transform: translateZ(0);
