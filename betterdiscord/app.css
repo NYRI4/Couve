@@ -302,7 +302,7 @@
   visibility: hidden;
   transition: 0.2s;
 }
-:root .uploadModal-2ifh8j .footer-3mqk7D .checkboxWrapper-SkhIWG .checkbox-1ix_J3 .checked-3_4uQ9::before {
+:root .uploadModal-2ifh8j .footer-3mqk7D .checkboxWrapper-SkhIWG .checkbox-1ix_J3.checked-3_4uQ9::before {
   color: var(--textcolor);
   content: "visibility_off";
 }
@@ -754,6 +754,12 @@
   padding: 0 20px;
   margin: 0;
   border-radius: 0;
+}
+:root .typeThread-3ESTm- .name-23GUGE {
+  padding-left: 28px;
+}
+:root .spine--Wla_O {
+  left: 26px;
 }
 :root .unread-1xRYoj {
   border-radius: 4px;

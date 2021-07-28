@@ -315,7 +315,7 @@
             opacity: 0; visibility: hidden;
             transition: .2s;
 
-            .checked-3_4uQ9::before {
+            &.checked-3_4uQ9::before {
                 color: var(--textcolor);
                 content: "visibility_off";
             }
