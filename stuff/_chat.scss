@@ -64,6 +64,13 @@
                 width: 100%;
             }
         }
+
+        // Threads
+        &.hasThread-2k82W0 {
+            &::after { margin-left: 24px;}
+            
+            .container-1ov-mD { margin-left: 48px; border-radius: 8px;}
+        }
     } 
 
     .scroller-2LSbBU::-webkit-scrollbar { display: none;}

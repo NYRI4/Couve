@@ -60,6 +60,13 @@
   border-radius: 4px;
   width: 100%;
 }
+:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs.hasThread-2k82W0::after {
+  margin-left: 24px;
+}
+:root .messagesWrapper-1sRNjr .cozy-3raOZG.wrapper-2a6GCs.hasThread-2k82W0 .container-1ov-mD {
+  margin-left: 48px;
+  border-radius: 8px;
+}
 :root .messagesWrapper-1sRNjr .scroller-2LSbBU::-webkit-scrollbar {
   display: none;
 }
