@@ -1992,6 +1992,16 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   left: 0;
   background: linear-gradient(180deg, var(--background-tertiary), transparent);
 }
+.platform-osx .avatarWrapper-2yR4wp[aria-expanded=true] {
+  margin-top: 35px;
+}
+.platform-osx .avatarWrapper-2yR4wp[aria-expanded=true] + .nameTag-3uD-yy {
+  margin-top: 108px;
+}
+.platform-osx #status-picker {
+  margin-top: -20px;
+  padding-top: 182px;
+}
 
 :root *::-webkit-scrollbar {
   width: 8px;
