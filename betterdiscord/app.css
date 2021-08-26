@@ -1964,7 +1964,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   transform: translateZ(0);
 }
 
-.platform-osx .typeMacOS-3EmCyP {
+.platform-osx .typeMacOS-3EmCyP, .platform-osx .macButtons-2MuSAC {
   width: 90px;
 }
 .platform-osx .unreadMentionsIndicatorTop-2-tcdU {
