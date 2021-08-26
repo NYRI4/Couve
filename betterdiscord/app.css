@@ -894,6 +894,7 @@
   background: var(--background-secondary);
   top: -48px;
   padding-top: 48px;
+  width: 480px;
   height: 100%;
 }
 :root .searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {
@@ -1963,19 +1964,19 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   transform: translateZ(0);
 }
 
-.platform-osx .unreadMentionsIndicatorTop-gA6RCh {
+.platform-osx .unreadMentionsIndicatorTop-2-tcdU {
   top: 20px;
 }
-.platform-osx .unreadMentionsIndicatorTop-gA6RCh .mention-1f5kbO {
+.platform-osx .unreadMentionsIndicatorTop-2-tcdU .mention-1f5kbO {
   background: transparent;
 }
-.platform-osx .wrapper-1Rf91z {
+.platform-osx .guilds-1SWlCJ {
   margin: 0;
 }
-.platform-osx .wrapper-1Rf91z .scroller-1Bvpku {
+.platform-osx .guilds-1SWlCJ .scroller-1Bvpku {
   padding-top: 40px;
 }
-.platform-osx .wrapper-1Rf91z::after {
+.platform-osx .guilds-1SWlCJ::after {
   content: "";
   position: absolute;
   height: 32px;
