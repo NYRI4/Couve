@@ -108,4 +108,7 @@
   & + .members-1998pB { margin-top: 0; padding-top: 70px;}
 }
 
+// Status weird behavior with BetterDiscord
+.mask-1l8v16 > svg > mask > :not(:first-child) { display: none;}
+
 }
