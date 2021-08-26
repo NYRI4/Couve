@@ -103,10 +103,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   .avatarWrapper-2yR4wp[aria-expanded=true] { 
     margin-top: 35px;
 
-    & + .nameTag-3uD-yy { margin-top: 108px;}
+    & + .nameTag-3uD-yy { margin-top: 108px !important;}
   }
 
-  #status-picker { margin-top: -20px; padding-top: 182px;}
+  #status-picker { margin-top: -20px; padding-top: 182px !important;}
 }
 
 :root {
