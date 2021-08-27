@@ -111,4 +111,12 @@
 // Status weird behavior with BetterDiscord
 .mask-1l8v16 > svg > mask > :not(:first-child) { display: none;}
 
+// BDFDB notifications
+.notice-3bPHh- { 
+  margin: -30px 240px 0px 90px; 
+  border-radius: 8px 8px 0 0 !important;
+
+  & + .layers-3iHuyZ .sidebar-2K8pFh { border-radius: 0;}
+}
+
 }

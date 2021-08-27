@@ -1996,11 +1996,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   margin-top: 35px;
 }
 .platform-osx .avatarWrapper-2yR4wp[aria-expanded=true] + .nameTag-3uD-yy {
-  margin-top: 108px;
+  margin-top: 108px !important;
 }
 .platform-osx #status-picker {
   margin-top: -20px;
-  padding-top: 182px;
+  padding-top: 182px !important;
 }
 
 :root *::-webkit-scrollbar {
@@ -2741,4 +2741,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .mask-1l8v16 > svg > mask > :not(:first-child) {
   display: none;
+}
+:root .notice-3bPHh- {
+  margin: -30px 240px 0px 90px;
+  border-radius: 8px 8px 0 0 !important;
+}
+:root .notice-3bPHh- + .layers-3iHuyZ .sidebar-2K8pFh {
+  border-radius: 0;
 }
