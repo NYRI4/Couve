@@ -228,6 +228,7 @@
   padding: 0 8px;
   justify-content: end;
   width: unset;
+  max-width: 220px;
   background: transparent;
 }
 :root #emoji-picker-tab-panel .diversitySelectorOptions-4YM-vX {
@@ -241,6 +242,7 @@
   right: 0;
   left: 48px;
   padding: 0 16px;
+  max-width: unset;
   background: linear-gradient(transparent, var(--background-secondary));
 }
 :root #emoji-picker-tab-panel .wrapper-2Gsate {

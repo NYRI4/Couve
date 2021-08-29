@@ -235,7 +235,8 @@
         position: absolute;
         top: -50px; right: 0; padding: 0 8px;
         justify-content: end;
-        width: unset; background: transparent;
+        width: unset; max-width: 220px; 
+        background: transparent;
     }
 
     .diversitySelectorOptions-4YM-vX { background: var(--background-primary); border: none;}
@@ -246,7 +247,7 @@
             position: absolute;
             top: unset; bottom:0;
             right: 0; left: 48px;
-            padding: 0 16px;
+            padding: 0 16px; max-width: unset;
             background: linear-gradient(transparent, var(--background-secondary));
         }
         
