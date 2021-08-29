@@ -6,6 +6,7 @@
     top: 0;left: 0;
     width: calc(100% - 20px);
     background: linear-gradient(180deg, var(--background-secondary), transparent);
+    box-shadow: none;
 
     .searchBarComponent-32dTOx {
         background: var(--background-primary);
@@ -48,6 +49,9 @@
 
     // Scrollbar
     .peopleColumn-29fq28 ::-webkit-scrollbar { display: none;}      
+
+    // Get rid of box-shadow
+    .tabBody-3YRQ8W::before, .libraryHeader-3g95kE::before { content: none;}
 
     // Now playing
     .nowPlayingColumn-2sl4cE {

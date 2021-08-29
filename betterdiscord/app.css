@@ -1751,6 +1751,7 @@
   left: 0;
   width: calc(100% - 20px);
   background: linear-gradient(180deg, var(--background-secondary), transparent);
+  box-shadow: none;
 }
 :root .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   background: var(--background-primary);
@@ -1787,6 +1788,9 @@
 }
 :root .container-1D34oG .peopleColumn-29fq28 ::-webkit-scrollbar {
   display: none;
+}
+:root .container-1D34oG .tabBody-3YRQ8W::before, :root .container-1D34oG .libraryHeader-3g95kE::before {
+  content: none;
 }
 :root .container-1D34oG .nowPlayingColumn-2sl4cE {
   background: transparent;
