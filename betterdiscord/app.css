@@ -1792,6 +1792,9 @@
 :root .container-1D34oG .tabBody-3YRQ8W::before, :root .container-1D34oG .libraryHeader-3g95kE::before {
   content: none;
 }
+:root .container-1D34oG .header-8ilj5e, :root .container-1D34oG .header-2k4I2o, :root .container-1D34oG .header-1TOWci {
+  display: none;
+}
 :root .container-1D34oG .nowPlayingColumn-2sl4cE {
   background: transparent;
   margin: 3px 0 10px 0;
