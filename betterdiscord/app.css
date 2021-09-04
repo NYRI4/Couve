@@ -2751,10 +2751,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 :root .mask-1l8v16 > svg > mask > :not(:first-child) {
   display: none;
 }
-:root .notice-3bPHh- {
+:root .notice-3bPHh-[id] {
   margin: -30px 240px 0px 90px;
   border-radius: 8px 8px 0 0 !important;
 }
-:root .notice-3bPHh- + .layers-3iHuyZ .sidebar-2K8pFh {
+:root .notice-3bPHh-[id] + .layers-3iHuyZ .sidebar-2K8pFh {
   border-radius: 0;
 }
