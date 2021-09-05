@@ -25,7 +25,7 @@ Go into your theme folder and open :
 ## 🖼️ More preview
 | Status picker | User modal | Aliucord |
 | :---------: | :---------: | :---------: |
-| ![Preview](https://nyri4.github.io/Couve/assets/status_picker.png)  | ![Preview](https://nyri4.github.io/Couve/assets/modal.png)  | <img width=300 src="https://nyri4.github.io/Couve/assets/preview-aliucord.png"></img> |
+| <img width=300 src="https://nyri4.github.io/Couve/assets/status_picker.png"></img> | <img width=400 src="https://nyri4.github.io/Couve/assets/modal.png"></img> | <img width=400 src="https://nyri4.github.io/Couve/assets/preview-aliucord.png"></img> |
 
 ## Credits
 
