@@ -1,8 +1,6 @@
 ![Banner](https://nyri4.github.io/Couve/assets/banner.png)
-
 ---
 
-# Couve
 ![Preview](https://cdn.discordapp.com/attachments/539180316447997974/725737819015872562/unknown.png)
 
 ## 📥 Installation
@@ -15,14 +13,19 @@ git clone https://github.com/NYRI4/Couve
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.app/Download?id=315)
-2. Save the file into your theme folder
+Go [here](https://betterdiscord.app/theme/Couve) and save the file into your theme folder
 
 ## 🖌️ Customization
+Go into your theme folder and open :
 
-Go into your theme folder
-- For BetterDiscord : `comfy.theme.css`
-- For Powercord/Vizality : `Couve > stuff > variables.scss`
+`couve.theme.css` for BetterDiscord
+
+`variables.scss` for Powercord/Vizality
+
+## 🖼️ More preview
+| Status picker | User modal | Aliucord |
+| :---------: | :---------: | :---------: |
+| ![Preview](https://nyri4.github.io/Couve/assets/status_picker.png)  | ![Preview](https://nyri4.github.io/Couve/assets/modal.png)  | <img width=300 src="https://nyri4.github.io/Couve/assets/preview-aliucord.png"></img> |
 
 ## Credits
 
