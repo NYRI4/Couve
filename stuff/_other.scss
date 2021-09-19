@@ -630,6 +630,14 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   .keybindShortcut-1BD6Z1 span { background: var(--main-color);}
 }
 
+// SCTR connection
+.container-2x5lvQ {
+  border-radius: 16px;
+
+  .header-2C89wJ { background-color: var(--background-tertiary);}
+  section { background-color: var(--background-primary);}
+}
+
 // Picture-in-picture
 .pictureInPictureWindow-1B5qSe { z-index: 10000;}
 .pictureInPictureVideo-2iKsGg .container-1r6BKw { width: 100%;}

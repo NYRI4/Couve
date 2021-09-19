@@ -267,11 +267,15 @@
 }
 
 // GIF
-.contentWrapper-SvZHNd .inner-2P4tQO {
-    height: 34px;
-    background: var(--background-primary);
+.contentWrapper-SvZHNd .header-1TOWci {
+    box-shadow: none;
+
+    .inner-2P4tQO {
+        height: 34px;
+        background: var(--background-primary);
 
     .iconLayout-3OgqU3 { width: 30px; height: 30px;}
+    }
 }
 
 // -- Upload Modal --
@@ -372,8 +376,14 @@
     border-radius: 8px 8px 0 0;
     box-shadow: none;
 
+    .listItems-1uJgMC { 
+        top: 0 !important; right: 0 !important; left: 0 !important;
+
+        .categoryHeader-O1zU94 { background-color: var(--background-tertiary);}
+        .selected-1Tbx07 { background: var(--background-primary);}
+    }
+    
     .contentTitle-2tG_sM { color: var(--textcolor);}
-    .selected-1Tbx07 { background: var(--background-primary);}
 }
 
 // Audio files
