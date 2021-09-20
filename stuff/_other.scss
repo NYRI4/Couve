@@ -226,7 +226,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   position: relative;
   overflow: hidden; height: unset;
   z-index: 1; border: none;
-  padding: 5px;
+  padding: 5px; border-radius: 20px;
+  margin-right: 4px; margin-left: 0;
 }
 
 .role-2irmRk .roleCircle-3xAZ1j::before, .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ .roleDot-ZwSovK::before, 
@@ -273,6 +274,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 
     .roleDot-2bTP_S {
       filter: none;
+      margin-right: 4px;
     }
   }
 }

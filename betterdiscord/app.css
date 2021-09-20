@@ -2127,6 +2127,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   z-index: 1;
   border: none;
   padding: 5px;
+  border-radius: 20px;
+  margin-right: 4px;
+  margin-left: 0;
 }
 :root .role-2irmRk .roleCircle-3xAZ1j::before, :root .sidebar-dLM-kh .list-I3aHXn .item-PXvHYJ .roleDot-ZwSovK::before,
 :root .container-3XJ8ns .item-2J2GlB .popoutRoleDot-1XPcoA::before, :root .roleRow-1iQo_1 .roleDot-2bTP_S::before {
@@ -2169,6 +2172,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root #user-context-roles + .layer-v9HyYc .item-1tOPte .roleRow-1iQo_1 .roleDot-2bTP_S {
   filter: none;
+  margin-right: 4px;
 }
 :root .root-1gCeng, :root .modal-yWgWj- {
   background: var(--background-primary);
