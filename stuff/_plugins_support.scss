@@ -53,6 +53,17 @@
     }
 }
 
+// date thingies - BetterDiscord
+.creationDate-CJwdKT,
+.joinedAtDate-IawR02,
+.lastMessageDate-ocEw13 {
+    position: fixed !important;
+}
+
+.creationDate-CJwdKT { top: -70px; }
+.joinedAtDate-IawR02 { top: -50px;}
+.lastMessageDate-ocEw13 { top: -30px;}
+
 // User Details - Powercord
 .root-3QyAh1 .header-4zuFdR .user-details-text {
   position: fixed;

@@ -2717,6 +2717,20 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   opacity: 0.2;
   height: 100%;
 }
+:root .creationDate-CJwdKT,
+:root .joinedAtDate-IawR02,
+:root .lastMessageDate-ocEw13 {
+  position: fixed !important;
+}
+:root .creationDate-CJwdKT {
+  top: -70px;
+}
+:root .joinedAtDate-IawR02 {
+  top: -50px;
+}
+:root .lastMessageDate-ocEw13 {
+  top: -30px;
+}
 :root .root-3QyAh1 .header-4zuFdR .user-details-text {
   position: fixed;
   top: -70px;
