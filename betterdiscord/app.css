@@ -2730,6 +2730,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .lastMessageDate-ocEw13 {
   top: -30px;
+  margin-top: 0;
 }
 :root .root-3QyAh1 .header-4zuFdR .user-details-text {
   position: fixed;
