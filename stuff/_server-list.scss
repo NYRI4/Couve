@@ -68,7 +68,7 @@
         
 
         // Create server + Discover buttons
-        .circleIconButton-1QV--U {
+        .circleIconButton-1XqULR {
             border-radius: 14px;
             border: dashed 2px var(--epicshadow1);
             background: transparent;
@@ -76,8 +76,8 @@
             transition: all .2s;
         }
 
-        .tutorialContainer-30WoTp {
-            &:hover .circleIconButton-1QV--U, & + .listItem-1hlISG:hover .circleIconButton-1QV--U {
+        .tutorialContainer-32VdNI {
+            &:hover .circleIconButton-1XqULR, & + .listItem-1hlISG:hover .circleIconButton-1XqULR {
                 background: transparent;
                 color: var(--main-color);
                 border-color: var(--main-color);

@@ -622,22 +622,22 @@
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-3Njo_c.expanded .expandedFolderBackground-1cujaW {
   background: var(--background-secondary);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1QV--U {
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1XqULR {
   border-radius: 14px;
   border: dashed 2px var(--epicshadow1);
   background: transparent;
   color: var(--epicshadow1);
   transition: all 0.2s;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp:hover .circleIconButton-1QV--U, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG:hover .circleIconButton-1QV--U {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI:hover .circleIconButton-1XqULR, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG:hover .circleIconButton-1XqULR {
   background: transparent;
   color: var(--main-color);
   border-color: var(--main-color);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG .wrapperSimple-19ogV2 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG .wrapperSimple-19ogV2 {
   overflow: visible;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG svg > foreignObject {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG svg > foreignObject {
   mask: none;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapperSimple-19ogV2 foreignObject {
