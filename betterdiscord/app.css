@@ -568,46 +568,46 @@
 :root .guilds-1SWlCJ .scroller-1Bvpku {
   padding: 30px 0;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku > .tutorialContainer-2sGCg9:first-child > .listItem-GuPuDH .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku > .tutorialContainer-2sGCg9:first-child > .listItem-1hlISG .childWrapper-anI2G9 {
   background: var(--main-color);
   color: #fff;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku > .listItem-GuPuDH:nth-last-child(2) {
+:root .guilds-1SWlCJ .scroller-1Bvpku > .listItem-1hlISG:nth-last-child(2) {
   margin-bottom: 80px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG {
   width: 90px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .wrapper-25eVIn, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .svg-1X37T1 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-25eVIn, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .svg-1X37T1 {
   width: 42px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .wrapper-1BJsBx {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx {
   border-radius: 50%;
   overflow: hidden;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .upperBadge-2XnnGB {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .upperBadge-2XnnGB {
   top: 2px;
   right: -1px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .lowerBadge-29hYVK {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK {
   bottom: 4px;
   right: -5px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .lowerBadge-29hYVK .numberBadge-2s8kKX {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK .numberBadge-2s8kKX {
   min-width: 25px;
   background: var(--main-color) !important;
   font-size: 8px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .lowerBadge-29hYVK:last-child .numberBadge-2s8kKX {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK:last-child .numberBadge-2s8kKX {
   box-shadow: 0 0 10px 0 #0008;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background: var(--main-color);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx .childWrapper-anI2G9 {
   background: var(--background-secondary);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-GuPuDH defs g:last-child {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG defs g:last-child {
   display: none;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .folder-1hbNCn {
@@ -629,15 +629,15 @@
   color: var(--epicshadow1);
   transition: all 0.2s;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp:hover .circleIconButton-1QV--U, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-GuPuDH:hover .circleIconButton-1QV--U {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp:hover .circleIconButton-1QV--U, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG:hover .circleIconButton-1QV--U {
   background: transparent;
   color: var(--main-color);
   border-color: var(--main-color);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-GuPuDH .wrapperSimple-19ogV2 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG .wrapperSimple-19ogV2 {
   overflow: visible;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-GuPuDH svg > foreignObject {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-30WoTp + .listItem-1hlISG svg > foreignObject {
   mask: none;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapperSimple-19ogV2 foreignObject {

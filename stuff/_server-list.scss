@@ -16,15 +16,15 @@
         padding: 30px 0;
 
         // Home button
-        & > .tutorialContainer-2sGCg9:first-child > .listItem-GuPuDH .childWrapper-anI2G9 {
+        & > .tutorialContainer-2sGCg9:first-child > .listItem-1hlISG .childWrapper-anI2G9 {
             background: var(--main-color);
             color: #fff;
         }
         
-        & > .listItem-GuPuDH:nth-last-child(2) { margin-bottom: 80px;}
+        & > .listItem-1hlISG:nth-last-child(2) { margin-bottom: 80px;}
 
         // Server
-        .listItem-GuPuDH {
+        .listItem-1hlISG {
             width: 90px;
 
             .wrapper-25eVIn, .svg-1X37T1 { width: 42px;}
@@ -77,14 +77,14 @@
         }
 
         .tutorialContainer-30WoTp {
-            &:hover .circleIconButton-1QV--U, & + .listItem-GuPuDH:hover .circleIconButton-1QV--U {
+            &:hover .circleIconButton-1QV--U, & + .listItem-1hlISG:hover .circleIconButton-1QV--U {
                 background: transparent;
                 color: var(--main-color);
                 border-color: var(--main-color);
             }
 
-            .wrapperSimple-19ogV2, & + .listItem-GuPuDH .wrapperSimple-19ogV2 { overflow: visible;}
-            svg > foreignObject, & + .listItem-GuPuDH svg > foreignObject { mask: none;}
+            .wrapperSimple-19ogV2, & + .listItem-1hlISG .wrapperSimple-19ogV2 { overflow: visible;}
+            svg > foreignObject, & + .listItem-1hlISG svg > foreignObject { mask: none;}
         }
         .wrapperSimple-19ogV2 foreignObject { mask: none;}
 
