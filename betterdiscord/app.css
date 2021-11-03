@@ -566,76 +566,89 @@
 :root .guilds-1SWlCJ .scroller-1Bvpku {
   padding: 30px 0;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku > .tutorialContainer-2sGCg9:first-child > .listItem-1hlISG .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku > .tutorialContainer-2sGCg9:first-child > .listItem-2Ig28I .childWrapper-anI2G9 {
   background: var(--main-color);
   color: #fff;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku > .listItem-1hlISG:nth-last-child(2) {
+:root .guilds-1SWlCJ .scroller-1Bvpku > .listItem-2Ig28I:nth-last-child(2) {
   margin-bottom: 80px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I {
   width: 90px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-25eVIn, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .svg-1X37T1 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-25eVIn, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .svg-1X37T1 {
   width: 42px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-1BJsBx {
   border-radius: 50%;
   overflow: hidden;
+  transition: border-radius 200ms;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .upperBadge-2XnnGB {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-1BJsBx:hover {
+  border-radius: calc(50% - 4px);
+}
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .upperBadge-2XnnGB {
   top: 2px;
   right: -1px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .lowerBadge-29hYVK {
   bottom: 4px;
   right: -5px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK .numberBadge-2s8kKX {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .lowerBadge-29hYVK .numberBadge-2s8kKX {
   min-width: 25px;
   background: var(--main-color) !important;
   font-size: 8px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .lowerBadge-29hYVK:last-child .numberBadge-2s8kKX {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .lowerBadge-29hYVK:last-child .numberBadge-2s8kKX {
   box-shadow: 0 0 10px 0 #0008;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, :root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background: var(--main-color);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG .wrapper-1BJsBx .childWrapper-anI2G9 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I .wrapper-1BJsBx .childWrapper-anI2G9 {
   background: var(--background-secondary);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-1hlISG defs g:last-child {
+:root .guilds-1SWlCJ .scroller-1Bvpku .listItem-2Ig28I defs g:last-child {
   display: none;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .folder-1hbNCn {
-  background: transparent;
-}
-:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-3Njo_c {
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt {
   width: 90px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-3Njo_c .expandedFolderBackground-1cujaW {
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .expandedFolderBackground-3ZDF05 {
   left: 21px;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-3Njo_c.expanded .expandedFolderBackground-1cujaW {
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .folderIconWrapper-1Ml_1q {
+  transition: border-radius 200ms;
+}
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .folderIconWrapper-1Ml_1q:hover {
+  border-radius: 12px;
+}
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .wrapper-25eVIn > svg > foreignObject {
+  mask: none;
+}
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .wrapper-25eVIn > svg > foreignObject .folder-2w6LX1 {
+  background: transparent;
+}
+:root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt.expanded .expandedFolderBackground-3ZDF05 {
   background: var(--background-secondary);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1XqULR {
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-hZmpE8 {
   border-radius: 14px;
   border: dashed 2px var(--epicshadow1);
   background: transparent;
   color: var(--epicshadow1);
   transition: all 0.2s;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI:hover .circleIconButton-1XqULR, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG:hover .circleIconButton-1XqULR {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm:hover .circleIconButton-hZmpE8, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm + .listItem-2Ig28I:hover .circleIconButton-hZmpE8 {
   background: transparent;
   color: var(--main-color);
   border-color: var(--main-color);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG .wrapperSimple-19ogV2 {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm .wrapperSimple-19ogV2, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm + .listItem-2Ig28I .wrapperSimple-19ogV2 {
   overflow: visible;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-32VdNI + .listItem-1hlISG svg > foreignObject {
+:root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm svg > foreignObject, :root .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-3alCZm + .listItem-2Ig28I svg > foreignObject {
   mask: none;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapperSimple-19ogV2 foreignObject {
@@ -1678,6 +1691,9 @@
 :root .formFieldWrapper-malor5 {
   border: none;
 }
+:root .sparkles-2XXTZO {
+  z-index: unset;
+}
 :root .background-3xPPFc {
   color: var(--background-secondary);
 }
@@ -2345,15 +2361,14 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root #status-picker {
   position: fixed;
-  top: unset !important;
-  left: 29px !important;
+  top: 0;
+  left: 0;
   width: 330px;
   height: 100vh;
   max-height: unset;
   animation: sidebarStatusTransalteX 0.5s ease, fade 0.4s ease;
-  padding: 0;
   border-radius: 0;
-  padding-top: 168px;
+  padding: 168px 0 0;
   background: var(--background-tertiary);
 }
 :root #status-picker .scroller-3BxosC {
@@ -2441,8 +2456,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   width: 298px;
   animation: sidebarStatusTransalteX 0.6s ease, fade 0.85s ease;
   -webkit-animation: sidebarStatusTransalteX 0.6s ease, fade 0.85s ease;
-  margin: 0 16px;
-  margin-top: 88px;
+  margin: 88px 16px 0;
   text-align: center;
 }
 :root .avatarWrapper-2yR4wp[aria-expanded=true] ~ .nameTag-3uD-yy .subtext-3CDbHg .default-3sgIpy, :root .avatarWrapper-2yR4wp[aria-expanded=true] ~ .nameTag-3uD-yy .subtext-3CDbHg .hovered-d5PMVU {
@@ -2793,48 +2807,4 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .notice-3bPHh-[id] ~ .layers-3iHuyZ .sidebar-2K8pFh {
   border-radius: 0;
-}
-
-:root {
-  --main-color: #419e85;
-  --avatar-radius: 8px;
-}
-
-.theme-dark {
-  --background-primary: #252a3e;
-  --background-secondary: #1e2337;
-  --background-secondary-alt: #1c2438;
-  --background-secondary-alt-alt: #1b1d31;
-  --background-tertiary: #060c24;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --colortransparency: #0003;
-  --card: #212332;
-  --textcolor: #fff;
-  --epicshadow1: #fff3;
-  --font-display: var(--font-primary) !important;
-}
-
-.theme-light {
-  --background-primary: #fafafa;
-  --background-secondary: #f7f7f7;
-  --background-secondary-alt: #fff;
-  --background-secondary-alt-alt: #eee;
-  --background-tertiary: #fff;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --colortransparency: #0001;
-  --card: #aaaaaa;
-  --textcolor: #000;
-  --epicshadow1: #0003;
-}
-
-:root {
-  --revision: "2";
-  --elevation-low: none;
-  --premium-shit-cppf-radius: var(--avatar-radius);
 }
