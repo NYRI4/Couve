@@ -448,12 +448,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 
 #status-picker {
   position: fixed;
-  top: unset !important; left: 29px !important;
+  top: 0; left: 0;
   width: 330px; height: 100vh;
   max-height: unset;
   animation:sidebarStatusTransalteX .5s ease, fade .4s ease;
-  padding: 0; border-radius: 0;
-  padding-top: 168px;
+  border-radius: 0;
+  padding: 168px 0 0;
   background: var(--background-tertiary);
 
   .scroller-3BxosC {
@@ -545,7 +545,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     width: 298px;
     animation: sidebarStatusTransalteX .6s ease, fade .85s ease;
     -webkit-animation: sidebarStatusTransalteX .6s ease, fade .85s ease;
-    margin: 0 16px; margin-top: 88px;
+    margin: 88px 16px 0;
     text-align: center;
 
     .subtext-3CDbHg .default-3sgIpy, .subtext-3CDbHg .hovered-d5PMVU {

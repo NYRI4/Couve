@@ -4,7 +4,7 @@
     "version": "2.1",
     "author": "A user#8169, Nyria#3863",
     "license": "CC BY-NC-ND 4.0",
-    "theme": "variables.scss",
+    "theme": "_variables.scss",
     "splashTheme": "stuff/_splash.scss",
     "consent": "false"
 }

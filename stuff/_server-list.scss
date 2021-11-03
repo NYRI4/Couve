@@ -16,23 +16,28 @@
         padding: 30px 0;
 
         // Home button
-        & > .tutorialContainer-2sGCg9:first-child > .listItem-1hlISG .childWrapper-anI2G9 {
+        & > .tutorialContainer-2sGCg9:first-child > .listItem-2Ig28I .childWrapper-anI2G9 {
             background: var(--main-color);
             color: #fff;
         }
         
-        & > .listItem-1hlISG:nth-last-child(2) { margin-bottom: 80px;}
+        & > .listItem-2Ig28I:nth-last-child(2) { margin-bottom: 80px;}
 
         // Server
-        .listItem-1hlISG {
+        .listItem-2Ig28I {
             width: 90px;
 
             .wrapper-25eVIn, .svg-1X37T1 { width: 42px;}
-            .wrapper-1BJsBx { border-radius: 50%; overflow: hidden;}
+            .wrapper-1BJsBx {
+                border-radius: 50%; overflow: hidden;
+                transition: border-radius 200ms;
+
+                &:hover { border-radius: calc(50% - 4px);}
+            }
 
             .upperBadge-2XnnGB { top: 2px; right: -1px;}
 
-            // Metion badge
+            // Mention badge
             .lowerBadge-29hYVK { 
                 bottom: 4px; right: -5px;
 
@@ -56,19 +61,29 @@
         }
 
         // Server Folders
-        .folder-1hbNCn { background: transparent;}
-
-        .wrapper-3Njo_c {
+        .wrapper-shyHJt {
             width: 90px;
 
-            .expandedFolderBackground-1cujaW { left: 21px;}
+            .expandedFolderBackground-3ZDF05 { left: 21px;}
 
-            &.expanded { .expandedFolderBackground-1cujaW { background: var(--background-secondary);}}
+            .folderIconWrapper-1Ml_1q {
+                transition: border-radius 200ms;
+
+                &:hover { border-radius: calc(16px - 4px);}
+            }
+
+            .wrapper-25eVIn > svg > foreignObject {
+                mask: none;
+
+                .folder-2w6LX1 { background: transparent;}
+            }
+
+            &.expanded { .expandedFolderBackground-3ZDF05 { background: var(--background-secondary);}}
         }
         
 
         // Create server + Discover buttons
-        .circleIconButton-1XqULR {
+        .circleIconButton-hZmpE8 {
             border-radius: 14px;
             border: dashed 2px var(--epicshadow1);
             background: transparent;
@@ -76,15 +91,15 @@
             transition: all .2s;
         }
 
-        .tutorialContainer-32VdNI {
-            &:hover .circleIconButton-1XqULR, & + .listItem-1hlISG:hover .circleIconButton-1XqULR {
+        .tutorialContainer-3alCZm {
+            &:hover .circleIconButton-hZmpE8, & + .listItem-2Ig28I:hover .circleIconButton-hZmpE8 {
                 background: transparent;
                 color: var(--main-color);
                 border-color: var(--main-color);
             }
 
-            .wrapperSimple-19ogV2, & + .listItem-1hlISG .wrapperSimple-19ogV2 { overflow: visible;}
-            svg > foreignObject, & + .listItem-1hlISG svg > foreignObject { mask: none;}
+            .wrapperSimple-19ogV2, & + .listItem-2Ig28I .wrapperSimple-19ogV2 { overflow: visible;}
+            svg > foreignObject, & + .listItem-2Ig28I svg > foreignObject { mask: none;}
         }
         .wrapperSimple-19ogV2 foreignObject { mask: none;}
 

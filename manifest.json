@@ -4,7 +4,7 @@
     "description": "A new look to discord",
     "version": "2.1",
     "author": "A user#8169, Nyria#3863",
-    "theme": "variables.scss",
+    "theme": "_variables.scss",
     "consent": "false",
     "license": "CC BY-NC-ND 4.0"
 }

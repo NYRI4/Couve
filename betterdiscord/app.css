@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/database.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
@@ -800,7 +799,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Material Icons";
-  content: "";
+  content: "\f189";
   font-size: 16px;
 }
 :root .scroller-RmtA4e::-webkit-scrollbar, :root .scroller-1Bvpku::-webkit-scrollbar, :root #channels::-webkit-scrollbar {
@@ -2061,7 +2060,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .root-3R2ngo {
   top: 40px;
-  left: calc(90px + 240px);
+  left: 330px;
   contain: unset;
 }
 :root .root-3R2ngo .perksModal-fSYqOq {
@@ -2794,4 +2793,48 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .notice-3bPHh-[id] ~ .layers-3iHuyZ .sidebar-2K8pFh {
   border-radius: 0;
+}
+
+:root {
+  --main-color: #419e85;
+  --avatar-radius: 8px;
+}
+
+.theme-dark {
+  --background-primary: #252a3e;
+  --background-secondary: #1e2337;
+  --background-secondary-alt: #1c2438;
+  --background-secondary-alt-alt: #1b1d31;
+  --background-tertiary: #060c24;
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --colortransparency: #0003;
+  --card: #212332;
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
+  --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --colortransparency: #0001;
+  --card: #aaaaaa;
+  --textcolor: #000;
+  --epicshadow1: #0003;
+}
+
+:root {
+  --revision: "2";
+  --elevation-low: none;
+  --premium-shit-cppf-radius: var(--avatar-radius);
 }
