@@ -151,60 +151,55 @@
 }
 
 // User profile
-.userProfileCustomizationSection-8Vpo48 {
-  .baseLayout-2GkbfB { 
+.profileCustomizationSection-1-Issy .baseLayout-NX_bpH { 
     & > :first-child { flex: 2 auto;}
 
-    .profileBannerPreview-3_l0Wd {
+    // Banner
+    .banner-3vVQWW {
+        position: absolute;
+        height: 180px;
+        -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+    }
+    
+    // Avatar
+    .avatarUploader-3XDtmn {
+        top: 15px; left: 50%; margin-left: -40px;
 
-        // Banner
-        .banner-hcPdsd {
-            position: absolute;
-            height: 180px;
-            -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
-        }
-        
-        // Avatar
-        .avatarUploader-2UF9NL {
-            top: 15px; left: 50%; margin-left: -40px;
-
-            .avatarUploaderInner-Oiob_P { 
+        .avatarUploaderInner-mAGe3e { 
             border: none;
             border-radius: var(--avatar-radius);
-        
-            .avatarUploaderIndicator-2G-aIZ { display: none;}
-            }
+    
+            .avatarUploaderIcon-3UIzEQ { display: none;}
+        }
+    }
+
+    // User infos
+    .headerTop-3vNv-a {
+        display: flex; flex-direction: column-reverse;
+        text-align: center; padding-top: 110px;
+        padding-bottom: 20px; 
+
+        .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
+        .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
+
+        // Badges
+        .profileBadges-ohc0Vu {
+            position: static;
+            justify-content: center;
+            max-width: unset;
+
+            & > * { margin: 0 3px;}
+            &:empty { margin-bottom: 20px;}
         }
 
-        // User infos
-        .headerTop-3vNv-a {
-            display: flex; flex-direction: column-reverse;
-            text-align: center; padding-top: 110px;
-            padding-bottom: 20px; 
-
-            .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
-            .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
-
-            // Badges
-            .profileBadges-ohc0Vu {
-                position: static;
-                justify-content: center;
-                max-width: unset;
-
-                & > * { margin: 0 3px;}
-                &:empty { margin-bottom: 20px;}
-            }
-
-            .headerText-1vVs-U { margin-bottom: 8px;}
-        }
+        .headerText-1vVs-U { margin-bottom: 8px;}
+    }
 
     // Status + About Me
     .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { padding-top: 12px;}
 
     .divider-ewBQKj { display: none;}
-    }
-  }
 }
 
 // Privacy & Safety

@@ -1467,58 +1467,58 @@
 :root .accountProfileCard-1XCH88 .background-1QDuV2 {
   margin: 0;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB > :first-child {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH > :first-child {
   flex: 2 auto;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .banner-hcPdsd {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .banner-3vVQWW {
   position: absolute;
   height: 180px;
   -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .avatarUploader-2UF9NL {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .avatarUploader-3XDtmn {
   top: 15px;
   left: 50%;
   margin-left: -40px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .avatarUploader-2UF9NL .avatarUploaderInner-Oiob_P {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .avatarUploader-3XDtmn .avatarUploaderInner-mAGe3e {
   border: none;
   border-radius: var(--avatar-radius);
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .avatarUploader-2UF9NL .avatarUploaderInner-Oiob_P .avatarUploaderIndicator-2G-aIZ {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .avatarUploader-3XDtmn .avatarUploaderInner-mAGe3e .avatarUploaderIcon-3UIzEQ {
   display: none;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a {
   display: flex;
   flex-direction: column-reverse;
   text-align: center;
   padding-top: 110px;
   padding-bottom: 20px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .headerTagWithNickname-3l_x6x, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .setIdentityLink-1t8Ahd {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .headerTagWithNickname-3l_x6x, :root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .setIdentityLink-1t8Ahd {
   display: none;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .headerTagDiscriminatorNoNickname-D-AYUN {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .headerTagDiscriminatorNoNickname-D-AYUN {
   color: #dadada;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .profileBadges-ohc0Vu {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .profileBadges-ohc0Vu {
   position: static;
   justify-content: center;
   max-width: unset;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .profileBadges-ohc0Vu > * {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .profileBadges-ohc0Vu > * {
   margin: 0 3px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .profileBadges-ohc0Vu:empty {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .profileBadges-ohc0Vu:empty {
   margin-bottom: 20px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .headerTop-3vNv-a .headerText-1vVs-U {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .headerTop-3vNv-a .headerText-1vVs-U {
   margin-bottom: 8px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .customStatus-oN4ZZY, :root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .aboutMeSection-1Fw5Ia {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .customStatus-oN4ZZY, :root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .aboutMeSection-1Fw5Ia {
   padding-top: 12px;
 }
-:root .userProfileCustomizationSection-8Vpo48 .baseLayout-2GkbfB .profileBannerPreview-3_l0Wd .divider-ewBQKj {
+:root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH .divider-ewBQKj {
   display: none;
 }
 :root .item-26Dhrx {
