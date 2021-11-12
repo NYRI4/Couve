@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/database.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
@@ -622,7 +623,7 @@
   transition: border-radius 200ms;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .folderIconWrapper-1Ml_1q:hover {
-  border-radius: 12px;
+  border-radius: calc(16px - 4px);
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .wrapper-25eVIn > svg > foreignObject {
   mask: none;
@@ -812,7 +813,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Material Icons";
-  content: "\f189";
+  content: "";
   font-size: 16px;
 }
 :root .scroller-RmtA4e::-webkit-scrollbar, :root .scroller-1Bvpku::-webkit-scrollbar, :root #channels::-webkit-scrollbar {
@@ -1037,6 +1038,7 @@
 
 :root .membersWrap-2h-GB4 {
   margin-top: -48px;
+  height: calc(100% + 48px);
 }
 :root .membersWrap-2h-GB4 .members-1998pB {
   padding-top: 48px;
@@ -2076,7 +2078,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .root-3R2ngo {
   top: 40px;
-  left: 330px;
+  left: calc(90px + 240px);
   contain: unset;
 }
 :root .root-3R2ngo .perksModal-fSYqOq {
