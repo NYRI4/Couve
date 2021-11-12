@@ -2239,7 +2239,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
   border: none;
   padding: 0;
 }
-:root .root-1gCeng .card-2Mz_4z, :root .root-1gCeng .item-3T2z1R, :root .root-1gCeng .select-2fjwPw, :root .modal-yWgWj- .card-2Mz_4z, :root .modal-yWgWj- .item-3T2z1R, :root .modal-yWgWj- .select-2fjwPw {
+:root .root-1gCeng .card-2Mz_4z, :root .root-1gCeng .item-3T2z1R, :root .modal-yWgWj- .card-2Mz_4z, :root .modal-yWgWj- .item-3T2z1R {
   border: none;
   background: var(--background-secondary);
 }
@@ -2313,6 +2313,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .input-cIJ7To.focused-1mmYsC, :root .input-cIJ7To .input-cIJ7To:focus {
   background: var(--background-secondary);
+}
+:root .select-2fjwPw {
+  border: none;
+}
+:root .popout-VcNcHB::-webkit-scrollbar {
+  display: none;
+}
+:root .option-3KoAJB:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
 }
 :root .css-6fzn47-control, :root .css-gvi9bl-control, :root .css-17e1tep-control {
   background: var(--background-secondary);

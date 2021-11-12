@@ -323,7 +323,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     padding: 0;
   }
 
-  .card-2Mz_4z, .item-3T2z1R, .select-2fjwPw {
+  .card-2Mz_4z, .item-3T2z1R {
     border: none;
     background: var(--background-secondary);
   }
@@ -383,7 +383,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 .default-3oAQTF { background-color: var(--background-secondary);}
 
-// Inputs
+// Inputs & selects
 .input-cIJ7To {
   border: none;
   border-radius: 8px;
@@ -394,6 +394,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
     background: var(--background-secondary);
   }
 }
+
+.select-2fjwPw { border: none;}
+.popout-VcNcHB::-webkit-scrollbar { display: none;}
+.option-3KoAJB:hover { background: rgba(255, 255, 255, 0.05) !important;}
 
 // Dropdown menu
 .css-6fzn47-control, .css-gvi9bl-control, .css-17e1tep-control {
