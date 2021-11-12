@@ -1657,6 +1657,9 @@
   margin: auto;
   border-radius: 10px;
 }
+:root .powercord-product {
+  margin: 10px 0;
+}
 :root .avatarUploaderIndicator-2G-aIZ {
   display: none;
 }
@@ -1671,20 +1674,23 @@
 :root .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   background: var(--background-primary);
 }
-:root .auditLog-3jNbM6 {
+:root .auditLog-2ph_aK {
   border: none;
   border-radius: 8px;
   overflow: hidden;
 }
-:root .auditLog-3jNbM6 .header-GwIGlr, :root .auditLog-3jNbM6 .changeDetails-bk98pu {
+:root .auditLog-2ph_aK .header-1oWRg0, :root .auditLog-2ph_aK .changeDetails-2dV5gP {
   background: var(--background-secondary);
 }
-:root .auditLog-3jNbM6 .divider-1pnAR2 {
+:root .auditLog-2ph_aK .divider-1tf9AP {
   display: none;
 }
 :root .copyInput-2rOSt7 {
   border: none;
   border-radius: 8px;
+}
+:root .modal-1O3czN .footer-2gL1pp, :root .container-19nk2r .footer-2gL1pp {
+  border-bottom-left-radius: 0 !important;
 }
 :root .editCircle-y9c7xP, :root .editCircle-ityklj {
   background: var(--background-primary);

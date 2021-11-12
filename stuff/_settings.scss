@@ -340,6 +340,9 @@
     }
 }
 
+// Powercord settings
+.powercord-product { margin: 10px 0;}
+
 
 // -- Server settings --
 
@@ -357,13 +360,13 @@
 .emojiAliasInput-1y-NBz .emojiInput-1aLNse { background: var(--background-primary);}
 
 // Audit log
-.auditLog-3jNbM6 { 
+.auditLog-2ph_aK { 
     border: none;
     border-radius: 8px;
     overflow: hidden;
 
-    .header-GwIGlr, .changeDetails-bk98pu { background: var(--background-secondary);}
-    .divider-1pnAR2 { display: none;}
+    .header-1oWRg0, .changeDetails-2dV5gP { background: var(--background-secondary);}
+    .divider-1tf9AP { display: none;}
 }
 
 // Widget
@@ -371,6 +374,9 @@
     border: none;
     border-radius: 8px;
 }
+
+// Discovery
+.modal-1O3czN, .container-19nk2r { .footer-2gL1pp { border-bottom-left-radius: 0 !important;}}
 
 // Membership Screening
 .editCircle-y9c7xP, .editCircle-ityklj { background: var(--background-primary);}
