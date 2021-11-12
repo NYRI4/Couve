@@ -363,15 +363,14 @@
   border-radius: 8px 8px 0 0;
   box-shadow: none;
 }
-:root .autocomplete-1vrmpx .listItems-1uJgMC {
-  top: 0 !important;
-  right: 0 !important;
-  left: 0 !important;
-}
-:root .autocomplete-1vrmpx .listItems-1uJgMC .categoryHeader-O1zU94 {
+:root .autocomplete-1vrmpx .categoryHeader-O1zU94 {
   background-color: var(--background-tertiary);
+  border-radius: 3px;
 }
-:root .autocomplete-1vrmpx .listItems-1uJgMC .selected-1Tbx07 {
+:root .autocomplete-1vrmpx .categoryHeader-O1zU94::after {
+  content: none;
+}
+:root .autocomplete-1vrmpx .selected-1Tbx07 {
   background: var(--background-primary);
 }
 :root .autocomplete-1vrmpx .contentTitle-2tG_sM {
