@@ -1037,7 +1037,7 @@
 
 :root .membersWrap-2h-GB4 {
   margin-top: -48px;
-  height: calc(100% + 48px);
+  max-height: calc(100% + 48px);
 }
 :root .membersWrap-2h-GB4 .members-1998pB {
   padding-top: 48px;

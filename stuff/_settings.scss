@@ -71,9 +71,6 @@
     }
 }
 
-// No titles
-.sectionTitle-2vauyC { display: none;}
-
 // Save bar
 .noticeRegion-1YviSH {
     max-width: unset;
@@ -84,14 +81,14 @@
 // -- User settings --
 
 // My account
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     .accountProfileCard-1XCH88 { 
         flex-direction: column;
 
         // Banner
         .banner-2QYc2d {
             border-radius: 8px 8px 0 0 !important;
-            height: 150px !important;
+            height: 150px !important; flex: unset !important;
         }
 
         // User info
@@ -103,6 +100,8 @@
             // Badges
             .container-q03LZO { justify-content: center;}
         }
+
+        .background-1QDuV2 { flex: unset !important;}
     }
 }
 
@@ -113,7 +112,7 @@
     // Banner
     .banner-2QYc2d {
         border-radius: 8px 0 0 8px;
-        height: unset;
+        height: unset; flex: 1;
     }
 
     // User info
@@ -147,7 +146,7 @@
         button:last-child { grid-area: button;}
     }
     
-    .background-1QDuV2 { margin: 0;}
+    .background-1QDuV2 { margin: 0; flex: 1;}
 }
 
 // User profile
@@ -230,11 +229,11 @@
 }
 
 // Nitro
-.premiumTabItem-1QTfBr .flex-1xMQg5 {
+.premiumLabel-fDtYys {
     flex-direction: row-reverse;
     justify-content: flex-end;
 
-    .icon-Zc-uZZ { margin-right: 5px;}
+    svg { margin-right: 8px;}
 }
 
 .hero-EvfTTA { max-width: unset;
