@@ -1323,8 +1323,8 @@
 :root .root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj .activityProfile-2bJRaP {
   grid-column: 1/3;
 }
-:root .userPopout-xaxa6l[style*=-user-] .banner-2QYc2d,
-:root .root-3QyAh1[style*=-user-] .banner-2QYc2d {
+:root .userPopout-xaxa6l .banner-2QYc2d,
+:root .root-3QyAh1 .banner-2QYc2d {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: var(--user-popout-position, center) center;
@@ -1399,22 +1399,20 @@
   height: 100%;
   z-index: 100;
 }
-:root .sectionTitle-2vauyC {
-  display: none;
-}
 :root .noticeRegion-1YviSH {
   max-width: unset;
 }
 :root .noticeRegion-1YviSH .container-2VW0UT {
   background-color: var(--background-secondary) !important;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
   :root .accountProfileCard-1XCH88 {
     flex-direction: column;
   }
   :root .accountProfileCard-1XCH88 .banner-2QYc2d {
     border-radius: 8px 8px 0 0 !important;
     height: 150px !important;
+    flex: unset !important;
   }
   :root .accountProfileCard-1XCH88 .userInfo-iCloHO {
     height: 150px !important;
@@ -1424,6 +1422,9 @@
   :root .accountProfileCard-1XCH88 .userInfo-iCloHO .container-q03LZO {
     justify-content: center;
   }
+  :root .accountProfileCard-1XCH88 .background-1QDuV2 {
+    flex: unset !important;
+  }
 }
 :root .accountProfileCard-1XCH88 {
   display: flex;
@@ -1432,6 +1433,7 @@
 :root .accountProfileCard-1XCH88 .banner-2QYc2d {
   border-radius: 8px 0 0 8px;
   height: unset;
+  flex: 1;
 }
 :root .accountProfileCard-1XCH88 .userInfo-iCloHO {
   position: absolute;
@@ -1466,6 +1468,7 @@
 }
 :root .accountProfileCard-1XCH88 .background-1QDuV2 {
   margin: 0;
+  flex: 1;
 }
 :root .profileCustomizationSection-1-Issy .baseLayout-NX_bpH > :first-child {
   flex: 2 auto;
@@ -1546,12 +1549,12 @@
 :root .connectionHeader-2MDqhu .connectionDelete-2Odoln:hover {
   background: #fff2;
 }
-:root .premiumTabItem-1QTfBr .flex-1xMQg5 {
+:root .premiumLabel-fDtYys {
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
-:root .premiumTabItem-1QTfBr .flex-1xMQg5 .icon-Zc-uZZ {
-  margin-right: 5px;
+:root .premiumLabel-fDtYys svg {
+  margin-right: 8px;
 }
 :root .hero-EvfTTA {
   max-width: unset;
