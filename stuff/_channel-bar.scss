@@ -56,7 +56,7 @@
             margin: 0;
             border-radius: 0;
 
-            &.selected-rZcOL- { background: var(--background-secondary);}
+            &.selected-rZcOL-, &[aria-selected=true] { background: var(--background-secondary);}
             &:after { display: none;}
         }
     }

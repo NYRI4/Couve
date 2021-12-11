@@ -1,9 +1,6 @@
-@charset "UTF-8";
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/database.css");
 @import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
-@import url("https://a-user-s-discord-themes.github.io/premium-shit/Custom%20color%20status/app.css");
-@import url("https://a-user-s-discord-themes.github.io/premium-shit/Chat%20profile%20photo%20effects/app.css");
 @import url("https://nyri4.github.io/donators/donators.css");
 @import url("https://nyri4.github.io/event/christmas.css");
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
@@ -623,7 +620,7 @@
   transition: border-radius 200ms;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .folderIconWrapper-1Ml_1q:hover {
-  border-radius: calc(16px - 4px);
+  border-radius: 12px;
 }
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-shyHJt .wrapper-25eVIn > svg > foreignObject {
   mask: none;
@@ -813,7 +810,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Material Icons";
-  content: "";
+  content: "\f189";
   font-size: 16px;
 }
 :root .scroller-RmtA4e::-webkit-scrollbar, :root .scroller-1Bvpku::-webkit-scrollbar, :root #channels::-webkit-scrollbar {
@@ -881,7 +878,7 @@
   margin: 0;
   border-radius: 0;
 }
-:root .container-3ayLPN .resultsGroup-r_nuzN .option-96V44q.selected-rZcOL- {
+:root .container-3ayLPN .resultsGroup-r_nuzN .option-96V44q.selected-rZcOL-, :root .container-3ayLPN .resultsGroup-r_nuzN .option-96V44q[aria-selected=true] {
   background: var(--background-secondary);
 }
 :root .container-3ayLPN .resultsGroup-r_nuzN .option-96V44q:after {
@@ -2087,7 +2084,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-3lHmkl {
 }
 :root .root-3R2ngo {
   top: 40px;
-  left: calc(90px + 240px);
+  left: 330px;
   contain: unset;
 }
 :root .root-3R2ngo .perksModal-fSYqOq {
