@@ -1,6 +1,6 @@
 :root {
     
-.guilds-1SWlCJ {
+.guilds-2JjMmN {
     width: 90px; margin-top: -35px;
 
     &::before {
@@ -12,78 +12,78 @@
         pointer-events: none;
     }
 
-    .scroller-1Bvpku {
+    .scroller-3X7KbA {
         padding: 30px 0;
 
         // Home button
-        & > .tutorialContainer-2sGCg9:first-child > .listItem-2Ig28I .childWrapper-anI2G9 {
+        & > .tutorialContainer-2sGCg9:first-child > .listItem-3SmSlK .childWrapper-1j_1ub {
             background: var(--main-color);
             color: #fff;
         }
         
-        & > .listItem-2Ig28I:nth-last-child(2) { margin-bottom: 80px;}
+        & > .listItem-3SmSlK:nth-last-child(2) { margin-bottom: 80px;}
 
         // Server
-        .listItem-2Ig28I {
+        .listItem-3SmSlK {
             width: 90px;
 
-            .wrapper-25eVIn, .svg-1X37T1 { width: 42px;}
-            .wrapper-1BJsBx {
+            .wrapper-28eC3z, .svg-2zuE5p { width: 42px;}
+            .wrapper-3kah-n {
                 border-radius: 50%; overflow: hidden;
                 transition: border-radius 200ms;
 
                 &:hover { border-radius: calc(50% - 4px);}
             }
 
-            .upperBadge-2XnnGB { top: 2px; right: -1px;}
+            .upperBadge-1V6Iyi { top: 2px; right: -1px;}
 
             // Mention badge
-            .lowerBadge-29hYVK { 
+            .lowerBadge-3WTshO { 
                 bottom: 4px; right: -5px;
 
-                .numberBadge-2s8kKX {
+                .numberBadge-37OJ3S {
                     min-width: 25px;
                     background: var(--main-color) !important;
                     font-size: 8px;
                 }
-                &:last-child .numberBadge-2s8kKX { box-shadow: 0 0 10px 0 #0008;}
+                &:last-child .numberBadge-37OJ3S { box-shadow: 0 0 10px 0 #0008;}
             }
 
             // Server icon
-            .wrapper-1BJsBx {
-                &.selected-bZ3Lue .childWrapper-anI2G9, 
-                &:hover .childWrapper-anI2G9 { background: var(--main-color);}
+            .wrapper-3kah-n {
+                &.selected-1Drb7Z .childWrapper-1j_1ub, 
+                &:hover .childWrapper-1j_1ub { background: var(--main-color);}
 
-                .childWrapper-anI2G9 { background: var(--background-secondary);}
+                .childWrapper-1j_1ub { background: var(--background-secondary);}
             }
 
             defs g:last-child { display: none;}
         }
 
         // Server Folders
-        .wrapper-shyHJt {
+        .wrapper-38slSD {
             width: 90px;
 
-            .expandedFolderBackground-3ZDF05 { left: 21px;}
+            .expandedFolderBackground-1kSAf6 { left: 21px;}
 
-            .folderIconWrapper-1Ml_1q {
+            .folderIconWrapper-1oRIZr {
                 transition: border-radius 200ms;
 
                 &:hover { border-radius: calc(16px - 4px);}
             }
 
-            .wrapper-25eVIn > svg > foreignObject {
+            .wrapper-28eC3z > svg > foreignObject {
                 mask: none;
 
-                .folder-2w6LX1 { background: transparent;}
+                .folder-241Joy { background: transparent;}
             }
 
-            &.expanded { .expandedFolderBackground-3ZDF05 { background: var(--background-secondary);}}
+            &.expanded { .expandedFolderBackground-1kSAf6 { background: var(--background-secondary);}}
         }
         
 
         // Create server + Discover buttons
-        .circleIconButton-hZmpE8 {
+        .circleIconButton-1VxDrg {
             border-radius: 14px;
             border: dashed 2px var(--epicshadow1);
             background: transparent;
@@ -91,17 +91,17 @@
             transition: all .2s;
         }
 
-        .tutorialContainer-3alCZm {
-            &:hover .circleIconButton-hZmpE8, & + .listItem-2Ig28I:hover .circleIconButton-hZmpE8 {
+        .tutorialContainer-2jwoiB {
+            &:hover .circleIconButton-1VxDrg, & + .listItem-3SmSlK:hover .circleIconButton-1VxDrg {
                 background: transparent;
                 color: var(--main-color);
                 border-color: var(--main-color);
             }
 
-            .wrapperSimple-19ogV2, & + .listItem-2Ig28I .wrapperSimple-19ogV2 { overflow: visible;}
-            svg > foreignObject, & + .listItem-2Ig28I svg > foreignObject { mask: none;}
+            .wrapperSimple-Js2rIO, & + .listItem-3SmSlK .wrapperSimple-Js2rIO { overflow: visible;}
+            svg > foreignObject, & + .listItem-3SmSlK svg > foreignObject { mask: none;}
         }
-        .wrapperSimple-19ogV2 foreignObject { mask: none;}
+        .wrapperSimple-Js2rIO foreignObject { mask: none;}
 
         // Some space for the avatar
         & > div:last-child { margin-bottom: 80px;}
@@ -110,7 +110,7 @@
     }
 
     // Mentions & Unread
-    .mention-1f5kbO {
+    .mention-3XBnnZ {
         height: 100%;
         background: linear-gradient(360deg, transparent, var(--background-tertiary));
         transition: color .2s;
@@ -121,10 +121,10 @@
 
         &:hover { color: var(--main-color);}
     }
-    .unreadMentionsIndicatorBottom-BXS58x .mention-1f5kbO { background: transparent;}
+    .unreadMentionsIndicatorBottom-BXS58x .mention-3XBnnZ { background: transparent;}
 
     // In server
-    .unreadMentionsIndicatorTop-2-tcdU, .unreadMentionsIndicatorBottom-2mDYbI {
+    .unreadMentionsIndicatorTop-2bTgUU, .unreadMentionsIndicatorBottom-3RJMnQ {
         width: 100%; height: 30px;
         padding: 0;
     }

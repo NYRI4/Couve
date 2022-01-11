@@ -1,17 +1,17 @@
 :root { 
 
-.membersWrap-2h-GB4 {
+.membersWrap-3NUR2t {
     margin-top: -48px;
     max-height: calc(100% + 48px);
 
-    .members-1998pB { 
+    .members-3WRCEx { 
         padding-top: 48px;
 
         // Members
-        .member-3-YXUe {
+        .member-2gU6Ar {
             margin: 0;
 
-            .layout-2DM8Md {
+            .layout-1qmrhw {
                 padding: 0 22px;
                 width: calc(100% - 22px);
                 border-radius: 0;
@@ -23,35 +23,35 @@
 }
     
 // User popout
-.loadingPopout-qYljDW { background: var(--background-secondary);}
+.loadingPopout-1feYe_ { background: var(--background-secondary);}
 
-.userPopout-xaxa6l {
+.userPopout-2j1gM4 {
     background: var(--background-secondary);
     box-shadow: unset !important; margin-right: 20px;
     border-radius: 8px;
 
         // Banner
-        .banner-2QYc2d {
+        .banner-1YaD3N {
             position: absolute;
             width: 300px; height: 180px;
             border-radius: 8px 8px 0 0;
             -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
 
-            &.bannerPremium-2hSAwz { background-color: transparent !important;}
+            &.bannerPremium-kkSkPv { background-color: transparent !important;}
         }
 
     // User infos
-    .headerTop-3vNv-a {
+    .headerTop-3GPUSF {
         display: flex; flex-direction: column-reverse;
         text-align: center; padding-top: 110px;
         padding-bottom: 20px; 
 
-        .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
-        .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
+        .headerTagWithNickname-1U8zZH, .setIdentityLink-hOFsMl { display: none;}
+        .headerTagDiscriminatorNoNickname-dfcvHa { color: #dadada;}
 
         // Badges
-        .profileBadges-ohc0Vu {
+        .profileBadges-2pItdR {
             position: static;
             justify-content: center;
             max-width: unset;
@@ -60,19 +60,19 @@
             &:empty { margin-bottom: 20px;}
         }
 
-        .headerText-1vVs-U { margin-bottom: 8px;}
+        .headerText-1-WmDq { margin-bottom: 8px;}
     }
 
     // Status + About Me
-    .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { padding-top: 12px;}
+    .customStatus-3XAoF9, .aboutMeSection-PUghFQ { padding-top: 12px;}
 
-    .divider-ewBQKj { display: none;}
+    .divider-1wtgZ3 { display: none;}
     
     // Body
-    .body-3HBlXn {
+    .body-2wLx-E {
 
         // Activities
-        .activity-2INFPu {
+        .activity-1gTu-L {
     
             // Button
             .button-38aScr { background-color: var(--main-color);}
@@ -80,25 +80,25 @@
             // Spotify icon
             .spotifyIcon-2J9kSv { display: none;}
         }
-        .bodyInnerWrapper-26fQXj {
+        .bodyInnerWrapper-2bQs1k {
             padding-right: 16px;
             
-            .note-1oo11U { margin: 0;}
+            .note-Go5ZP2 { margin: 0;}
         } 
 
         &::-webkit-scrollbar { display: none;}
     }
 
     // Avatar
-    .avatarWrapper-3r9PdD {
+    .avatarWrapper-eenWra {
         top: 0; left: 50%;
         grid-area: avatar;
         margin: 15px 0 0 -50px;
 
-        .avatar-37jOim { background: none; border: none;}
+        .avatar-2Vndt_ { background: none; border: none;}
 
         // View profile mask
-        .avatarHint-2A3RNb {
+        .avatarHint-k7pYop {
             top: 0; left: 0;
             border-radius: calc(var(--avatar-radius) * 2) !important;
 
@@ -106,7 +106,7 @@
                 mask: none !important;
 
                 // Custom Avatar Hint
-                .avatarHintInner-1TvA8u {
+                .avatarHintInner-2HUAWj {
                     font-size: 0; text-transform: none;
                     
                     &::after {
@@ -122,25 +122,25 @@
     }
 
     // Avatar mask
-    .mask-1l8v16 foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
+    .mask-1FEkla foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
 }
 
 // User modal
-.root-3QyAh1 {
+.root-8LYsGj {
     width: 800px;
     flex-direction: row;
     overflow: unset;
     position: relative;
 
     // Header
-    .topSection-y3p-_D {
+    .topSection-13QKHs {
         position: relative;
         background: var(--background-secondary);
         width: 40%; z-index: 1;
         border-radius: 10px 0 0 10px;
 
         // Banner
-        .banner-2QYc2d {
+        .banner-1YaD3N {
             position: absolute;
             width: 100%; height: 100%;
             z-index: -1;
@@ -149,11 +149,11 @@
             -webkit-mask-image: linear-gradient(90deg, #000c, #0002);
         }
 
-        .header-4zuFdR {
+        .header-S26rhB {
             position: static;
 
             // Avatar
-            .avatar-AvHqJA {   
+            .avatar-3QF_VA {   
                 position: relative;         
                 top: 16px;
                 border: none;
@@ -162,17 +162,17 @@
                 height: 80px !important;
             }
 
-            .headerTop-547GTz {
+            .headerTop-1PNKck {
                 position: static;
 
-                .badgeList-1R1WgZ {
+                .badgeList-2aoHPw {
                     position: absolute;
                     top: 75px; left: 120px;
                 }
             }
         }
 
-        .nameTag-ECvD8P {
+        .nameTag-2Nlmsy {
             position: absolute;
             flex-direction: column;
             align-items: flex-start;
@@ -181,14 +181,14 @@
             margin-top: 16px;
         }
 
-        .relationshipButtons-pUQVkf {
+        .relationshipButtons-3ByBpj {
             position: absolute;
             bottom: 20px; left: 18px;
             z-index: 1;
         }
 
         // Avatar mask
-        .mask-1l8v16 foreignObject { border-radius: calc(var(--avatar-radius) * 2.1) !important;}
+        .mask-1FEkla foreignObject { border-radius: calc(var(--avatar-radius) * 2.1) !important;}
 
         // Badges
         .profileBadges-9OJ14v { // when u have too many badges
@@ -197,14 +197,14 @@
         }
 
         // Custom Status
-        .customStatusActivity-nmH3DF {
+        .customStatusActivity-WKWGD- {
             position: fixed;
             bottom: 0; right: 0;
             width: 460px; padding: 10px;
             border-bottom-right-radius: 10px;
             backdrop-filter: blur(8px);
 
-            &.activityProfile-2bJRaP {
+            &.activityProfile-1712BN {
                 right: unset;
                 bottom: -140px;
                 left: 5px;
@@ -215,7 +215,7 @@
             .customStatus-2pgT4N { max-width: 130px;}
 
             // Player
-            .assetsLargeImageActivityFeed-25vA7H, .assetsLargeImageActivityFeedXbox-3Tr-tf, .assetsLargeImageProfile-3YXDex {
+            .assetsLargeImageActivityFeed-3zBude, .assetsLargeImageActivityFeedXbox-3gGXXV, .assetsLargeImageProfile-1TX9jP {
                 width: 40px;
                 height: 40px;
             }
@@ -225,15 +225,15 @@
     
 
         // Menu
-        .tabBarContainer-37hZsr {
+        .tabBarContainer-sCZC4w {
             position: relative;
             top: 20px;
             border-bottom: unset;
 
-            .tabBar-3nvOPa {
+            .tabBar-2hXqzU {
                 flex-direction: column;
 
-                .item-PXvHYJ {
+                .item-3XjbnG {
                     height: 40px;
                     border-bottom: unset;
                 }
@@ -242,36 +242,36 @@
     }  
 
     // Body
-    .body-r6_QPy {
+    .body-1Ukv50 {
         background: var(--background-primary);
         width: 60%;
         min-height: 350px;
         border-radius: 0 10px 10px 0;
 
         // Connected account
-        .connectedAccounts-QlRa4m {
+        .connectedAccounts-1YaT2t {
 
-            .connectedAccount-2Jb-Z0 { 
+            .connectedAccount-1xKpli { 
                 border: none; border-radius: 8px;
                 background-color: var(--background-secondary);
             }
         }
         
         // Powercord connected account
-        .pc-connections .connectedAccounts-QlRa4m:empty::before { background-color: transparent;}
+        .pc-connections .connectedAccounts-1YaT2t:empty::before { background-color: transparent;}
 
         // Mutuals
-        .listScroller-3GmIYj {
+        .listScroller-entkMk {
             display: grid; grid-template-columns: 1fr 1fr;
             grid-template-rows: repeat(20, 0fr); gap: 10px; padding-left: 8px;
         
-            .listRow-1iDGel {
+            .listRow-2nO1T6 {
                 position: relative; z-index: 1;
                 height: 44px; margin: 0; padding-left: 10px;
                 border-radius: 8px; overflow: hidden;
                 background-color: var(--background-secondary);
 
-                .listAvatar-1BbvHX {
+                .listAvatar-2bU5Uh {
                     position: absolute; 
                     right: 0; z-index: -1;
                     width: 62% !important; height: 250% !important; margin-right: 0;
@@ -282,20 +282,20 @@
                 }
             }
 
-            .empty-39KnKA {
+            .empty-2zcusz {
                 grid-column: 1/3; grid-row: 1/22;
                 position: relative; z-index: 0; overflow: hidden;
                 margin: 0; padding-left: 10px;
                 border-radius: 8px;
 
-                .emptyIconFriends-2l7flK {
+                .emptyIconFriends-2LNxTX {
                     position: absolute; z-index: -1;
                     width: 80%; height: 80%; margin-left: -10px;
                     opacity: 0.2; background-size: 100%;
                 }
             }
 
-            .activityProfile-2bJRaP {
+            .activityProfile-1712BN {
                 grid-column: 1/3;
             }
         }
@@ -303,8 +303,8 @@
 }
 
 // USRBG for BetterDiscord only
-.userPopout-xaxa6l .banner-2QYc2d,
-.root-3QyAh1 .banner-2QYc2d {
+.userPopout-2j1gM4 .banner-1YaD3N,
+.root-8LYsGj .banner-1YaD3N {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: var(--user-popout-position, center) center;

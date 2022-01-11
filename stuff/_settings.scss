@@ -1,34 +1,34 @@
 :root { 
 
-.layer-3QrUeG { 
+.layer-86YKbF { 
     transform: unset !important;
 
-    &.baseLayer-35bLyl { 
+    &.baseLayer-W6S8cY { 
         opacity: 1 !important;
 
         &.stop-animations { transform: scale(1) !important;}
     }
-    &:not(.baseLayer-35bLyl) { 
+    &:not(.baseLayer-W6S8cY) { 
         margin-left: 90px;
     }
     
     // Scroller
-    .sidebarRegion-VFTUkN {
+    .sidebarRegion-1VBisG {
         flex: unset;
         background: var(--background-tertiary);
 
-        .sidebarRegionScroller-3MXcoP {
+        .sidebarRegionScroller-FXiQOh {
             justify-content: flex-start;
             border-radius: 8px 0 0;
 
-            .sidebar-CFHs9e { 
+            .sidebar-nqHbhN { 
                 width: 240px;
             
-                .side-8zPYf6 .header-2RyJ0Y, .side-8zPYf6 .item-PXvHYJ { padding: 6px 30px; border-radius: 0;}
-                .side-8zPYf6 .item-PXvHYJ:hover { background: var(--background-secondary-alt);}
+                .side-2ur1Qk .header-2Kx1US, .side-2ur1Qk .item-3XjbnG { padding: 6px 30px; border-radius: 0;}
+                .side-2ur1Qk .item-3XjbnG:hover { background: var(--background-secondary-alt);}
                 
                 // Discord social stuff
-                .socialLinks-3jqNFy {
+                .socialLinks-2DELRE {
                     justify-content: center;
                     display: flex;
                     flex-direction: row;
@@ -45,19 +45,19 @@
                 }
 
                 // Client informations
-                .info-1VyQPT { text-align: center;}
+                .info-1sUqUG { text-align: center;}
             }
-            .sidebar-CFHs9e, .flexChild-faoVW3 { padding-left: 0 !important; padding-right: 0 !important;}
+            .sidebar-nqHbhN, .flexChild-3PzYmX { padding-left: 0 !important; padding-right: 0 !important;}
             
             &::-webkit-scrollbar { display: none;}
         }
     }
 
     // Panel
-    .contentColumn-2hrIYH, .customColumn-Rb6toI { max-width: 95%;}
+    .contentColumn-1C7as6, .customColumn-2n-oKU { max-width: 95%;}
 
     // Close button
-    .closeButton-1tv5uR {
+    .closeButton-PCZcma {
 
         &:active { transform: none;}
         
@@ -72,51 +72,51 @@
 }
 
 // Save bar
-.noticeRegion-1YviSH {
+.noticeRegion-qjyUVg {
     max-width: unset;
 
-    .container-2VW0UT { background-color: var(--background-secondary) !important;}
+    .container-20TyK0 { background-color: var(--background-secondary) !important;}
 }
 
 // -- User settings --
 
 // My account
 @media (max-width: 1300px) {
-    .accountProfileCard-1XCH88 { 
+    .accountProfileCard-lbN7n- { 
         flex-direction: column;
 
         // Banner
-        .banner-2QYc2d {
+        .banner-1YaD3N {
             border-radius: 8px 8px 0 0 !important;
             height: 150px !important; flex: unset !important;
         }
 
         // User info
-        .userInfo-iCloHO { 
+        .userInfo-regn9W { 
             height: 150px !important; 
             margin-left: 0 !important;
             justify-content: space-evenly !important;
 
             // Badges
-            .container-q03LZO { justify-content: center;}
+            .container-1gYwHN { justify-content: center;}
         }
 
-        .background-1QDuV2 { flex: unset !important;}
+        .background-3d_SjE { flex: unset !important;}
     }
 }
 
-.accountProfileCard-1XCH88 {
+.accountProfileCard-lbN7n- {
     display: flex;
     background-color: var(--background-secondary);
 
     // Banner
-    .banner-2QYc2d {
+    .banner-1YaD3N {
         border-radius: 8px 0 0 8px;
         height: unset; flex: 1;
     }
 
     // User info
-    .userInfo-iCloHO {
+    .userInfo-regn9W {
         position: absolute; display: grid;
         grid-template-areas: "avatar username" 
                              "avatar button";
@@ -126,14 +126,14 @@
         margin-left: 40px;
 
         // Avatar
-        .avatar-1uQSZT {
+        .avatar-3mTjvZ {
             grid-area: avatar;
             position: static;
             width: 120px !important; height: 120px !important;
             border: none; background: none;
             align-self: center;
 
-            .mask-1l8v16 { width: 120px; height: 120px;}
+            .mask-1FEkla { width: 120px; height: 120px;}
         }
 
         // Username
@@ -146,15 +146,15 @@
         button:last-child { grid-area: button;}
     }
     
-    .background-1QDuV2 { margin: 0; flex: 1;}
+    .background-3d_SjE { margin: 0; flex: 1;}
 }
 
 // User profile
-.profileCustomizationSection-1-Issy .baseLayout-NX_bpH { 
+.profileCustomizationSection-2OOT4p .baseLayout-8AMrwn { 
     & > :first-child { flex: 2 auto;}
 
     // Banner
-    .banner-3vVQWW {
+    .banner-3D8GgT {
         position: absolute;
         height: 180px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
@@ -162,28 +162,28 @@
     }
     
     // Avatar
-    .avatarUploader-3XDtmn {
+    .avatarUploader-AF-hm- {
         top: 15px; left: 50%; margin-left: -40px;
 
-        .avatarUploaderInner-mAGe3e { 
+        .avatarUploaderInner-p38nm2 { 
             border: none;
             border-radius: var(--avatar-radius);
     
-            .avatarUploaderIcon-3UIzEQ { display: none;}
+            .avatarUploaderIcon-3-5PWB { display: none;}
         }
     }
 
     // User infos
-    .headerTop-3vNv-a {
+    .headerTop-3GPUSF {
         display: flex; flex-direction: column-reverse;
         text-align: center; padding-top: 110px;
         padding-bottom: 20px; 
 
-        .headerTagWithNickname-3l_x6x, .setIdentityLink-1t8Ahd { display: none;}
-        .headerTagDiscriminatorNoNickname-D-AYUN { color: #dadada;}
+        .headerTagWithNickname-1U8zZH, .setIdentityLink-hOFsMl { display: none;}
+        .headerTagDiscriminatorNoNickname-dfcvHa { color: #dadada;}
 
         // Badges
-        .profileBadges-ohc0Vu {
+        .profileBadges-2pItdR {
             position: static;
             justify-content: center;
             max-width: unset;
@@ -192,17 +192,17 @@
             &:empty { margin-bottom: 20px;}
         }
 
-        .headerText-1vVs-U { margin-bottom: 8px;}
+        .headerText-1-WmDq { margin-bottom: 8px;}
     }
 
     // Status + About Me
-    .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia { padding-top: 12px;}
+    .customStatus-3XAoF9, .aboutMeSection-PUghFQ { padding-top: 12px;}
 
-    .divider-ewBQKj { display: none;}
+    .divider-1wtgZ3 { display: none;}
 }
 
 // Privacy & Safety
-.item-26Dhrx {
+.item-2idW98 {
     background: var(--background-secondary);
     transition: transform 200ms;
 
@@ -210,16 +210,16 @@
 }
 
 // Connections
-.accountList-33MS45 { 
+.accountList-305sx3 { 
     background: var(--background-secondary);
 
-    .accountBtn-2Nozo3 .accountBtnInner-sj5jLs { background-color: transparent;}
+    .accountBtn-1YkMgV .accountBtnInner-3XK70s { background-color: transparent;}
 }
 
-.connectionHeader-2MDqhu { 
+.connectionHeader-2rV1ze { 
     background: transparent;
 
-    .connectionDelete-2Odoln {
+    .connectionDelete-XXTMqE {
         border-color: transparent;
         border-radius: 50%; padding: 8px 8px 5px 8px;
         transition: background 100ms;
@@ -229,35 +229,35 @@
 }
 
 // Nitro
-.premiumLabel-fDtYys {
+.premiumLabel-V52REm {
     flex-direction: row-reverse;
     justify-content: flex-end;
 
     svg { margin-right: 8px;}
 }
 
-.hero-EvfTTA { max-width: unset;
+.hero-1aNo0v { max-width: unset;
 
-    & + .featuresHeader-4YwLcc { text-align: center;}
+    & + .featuresHeader-2bjq5B { text-align: center;}
 }
-.feature-2w65J5 { background: var(--background-secondary);}
+.feature-2IUcBI { background: var(--background-secondary);}
 
 // Boost
-.cardWrapper-2Min21 {
+.cardWrapper-CyvwQv {
     transform: translateZ(0);
     overflow: hidden;
     background: #0008;
     --header-primary: #fff;
 
-    .tierLabel-39IsmN { color: #fff; font-weight: 500;}
-    .gemIndicatorContainer-2jdECl {
+    .tierLabel-3MVAnX { color: #fff; font-weight: 500;}
+    .gemIndicatorContainer-PqApbX {
         background: transparent;
         backdrop-filter: blur(5px);
 
-        .gemWithoutLabel-7-ZvB_ {  color: #999;}
+        .gemWithoutLabel-1od40y {  color: #999;}
     }
 
-    .icon-3o6xvg::before {
+    .icon-1zKOXL::before {
         content: "";
         position: fixed;
         top: 0; left: 0;
@@ -272,22 +272,22 @@
 }
 
 // Billing
-.paymentPane-3bwJ6A, .codeRedemptionRedirect-1wVR4b {
+.paymentPane-ut5qKZ, .codeRedemptionRedirect-3SBiCp {
     background: var(--background-secondary);
     border: none;
 
-    .paginator-166-09, .bottomDivider-1K9Gao { background: transparent;}
-    .paymentRow-2e7VM6 { 
+    .paginator-1eqD2g, .bottomDivider-ZmTm-j { background: transparent;}
+    .paymentRow-1HKOLu { 
         border: none;
 
-        .expandedInfo-3kfShd { background: var(--background-primary);}
+        .expandedInfo-1W31i3 { background: var(--background-primary);}
     }
 }
 
 // Voice settings
-.userSettingsVoice-iwdUCU {
+.userSettingsVoice-1_dzjw {
 
-    .previewOverlay-2O7_KC {
+    .previewOverlay-2reuWf {
         background: var(--background-secondary);
         border: none;
         border-radius: 7px;
@@ -296,41 +296,41 @@
 }
 
 // Activity status
-.addGamePopout-2RY8Ju { 
+.addGamePopout-3yePJc { 
     background: var(--background-secondary);
     box-shadow: none;
 
-    .divider-3573oO { display: none;}
+    .divider-3LgWDL { display: none;}
 }
 
 // Game overlay
-.notificationSettings-1NQKPR { 
+.notificationSettings-1U0JsJ { 
     max-width: unset;
 
-    .wrapper-3jrx9n {
+    .wrapper-SdcMKg {
         border: none;
         background: var(--background-secondary);
         border-radius: 20px;
 
-        .option-n0icdO {
+        .option-1QI4c9 {
             margin: 10px;
             border-radius: 16px;
             background: var(--epicshadow1);
 
             &:hover { background: var(--main-color); opacity: .4;}
-            &.selected-mKYnfr { background: var(--main-color); box-shadow: unset;}
+            &.selected-18Wszc { background: var(--main-color); box-shadow: unset;}
         }
     }
 }
 
 // Hypesquad
-.membershipDialog-rVL-t_ { 
+.membershipDialog-2wAdpQ { 
     border-radius: 10px;
     background: var(--background-secondary);
 
     &:after { left:5px;}
 }
-.videoWrapper-3YdgHH { 
+.videoWrapper-1_H3B3 { 
     background: transparent;
 
     iframe {
@@ -349,8 +349,8 @@
 .avatarUploaderIndicator-2G-aIZ { display: none;}
 
 // Roles
-.customScroller-26gWhv>div, .contentWidth-xLB44s { max-width: unset;}
-.colorPickerCustom-2CWBn2 { 
+.customScroller-m1-jZn>div, .contentWidth-xLB44s { max-width: unset;}
+.colorPickerCustom-1swUKF { 
     background: var(--background-secondary); 
     border: none; border-radius: 8px;
 }
@@ -359,37 +359,37 @@
 .emojiAliasInput-1y-NBz .emojiInput-1aLNse { background: var(--background-primary);}
 
 // Audit log
-.auditLog-2ph_aK { 
+.auditLog-1NVAY0 { 
     border: none;
     border-radius: 8px;
     overflow: hidden;
 
-    .header-1oWRg0, .changeDetails-2dV5gP { background: var(--background-secondary);}
-    .divider-1tf9AP { display: none;}
+    .header-2pgFQm, .changeDetails-1kMZqI { background: var(--background-secondary);}
+    .divider-M3saWq { display: none;}
 }
 
 // Widget
-.copyInput-2rOSt7 { 
+.copyInput-3AbKWB { 
     border: none;
     border-radius: 8px;
 }
 
 // Discovery
-.modal-1O3czN, .container-19nk2r { .footer-2gL1pp { border-bottom-left-radius: 0 !important;}}
+.modal-1gWd9S, .container-2E0bff { .footer-31IekZ { border-bottom-left-radius: 0 !important;}}
 
 // Membership Screening
-.editCircle-y9c7xP, .editCircle-ityklj { background: var(--background-primary);}
-.formFieldWrapper-malor5 { border: none;}
+.editCircle-2uL_D3, .editCircle-ityklj { background: var(--background-primary);}
+.formFieldWrapper-2LV3S6 { border: none;}
 
 // Discovery
 .sparkles-2XXTZO { z-index: unset;}
 
 // Server Boost Status
-.background-3xPPFc { color: var(--background-secondary);}
-.tierInProgress-3mBoXq, .tierBody-3aUxuc, .tierHeaderLocked-3S508x, .tierHeaderUnlocked-3lTDnP { background: var(--background-secondary);}
+.background-3xJH_4 { color: var(--background-secondary);}
+.tierInProgress-1vFUnw, .tierBody-1d3UiS, .tierHeaderLocked-30MLlO, .tierHeaderUnlocked-1OpOLf { background: var(--background-secondary);}
 
 // Members
-.overflowRolesPopout-140n9i, .overflowRolesPopoutArrow-2O66oH { 
+.overflowRolesPopout-1Puiuq, .overflowRolesPopoutArrow-2R7g3K { 
     background: var(--background-secondary);
     box-shadow: none;
 }

@@ -37,7 +37,7 @@
       border:none;
     }
   
-    .progress-2XXRYo {
+    .progress-24WBU3 {
       width: calc(100% - 6px);
       position: absolute;
       right: 0;
@@ -46,7 +46,7 @@
       background: transparent !important;
       border-radius: 0;
   
-      .progressBar-3u8FBM {
+      .progressBar-1T6LYX {
           opacity: .2;
           height: 100%;
       }
@@ -65,7 +65,7 @@
 .lastMessageDate-ocEw13 { top: -30px; margin-top: 0;}
 
 // User Details - Powercord
-.root-3QyAh1 .header-4zuFdR .user-details-text {
+.root-8LYsGj .header-S26rhB .user-details-text {
   position: fixed;
     top: -70px;  
     left: 0; right: unset;
@@ -73,16 +73,16 @@
 }
 
 // CustomStatusPresets
-.scale-3iLZhb.didRender-33z1u8 { transform: scale(1) !important;}
+.scale-3UGUBw.didRender-2SiRlm { transform: scale(1) !important;}
 
-#status-picker.menu-3sdvDG #status-picker-custom-status {
-    .labelContainer-1BLJti { padding: 0 16px;}
+#status-picker.menu-1QACrS #status-picker-custom-status {
+    .labelContainer-2vJzYL { padding: 0 16px;}
 
-    & + .layer-v9HyYc { 
+    & + .layer-2aCOJ3 { 
         top: 432px !important;
         left: 359px !important;
 
-        .submenu-2-ysNh { 
+        .submenu-1apzyU { 
             background: var(--background-tertiary);
             border-radius: 0 8px 8px 0;
         }
@@ -90,7 +90,7 @@
 }
 
 // Game Activity Toggle - Powercord
-.panels-j1Uci_ > .container-3baos1 .button-14-BFJ[aria-label="Hide Game Activity"]
+.panels-3wFtMD > .container-YkUktl .button-12Fmur[aria-label="Hide Game Activity"]
   {
     &::before {
     position: fixed; content: "Switch Game Activity to status picker";
@@ -104,7 +104,7 @@
 }
 
 // Game Activity Toggle - BetterDiscord - Thanks DevilBro
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 > button:not([role="switch"]):first-child {
+.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > button:not([role="switch"]):first-child {
   color: var(--main-color);
 
   & + button:nth-child(2) { margin-left: 32px;}
@@ -114,20 +114,20 @@
 #MemberCount {
   top: 48px;
 
-  .membersGroup-v9BXpm { margin-top: 0; padding: 18px 8px 0 16px;}
+  .membersGroup-2eiWxl { margin-top: 0; padding: 18px 8px 0 16px;}
 
-  & + .members-1998pB { margin-top: 0; padding-top: 70px;}
+  & + .members-3WRCEx { margin-top: 0; padding-top: 70px;}
 }
 
 // Status weird behavior with BetterDiscord
-.mask-1l8v16 > svg > mask > :not(:first-child) { display: none;}
+.mask-1FEkla > svg > mask > :not(:first-child) { display: none;}
 
 // BDFDB notifications
-.notice-3bPHh-[id] { 
+.notice-2HEN-u[id] { 
   margin: -30px 240px 0px 90px; 
   border-radius: 8px 8px 0 0 !important;
 
-  & ~ .layers-3iHuyZ .sidebar-2K8pFh { border-radius: 0;}
+  & ~ .layers-OrUESM .sidebar-1tnWFu { border-radius: 0;}
 }
 
 }

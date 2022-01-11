@@ -1,14 +1,14 @@
 :root {
 
 // Left bar
-.searchBar-6Kv8R2 {
+.searchBar-3TnChZ {
     position: absolute;
     top: 0;left: 0;
     width: calc(100% - 20px);
     background: linear-gradient(180deg, var(--background-secondary), transparent);
     box-shadow: none;
 
-    .searchBarComponent-32dTOx {
+    .searchBarComponent-3N7dCG {
         background: var(--background-primary);
         border-radius: 20px;
         font-size: 10px;
@@ -16,19 +16,19 @@
     }
 }
 
-.input-2VB9rf { background: var(--background-primary);}
+.input-3r5zZY { background: var(--background-primary);}
 
-.privateChannels-1nO12o > .scroller-1JbKMe { 
+.privateChannels-oVe7HL > .scroller-WSmht3 { 
     padding-top: 48px; background: transparent;
 
     &::-webkit-scrollbar { display: none;}
 }
 
 // Channels
-.channel-2QD9_O { 
+.channel-1Shao0 { 
     margin: 0;
 
-    .layout-2DM8Md {
+    .layout-1qmrhw {
         padding: 0 22px;
         width: calc(100% - 22px);
         border-radius: 0;
@@ -37,51 +37,51 @@
 
 
 // Wide friend list
-.container-1D34oG {
+.container-2cd8Mz {
     background: var(--background-primary);
 
     // Buttons
-    .actionButton-uPB8Fs { 
+    .actionButton-3-B2x- { 
         background: transparent;
 
         &:hover { background: var(--background-primary);}
     }
 
     // Scrollbar
-    .peopleColumn-29fq28 ::-webkit-scrollbar { display: none;}      
+    .peopleColumn-1wMU14 ::-webkit-scrollbar { display: none;}      
 
     // Get rid of box-shadow
-    .tabBody-3YRQ8W::before, .libraryHeader-3g95kE::before { content: none;}
-    .header-8ilj5e, .header-2k4I2o, .header-1TOWci { display: none;}
+    .tabBody-2dgbAs::before, .libraryHeader-2loraV::before { content: none;}
+    .header-11eigE, .header-uVCAlo, .header-JHwfVI { display: none;}
 
     // Now playing
-    .nowPlayingColumn-2sl4cE {
+    .nowPlayingColumn-1eCBCN {
         background: transparent;
         margin: 3px 0 10px 0;
 
-        .container-lRFx4q {
+        .container-1oAagU {
             background: var(--background-secondary);
             border-radius: 15px 0 0 15px;
 
-            .scroller-2ZPeAD {
+            .scroller-hE2gWq {
                 border: none;
                 padding: 16px 0 !important; 
                 margin: 0;
 
-                .header-2SF4Nh { text-align: center;}
+                .header-Imy05m { text-align: center;}
 
-                .emptyCard-1RJw8n { margin: 16px;}
-                .outer-1AjyKL { background: transparent;}
+                .emptyCard-KDifrB { margin: 16px;}
+                .outer-2JOHae { background: transparent;}
 
-                .wrapper-3D2qGf {
+                .wrapper-2RrXDg {
                     background: var(--background-secondary);
                     margin: 16px; border-radius: 10px;
                     border: none;
 
-                    .body-1ld4H7 {
+                    .body-16rSsp {
                         
                         & > :nth-last-child(3) { border-radius: 8px 8px 0 0;}
-                        .separator-XqIyoz { display: none;}
+                        .separator-2OaeRP { display: none;}
                         & > :nth-child(3) { border-radius: 0 0 8px 8px;}
                     }
                 }
@@ -114,39 +114,39 @@
 .nowPlayingSidebar-2OFn0o, .headerContainer-1Wluzl, .container-1WCE6w { display: none;}
 
 // Aka badge
-.akaBadge-1M-1Gw {
+.akaBadge-3i7V3p {
     background: var(--main-color);
     color: #fff;
 }
 
 // Call
-.wrapper-2qzCYF {
+.wrapper-1gVUIN {
     background: var(--background-secondary);
     margin: 15px;
     border-radius: 10px;
     animation: callzoom 2s ease;
 
-    .tile-2naSqK { 
+    .tile-2TcwiO { 
         background: var(--background-primary); 
 
-        .button-3HqqDX, .buttonColor-2Nx30V { background-color: var(--main-color);}
+        .button-3Vyz67, .buttonColor-28DXIe { background-color: var(--main-color);}
     }
 
     // Video background
-    .videoWrapper-2v09vt { background: var(--background-primary);}
+    .videoWrapper-3rtb_V { background: var(--background-primary);}
 
     // Speaking ring
-    .border-Jn5IOt.speaking-B2MXPi { box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 6px var(--background-secondary);}
+    .border-2BJQjd.speaking-3RWJBr { box-shadow: inset 0 0 0 2.5px #43b581, inset 0 0 0 6px var(--background-secondary);}
     
     // Call buttons
-    .colorable-1bkp8v.primaryDark-3mSFDl, .leftTrayIcon-vpfJk5 { background: var(--background-primary);}
+    .colorable-3rVGna.primaryDark-2UJt1G, .leftTrayIcon-3kMl25 { background: var(--background-primary);}
 }
 
 // Call region selector
-.quickSelectPopout-X1hvgV { background: var(--background-primary);}
+.quickSelectPopout-2F0PXw { background: var(--background-primary);}
 
 // Nitro
-.applicationStore-1pNvnv .container-1r6BKw {
+.applicationStore-2nk7Lo .container-ZMc96U {
     width: calc(100% - 240px);
     position: absolute;
     top: 0;

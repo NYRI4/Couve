@@ -1,10 +1,10 @@
 :root {
 
-.header-2V-4Sw { box-shadow: none; padding: 25px;}
+.header-3OsQeK { box-shadow: none; padding: 25px;}
 & > div:nth-last-child(5) { margin-top: 120px;} 
 
 // Channel notice
-.channelNotice-1-XFjC, .channelNotice-3DDmsB { 
+.channelNotice-tO6Tus, .channelNotice-3DDmsB { 
     box-shadow: none; width: 170px;
     background: transparent;
     margin: 15px; padding: 20px;
@@ -26,7 +26,7 @@
         transition: opacity 200ms;
     }
 
-    .message-3SOT5P {
+    .message-3KLVy1 {
         opacity: 0; pointer-events: none;
         transition: opacity 400ms;
         position: absolute;
@@ -34,7 +34,7 @@
         transform: translateY(-50%) translateX(-50%);
         width: 100%; margin-bottom: auto;
 
-        .btn-11C5_u, .btn-11C5_u:hover {
+        .btn-38SvSS, .btn-38SvSS:hover {
             background: var(--background-secondary-alt-alt);
             margin: 0 auto;
             margin-top: 20px;
@@ -63,32 +63,32 @@
     &:hover { 
         height: 160px;
 
-        .message-3SOT5P, .message-39hdqk { pointer-events: all; opacity: 1;}
+        .message-3KLVy1, .message-39hdqk { pointer-events: all; opacity: 1;}
         &::before { opacity: 0;}
         .button-38aScr {  opacity: 1; pointer-events: all;}
     }
 }
 
 // Channel header
-.clickable-25tGDB .header-2V-4Sw:hover, .selected-31Nl7x .header-2V-4Sw { background: transparent;}
+.clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK { background: transparent;}
 
-.wrapper-PY0fhH { padding: 0 22px;}
+.wrapper-1S43wv { padding: 0 22px;}
 
 // Categories
-.container-2ax-kl {
+.container-36u7Lw {
     color: var(--textcolor);
     text-transform: unset;
     font-size: 14px;
 }
 
 // No arrows
-.icon-2yIBmh {  display: none;}
+.icon-3zI3d2 {  display: none;}
 
 // Channels
-.wrapper-2jXpOf {
+.wrapper-NhbLHG {
     height: 30px;
 
-    .content-1x5b-n { 
+    .content-1gYQeQ { 
         height: 30px;
         padding: 0 20px;
         margin: 0; border-radius: 0;
@@ -96,14 +96,14 @@
 }
 
 // Thread channels
-.typeThread-3ESTm- .name-23GUGE { padding-left: 28px;}
-.spine--Wla_O { left: 26px;}
+.typeThread-2Aqh6X .name-28HaxV { padding-left: 28px;}
+.spine-29OFwR { left: 26px;}
 
-.unread-1xRYoj { 
+.unread-2wipsx { 
     border-radius: 4px;
     background: var(--main-color);
 
-    .text-2e2ZyG { 
+    .text-2GsXbW { 
         text-indent: -1000px;
 
         &::after { 
@@ -122,9 +122,9 @@
 }
 
 // No scrollbars
-.scroller-RmtA4e, .scroller-1Bvpku, #channels { &::-webkit-scrollbar { display: none;}}
+.scroller-1ox3I2, .scroller-3X7KbA, #channels { &::-webkit-scrollbar { display: none;}}
 
 // Channel settings
-.sidebarScrollable-1qPI87+.content-1rPSz4 { max-width: unset;}
+.sidebarScrollable-2mW9Ls+.content-2ssVKB { max-width: unset;}
 
 }
