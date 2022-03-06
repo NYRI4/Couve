@@ -1476,16 +1476,16 @@
   -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
 }
-:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-AF-hm- {
+:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-qEFQS2 {
   top: 15px;
   left: 50%;
   margin-left: -40px;
 }
-:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-AF-hm- .avatarUploaderInner-p38nm2 {
+:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-qEFQS2 .avatarUploaderInner-p38nm2 {
   border: none;
   border-radius: var(--avatar-radius);
 }
-:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-AF-hm- .avatarUploaderInner-p38nm2 .avatarUploaderIcon-3-5PWB {
+:root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .avatarUploader-qEFQS2 .avatarUploaderInner-p38nm2 .imageUploaderIcon-2OHmFu {
   display: none;
 }
 :root .profileCustomizationSection-2OOT4p .baseLayout-8AMrwn .headerTop-3GPUSF {
