@@ -1,2 +1,3 @@
 prepros.config
 .vscode
+.prettierignore

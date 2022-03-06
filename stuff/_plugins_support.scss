@@ -130,4 +130,25 @@
   & ~ .layers-OrUESM .sidebar-1tnWFu { border-radius: 0;}
 }
 
+// ChannelDms
+.ChannelDms-channelmembers-wrap {
+  width: 240px;
+
+  .ChannelDms-channelmembers-header {
+    margin-top: -48px; padding-top: 48px;
+    max-height: calc(100% + 48px);
+    background: var(--background-secondary);
+    border-bottom-width: 0px;
+  
+    & + div .membersWrap-3NUR2t {
+      margin-top: 0;
+      max-height: unset;
+  
+      .members-3WRCEx {
+        padding-top: 0;
+      }
+    }
+  }
+}
+
 }
