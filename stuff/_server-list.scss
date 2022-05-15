@@ -3,6 +3,9 @@
 .guilds-2JjMmN {
     width: 90px; margin-top: -35px;
 
+    // When full-screen video
+    &.hidden-10MsGQ { width: 0 !important;}
+
     &::before {
         content: "";
         position: absolute;
