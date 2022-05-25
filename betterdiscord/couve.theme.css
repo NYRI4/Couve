@@ -32,6 +32,7 @@
     --background-floating: var(--background-secondary);
     --background-mobile-primary: var(--background-primary);
     --activity-card-background: var(--background-secondary);
+    --input-background: var(--background-secondary);
 
     --colortransparency: #0003;
 
