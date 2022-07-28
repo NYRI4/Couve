@@ -338,6 +338,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
     .shinyButton-2Q9MDB { width: 100%; height: 100%; border-radius: 0;}
   }
+
+  // Remove background for image carrousel
+  &.carouselModal-1eUFoq { background: none;}
 }
 
 .popout-1KHNAq {

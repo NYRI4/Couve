@@ -2271,6 +2271,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   height: 100%;
   border-radius: 0;
 }
+:root .root-g14mjS.carouselModal-1eUFoq, :root .modal-2RrUKJ.carouselModal-1eUFoq {
+  background: none;
+}
 :root .popout-1KHNAq {
   border: none;
 }
