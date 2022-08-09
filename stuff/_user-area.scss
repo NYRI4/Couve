@@ -21,15 +21,20 @@
     }
 
     & > .container-YkUktl {
-        padding: 10px 15px;
+        padding: 10px 8px;
 
         // Avatar
-        .avatarWrapper-1B9FTW[aria-expanded="false"] {
-            position: fixed;
-            left: 29px; bottom: 29px;
-            z-index: 1;
+        .avatarWrapper-1B9FTW[aria-expanded] {
 
-            & + .nameTag-sc-gpq .subtext-2HDqJ7 { max-width: 76px;}
+            .wrapper-1VLyxH {
+                position: fixed;
+                left: 29px; bottom: 23px;
+                z-index: 1;
+            }
+            
+
+            &:hover { background-color: transparent;}
+            .nameTag-sc-gpq { }
         }
 
         // Username

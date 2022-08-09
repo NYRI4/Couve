@@ -1,3 +1,11 @@
+/**
+ * @name Couve
+ * @author A user#8169, Nyria#3863
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version 2.1
+*/
+
 @forward 'stuff/chat';
 @forward 'stuff/server-list';
 @forward 'stuff/channel-list';
@@ -8,6 +16,69 @@
 @forward 'stuff/friends';
 @forward 'stuff/other';
 @forward 'stuff/plugins_support';
+
+/* Settings */
+:root {
+    
+    /* Colors */
+    --main-color: #419e85;
+
+    /* Borders */
+    --avatar-radius: 8px;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+
+    /* BGs */
+    --background-primary: #252a3e;
+    --background-secondary: #1e2337;
+    --background-secondary-alt: #1c2438;
+    --background-secondary-alt-alt: #1b1d31;
+    --background-tertiary: #060c24;
+
+    --deprecated-store-bg: var(--background-primary);
+    --background-floating: var(--background-secondary);
+    --background-mobile-primary: var(--background-primary);
+    --activity-card-background: var(--background-secondary);
+    --input-background: var(--background-secondary);
+
+    --colortransparency: #0003;
+
+    /* Cards */
+    --card: #212332;
+
+    /* Other stuff */
+    --textcolor: #fff;
+    --epicshadow1: #fff3;
+
+    /* Font */
+    --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+
+    /* BGs */
+    --background-primary: #fafafa;
+    --background-secondary: #f7f7f7;
+    --background-secondary-alt: #fff;
+    --background-secondary-alt-alt: #eee;
+    --background-tertiary: #fff;
+
+    --deprecated-store-bg: var(--background-primary);
+    --background-floating: var(--background-secondary);
+    --background-mobile-primary: var(--background-primary);
+    --activity-card-background: var(--background-secondary);
+    
+    --colortransparency: #0001;
+
+    /* Cards */
+    --card: #aaaaaa;
+
+    /* Other stuff */
+    --textcolor: #000;
+    --epicshadow1: #0003;
+}
 
 // USRBG
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');

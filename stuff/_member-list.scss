@@ -200,7 +200,7 @@
         .customStatusActivity-WKWGD- {
             position: fixed;
             bottom: 0; right: 0;
-            width: 460px; padding: 10px;
+            width: 440px; padding: 10px 20px;
             border-bottom-right-radius: 10px;
             backdrop-filter: blur(8px);
 
@@ -249,16 +249,18 @@
         border-radius: 0 10px 10px 0;
 
         // Connected account
-        .connectedAccounts-1YaT2t {
-
-            .connectedAccount-1xKpli { 
+        .connectedAccounts-fvr7-7 {
+            padding-bottom: 50px;
+            
+            .connectedAccountContainer-SlCC-S {
+                width: 185px;
                 border: none; border-radius: 8px;
                 background-color: var(--background-secondary);
             }
         }
         
         // Powercord connected account
-        .pc-connections .connectedAccounts-1YaT2t:empty::before { background-color: transparent;}
+        .pc-connections .connectedAccounts-fvr7-7:empty::before { background-color: transparent;}
 
         // Mutuals
         .listScroller-entkMk {
