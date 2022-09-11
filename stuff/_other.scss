@@ -230,8 +230,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   margin-right: 4px; margin-left: 0;
 }
 
-.role-2TIOKu .roleCircle-1EgnFN::before, .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleDot-2a4Pv7::before, 
-.container-2O1UgZ .item-1BCeuB .popoutRoleDot-2_Nt5g::before, .roleRow-3HnunM .roleDot-2gCDg5::before {
+.role-2TIOKu .roleCircle-3K9O3d::before, .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::before, 
+.container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, .roleRow-3HnunM .roleCircle-3K9O3d::before {
     content: "";
     position: absolute;
     top: 0; left: 0;
@@ -239,6 +239,14 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     background: inherit;
     opacity: .2; z-index: -1;
     pointer-events: none;
+}
+
+.roleRemoveButton-17oXnT { 
+  position: unset;
+
+  .roleRemoveIcon-387wKV {
+    left:15px;
+  }
 }
 
 // Role popout

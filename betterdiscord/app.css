@@ -1622,12 +1622,19 @@
 :root .userSettingsVoice-1_dzjw .media-engine-video {
   border-radius: 10px;
 }
-:root .addGamePopout-3yePJc {
+:root .addGamePopout-2SKNIV {
   background: var(--background-secondary);
   box-shadow: none;
 }
-:root .addGamePopout-3yePJc .divider-3LgWDL {
+:root .addGamePopout-2SKNIV .divider-3LgWDL {
   display: none;
+}
+:root .gameNameInput-2wbDJ9 {
+  padding: 8px;
+}
+:root .gameNameInput-2wbDJ9:focus, :root .gameNameInput-2wbDJ9:hover {
+  background-color: var(--background-primary);
+  border: none;
 }
 :root .notificationSettings-1U0JsJ {
   max-width: unset;
@@ -2162,8 +2169,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   margin-right: 4px;
   margin-left: 0;
 }
-:root .role-2TIOKu .roleCircle-1EgnFN::before, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleDot-2a4Pv7::before,
-:root .container-2O1UgZ .item-1BCeuB .popoutRoleDot-2_Nt5g::before, :root .roleRow-3HnunM .roleDot-2gCDg5::before {
+:root .role-2TIOKu .roleCircle-3K9O3d::before, :root .sidebar-3K3Z4C .list-1AJFv_ .item-3XjbnG .roleCircle-3K9O3d::before,
+:root .container-2O1UgZ .item-1BCeuB .roleCircle-3K9O3d::before, :root .roleRow-3HnunM .roleCircle-3K9O3d::before {
   content: "";
   position: absolute;
   top: 0;
@@ -2174,6 +2181,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   opacity: 0.2;
   z-index: -1;
   pointer-events: none;
+}
+:root .roleRemoveButton-17oXnT {
+  position: unset;
+}
+:root .roleRemoveButton-17oXnT .roleRemoveIcon-387wKV {
+  left: 15px;
 }
 :root .container-2O1UgZ {
   border: none;

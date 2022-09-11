@@ -296,11 +296,19 @@
 }
 
 // Activity status
-.addGamePopout-3yePJc { 
+.addGamePopout-2SKNIV { 
     background: var(--background-secondary);
     box-shadow: none;
 
     .divider-3LgWDL { display: none;}
+}
+.gameNameInput-2wbDJ9 {
+    padding: 8px;
+
+    &:focus, &:hover {
+        background-color: var(--background-primary);
+        border: none;
+    }
 }
 
 // Game overlay
