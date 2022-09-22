@@ -495,23 +495,37 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
           foreignObject { mask: none;}
         }
 
-        .popoutBanner-3cqRD9 { 
-          width: 100%; height: 80px;
-          -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-          clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+        // Banner
+        .bannerSVGWrapper-qc0szY {
+          overflow: visible;
 
-          .pencilContainer-18TrEJ { display: none;}
-        }
+          .popoutBanner-3cqRD9 { 
+            width: 100%; height: 80px;
+            -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+  
+            .pencilContainer-18TrEJ { display: none;}
+          }
+
+          // Premium banners
+          &[viewBox="0 0 300 60"] {
+              min-height: 120px !important;
+
+              & > foreignObject { transform: translateY(-30px);}
+          }
+
+          & > foreignObject { mask: none;}
+      }
       }
 
       #account-info {
         padding-bottom: 16px;
 
         .headerTop-3GPUSF {
-          padding-top: 84px;
+          padding-top: 0;
 
           .profileBadges-2pItdR { 
-            top: 30px; max-width: unset;
+            top: 0; max-width: unset;
             left: 0; right: 0;
             justify-content: center;
 
@@ -524,6 +538,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
         .profileBody-3QbfPe, .headerTop-3GPUSF { padding-left: 4px; padding-right: 4px;}
         .bodyInnerWrapper-2bQs1k { border-radius: 8px;}
         .activity-1gTu-L { padding: 12px;}
+        .platformIcon-k3yytQ { display: none;}
       }
 
       // Inner container (menu items, dividers, etc)

@@ -31,21 +31,33 @@
     border-radius: 8px;
 
         // Banner
-        .banner-1YaD3N {
-            position: absolute;
-            width: 300px; height: 180px;
-            border-radius: 8px 8px 0 0;
-            -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+        .bannerSVGWrapper-qc0szY {
+            overflow: visible;
 
-            &.bannerPremium-kkSkPv { background-color: transparent !important;}
+            .banner-1YaD3N {
+                position: absolute;
+                width: 300px; height: 180px;
+                border-radius: 8px 8px 0 0;
+                -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+                clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+
+                &.bannerPremium-kkSkPv { background-color: transparent !important;}
+            }
+
+            // Premium banners
+            &[viewBox="0 0 300 60"] {
+                min-height: 120px !important;
+
+                & > foreignObject { transform: translateY(-30px);}
+            }
+
+            & > foreignObject { mask: none;}
         }
 
     // User infos
     .headerTop-3GPUSF {
         display: flex; flex-direction: column-reverse;
-        text-align: center; padding-top: 110px;
-        padding-bottom: 20px; 
+        text-align: center; padding-top: 0; margin-top: -8px;
 
         .headerTagWithNickname-1U8zZH, .setIdentityLink-hOFsMl { display: none;}
         .headerTagDiscriminatorNoNickname-dfcvHa { color: #dadada;}
@@ -82,6 +94,7 @@
         }
         .bodyInnerWrapper-2bQs1k {
             padding-right: 16px;
+            background-color: transparent;
             
             .note-Go5ZP2 { margin: 0;}
         } 
@@ -138,15 +151,28 @@
         background: var(--background-secondary);
         width: 40%; z-index: 1;
         border-radius: 10px 0 0 10px;
+        overflow: hidden;
+        height: 100%;
 
-        // Banner
-        .banner-1YaD3N {
-            position: absolute;
+        header { width: 100%; height: 100%;}
+
+        .bannerSVGWrapper-qc0szY {
+            min-width: unset !important;
+            min-height: 100% !important;
             width: 100%; height: 100%;
-            z-index: -1;
-            opacity: 0.6; border-radius: 10px 0 0 10px;
-            mask-image: linear-gradient(90deg, #000c, #0002); // vscode thing
-            -webkit-mask-image: linear-gradient(90deg, #000c, #0002);
+
+            .banner-1YaD3N {
+                position: absolute;
+                width: 800px; height: 100%;
+                z-index: -1;
+                opacity: 0.6; border-radius: 10px 0 0 10px;
+                mask-image: linear-gradient(90deg, #000c, #00000049); // vscode thing
+                -webkit-mask-image: linear-gradient(90deg, #000000cc, #00000049);
+            }
+
+            & > foreignObject { 
+                mask: none;
+            }
         }
 
         .header-S26rhB {
@@ -154,12 +180,10 @@
 
             // Avatar
             .avatar-3QF_VA {   
-                position: relative;         
                 top: 16px;
                 border: none;
                 background: none;
-                width: 80px !important;
-                height: 80px !important;
+                
             }
 
             .headerTop-1PNKck {
