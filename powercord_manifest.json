@@ -1,7 +1,7 @@
 {
     "name": "Couve",
     "description": "A new look to discord",
-    "version": "2.1",
+    "version": "2.2",
     "author": "A user#8169, Nyria#3863",
     "license": "MIT",
     "theme": "_variables.scss",

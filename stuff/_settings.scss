@@ -85,8 +85,17 @@
     .accountProfileCard-lbN7n- { 
         flex-direction: column;
 
+        .bannerSVGWrapper-qc0szY {
+            min-height: 150px !important;
+
+            mask { display: none;} 
+            foreignObject {
+                y: -25px !important;
+            }
+        } 
+
         // Banner
-        .banner-1YaD3N {
+        .banner-2boKnS {
             border-radius: 8px 8px 0 0 !important;
             height: 150px !important; flex: unset !important;
         }
@@ -109,10 +118,19 @@
     display: flex;
     background-color: var(--background-secondary);
 
+    .bannerSVGWrapper-qc0szY {
+        min-height: 250px;
+
+        mask { display: none;} 
+        foreignObject {
+            y: -75px;
+        }
+    } 
+
     // Banner
-    .banner-1YaD3N {
+    .banner-2boKnS {
         border-radius: 8px 0 0 8px;
-        height: unset; flex: 1;
+        height: 250px; flex: 1;
     }
 
     // User info
@@ -150,49 +168,43 @@
 }
 
 // User profile
-.profileCustomizationSection-53kreU .baseLayout-1_9QRm { 
+.profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN { 
     & > :first-child { flex: 2 auto;}
 
+    .userPopoutInner-1hXSeY:before { width: calc(100% - 8px) !important;}
+
     // Banner
-    .banner-3D8GgT {
+    .banner-1rJmju {
         position: absolute;
+        left: 0;
         height: 180px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
         clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
     }
     
     // Avatar
-    .avatarUploader-qEFQS2 {
+    .avatarUploader-CHGwK7 {
         top: 15px; left: 50%; margin-left: -40px;
 
-        .avatarUploaderInner-p38nm2 { 
+        .avatarUploaderInner-1dBiHs { 
             border: none;
             border-radius: var(--avatar-radius);
-    
-            .imageUploaderIcon-2OHmFu { display: none;}
         }
+
+        .imageUploaderIcon-2OHmFu { display: none;}
+        .status-b9jLr4 { background-color: transparent;}
     }
 
     // User infos
-    .headerTop-3GPUSF {
-        display: flex; flex-direction: column-reverse;
-        text-align: center; padding-top: 110px;
-        padding-bottom: 20px; 
+    .section-3FmfOT .userText-148fun > h1,
+        .section-3FmfOT .userText-148fun > .userTagNoNickname-2MJ9HD {
+            position: absolute;
+            top: 110px; left: 0;
+            width: 340px;
+            box-sizing: border-box;
+            text-align: center;
 
-        .headerTagWithNickname-1U8zZH, .setIdentityLink-hOFsMl { display: none;}
-        .headerTagDiscriminatorNoNickname-dfcvHa { color: #dadada;}
-
-        // Badges
-        .profileBadges-2pItdR {
-            position: static;
-            justify-content: center;
-            max-width: unset;
-
-            & > * { margin: 0 3px;}
-            &:empty { margin-bottom: 20px;}
-        }
-
-        .headerText-1-WmDq { margin-bottom: 8px;}
+        .discrimBase-KriZSj { color: white;}
     }
 
     // Status + About Me
@@ -216,10 +228,10 @@
     .accountBtn-1YkMgV .accountBtnInner-3XK70s { background-color: transparent;}
 }
 
-.connectionHeader-2rV1ze { 
+.connectionHeader-Ixbb1s { 
     background: transparent;
 
-    .connectionDelete-XXTMqE {
+    .connectionDelete-3YgMVq {
         border-color: transparent;
         border-radius: 50%; padding: 8px 8px 5px 8px;
         transition: background 100ms;
@@ -229,7 +241,7 @@
 }
 
 // Nitro
-.premiumLabel-V52REm {
+.premiumLabel-3HPvdB {
     flex-direction: row-reverse;
     justify-content: flex-end;
 
@@ -243,7 +255,7 @@
 .feature-2IUcBI { background: var(--background-secondary);}
 
 // Boost
-.cardWrapper-CyvwQv {
+.cardWrapper-1bSePP {
     transform: translateZ(0);
     overflow: hidden;
     background: #0008;
@@ -257,17 +269,21 @@
         .gemWithoutLabel-1od40y {  color: #999;}
     }
 
-    .icon-1zKOXL::before {
-        content: "";
-        position: fixed;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background-image: inherit;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        z-index: -1; opacity: .5;
-        filter: blur(20px);
+    .icon-1zKOXL {
+        border-radius: 8px;
+
+        &::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-image: inherit;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            z-index: -1; opacity: .5;
+            filter: blur(20px);
+        }
     }
 }
 
@@ -347,14 +363,15 @@
     }
 }
 
-// Powercord settings
-.powercord-product { margin: 10px 0;}
-
-
 // -- Server settings --
 
 // Overview
-.avatarUploaderIndicator-2G-aIZ { display: none;}
+.avatarUploaderInner-1Cp1oP { 
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.imageUploaderIcon-2OHmFu { display: none;}
 
 // Roles
 .customScroller-m1-jZn>div, .contentWidth-3aWel5 { max-width: unset;}
@@ -381,6 +398,9 @@
     border: none;
     border-radius: 8px;
 }
+
+// App directory
+.directoryModal-YJsOMv { background-color: var(--background-primary);}
 
 // Discovery
 .modal-1gWd9S, .container-2E0bff { .footer-31IekZ { border-bottom-left-radius: 0 !important;}}

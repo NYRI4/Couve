@@ -419,7 +419,14 @@
     position: relative;
     overflow: hidden;
 
-    .grid-1aWVsE { margin-left: 34px; margin-right: 12px;}
+    .grid-1aWVsE { 
+        margin-left: 34px; margin-right: 12px;
+
+        .embedSuppressButton-1rZHq6 {
+            top: 12px;
+            right: 12px;
+        }
+    }
 }
 
 .theme-light .embedFull-1HGV2S {
