@@ -2585,11 +2585,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .avatarWrapper-1B9FTW .avatarSpeaking-33RRJU {
   border-radius: var(--avatar-radius);
 }
-:root .streamPreview-3qoMP4 {
+:root .streamPreview-I7itZ6 {
   background: var(--background-secondary);
   width: 330px;
 }
-:root .streamPreview-3qoMP4 .previewContainer-21fFBz {
+:root .streamPreview-I7itZ6 .previewContainer-35LFgt {
   background: var(--background-secondary);
   height: 200px;
 }
@@ -2927,49 +2927,4 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header + div .membersWrap-3NUR2t .members-3WRCEx {
   padding-top: 0;
-}
-
-:root {
-  --main-color: #419e85;
-  --avatar-radius: 8px;
-}
-
-.theme-dark {
-  --background-primary: #252a3e;
-  --background-secondary: #1e2337;
-  --background-secondary-alt: #1c2438;
-  --background-secondary-alt-alt: #1b1d31;
-  --background-tertiary: #060c24;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --input-background: var(--background-secondary);
-  --colortransparency: #0003;
-  --card: #212332;
-  --textcolor: #fff;
-  --epicshadow1: #fff3;
-  --font-display: var(--font-primary) !important;
-}
-
-.theme-light {
-  --background-primary: #fafafa;
-  --background-secondary: #f7f7f7;
-  --background-secondary-alt: #fff;
-  --background-secondary-alt-alt: #eee;
-  --background-tertiary: #fff;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --colortransparency: #0001;
-  --card: #aaaaaa;
-  --textcolor: #000;
-  --epicshadow1: #0003;
-}
-
-:root {
-  --revision: "2";
-  --elevation-low: none;
-  --premium-shit-cppf-radius: var(--avatar-radius);
 }
