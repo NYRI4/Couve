@@ -551,11 +551,7 @@
 .attachButtonPlus-3IYelE, .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE { fill: var(--main-color);}
 
 // Hide textbox when you don't have permission
-.channelTextAreaDisabled-1p2fQv {
-    height: 0;
-    opacity: 0;
-    pointer-events: none;
-}
+.channelTextAreaDisabled-1p2fQv { display: none;}
 
 .form-3gdLxP:before { background: linear-gradient(180deg,transparent 0,var(--background-primary));}
 

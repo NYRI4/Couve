@@ -528,9 +528,7 @@
   fill: var(--main-color);
 }
 :root .channelTextAreaDisabled-1p2fQv {
-  height: 0;
-  opacity: 0;
-  pointer-events: none;
+  display: none;
 }
 :root .form-3gdLxP:before {
   background: linear-gradient(180deg, transparent 0, var(--background-primary));
@@ -1706,17 +1704,17 @@
   opacity: 0.5;
   filter: blur(20px);
 }
-:root .paymentPane-ut5qKZ, :root .codeRedemptionRedirect-3SBiCp {
+:root .paymentPane-ut5qKZ, :root .codeRedemptionRedirect-2hYMSQ {
   background: var(--background-secondary);
   border: none;
 }
-:root .paymentPane-ut5qKZ .paginator-1eqD2g, :root .paymentPane-ut5qKZ .bottomDivider-ZmTm-j, :root .codeRedemptionRedirect-3SBiCp .paginator-1eqD2g, :root .codeRedemptionRedirect-3SBiCp .bottomDivider-ZmTm-j {
+:root .paymentPane-ut5qKZ .paginator-1eqD2g, :root .paymentPane-ut5qKZ .bottomDivider-ZmTm-j, :root .codeRedemptionRedirect-2hYMSQ .paginator-1eqD2g, :root .codeRedemptionRedirect-2hYMSQ .bottomDivider-ZmTm-j {
   background: transparent;
 }
-:root .paymentPane-ut5qKZ .paymentRow-1HKOLu, :root .codeRedemptionRedirect-3SBiCp .paymentRow-1HKOLu {
+:root .paymentPane-ut5qKZ .paymentRow-1HKOLu, :root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu {
   border: none;
 }
-:root .paymentPane-ut5qKZ .paymentRow-1HKOLu .expandedInfo-1W31i3, :root .codeRedemptionRedirect-3SBiCp .paymentRow-1HKOLu .expandedInfo-1W31i3 {
+:root .paymentPane-ut5qKZ .paymentRow-1HKOLu .expandedInfo-1W31i3, :root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu .expandedInfo-1W31i3 {
   background: var(--background-primary);
 }
 :root .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
