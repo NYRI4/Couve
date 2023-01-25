@@ -164,7 +164,7 @@
     // Avatar mask
     .mask-1FEkla {
         foreignObject { border-radius: calc(var(--avatar-radius) * 2) !important;}
-        circle { display: none;}
+        circle, rect[fill="black"] { display: none;}
     }
 }
 
@@ -191,7 +191,7 @@
         z-index: 1;
         border-radius: 10px 0 0 10px;
         overflow: hidden;
-        width: 50%; height: 100%;
+        width: calc(50% - 16px); height: 100%;
         margin-bottom: 0;
 
         header { width: 100%; height: 100%;}
@@ -232,7 +232,7 @@
             .avatar-1YsFQ1 {   
                 top: 16px;
 
-                circle { display: none;}
+                circle, rect[fill="black"] { display: none;}
             }
 
             .badgeList-2pMvZX {
@@ -262,7 +262,7 @@
     .container-1U-qVy > div:not(.nameTag-2ysfG3) {
         position: fixed;
         bottom: 0; right: 0;
-        width: 50%; padding: 10px 20px;
+        width: calc(50% + 16px); padding: 10px 20px;
         border-bottom-right-radius: 10px;
         backdrop-filter: blur(8px);
         box-sizing: border-box;
@@ -287,8 +287,9 @@
     // Body
     .userProfileModalOverlayBackground-8p3-eU {
         position: static;
-        width: 50%;
+        width: calc(50% + 16px);
         margin: 0; overflow: visible;
+        background-color: var(--background-primary);
 
         .body-_QAKrE {
 
@@ -336,17 +337,22 @@
                     position: relative; z-index: 1;
                     height: 44px; margin: 0; padding-left: 10px;
                     border-radius: 8px; overflow: hidden;
-                    background-color: var(--background-secondary);
-                    background-color: var(--profile-gradient-secondary-color);
+                    background-color: #ffffff07;
 
                     .listAvatar-2GhWlb {
                         position: absolute; 
                         right: 0; z-index: -1;
                         width: 62% !important; height: 250% !important; margin-right: 0;
                         border-radius: 0;
-                        -webkit-mask-image: linear-gradient(-90deg, #00000000, #000000cb); 
+                        -webkit-mask-image: linear-gradient(90deg, #00000000, #000000cb); 
 
-                        foreignObject { width: 100%; height: 100%;}
+                        svg {
+                            position: relative;
+                            width: 100%; height: 100%;
+
+                            foreignObject { width: 100%; height: 100%;}
+                            rect { display: none;}
+                        }
                     }
                 }
 

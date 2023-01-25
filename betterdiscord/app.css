@@ -1196,7 +1196,7 @@
 :root .userPopoutOuter-3AVBmJ .mask-1FEkla foreignObject {
   border-radius: calc(var(--avatar-radius) * 2) !important;
 }
-:root .userPopoutOuter-3AVBmJ .mask-1FEkla circle {
+:root .userPopoutOuter-3AVBmJ .mask-1FEkla circle, :root .userPopoutOuter-3AVBmJ .mask-1FEkla rect[fill=black] {
   display: none;
 }
 :root .root-2uUafN.root-g14mjS.small-23Atuv {
@@ -1223,7 +1223,7 @@
   z-index: 1;
   border-radius: 10px 0 0 10px;
   overflow: hidden;
-  width: 50%;
+  width: calc(50% - 16px);
   height: 100%;
   margin-bottom: 0;
 }
@@ -1266,7 +1266,7 @@
 :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 {
   top: 16px;
 }
-:root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 circle {
+:root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 circle, :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 rect[fill=black] {
   display: none;
 }
 :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .badgeList-2pMvZX {
@@ -1292,7 +1292,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 50%;
+  width: calc(50% + 16px);
   padding: 10px 20px;
   border-bottom-right-radius: 10px;
   backdrop-filter: blur(8px);
@@ -1314,9 +1314,10 @@
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU {
   position: static;
-  width: 50%;
+  width: calc(50% + 16px);
   margin: 0;
   overflow: visible;
+  background-color: var(--background-primary);
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .nameTag-2ysfG3 {
   position: absolute;
@@ -1368,8 +1369,7 @@
   padding-left: 10px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: var(--background-secondary);
-  background-color: var(--profile-gradient-secondary-color);
+  background-color: rgba(255, 255, 255, 0.0274509804);
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .listRow-Y5zoF8 .listAvatar-2GhWlb {
   position: absolute;
@@ -1379,11 +1379,19 @@
   height: 250% !important;
   margin-right: 0;
   border-radius: 0;
-  -webkit-mask-image: linear-gradient(-90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7960784314));
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7960784314));
 }
-:root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .listRow-Y5zoF8 .listAvatar-2GhWlb foreignObject {
+:root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .listRow-Y5zoF8 .listAvatar-2GhWlb svg {
+  position: relative;
   width: 100%;
   height: 100%;
+}
+:root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .listRow-Y5zoF8 .listAvatar-2GhWlb svg foreignObject {
+  width: 100%;
+  height: 100%;
+}
+:root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .listRow-Y5zoF8 .listAvatar-2GhWlb svg rect {
+  display: none;
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .listScroller-XCVa1H .empty-2-ONJW {
   grid-column: 1/3;
