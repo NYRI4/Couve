@@ -180,9 +180,9 @@
 // Pinned messages
 .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
     position: fixed;
-    top: 48px; left: 330px;
+    top: 84px; left: 330px;
     width: calc(100% - 570px);
-    max-height: calc(100% - 48px) !important;
+    max-height: calc(100% - 84px) !important;
     height: 100%; box-shadow: unset;
     background: var(--background-primary);
     border-radius: 0;
@@ -190,6 +190,7 @@
     .header-1w9Q93 {
         background: var(--background-primary);
         text-align: center;
+        box-shadow: none;
     }
 
     .messagesPopout-eVzQcI {

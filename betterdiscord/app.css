@@ -690,6 +690,7 @@
 :root .header-3OsQeK {
   box-shadow: none;
   padding: 25px;
+  border-radius: 8px;
 }
 :root > div:nth-last-child(5) {
   margin-top: 120px;
@@ -794,9 +795,6 @@
 }
 :root .typeThread-2Aqh6X .name-28HaxV {
   padding-left: 28px;
-}
-:root .spine-29OFwR {
-  left: 26px;
 }
 :root .unread-2wipsx {
   border-radius: 4px;
@@ -1002,10 +1000,10 @@
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
   position: fixed;
-  top: 48px;
+  top: 84px;
   left: 330px;
   width: calc(100% - 570px);
-  max-height: calc(100% - 48px) !important;
+  max-height: calc(100% - 84px) !important;
   height: 100%;
   box-shadow: unset;
   background: var(--background-primary);
@@ -1014,6 +1012,7 @@
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .header-1w9Q93 {
   background: var(--background-primary);
   text-align: center;
+  box-shadow: none;
 }
 :root .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) .messagesPopout-eVzQcI {
   padding: 0 32px;
@@ -1316,6 +1315,7 @@
   margin: 0;
   overflow: visible;
   background-color: var(--background-primary);
+  border-radius: 0;
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .nameTag-2ysfG3 {
   position: absolute;
@@ -2257,7 +2257,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .root-2zfUH6 .perksModal-CLcR1c .carouselContainerVisible-bGCrdY .tierBody-3ju-rc {
   background: var(--background-secondary);
 }
-:root .root-2zfUH6 .perksModal-CLcR1c .perk-2WeBWW {
+:root .root-2zfUH6 .perksModal-CLcR1c .perk-19D_HN {
   background: var(--background-secondary);
 }
 :root .root-2zfUH6 .closeWrapper-9ScmSq {
@@ -2378,7 +2378,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   margin-right: 0;
 }
 :root .root-g14mjS .footer-31IekZ .minorContainer-1tix62, :root .modal-2RrUKJ .footer-31IekZ .minorContainer-1tix62 {
-  display: none;
+  order: -1;
+  margin-bottom: 16px;
 }
 :root .root-g14mjS .qualitySettingsContainer-30AsSH, :root .modal-2RrUKJ .qualitySettingsContainer-30AsSH {
   border: none;
@@ -2561,15 +2562,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .usernameSection-2d814A .userText-148fun > h1, :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .usernameSection-2d814A .userText-148fun > .userTagNoNickname-2MJ9HD {
   position: fixed;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS.menu-KSaHL1 {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account {
   background-color: var(--background-secondary);
   overflow: hidden;
   margin-top: 20px;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS.menu-KSaHL1 .scroller-1bVxF5 {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account .scroller-1bVxF5 {
   padding: 0 !important;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ .menu-1QACrS.menu-KSaHL1 .scroller-1bVxF5::-webkit-scrollbar {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account .scroller-1bVxF5 #account-status-picker, :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account .scroller-1bVxF5 #account-set-custom-status, :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account .scroller-1bVxF5 #account-switch-account {
+  padding: 16px;
+}
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ #account .scroller-1bVxF5::-webkit-scrollbar {
   display: none;
 }
 :root div[role=group]:not(.profileGroup-1yKk23) .item-1OdjEX.colorDefault-CDqZdO.focused-3qFvc8, :root div[role=group]:not(.profileGroup-1yKk23) .item-1OdjEX.colorDefault-CDqZdO:hover:not(.hideInteraction-2jPGL_) {
@@ -2605,6 +2609,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .tooltipPointer-3L49xb {
   border-top-color: var(--background-secondary-alt) !important;
 }
+:root .modal-atz_3z .header-1zd7se {
+  box-shadow: none;
+}
 :root .modal-atz_3z .container-2oNtJn {
   background-color: var(--background-secondary);
 }
@@ -2614,11 +2621,24 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .modal-atz_3z .input-2g-os5 {
   border-radius: 0;
 }
-:root .modal-atz_3z > .footer-1hTRRZ > .content-3nJg0c {
-  flex-direction: column-reverse;
+:root .modal-atz_3z .inviteRowButton-3hcOhY {
+  width: fit-content;
+  border: none;
+}
+:root .modal-atz_3z > .footer-1hTRRZ > .content-3nJg0c .inviteBannerUpsell-1t_LYM {
+  order: 3;
+  margin-top: 0;
 }
 :root .modal-atz_3z > .footer-1hTRRZ > .content-3nJg0c .footerText-2QLGHU {
+  margin: 8px 8px 16px;
+  order: 2;
+}
+:root .modal-atz_3z > .footer-1hTRRZ > .content-3nJg0c .input-3O04eu {
+  order: 4;
+}
+:root .modal-atz_3z > .footer-1hTRRZ > .content-3nJg0c .marginBottom8-emkd0_ {
   margin: 8px;
+  order: 1;
 }
 :root .modal-atz_3z .content-3nJg0c:before, :root .modal-atz_3z .title-3hptVQ {
   display: none;

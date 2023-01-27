@@ -1,6 +1,11 @@
 :root {
 
-.header-3OsQeK { box-shadow: none; padding: 25px;}
+.header-3OsQeK { 
+    box-shadow: none;
+    padding: 25px;
+    border-radius: 8px;
+}
+
 & > div:nth-last-child(5) { margin-top: 120px;} 
 
 // Channel notice
@@ -97,7 +102,6 @@
 
 // Thread channels
 .typeThread-2Aqh6X .name-28HaxV { padding-left: 28px;}
-.spine-29OFwR { left: 26px;}
 
 .unread-2wipsx { 
     border-radius: 4px;
