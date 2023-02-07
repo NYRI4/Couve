@@ -57,16 +57,21 @@
     .contentColumn-1C7as6, .customColumn-2n-oKU { max-width: 95%;}
 
     // Close button
-    .closeButton-PCZcma {
+    .toolsContainer-25FL6V {
+        position: absolute;
+        right: 0px;
+    
+        .closeButton-PCZcma {
 
-        &:active { transform: none;}
-        
-        &::before {
-            content: "";
-            position: fixed;
-            top: 0; left: 0;
-            width: 90px; height: 100%;
-            z-index: 100;
+            &:active { transform: none;}
+            
+            &::before {
+                content: "";
+                position: fixed;
+                top: 0; left: 0;
+                width: 90px; height: 100%;
+                z-index: 100;
+            }
         }
     }
 }
@@ -81,7 +86,7 @@
 // -- User settings --
 
 // My account
-@media (max-width: 1300px) {
+@media (max-width: 1360px) {
     .accountProfileCard-lbN7n- { 
         flex-direction: column;
 
@@ -119,18 +124,18 @@
     background-color: var(--background-secondary);
 
     .bannerSVGWrapper-qc0szY {
-        min-height: 250px;
+        min-height: 270px;
 
         mask { display: none;} 
         foreignObject {
-            y: -75px;
+            y: -85px;
         }
     } 
 
     // Banner
     .banner-2boKnS {
         border-radius: 8px 0 0 8px;
-        height: 250px; flex: 1;
+        height: 270px; flex: 1;
     }
 
     // User info

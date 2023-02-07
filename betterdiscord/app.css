@@ -1480,10 +1480,14 @@
 :root .layer-86YKbF .contentColumn-1C7as6, :root .layer-86YKbF .customColumn-2n-oKU {
   max-width: 95%;
 }
-:root .layer-86YKbF .closeButton-PCZcma:active {
+:root .layer-86YKbF .toolsContainer-25FL6V {
+  position: absolute;
+  right: 0px;
+}
+:root .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma:active {
   transform: none;
 }
-:root .layer-86YKbF .closeButton-PCZcma::before {
+:root .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma::before {
   content: "";
   position: fixed;
   top: 0;
@@ -1498,7 +1502,7 @@
 :root .noticeRegion-qjyUVg .container-20TyK0 {
   background-color: var(--background-secondary) !important;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1360px) {
   :root .accountProfileCard-lbN7n- {
     flex-direction: column;
   }
@@ -1533,17 +1537,17 @@
   background-color: var(--background-secondary);
 }
 :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY {
-  min-height: 250px;
+  min-height: 270px;
 }
 :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY mask {
   display: none;
 }
 :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY foreignObject {
-  y: -75px;
+  y: -85px;
 }
 :root .accountProfileCard-lbN7n- .banner-2boKnS {
   border-radius: 8px 0 0 8px;
-  height: 250px;
+  height: 270px;
   flex: 1;
 }
 :root .accountProfileCard-lbN7n- .userInfo-regn9W {
