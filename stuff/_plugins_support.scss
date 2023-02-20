@@ -151,4 +151,15 @@
   }
 }
 
+// ChannelsTabs
+#channelTabs-container {
+  position: relative;
+  left: 80px; width: calc(100% - 96px);
+  background-color: var(--background-tertiary);
+
+  & ~ .layers-OrUESM .guilds-2JjMmN {
+    margin-top: -85px;
+  }
+}
+
 }

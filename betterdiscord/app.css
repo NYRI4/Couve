@@ -2667,6 +2667,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .container-36u7Lw .button-f2h6uQ.lookBlank-21BCro {
   color: var(--header-secondary);
 }
+:root .container-2IKOsH, :root .header-3xB4vB,
+:root .emptyPage-2TGR7j, :root .scrollerContainer-y16Rs9,
+:root .container-1um7CU {
+  background-color: var(--background-primary);
+}
 :root .contentWrapper-3oy4Xo {
   background: var(--background-primary);
 }
@@ -2960,4 +2965,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header + div .membersWrap-3NUR2t .members-3WRCEx {
   padding-top: 0;
+}
+:root #channelTabs-container {
+  position: relative;
+  left: 80px;
+  width: calc(100% - 96px);
+  background-color: var(--background-tertiary);
+}
+:root #channelTabs-container ~ .layers-OrUESM .guilds-2JjMmN {
+  margin-top: -85px;
 }
