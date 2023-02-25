@@ -1193,7 +1193,8 @@
 :root .userPopoutOuter-3AVBmJ .mask-1FEkla foreignObject {
   border-radius: calc(var(--avatar-radius) * 2) !important;
 }
-:root .userPopoutOuter-3AVBmJ .mask-1FEkla circle, :root .userPopoutOuter-3AVBmJ .mask-1FEkla rect[fill=black] {
+:root .userPopoutOuter-3AVBmJ .mask-1FEkla circle,
+:root .userPopoutOuter-3AVBmJ .mask-1FEkla rect[fill=black] {
   display: none;
 }
 :root .root-2uUafN.root-g14mjS.small-23Atuv {
@@ -1263,7 +1264,8 @@
 :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 {
   top: 16px;
 }
-:root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 circle, :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 rect[fill=black] {
+:root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 circle,
+:root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .avatar-1YsFQ1 rect[fill=black] {
   display: none;
 }
 :root .userProfileModalInner-3fh3QA .topSection-1Khgkv .header-1_vWwx .badgeList-2pMvZX {
@@ -1289,6 +1291,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: 1;
   width: calc(50% + 16px);
   padding: 10px 20px;
   border-bottom-right-radius: 10px;
@@ -1302,10 +1305,12 @@
   width: 750px;
   padding: 20px;
 }
-:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .customStatus-2pgT4N {
-  max-width: 130px;
+:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .customStatus-3QV7IG {
+  margin-top: 0;
 }
-:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageActivityFeed-3zBude, :root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageActivityFeedXbox-3gGXXV, :root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageProfile-1TX9jP {
+:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageActivityFeed-3zBude,
+:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageActivityFeedXbox-3gGXXV,
+:root .userProfileModalInner-3fh3QA .container-1U-qVy > div:not(.nameTag-2ysfG3) .assetsLargeImageProfile-1TX9jP {
   width: 40px;
   height: 40px;
 }
