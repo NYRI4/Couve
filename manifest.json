@@ -1,0 +1,18 @@
+{
+    "id": "nyria.couve",
+    "name": "Couve",
+    "description": "A new look to discord",
+    "author": {
+        "name": "A user#8169, Nyria#3863",
+        "discordID": "265924886461939712",
+        "github": "NYRI4"
+    },
+    "version": "2.2.0",
+    "updater": {
+        "type": "github",
+        "id": "NYRI4/Couve"
+    },
+    "license": "MIT",
+    "type": "replugged-theme",
+    "main": "betterdiscord/couve.theme.css"
+}

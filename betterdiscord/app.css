@@ -1876,7 +1876,7 @@
 :root .panels-3wFtMD .activityPanel-9icbyU {
   position: absolute;
   bottom: 20px;
-  right: 111px;
+  right: 105px;
   padding: 0;
   border-radius: 8px;
 }
@@ -2906,75 +2906,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   }
 }
 
-:root .powercord-toast {
-  background: var(--background-secondary);
-  min-width: 400px;
-  max-width: 600px;
-  border-radius: 7px;
-  border: unset;
-  transition: all 200ms;
-  overflow: hidden;
-  padding-left: 6px;
-  box-shadow: 0 0 20px 0 #111;
-}
-:root .powercord-toast .header {
-  background: transparent;
-  box-shadow: unset;
-}
-:root .powercord-toast .icon::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 8px;
-  background: currentColor;
-  opacity: 1;
-  z-index: -1;
-  pointer-events: none;
-}
-:root .powercord-toast[data-toast-type=info] .icon {
-  color: #419e85;
-}
-:root .powercord-toast .contents .inner {
-  background: var(--background-primary);
-  border: none;
-}
-:root .powercord-toast .progress-24WBU3 {
-  width: calc(100% - 6px);
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  background: transparent !important;
-  border-radius: 0;
-}
-:root .powercord-toast .progress-24WBU3 .progressBar-1T6LYX {
-  opacity: 0.2;
-  height: 100%;
-}
-:root .creationDate-CJwdKT,
-:root .joinedAtDate-IawR02,
-:root .lastMessageDate-ocEw13 {
-  position: fixed !important;
-}
-:root .creationDate-CJwdKT {
-  top: -70px;
-}
-:root .joinedAtDate-IawR02 {
-  top: -50px;
-}
-:root .lastMessageDate-ocEw13 {
-  top: -30px;
-  margin-top: 0;
-}
-:root .root-8LYsGj .header-S26rhB .user-details-text {
-  position: fixed;
-  top: -70px;
-  left: 0;
-  right: unset;
-  width: 800px;
-}
 :root .scale-3UGUBw.didRender-2SiRlm {
   transform: scale(1) !important;
 }
@@ -2989,26 +2920,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   background: var(--background-tertiary);
   border-radius: 0 8px 8px 0;
 }
-:root .panels-3wFtMD > .container-YkUktl .button-12Fmur[aria-label="Hide Game Activity"]::before {
-  position: fixed;
-  content: "Switch Game Activity to status picker";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 90px;
-  bottom: 72px;
-  width: 240px;
-  height: 52px;
-  background: var(--background-secondary);
-}
-:root .panels-3wFtMD > .container-YkUktl .button-12Fmur[aria-label="Hide Game Activity"] > div {
-  display: none;
-}
-:root .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > button:not([role=switch]):first-child {
+:root .gameActivityToggleAdded-Yd-YxC > div:last-child button:first-child {
   color: var(--main-color);
 }
-:root .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > button:not([role=switch]):first-child + button:nth-child(2) {
-  margin-left: 32px;
+:root .activityPanel-9icbyU ~ .gameActivityToggleAdded-Yd-YxC > div:last-child button:first-child {
+  margin-right: 35px;
 }
 :root #MemberCount {
   top: 48px;
