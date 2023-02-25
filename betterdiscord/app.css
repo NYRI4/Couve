@@ -1450,7 +1450,8 @@
 :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN {
   width: 240px;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-2ur1Qk .header-2Kx1US, :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
+:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-2ur1Qk .header-2Kx1US,
+:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
   padding: 6px 30px;
   border-radius: 0;
 }
@@ -1473,15 +1474,18 @@
 :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .info-1sUqUG {
   text-align: center;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN, :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .flexChild-3PzYmX {
+:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN,
+:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .flexChild-3PzYmX {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh::-webkit-scrollbar {
   display: none;
 }
-:root .layer-86YKbF .contentColumn-1C7as6, :root .layer-86YKbF .customColumn-2n-oKU {
+:root .layer-86YKbF .contentColumn-1C7as6,
+:root .layer-86YKbF .customColumn-2n-oKU {
   max-width: 95%;
+  min-width: unset;
 }
 :root .layer-86YKbF .toolsContainer-25FL6V {
   position: absolute;
@@ -1510,17 +1514,18 @@
     flex-direction: column;
   }
   :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY {
+    min-width: unset !important;
     min-height: 150px !important;
   }
   :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY mask {
     display: none;
   }
   :root .accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY foreignObject {
-    y: -25px !important;
+    y: -51px !important;
   }
   :root .accountProfileCard-lbN7n- .banner-2boKnS {
     border-radius: 8px 8px 0 0 !important;
-    height: 150px !important;
+    height: 200px !important;
     flex: unset !important;
   }
   :root .accountProfileCard-lbN7n- .userInfo-regn9W {
@@ -1629,7 +1634,8 @@
 :root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .section-3FmfOT .userText-148fun > .userTagNoNickname-2MJ9HD .discrimBase-KriZSj {
   color: white;
 }
-:root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .customStatus-3XAoF9, :root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .aboutMeSection-PUghFQ {
+:root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .customStatus-3XAoF9,
+:root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .aboutMeSection-PUghFQ {
   padding-top: 12px;
 }
 :root .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN .divider-1wtgZ3 {
@@ -1711,17 +1717,23 @@
   opacity: 0.5;
   filter: blur(20px);
 }
-:root .paymentPane-ut5qKZ, :root .codeRedemptionRedirect-2hYMSQ {
+:root .paymentPane-ut5qKZ,
+:root .codeRedemptionRedirect-2hYMSQ {
   background: var(--background-secondary);
   border: none;
 }
-:root .paymentPane-ut5qKZ .paginator-1eqD2g, :root .paymentPane-ut5qKZ .bottomDivider-ZmTm-j, :root .codeRedemptionRedirect-2hYMSQ .paginator-1eqD2g, :root .codeRedemptionRedirect-2hYMSQ .bottomDivider-ZmTm-j {
+:root .paymentPane-ut5qKZ .paginator-1eqD2g,
+:root .paymentPane-ut5qKZ .bottomDivider-ZmTm-j,
+:root .codeRedemptionRedirect-2hYMSQ .paginator-1eqD2g,
+:root .codeRedemptionRedirect-2hYMSQ .bottomDivider-ZmTm-j {
   background: transparent;
 }
-:root .paymentPane-ut5qKZ .paymentRow-1HKOLu, :root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu {
+:root .paymentPane-ut5qKZ .paymentRow-1HKOLu,
+:root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu {
   border: none;
 }
-:root .paymentPane-ut5qKZ .paymentRow-1HKOLu .expandedInfo-1W31i3, :root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu .expandedInfo-1W31i3 {
+:root .paymentPane-ut5qKZ .paymentRow-1HKOLu .expandedInfo-1W31i3,
+:root .codeRedemptionRedirect-2hYMSQ .paymentRow-1HKOLu .expandedInfo-1W31i3 {
   background: var(--background-primary);
 }
 :root .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
@@ -1788,7 +1800,8 @@
 :root .imageUploaderIcon-2OHmFu {
   display: none;
 }
-:root .customScroller-m1-jZn > div, :root .contentWidth-3aWel5 {
+:root .customScroller-m1-jZn > div,
+:root .contentWidth-3aWel5 {
   max-width: unset;
 }
 :root .colorPickerCustom-1swUKF {
@@ -1804,7 +1817,8 @@
   border-radius: 8px;
   overflow: hidden;
 }
-:root .auditLog-1NVAY0 .header-2pgFQm, :root .auditLog-1NVAY0 .changeDetails-1kMZqI {
+:root .auditLog-1NVAY0 .header-2pgFQm,
+:root .auditLog-1NVAY0 .changeDetails-1kMZqI {
   background: var(--background-secondary);
 }
 :root .auditLog-1NVAY0 .divider-M3saWq {
@@ -1817,10 +1831,12 @@
 :root .directoryModal-YJsOMv {
   background-color: var(--background-primary);
 }
-:root .modal-1gWd9S .footer-31IekZ, :root .container-2E0bff .footer-31IekZ {
+:root .modal-1gWd9S .footer-31IekZ,
+:root .container-2E0bff .footer-31IekZ {
   border-bottom-left-radius: 0 !important;
 }
-:root .editCircle-2uL_D3, :root .editCircle-ityklj {
+:root .editCircle-2uL_D3,
+:root .editCircle-ityklj {
   background: var(--background-primary);
 }
 :root .formFieldWrapper-2LV3S6 {
@@ -1832,10 +1848,14 @@
 :root .background-3xJH_4 {
   color: var(--background-secondary);
 }
-:root .tierInProgress-1vFUnw, :root .tierBody-1d3UiS, :root .tierHeaderLocked-30MLlO, :root .tierHeaderUnlocked-1OpOLf {
+:root .tierInProgress-1vFUnw,
+:root .tierBody-1d3UiS,
+:root .tierHeaderLocked-30MLlO,
+:root .tierHeaderUnlocked-1OpOLf {
   background: var(--background-secondary);
 }
-:root .overflowRolesPopout-1Puiuq, :root .overflowRolesPopoutArrow-2R7g3K {
+:root .overflowRolesPopout-1Puiuq,
+:root .overflowRolesPopoutArrow-2R7g3K {
   background: var(--background-secondary);
   box-shadow: none;
 }
