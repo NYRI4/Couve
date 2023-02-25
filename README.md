@@ -16,11 +16,7 @@ git clone https://github.com/NYRI4/Couve
 Go [here](https://betterdiscord.app/theme/Couve) and save the file into your theme folder
 
 ## 🖌️ Customization
-Go into your theme folder and open :
-
-`couve.theme.css` for BetterDiscord
-
-`variables.scss` for Powercord/Vizality
+Go into your theme folder and open : `couve.theme.css`
 
 ## 🖼️ More preview
 | Status picker | User modal | Aliucord |
