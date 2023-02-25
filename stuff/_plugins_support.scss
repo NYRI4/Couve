@@ -1,7 +1,6 @@
 :root {
-
-// Powercord toast
-.powercord-toast {
+  // Powercord toast
+  .powercord-toast {
     background: var(--background-secondary);
     min-width: 400px;
     max-width: 600px;
@@ -11,17 +10,17 @@
     overflow: hidden;
     padding-left: 6px;
     box-shadow: 0 0 20px 0 #111;
-  
+
     .header {
       background: transparent;
       box-shadow: unset;
     }
-  
+
     .icon::before {
       content: "";
       position: absolute;
-      left:0;
-      top:0;
+      left: 0;
+      top: 0;
       height: 100%;
       width: 8px;
       background: currentColor;
@@ -29,137 +28,180 @@
       z-index: -1;
       pointer-events: none;
     }
-  
-    &[data-toast-type=info] .icon { color: #419e85;}
-  
+
+    &[data-toast-type="info"] .icon {
+      color: #419e85;
+    }
+
     .contents .inner {
       background: var(--background-primary);
-      border:none;
+      border: none;
     }
-  
+
     .progress-24WBU3 {
       width: calc(100% - 6px);
       position: absolute;
       right: 0;
-      top:0;
+      top: 0;
       z-index: -1;
       background: transparent !important;
       border-radius: 0;
-  
+
       .progressBar-1T6LYX {
-          opacity: .2;
-          height: 100%;
+        opacity: 0.2;
+        height: 100%;
       }
     }
-}
+  }
 
-// date thingies - BetterDiscord
-.creationDate-CJwdKT,
-.joinedAtDate-IawR02,
-.lastMessageDate-ocEw13 {
+  // date thingies - BetterDiscord
+  .creationDate-CJwdKT,
+  .joinedAtDate-IawR02,
+  .lastMessageDate-ocEw13 {
     position: fixed !important;
-}
-
-.creationDate-CJwdKT { top: -70px; }
-.joinedAtDate-IawR02 { top: -50px;}
-.lastMessageDate-ocEw13 { top: -30px; margin-top: 0;}
-
-// User Details - Powercord
-.root-8LYsGj .header-S26rhB .user-details-text {
-  position: fixed;
-    top: -70px;  
-    left: 0; right: unset;
-    width: 800px;
-}
-
-// CustomStatusPresets
-.scale-3UGUBw.didRender-2SiRlm { transform: scale(1) !important;}
-
-#status-picker.menu-1QACrS #status-picker-custom-status {
-    .labelContainer-2vJzYL { padding: 0 16px;}
-
-    & + .layer-2aCOJ3 { 
-        top: 432px !important;
-        left: 359px !important;
-
-        .submenu-1apzyU { 
-            background: var(--background-tertiary);
-            border-radius: 0 8px 8px 0;
-        }
-    }
-}
-
-// Game Activity Toggle - Powercord
-.panels-3wFtMD > .container-YkUktl .button-12Fmur[aria-label="Hide Game Activity"]
-  {
-    &::before {
-    position: fixed; content: "Switch Game Activity to status picker";
-    display: flex; justify-content: center; align-items: center;
-    left: 90px; bottom: 72px;
-    width: 240px; height: 52px;
-    background: var(--background-secondary);
   }
 
-  & > div { display: none;}
-}
+  .creationDate-CJwdKT {
+    top: -70px;
+  }
+  .joinedAtDate-IawR02 {
+    top: -50px;
+  }
+  .lastMessageDate-ocEw13 {
+    top: -30px;
+    margin-top: 0;
+  }
 
-// Game Activity Toggle - BetterDiscord - Thanks DevilBro
-.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > button:not([role="switch"]):first-child {
-  color: var(--main-color);
+  // User Details - Powercord
+  .root-8LYsGj .header-S26rhB .user-details-text {
+    position: fixed;
+    top: -70px;
+    left: 0;
+    right: unset;
+    width: 800px;
+  }
 
-  & + button:nth-child(2) { margin-left: 32px;}
-} 
+  // CustomStatusPresets
+  .scale-3UGUBw.didRender-2SiRlm {
+    transform: scale(1) !important;
+  }
 
-// MemberCount
-#MemberCount {
-  top: 48px;
+  #status-picker.menu-1QACrS #status-picker-custom-status {
+    .labelContainer-2vJzYL {
+      padding: 0 16px;
+    }
 
-  .membersGroup-2eiWxl { margin-top: 0; padding: 18px 8px 0 16px;}
+    & + .layer-2aCOJ3 {
+      top: 432px !important;
+      left: 359px !important;
 
-  & + .members-3WRCEx { margin-top: 0; padding-top: 70px;}
-}
-
-// Status weird behavior with BetterDiscord
-.mask-1FEkla > svg > mask > :not(:first-child) { display: none;}
-
-// BDFDB notifications
-.notice-2HEN-u[id] { 
-  margin: -30px 240px 0px 90px; 
-  border-radius: 8px 8px 0 0 !important;
-
-  & ~ .layers-OrUESM .sidebar-1tnWFu { border-radius: 0;}
-}
-
-// ChannelDms
-.ChannelDms-channelmembers-wrap {
-  width: 240px;
-
-  .ChannelDms-channelmembers-header {
-    margin-top: -48px; padding-top: 48px;
-    max-height: calc(100% + 48px);
-    background: var(--background-secondary);
-    border-bottom-width: 0px;
-  
-    & + div .membersWrap-3NUR2t {
-      margin-top: 0;
-      max-height: unset;
-  
-      .members-3WRCEx {
-        padding-top: 0;
+      .submenu-1apzyU {
+        background: var(--background-tertiary);
+        border-radius: 0 8px 8px 0;
       }
     }
   }
-}
 
-// ChannelsTabs
-#channelTabs-container {
-  position: relative;
-  left: 80px; width: calc(100% - 96px);
-  background-color: var(--background-tertiary);
+  // Game Activity Toggle - Powercord
+  .panels-3wFtMD
+    > .container-YkUktl
+    .button-12Fmur[aria-label="Hide Game Activity"] {
+    &::before {
+      position: fixed;
+      content: "Switch Game Activity to status picker";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 90px;
+      bottom: 72px;
+      width: 240px;
+      height: 52px;
+      background: var(--background-secondary);
+    }
 
-  & ~ .layers-OrUESM .guilds-2JjMmN {
-    margin-top: -85px;
+    & > div {
+      display: none;
+    }
   }
-}
 
+  // Game Activity Toggle - BetterDiscord - Thanks DevilBro
+  .panels-3wFtMD
+    > .container-YkUktl
+    > .flex-2S1XBF
+    > button:not([role="switch"]):first-child {
+    color: var(--main-color);
+
+    & + button:nth-child(2) {
+      margin-left: 32px;
+    }
+  }
+
+  // MemberCount
+  #MemberCount {
+    top: 48px;
+
+    .membersGroup-2eiWxl {
+      margin-top: 0;
+      padding: 18px 8px 0 16px;
+    }
+
+    & + .members-3WRCEx {
+      margin-top: 0;
+      padding-top: 70px;
+    }
+  }
+
+  // Status weird behavior with BetterDiscord
+  .mask-1FEkla > svg > mask > :not(:first-child) {
+    display: none;
+  }
+
+  // BDFDB notifications
+  .notice-2HEN-u[id] {
+    margin: -30px 240px 0px 90px;
+    border-radius: 8px 8px 0 0 !important;
+
+    & ~ .layers-OrUESM .sidebar-1tnWFu {
+      border-radius: 0;
+    }
+  }
+
+  // ChannelDms
+  .ChannelDms-channelmembers-wrap {
+    width: 240px;
+
+    .ChannelDms-channelmembers-header {
+      margin-top: -48px;
+      padding-top: 48px;
+      max-height: calc(100% + 48px);
+      background: var(--background-secondary);
+      border-bottom-width: 0px;
+
+      & + div .membersWrap-3NUR2t {
+        margin-top: 0;
+        max-height: unset;
+
+        .members-3WRCEx {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+  // ChannelsTabs
+  #channelTabs-container {
+    position: relative;
+    left: 80px;
+    width: calc(100% - 96px);
+    background-color: var(--background-tertiary);
+
+    & ~ .layers-OrUESM .guilds-2JjMmN {
+      margin-top: -85px;
+    }
+  }
+
+  // ServerFolders
+  ul[data-list-id="guildfoldersnav"] {
+    margin-top: 12px;
+  }
 }

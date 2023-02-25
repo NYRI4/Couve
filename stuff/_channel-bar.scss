@@ -1,221 +1,291 @@
-:root { 
+:root {
+  // Search bar
+  .inner-2pOSmK {
+    background: var(--background-secondary);
+  }
 
-    
-// Search bar
-.inner-2pOSmK { background: var(--background-secondary);}
-    
-// Removing help buttons
-[href="https://support.discord.com"], .searchLearnMore-7__o_n .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX { display: none;}
+  // Removing help buttons
+  [href="https://support.discord.com"], .searchLearnMore-7__o_n .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX
+  {
+    display: none;
+  }
 
-// Top bar
-.container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc)  { 
-    z-index: 1; background: transparent;
+  // Top bar
+  .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc) {
+    z-index: 1;
+    background: transparent;
     width: calc(100% - 240px);
 
-    .toolbar-3_r2xA, .topic-11NuQZ { -webkit-app-region: no-drag;}
-    .icon-2xnN2Y { -webkit-app-region: unset;}
-    .followButton-1N-GGp, .children-3xh0VB:after { display: none;}
+    .toolbar-3_r2xA,
+    .topic-11NuQZ {
+      -webkit-app-region: no-drag;
+    }
+    .icon-2xnN2Y {
+      -webkit-app-region: unset;
+    }
+    .followButton-1N-GGp,
+    .children-3xh0VB:after {
+      display: none;
+    }
 
     // Search bar
     .search-39IXmY {
-        position: fixed;
-        right: 10px;
+      position: fixed;
+      right: 10px;
 
-        .searchBar-jGtisZ {
-            background: var(--background-primary);
-            width: 200px;
-            height: 28px;
-            padding: 2px 10px;
-            border-radius: 4px;
+      .searchBar-jGtisZ {
+        background: var(--background-primary);
+        width: 200px;
+        height: 28px;
+        padding: 2px 10px;
+        border-radius: 4px;
 
-            .searchFilter-2UfsDk, .searchAnswer-23w-CH { background: transparent;}
-            .icon-18rqoe { color: var(--main-color);}
+        .searchFilter-2UfsDk,
+        .searchAnswer-23w-CH {
+          background: transparent;
         }
+        .icon-18rqoe {
+          color: var(--main-color);
+        }
+      }
     }
-}
+  }
 
-// Search popout
-.container-2McqkF {
+  // Search popout
+  .container-2McqkF {
     background: var(--background-secondary-alt-alt);
     box-shadow: none;
 
-    .queryContainer-ZunrLZ { 
-        border: none;
+    .queryContainer-ZunrLZ {
+      border: none;
 
-        &.focused-2FU0YH { background: var(--background-secondary-alt-alt);}
+      &.focused-2FU0YH {
+        background: var(--background-secondary-alt-alt);
+      }
 
-        .keybindShortcut-3zF1P9 { display: none;}
+      .keybindShortcut-3zF1P9 {
+        display: none;
+      }
     }
 
     .resultsGroup-cfY57t {
-        &::before { display: none;}
+      &::before {
+        display: none;
+      }
 
-        // Options
-        .option-ayUoaq {
-            padding: 0 20px;
-            margin: 0;
-            border-radius: 0;
+      // Options
+      .option-ayUoaq {
+        padding: 0 20px;
+        margin: 0;
+        border-radius: 0;
 
-            &.selected-rZcOL-, &[aria-selected=true] { background: var(--background-secondary);}
-            &:after { display: none;}
+        &.selected-rZcOL-,
+        &[aria-selected="true"] {
+          background: var(--background-secondary);
         }
+        &:after {
+          display: none;
+        }
+      }
     }
 
     // Datepicker (yeah this exist)
     .calendarPicker-sDhzdi .react-datepicker {
+      background: transparent;
+      border-radius: 0;
+
+      // Header
+      .react-datepicker__header {
         background: transparent;
-        border-radius: 0;
 
-        // Header
-        .react-datepicker__header { 
-            background: transparent;
-
-            .react-datepicker__current-month { border-bottom: none;}
+        .react-datepicker__current-month {
+          border-bottom: none;
         }
+      }
 
-        &__navigation--next, &__navigation--previous {
-            border: none;
-            border-radius: 50%;
+      &__navigation--next,
+      &__navigation--previous {
+        border: none;
+        border-radius: 50%;
 
-            &:hover { background-color: var(--epicshadow1);}
+        &:hover {
+          background-color: var(--epicshadow1);
         }
+      }
 
-        [class^="react-datepicker__day"] { background: transparent;}
-        .react-datepicker__day { 
-            border-color: var(--background-tertiary);
+      [class^="react-datepicker__day"] {
+        background: transparent;
+      }
+      .react-datepicker__day {
+        border-color: var(--background-tertiary);
 
-            &--selected:after, &--selected:hover, &:hover { background: var(--main-color);}
+        &--selected:after,
+        &--selected:hover,
+        &:hover {
+          background: var(--main-color);
         }
+      }
     }
-    .datePickerHint-17MnA8 .hintValue-1x-flY { background: var(--main-color);}
-}
+    .datePickerHint-17MnA8 .hintValue-1x-flY {
+      background: var(--main-color);
+    }
+  }
 
-// Search results
-.searchResultsWrap-5RVOkx {
+  // Search results
+  .searchResultsWrap-5RVOkx {
     background: var(--background-secondary);
     top: -48px;
     padding-top: 48px;
-    width: 480px; height: 100%;
+    width: 480px;
+    height: 100%;
 
     .searchHeader-1r_ZSh {
-        position: absolute;
-        width: 100%;
-        background: linear-gradient(180deg, var(--background-secondary), transparent);
+      position: absolute;
+      width: 100%;
+      background: linear-gradient(
+        180deg,
+        var(--background-secondary),
+        transparent
+      );
     }
 
-    .scroller-3iiyhZ { 
-        padding: 0; padding-top: 48px;
+    .scroller-3iiyhZ {
+      padding: 0;
+      padding-top: 48px;
 
-        & > div { padding: 0 14px 0 20px;}
+      & > div {
+        padding: 0 14px 0 20px;
+      }
 
-        .channelName-3w2Y3c{
-            background: transparent;
-            padding: 8px 0;
-        }
+      .channelName-3w2Y3c {
+        background: transparent;
+        padding: 8px 0;
+      }
 
-        .searchResult-O9NDji {
-            border: none;
-            box-shadow: none;
-            border-radius: 10px;
-        }
+      .searchResult-O9NDji {
+        border: none;
+        box-shadow: none;
+        border-radius: 10px;
+      }
     }
-}
-.jumpButton-1ZwI_j, .button-cfOvv- { background: var(--background-primary);}
+  }
+  .jumpButton-1ZwI_j,
+  .button-cfOvv- {
+    background: var(--background-primary);
+  }
 
-// Inbox
-.recentMentionsPopout-2bI1ZN {
+  // Inbox
+  .recentMentionsPopout-2bI1ZN {
     position: fixed;
-    top: 0; right: 0;
+    top: 0;
+    right: 0;
     max-height: 100% !important;
-    animation: sidebarStatusTransalteXReverse .5s ease, fade .4s ease;
+    animation: sidebarStatusTransalteXReverse 0.5s ease, fade 0.4s ease;
     border-radius: 0;
 
     // Top
     .header-1w9Q93 {
-        background: linear-gradient(360deg, transparent, var(--background-secondary));
+      background: linear-gradient(
+        360deg,
+        transparent,
+        var(--background-secondary)
+      );
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+
+      .topPill-3DJJNV {
+        margin: 0 auto;
+
+        .tab-TRrPC8.active-1grPyy {
+          background: var(--background-primary);
+        }
+      }
+
+      .secondary-2bzKEX {
         position: absolute;
-        top: 0; left: 0; right: 0;
-        z-index: 10;
-
-        .topPill-3DJJNV { 
-            margin: 0 auto;
-
-            .tab-TRrPC8.active-1grPyy { background: var(--background-primary);}
-        }
-
-        .secondary-2bzKEX {
-            position: absolute;
-            right: 16px;
-            background: transparent;
-        }
+        right: 16px;
+        background: transparent;
+      }
     }
 
     // Body
-    .messagesPopout-eVzQcI, .scroller-145h9c {
-        padding-top: 56px;
+    .messagesPopout-eVzQcI,
+    .scrollerBase-_bVAAt {
+      padding-top: 86px;
 
-        // Card
-        .channelHeader-DFRX8q {
-            position: relative;
-            background: transparent;
+      // Card
+      .channelHeader-DFRX8q {
+        position: relative;
+        background: transparent;
 
-            // Cross button
-            .tertiary-1e-lAP { background: var(--background-primary);}
+        // Cross button
+        .tertiary-1e-lAP {
+          background: var(--background-primary);
         }
+      }
     }
 
     // Tutorial
     .tutorial-Nb3Zz5 {
-        background: var(--background-primary);
-        margin-top: 66px;
+      background: var(--background-primary);
+      margin-top: 66px;
     }
 
     .tutorialIcon-25VF3Q {
-        background: var(--background-secondary);
-        color: #fff;
+      background: var(--background-secondary);
+      color: #fff;
     }
-}
-.recentMentionsPopout-2bI1ZN { background: var(--background-secondary); box-shadow: var(--elevation-high);}
+  }
+  .recentMentionsPopout-2bI1ZN {
+    background: var(--background-secondary);
+    box-shadow: var(--elevation-high);
+  }
 
-// Pinned messages
-.messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
+  // Pinned messages
+  .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
     position: fixed;
-    top: 84px; left: 330px;
+    top: 84px;
+    left: 330px;
     width: calc(100% - 570px);
     max-height: calc(100% - 84px) !important;
-    height: 100%; box-shadow: unset;
+    height: 100%;
+    box-shadow: unset;
     background: var(--background-primary);
     border-radius: 0;
 
     .header-1w9Q93 {
-        background: var(--background-primary);
-        text-align: center;
-        box-shadow: none;
+      background: var(--background-primary);
+      text-align: center;
+      box-shadow: none;
     }
 
     .messagesPopout-eVzQcI {
-        padding: 0 32px;
-        padding-top: 5px;
-        
-        .messageGroupWrapper-1jf_7C {
-            border: none;
-            background: var(--background-secondary);
-            margin-bottom: 32px;
+      padding: 0 32px;
+      padding-top: 5px;
+
+      .messageGroupWrapper-1jf_7C {
+        border: none;
+        background: var(--background-secondary);
+        margin-bottom: 32px;
+      }
+
+      &::-webkit-scrollbar {
+        width: 8px;
+        margin-left: 5px;
+
+        &-thumb {
+          border: none;
+          background: var(--background-secondary) !important;
+          border-radius: 6px 0 0 6px;
         }
 
-        &::-webkit-scrollbar { 
-            width: 8px; margin-left: 5px;
-    
-            &-thumb { 
-                border:none;
-                background: var(--background-secondary) !important;
-                border-radius: 6px 0 0 6px;
-            }
-    
-            &-track-piece { display: none;}
+        &-track-piece {
+          display: none;
         }
+      }
     }
-}
-.container-2ebMPP .scroller-145h9c { padding-top: 56px;}
-
+  }
 }
