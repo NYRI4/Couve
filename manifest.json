@@ -7,7 +7,7 @@
         "discordID": "265924886461939712",
         "github": "NYRI4"
     },
-    "version": "2.2.0",
+    "version": "2.2.1",
     "updater": {
         "type": "github",
         "id": "NYRI4/Couve"

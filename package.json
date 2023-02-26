@@ -1,6 +1,6 @@
 {
     "name": "couve",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "description": "A new look to discord",
     "engines": {
       "node": ">=14.0.0"
