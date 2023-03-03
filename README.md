@@ -1,4 +1,4 @@
-<img align="right" src="https://cdn.discordapp.com/attachments/539180316447997974/725737819015872562/unknown.png" alt="Preview" width="33%">
+<img align="right" src="https://cdn.discordapp.com/attachments/539180316447997974/725737819015872562/unknown.png" alt="Preview" width="40%">
 
 <div align="left">
   <img align="left" src="https://i.imgur.com/k96ZiGw.png" alt="Logo" width="80" height="70">
@@ -20,7 +20,7 @@
 
 <br/>
 <div align="left">
-    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="Couve" width="45" height="45">
+    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
     <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://betterdiscord.app/theme/Couve">here</a></p>
 </div>
@@ -41,7 +41,7 @@
 
 <br/>
 <div align="left">
-    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="Couve" width="45" height="45">
+    <img align="left" src="https://i.imgur.com/LPH05EO.png" alt="BetterDiscord" width="45" height="45">
     <b><p align="left">BetterDiscord</b>
     <br/>Open Settings > Themes > Themes folder and open <code>couve.theme.css</code></p>
 </div>
