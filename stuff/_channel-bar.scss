@@ -5,8 +5,8 @@
   }
 
   // Removing help buttons
-  [href="https://support.discord.com"], .searchLearnMore-7__o_n .anchor-1MIwyf.anchorUnderlineOnHover-2qPutX
-  {
+  .toolbar-3_r2xA > :last-child[href="https://support.discord.com"], 
+  .searchLearnMore-1gNL3A {
     display: none;
   }
 
@@ -126,7 +126,7 @@
         }
       }
     }
-    .datePickerHint-17MnA8 .hintValue-1x-flY {
+    .datePickerHint-Ir4715 .hintValue-V9hd8l {
       background: var(--main-color);
     }
   }
@@ -167,11 +167,15 @@
         box-shadow: none;
         border-radius: 10px;
       }
+
+      .pageButton-uta6J3 {
+        background-color: var(--background-primary);
+
+        &.activeButton-2K2Fwx {
+          background-color: var(--main-color);
+        }
+      }
     }
-  }
-  .jumpButton-1ZwI_j,
-  .button-cfOvv- {
-    background: var(--background-primary);
   }
 
   // Inbox
@@ -179,6 +183,7 @@
     position: fixed;
     top: 0;
     right: 0;
+    min-height: 100%;
     max-height: 100% !important;
     animation: sidebarStatusTransalteXReverse 0.5s ease, fade 0.4s ease;
     border-radius: 0;
@@ -213,7 +218,7 @@
 
     // Body
     .messagesPopout-eVzQcI,
-    .scrollerBase-_bVAAt {
+    .scrollerBase-1Pkza4 {
       padding-top: 86px;
 
       // Card

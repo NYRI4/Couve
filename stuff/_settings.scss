@@ -25,38 +25,35 @@
         .sidebar-nqHbhN {
           width: 240px;
 
-          .side-2ur1Qk .header-2Kx1US,
-          .side-2ur1Qk .item-3XjbnG {
+          .side-1lrxIh .header-2F5_LB {
+            color: var(--textcolor);
+          }
+
+          .bd-sidebar-header-label {
+            color: var(--textcolor);
+            padding: 0;
+          }
+
+          .side-1lrxIh .header-2F5_LB,
+          .side-1lrxIh .item-2GWPIy,
+          .bd-sidebar-header {
             padding: 6px 30px;
             border-radius: 0;
           }
-          .side-2ur1Qk .item-3XjbnG:hover {
+          .side-1lrxIh .item-2GWPIy:hover {
             background: var(--background-secondary-alt);
           }
 
           // Discord social stuff
-          .socialLinks-2DELRE {
+          .socialLinks-3ywLUf {
             justify-content: center;
             display: flex;
             flex-direction: row;
-
-            // Powercord
-            .powercord-pc-icon {
-              svg {
-                border: none;
-              }
-
-              &::before {
-                top: 0;
-                width: 20px;
-                height: 16px;
-              }
-            }
           }
 
           // Client informations
-          .info-1sUqUG {
-            text-align: center;
+          .info-3pQQBb {
+            padding-left: 30px;
           }
         }
         .sidebar-nqHbhN,
@@ -103,7 +100,8 @@
 
   // Save bar
   .noticeRegion-qjyUVg {
-    max-width: unset;
+    right: 0;
+    max-width: 100%;
 
     .container-20TyK0 {
       background-color: var(--background-secondary) !important;
@@ -200,7 +198,7 @@
         background: none;
         align-self: center;
 
-        .mask-1FEkla {
+        .mask-1y0tyc {
           width: 120px;
           height: 120px;
         }
@@ -336,17 +334,11 @@
     svg {
       margin-right: 8px;
     }
-  }
 
-  .hero-1aNo0v {
-    max-width: unset;
-
-    & + .featuresHeader-2bjq5B {
-      text-align: center;
+    & + .selectedBackground-1t6xXq {
+      background-color: var(--background-modifier-selected);
+      border-radius: 0;
     }
-  }
-  .feature-2IUcBI {
-    background: var(--background-secondary);
   }
 
   // Boost
@@ -390,6 +382,11 @@
     }
   }
 
+  // Gift Inventory
+  .promotionCard-mo7ClH {
+    border-radius: 8px;
+  }
+
   // Billing
   .paymentPane-ut5qKZ,
   .codeRedemptionRedirect-2hYMSQ {
@@ -410,7 +407,7 @@
   }
 
   // Voice settings
-  .userSettingsVoice-1_dzjw {
+  .micTest-2WlQj6 {
     .previewOverlay-2reuWf {
       background: var(--background-secondary);
       border: none;
@@ -418,6 +415,10 @@
     }
     .media-engine-video {
       border-radius: 10px;
+    }
+
+    .notches-2w7UZJ.gray-3wP137 {
+      color: var(--background-primary);
     }
   }
 
@@ -469,7 +470,6 @@
   // Hypesquad
   .membershipDialog-2wAdpQ {
     border-radius: 10px;
-    background: var(--background-secondary);
 
     &:after {
       left: 5px;
@@ -488,7 +488,7 @@
 
   // Overview
   .avatarUploaderInner-1Cp1oP {
-    border-radius: 8px;
+    border-radius: 16px;
     box-shadow: none;
   }
 
@@ -541,7 +541,7 @@
   // Discovery
   .modal-1gWd9S,
   .container-2E0bff {
-    .footer-31IekZ {
+    .footer-1KGV6y {
       border-bottom-left-radius: 0 !important;
     }
   }

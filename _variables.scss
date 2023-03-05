@@ -4,73 +4,64 @@
 
 // Settings
 :root {
+  --version: "2.3.0";
 
-    // Colors
-    --main-color: #419e85;
+  // Colors
+  --main-color: #419e85;
 
-    // Borders
-    --avatar-radius: 8px;
+  // Borders
+  --avatar-radius: 8px;
 }
 
 // Dark/Light vars
 .theme-dark {
+  // BGs
+  --background-primary: #252a3e;
+  --background-secondary: #1e2337;
+  --background-secondary-alt: #1c2438;
+  --background-secondary-alt-alt: #1b1d31;
+  --background-tertiary: #060c24;
 
-    // BGs
-    --background-primary: #252a3e;
-    --background-secondary: #1e2337;
-    --background-secondary-alt: #1c2438;
-    --background-secondary-alt-alt: #1b1d31;
-    --background-tertiary: #060c24;
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
 
-    --deprecated-store-bg: var(--background-primary);
-    --background-floating: var(--background-secondary);
-    --background-mobile-primary: var(--background-primary);
-    --activity-card-background: var(--background-secondary);
-    --input-background: var(--background-secondary);
-    --modal-background: var(--background-primary);
+  --colortransparency: #0003;
 
-    --colortransparency: #0003;
+  // Cards
+  --card: #212332;
 
-    // Cards
-    --card: #212332;
+  // Other stuff
+  --textcolor: #fff;
+  --epicshadow1: #fff3;
 
-    // Other stuff
-    --textcolor: #fff;
-    --epicshadow1: #fff3;
-
-    // Font
-    --font-display: var(--font-primary) !important;
+  // Font
+  --font-display: var(--font-primary) !important;
 }
 
 .theme-light {
+  // BGs
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
 
-    // BGs
-    --background-primary: #fafafa;
-    --background-secondary: #f7f7f7;
-    --background-secondary-alt: #fff;
-    --background-secondary-alt-alt: #eee;
-    --background-tertiary: #fff;
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
 
-    --deprecated-store-bg: var(--background-primary);
-    --background-floating: var(--background-secondary);
-    --background-mobile-primary: var(--background-primary);
-    --activity-card-background: var(--background-secondary);
-    --modal-background: var(--background-primary);
+  --colortransparency: #0001;
 
-    --colortransparency: #0001;
+  // Cards
+  --card: #aaaaaa;
 
-    // Cards
-    --card: #aaaaaa;
-
-    // Other stuff
-    --textcolor: #000;
-    --epicshadow1: #0003;
-}
-
-
-// Other vars
-:root { 
-    --revision: "2";
-    --elevation-low: none;
-    --premium-shit-cppf-radius: var(--avatar-radius);
+  // Other stuff
+  --textcolor: #000;
+  --epicshadow1: #0003;
 }

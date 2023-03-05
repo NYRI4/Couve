@@ -206,7 +206,7 @@
     }
 
     // Avatar mask
-    .mask-1FEkla {
+    .mask-1y0tyc {
       foreignObject {
         border-radius: calc(var(--avatar-radius) * 2) !important;
       }
@@ -218,7 +218,7 @@
   }
 
   // User modal
-  .root-2uUafN.root-g14mjS.small-23Atuv {
+  .root-2uUafN.root-1CAIjD.small-2xUY-3 {
     width: 800px;
     height: 100%;
 
@@ -319,7 +319,7 @@
     }
 
     // Avatar mask
-    .mask-1FEkla foreignObject {
+    .mask-1y0tyc foreignObject {
       border-radius: calc(var(--avatar-radius) * 2.1) !important;
     }
 
@@ -399,7 +399,7 @@
             flex-direction: column;
             gap: 15px;
 
-            .item-3XjbnG {
+            .item-2GWPIy {
               height: 20px;
               border-bottom: unset;
             }
@@ -496,14 +496,5 @@
 
   .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU {
     background-color: transparent;
-  }
-
-  // USRBG for BetterDiscord only
-  .userPopout-2j1gM4 .banner-1YaD3N,
-  .root-8LYsGj .banner-1YaD3N {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: var(--user-popout-position, center) center;
-    background-image: var(--user-background);
   }
 }

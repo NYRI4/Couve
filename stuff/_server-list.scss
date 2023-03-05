@@ -1,134 +1,200 @@
 :root {
-    
-.guilds-2JjMmN {
-    width: 90px; margin-top: -35px;
+  .guilds-2JjMmN {
+    width: 90px;
+    margin-top: -35px;
 
     // When full-screen video
-    &.hidden-10MsGQ { width: 0 !important;}
+    &.hidden-10MsGQ {
+      width: 0 !important;
+    }
 
     &::before {
-        content: "";
-        position: absolute;
-        bottom: 0; left: 0; z-index: 1;
-        width: 90px; height: 100px;
-        background: linear-gradient(360deg, var(--background-tertiary), transparent);
-        pointer-events: none;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      width: 90px;
+      height: 100px;
+      background: linear-gradient(
+        360deg,
+        var(--background-tertiary),
+        transparent
+      );
+      pointer-events: none;
     }
 
     .scroller-3X7KbA {
-        padding: 30px 0;
+      padding: 30px 0;
 
-        // Home button
-        & > .tutorialContainer-2sGCg9:first-child > .listItem-3SmSlK .childWrapper-1j_1ub {
+      // Home button
+      &
+        > .tutorialContainer-2sGCg9:first-child
+        > .listItem-3SmSlK
+        .childWrapper-1j_1ub {
+        background: var(--main-color);
+        color: #fff;
+      }
+
+      & > .listItem-3SmSlK:nth-last-child(2) {
+        margin-bottom: 80px;
+      }
+
+      // Server
+      .listItem-3SmSlK {
+        width: 90px;
+
+        .wrapper-2PSQCG,
+        .svg-2ifYOU {
+          width: 42px;
+        }
+        .wrapper-3kah-n {
+          border-radius: 50%;
+          overflow: hidden;
+          transition: border-radius 200ms;
+
+          &:hover {
+            border-radius: calc(50% - 4px);
+          }
+        }
+
+        .upperBadge-1d6YsW {
+          top: 2px;
+          right: -1px;
+        }
+
+        // Mention badge
+        .lowerBadge-3j0ZAg {
+          bottom: 4px;
+          right: -5px;
+
+          .numberBadge-37OJ3S {
+            min-width: 25px;
+            background: var(--main-color) !important;
+            font-size: 8px;
+          }
+          &:last-child .numberBadge-37OJ3S {
+            box-shadow: 0 0 10px 0 #0008;
+          }
+        }
+
+        // Server icon
+        .wrapper-3kah-n {
+          &.selected-1Drb7Z .childWrapper-1j_1ub,
+          &:hover .childWrapper-1j_1ub {
             background: var(--main-color);
-            color: #fff;
-        }
-        
-        & > .listItem-3SmSlK:nth-last-child(2) { margin-bottom: 80px;}
+          }
 
-        // Server
-        .listItem-3SmSlK {
-            width: 90px;
-
-            .wrapper-28eC3z, .svg-2zuE5p { width: 42px;}
-            .wrapper-3kah-n {
-                border-radius: 50%; overflow: hidden;
-                transition: border-radius 200ms;
-
-                &:hover { border-radius: calc(50% - 4px);}
-            }
-
-            .upperBadge-1V6Iyi { top: 2px; right: -1px;}
-
-            // Mention badge
-            .lowerBadge-3WTshO { 
-                bottom: 4px; right: -5px;
-
-                .numberBadge-37OJ3S {
-                    min-width: 25px;
-                    background: var(--main-color) !important;
-                    font-size: 8px;
-                }
-                &:last-child .numberBadge-37OJ3S { box-shadow: 0 0 10px 0 #0008;}
-            }
-
-            // Server icon
-            .wrapper-3kah-n {
-                &.selected-1Drb7Z .childWrapper-1j_1ub, 
-                &:hover .childWrapper-1j_1ub { background: var(--main-color);}
-
-                .childWrapper-1j_1ub { background: var(--background-secondary);}
-            }
-
-            defs g:last-child { display: none;}
+          .childWrapper-1j_1ub {
+            background: var(--background-secondary);
+          }
         }
 
-        // Server Folders
-        .wrapper-38slSD {
-            width: 90px;
-
-            .expandedFolderBackground-1kSAf6 { left: 21px;}
-
-            .folderIconWrapper-1oRIZr {
-                transition: border-radius 200ms;
-
-                &:hover { border-radius: calc(16px - 4px);}
-            }
-
-            .wrapper-28eC3z > svg > foreignObject {
-                mask: none;
-
-                .folder-241Joy { background: transparent;}
-            }
-
-            &.expanded { .expandedFolderBackground-1kSAf6 { background: var(--background-secondary);}}
+        defs g:last-child {
+          display: none;
         }
-        
+      }
 
-        // Create server + Discover buttons
-        .circleIconButton-1VxDrg {
-            border-radius: 14px;
-            border: dashed 2px var(--epicshadow1);
+      // Server Folders
+      .wrapper-38slSD {
+        width: 90px;
+
+        .expandedFolderBackground-1kSAf6 {
+          left: 21px;
+        }
+
+        .folderIconWrapper-1oRIZr {
+          transition: border-radius 200ms;
+
+          &:hover {
+            border-radius: calc(16px - 4px);
+          }
+        }
+
+        .wrapper-2PSQCG > svg > foreignObject {
+          mask: none;
+
+          .folder-241Joy {
             background: transparent;
-            color: var(--epicshadow1);
-            transition: all .2s;
+          }
         }
 
-        .tutorialContainer-2jwoiB {
-            &:hover .circleIconButton-1VxDrg, & + .listItem-3SmSlK:hover .circleIconButton-1VxDrg {
-                background: transparent;
-                color: var(--main-color);
-                border-color: var(--main-color);
-            }
-
-            .wrapperSimple-Js2rIO, & + .listItem-3SmSlK .wrapperSimple-Js2rIO { overflow: visible;}
-            svg > foreignObject, & + .listItem-3SmSlK svg > foreignObject { mask: none;}
+        &.expanded {
+          .expandedFolderBackground-1kSAf6 {
+            background: var(--background-secondary);
+          }
         }
-        .wrapperSimple-Js2rIO foreignObject { mask: none;}
+      }
 
-        // Some space for the avatar
-        & > div:last-child { margin-bottom: 80px;}
+      // Create server + Discover buttons
+      .circleIconButton-1VxDrg {
+        border-radius: 14px;
+        border: dashed 2px var(--epicshadow1);
+        background: transparent;
+        color: var(--epicshadow1);
+        transition: all 0.2s;
+      }
 
-        &::-webkit-scrollbar { display: none;}
+      .tutorialContainer-2jwoiB {
+        &:hover .circleIconButton-1VxDrg,
+        & + .listItem-3SmSlK:hover .circleIconButton-1VxDrg {
+          background: transparent;
+          color: var(--main-color);
+          border-color: var(--main-color);
+        }
+
+        .wrapperSimple-2SFl9K,
+        & + .listItem-3SmSlK .wrapperSimple-2SFl9K {
+          overflow: visible;
+        }
+        svg > foreignObject,
+        & + .listItem-3SmSlK svg > foreignObject {
+          mask: none;
+        }
+      }
+      .wrapperSimple-2SFl9K foreignObject {
+        mask: none;
+      }
+
+      // Some space for the avatar
+      & > div:last-child {
+        margin-bottom: 80px;
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
 
     // Mentions & Unread
     .mention-3XBnnZ {
-        height: 100%;
-        background: linear-gradient(360deg, transparent, var(--background-tertiary));
-        transition: color .2s;
-        opacity: 1; text-transform: capitalize;
-        color: var(--textcolor);
-        animation: fade .5s;
-        border-radius: 0;
+      height: 100%;
+      background: linear-gradient(
+        360deg,
+        transparent,
+        var(--background-tertiary)
+      );
+      transition: color 0.2s;
+      opacity: 1;
+      text-transform: capitalize;
+      color: var(--textcolor);
+      animation: fade 0.5s;
+      border-radius: 0;
 
-        &:hover { color: var(--main-color);}
+      &:hover {
+        color: var(--main-color);
+      }
     }
-    .unreadMentionsIndicatorBottom-BXS58x .mention-3XBnnZ { background: transparent;}
+    .unreadMentionsIndicatorBottom-BXS58x .mention-3XBnnZ {
+      background: transparent;
+    }
 
     // In server
-    .unreadMentionsIndicatorTop-2bTgUU, .unreadMentionsIndicatorBottom-3RJMnQ {
-        width: 100%; height: 30px;
-        padding: 0;
+    .unreadMentionsIndicatorTop-2bTgUU,
+    .unreadMentionsIndicatorBottom-3RJMnQ {
+      width: 100%;
+      height: 30px;
+      padding: 0;
     }
-}}
+  }
+}
