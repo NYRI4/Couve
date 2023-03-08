@@ -233,8 +233,9 @@
     width: 100%;
     height: 100%;
     flex-direction: row;
-    overflow: unset;
+    overflow: hidden;
     position: relative;
+    border-radius: 8px;
 
     &::before {
       width: 100%;
@@ -244,7 +245,7 @@
     // Header
     .topSection-1Khgkv {
       z-index: 1;
-      border-radius: 10px 0 0 10px;
+      border-radius: 8px 0 0 10px;
       overflow: hidden;
       width: calc(50% - 16px);
       height: 100%;
@@ -312,9 +313,9 @@
     }
 
     .relationshipButtons-pZ_UWl {
-      position: absolute;
+      position: fixed;
       bottom: 20px;
-      left: 18px;
+      left: 20px;
       z-index: 1;
     }
 
@@ -332,13 +333,12 @@
 
     // Custom Status
     .container-1U-qVy > div:not(.nameTag-2ysfG3) {
-      position: fixed;
+      position: absolute;
       bottom: 0;
       right: 0;
       z-index: 1;
       width: calc(50% + 16px);
       padding: 10px 20px;
-      border-bottom-right-radius: 10px;
       backdrop-filter: blur(8px);
       box-sizing: border-box;
 
@@ -390,7 +390,7 @@
         // Menu
         .tabBarContainer-2UG0vy {
           position: absolute;
-          bottom: 20px;
+          bottom: 60px;
           left: 5px;
           z-index: 1;
           border-bottom: unset;
@@ -408,7 +408,7 @@
 
         // Connected account
         .connectedAccounts-1HaiEx {
-          padding-bottom: 50px;
+          padding-bottom: 80px;
 
           .connectedAccountContainer-2TWiXT {
             width: 185px;
