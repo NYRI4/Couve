@@ -1172,6 +1172,9 @@
   border-radius: 8px !important;
   margin-left: 6px;
 }
+:root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .content-tXPNDw {
+  margin-right: 8px;
+}
 :root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .button-f2h6uQ {
   background-color: var(--main-color);
   opacity: 1;
@@ -1189,6 +1192,7 @@
   border-radius: 8px;
 }
 :root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .bar-1GpknY {
+  border-radius: 8px;
   height: 100%;
 }
 :root .userPopoutOuter-3AVBmJ .userPopoutOverlayBackground-dKOOda .activity-E0U09Y .timeBarUserPopoutV2-32DL06 .barInner-3dHef4 {
