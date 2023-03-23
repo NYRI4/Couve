@@ -256,6 +256,10 @@
   #emoji-picker-tab-panel {
     border-radius: 8px 8px 0 0;
 
+    .header-11eigE {
+      box-shadow: none;
+    }
+
     // Discord's capitalism
     .premiumPromo-1eKAIB {
       background: var(--background-secondary);
@@ -704,11 +708,6 @@
     fill: var(--main-color);
   }
 
-  // Hide textbox when you don't have permission
-  .channelTextAreaDisabled-1p2fQv {
-    display: none;
-  }
-
   .form-3gdLxP:before {
     background: linear-gradient(
       180deg,
@@ -740,5 +739,22 @@
     .scroller-2GkvCq {
       background: var(--background-primary);
     }
+  }
+
+  // Threads
+  .container-3wLKDe > .scrollerBase-1Pkza4 {
+    background-color: var(--background-primary);
+
+    .tagsContainer-2bBw1x button, .tagsContainer-2bBw1x .tag-19iIl1 {
+      background-color: var(--background-secondary-alt-alt);
+    }
+
+    .mainCard-3KBsBI {
+      background-color: var(--background-secondary);
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    } 
   }
 }

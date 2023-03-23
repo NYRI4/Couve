@@ -542,13 +542,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   .input-3O04eu {
     border: none;
     border-radius: 8px;
-    background: var(--background-secondary-alt-alt);
     transition: background 0.4s;
-
-    &.focused-1AtTHC,
-    .input-3O04eu:focus {
-      background: var(--background-secondary);
-    }
   }
 
   .select-Zz0IcO,

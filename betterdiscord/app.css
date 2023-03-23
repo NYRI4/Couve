@@ -198,6 +198,9 @@
 :root #emoji-picker-tab-panel {
   border-radius: 8px 8px 0 0;
 }
+:root #emoji-picker-tab-panel .header-11eigE {
+  box-shadow: none;
+}
 :root #emoji-picker-tab-panel .premiumPromo-1eKAIB {
   background: var(--background-secondary);
   opacity: 1;
@@ -551,9 +554,6 @@
 :root .attachButton-_ACFSu:hover .attachButtonPlus-3IYelE {
   fill: var(--main-color);
 }
-:root .channelTextAreaDisabled-1p2fQv {
-  display: none;
-}
 :root .form-3gdLxP:before {
   background: linear-gradient(180deg, transparent 0, var(--background-primary));
 }
@@ -574,6 +574,18 @@
 :root .container-KM8BU6 .scroller-2GkvCq,
 :root .reactors-1VXca7 .scroller-2GkvCq {
   background: var(--background-primary);
+}
+:root .container-3wLKDe > .scrollerBase-1Pkza4 {
+  background-color: var(--background-primary);
+}
+:root .container-3wLKDe > .scrollerBase-1Pkza4 .tagsContainer-2bBw1x button, :root .container-3wLKDe > .scrollerBase-1Pkza4 .tagsContainer-2bBw1x .tag-19iIl1 {
+  background-color: var(--background-secondary-alt-alt);
+}
+:root .container-3wLKDe > .scrollerBase-1Pkza4 .mainCard-3KBsBI {
+  background-color: var(--background-secondary);
+}
+:root .container-3wLKDe > .scrollerBase-1Pkza4::-webkit-scrollbar {
+  display: none;
 }
 
 :root .guilds-2JjMmN {
@@ -1319,8 +1331,8 @@
 }
 :root .userProfileModalInner-3fh3QA .relationshipButtons-pZ_UWl {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 130px;
+  left: 15px;
   z-index: 1;
 }
 :root .userProfileModalInner-3fh3QA .mask-1y0tyc foreignObject {
@@ -1378,7 +1390,7 @@
 }
 :root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU .body-_QAKrE .tabBarContainer-2UG0vy {
   position: absolute;
-  bottom: 60px;
+  bottom: 20px;
   left: 5px;
   z-index: 1;
   border-bottom: unset;
@@ -1550,7 +1562,7 @@
 :root .noticeRegion-qjyUVg .container-20TyK0 {
   background-color: var(--background-secondary) !important;
 }
-@media (max-width: 1360px) {
+@media (max-width: 1465px) {
   :root .accountProfileCard-lbN7n- {
     flex-direction: column;
   }
@@ -2547,12 +2559,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .input-3O04eu {
   border: none;
   border-radius: 8px;
-  background: var(--background-secondary-alt-alt);
   transition: background 0.4s;
-}
-:root .input-3O04eu.focused-1AtTHC,
-:root .input-3O04eu .input-3O04eu:focus {
-  background: var(--background-secondary);
 }
 :root .select-Zz0IcO,
 :root .item-1TA5qI {
