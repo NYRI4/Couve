@@ -623,7 +623,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     top: 0;
     left: 0;
 
-    .userPopoutOuter-3AVBmJ {
+    .userPopoutOuter-1OHwPL {
       width: 330px;
       height: 100vh;
       max-height: unset;
@@ -632,33 +632,33 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       background: var(--background-tertiary);
       margin-right: 0;
 
-      .userPopoutInner-1hXSeY::before {
+      .userPopoutInner-nv9Y92::before {
         width: 100% !important;
       }
 
-      .userProfileInnerThemedNonPremium-1gT-zY {
+      .userProfileInnerThemedNonPremium-2AJg-H {
         background: transparent;
       }
 
       // Banner
-      .bannerSVGWrapper-qc0szY {
+      .bannerSVGWrapper-2CLfzN {
         min-width: 330px !important;
 
-        .banner-2boKnS {
+        .banner-1YaD3N {
           border-radius: 0;
         }
-        .pencilContainer-11Kuga {
+        .pencilContainer-18TrEJ {
           display: none;
         }
       }
 
       // Avatar
-      .avatarWrapper-3y0KZ1 {
+      .avatarWrapper-eenWra {
         left: calc(50% - 35px);
       }
 
       // Username section
-      .usernameSection-2d814A {
+      .usernameSection-3FppkT {
         position: absolute;
         top: 110px;
         left: 0;
@@ -666,8 +666,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
         box-sizing: border-box;
         text-align: center;
 
-        & .userText-148fun > h1,
-        & .userText-148fun > .userTagNoNickname-2MJ9HD {
+        & .userText-1_v2Cq > h1,
+        & .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
           position: fixed;
         }
       }

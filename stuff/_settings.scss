@@ -115,7 +115,7 @@
     .accountProfileCard-lbN7n- {
       flex-direction: column;
 
-      .bannerSVGWrapper-qc0szY {
+      .bannerSVGWrapper-2CLfzN {
         min-width: unset !important;
         min-height: 150px !important;
 
@@ -128,7 +128,7 @@
       }
 
       // Banner
-      .banner-2boKnS {
+      .banner-1YaD3N {
         border-radius: 8px 8px 0 0 !important;
         height: 200px !important;
         flex: unset !important;
@@ -156,7 +156,7 @@
     display: flex;
     background-color: var(--background-secondary);
 
-    .bannerSVGWrapper-qc0szY {
+    .bannerSVGWrapper-2CLfzN {
       min-height: 270px;
 
       mask {
@@ -168,7 +168,7 @@
     }
 
     // Banner
-    .banner-2boKnS {
+    .banner-1YaD3N {
       border-radius: 8px 0 0 8px;
       height: 270px;
       flex: 1;
@@ -223,17 +223,17 @@
   }
 
   // User profile
-  .profileCustomizationSection-53kreU .baseLayoutProfileThemes-1Jj-oN {
+  .profileCustomizationSection-53kreU .baseLayout-1_9QRm {
     & > :first-child {
       flex: 2 auto;
     }
 
-    .userPopoutInner-1hXSeY:before {
+    .userPopoutInner-nv9Y92:before {
       width: calc(100% - 8px) !important;
     }
 
     // Banner
-    .banner-1rJmju {
+    .banner-3D8GgT {
       position: absolute;
       left: 0;
       height: 180px;
@@ -248,12 +248,12 @@
     }
 
     // Avatar
-    .avatarUploader-CHGwK7 {
+    .avatarUploader-qEFQS2 {
       top: 15px;
       left: 50%;
       margin-left: -40px;
 
-      .avatarUploaderInner-1dBiHs {
+      .avatarUploaderInner-p38nm2 {
         border: none;
         border-radius: var(--avatar-radius);
       }
@@ -261,14 +261,14 @@
       .imageUploaderIcon-2OHmFu {
         display: none;
       }
-      .status-b9jLr4 {
+      .status-170GHg {
         background-color: transparent;
       }
     }
 
     // User infos
-    .section-3FmfOT .userText-148fun > h1,
-    .section-3FmfOT .userText-148fun > .userTagNoNickname-2MJ9HD {
+    .section-28YDOf .userText-1_v2Cq > h1,
+    .section-28YDOf .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
       position: absolute;
       top: 110px;
       left: 0;
@@ -276,14 +276,13 @@
       box-sizing: border-box;
       text-align: center;
 
-      .discrimBase-KriZSj {
+      .discrimBase-v65kTs {
         color: white;
       }
     }
 
     // Status + About Me
-    .customStatus-3XAoF9,
-    .aboutMeSection-PUghFQ {
+    .customStatus-19KW6v {
       padding-top: 12px;
     }
 

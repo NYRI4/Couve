@@ -28,21 +28,22 @@
     background: var(--background-secondary);
   }
 
-  .userPopoutOuter-3AVBmJ {
+  .userPopoutOuter-1OHwPL {
     max-height: unset !important;
     box-shadow: unset !important;
     border-radius: 8px;
 
-    .userPopoutInner-1hXSeY:before {
+    .userPopoutInner-nv9Y92::before {
       max-height: unset !important;
     }
 
     // Banner
-    .bannerSVGWrapper-qc0szY {
+    .bannerSVGWrapper-2CLfzN {
       overflow: visible;
       min-height: 150px !important;
+      contain: unset;
 
-      .banner-2boKnS {
+      .banner-1YaD3N {
         position: absolute;
         height: 180px;
         border-radius: 8px 8px 0 0;
@@ -81,7 +82,7 @@
     }
 
     // Badges
-    .profileBadges-31rDHI {
+    .profileBadges-2pItdR {
       position: absolute;
       top: 140px;
       left: 0;
@@ -93,16 +94,16 @@
     }
 
     // New body
-    .userPopoutOverlayBackground-dKOOda {
+    .userPopoutOverlayBackground-3A0Pcz {
       position: static;
       background-color: transparent;
 
-      & > .divider-1tWBgZ {
+      & > .divider-2dDziJ {
         display: none;
       }
 
-      .usernameSection-2d814A .userText-148fun > h1,
-      .usernameSection-2d814A .userText-148fun > .userTagNoNickname-2MJ9HD {
+      .usernameSection-3FppkT .userText-1_v2Cq > h1,
+      .usernameSection-3FppkT .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
         position: absolute;
         top: 110px;
         left: 0;
@@ -110,17 +111,17 @@
         box-sizing: border-box;
         text-align: center;
 
-        .discrimBase-KriZSj {
+        .discrimBase-v65kTs {
           color: white;
         }
       }
 
-      .scroller-1jBQYo::-webkit-scrollbar {
+      .scroller-15bIdk::-webkit-scrollbar {
         display: none;
       }
 
       // Activities
-      .activity-E0U09Y {
+      .activity-3uaYny {
         z-index: 1;
 
         .assetsLargeImageSpotify-17ME3M {
@@ -133,7 +134,7 @@
         }
 
         // Button
-        .button-f2h6uQ {
+        .button-TGAkj4 {
           background-color: var(--main-color);
           opacity: 1;
         }
@@ -174,17 +175,17 @@
     }
 
     // Username adjustements for premium popouts
-    &.userProfileOuterThemed-3EfHmv .usernameSection-2d814A {
+    &.userProfileOuterThemed-2BgJCM .usernameSection-3FppkT {
       left: 4px;
     }
 
     // Avatar
-    .avatarWrapper-3y0KZ1 {
+    .avatarWrapper-eenWra {
       top: 15px;
       left: calc(50% - 40px);
 
       // View profile mask
-      .avatarHint-2g3Mcd {
+      .avatarHint-k7pYop {
         top: 0;
         left: 0;
         border-radius: calc(var(--avatar-radius) * 2) !important;
@@ -193,7 +194,7 @@
           mask: none !important;
 
           // Custom Avatar Hint
-          .avatarHintInner-3gk_Yx {
+          .avatarHintInner-2HUAWj {
             font-size: 0;
             text-transform: none;
 
@@ -223,7 +224,7 @@
   }
 
   // User modal
-  .root-2uUafN.root-1CAIjD.small-2xUY-3 {
+  .root-8LYsGj.root-1CAIjD.small-2xUY-3 {
     width: 800px;
     height: 100%;
 
@@ -234,7 +235,7 @@
     }
   }
 
-  .userProfileModalInner-3fh3QA {
+  .userProfileModalInner-3dx9L9 {
     width: 100%;
     height: 100%;
     flex-direction: row;
@@ -248,7 +249,7 @@
     }
 
     // Header
-    .topSection-1Khgkv {
+    .topSection-13QKHs {
       z-index: 1;
       border-radius: 8px 0 0 10px;
       overflow: hidden;
@@ -261,13 +262,13 @@
         height: 100%;
       }
 
-      .bannerSVGWrapper-qc0szY {
+      .bannerSVGWrapper-2CLfzN {
         min-width: unset !important;
         min-height: unset !important;
         width: 100%;
         height: 100%;
 
-        .banner-2boKnS {
+        .banner-1YaD3N {
           position: absolute;
           top: 0;
           left: 0;
@@ -295,11 +296,11 @@
         }
       }
 
-      .header-1_vWwx {
+      .header-S26rhB {
         position: static;
 
         // Avatar
-        .avatar-1YsFQ1 {
+        .avatar-3QF_VA {
           top: 16px;
 
           circle,
@@ -308,7 +309,7 @@
           }
         }
 
-        .badgeList-2pMvZX {
+        .badgeList-2aoHPw {
           position: absolute;
           top: 40px;
           left: -5px;
@@ -317,9 +318,9 @@
       }
     }
 
-    .relationshipButtons-pZ_UWl {
+    .relationshipButtons-3ByBpj {
       position: fixed;
-      bottom: 130px;
+      bottom: 15px;
       left: 15px;
       z-index: 1;
     }
@@ -329,15 +330,8 @@
       border-radius: calc(var(--avatar-radius) * 2.1) !important;
     }
 
-    // Badges
-    .profileBadges-9OJ14v {
-      // when u have too many badges
-      flex-wrap: wrap;
-      flex-flow: row wrap;
-    }
-
     // Custom Status
-    .container-1U-qVy > div:not(.nameTag-2ysfG3) {
+    .container-3g15px > div:not(.nameTag-35jqbZ) {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -346,6 +340,7 @@
       padding: 10px 20px;
       backdrop-filter: blur(8px);
       box-sizing: border-box;
+      border-bottom-right-radius: 5px;
 
       &.activityProfile-1712BN {
         right: unset;
@@ -355,7 +350,7 @@
         padding: 20px;
       }
 
-      .customStatus-3QV7IG {
+      .customStatus-3qYNe4 {
         margin-top: 0;
       }
 
@@ -369,7 +364,7 @@
     }
 
     // Body
-    .userProfileModalOverlayBackground-8p3-eU {
+    .userProfileModalOverlayBackground-2dAaBg {
       position: static;
       width: calc(50% + 16px);
       margin: 0;
@@ -377,15 +372,15 @@
       background-color: var(--background-primary);
       border-radius: 0;
 
-      .body-_QAKrE {
+      .body-1Ukv50 {
         // Username
-        .nameTag-2ysfG3 {
+        .nameTag-35jqbZ {
           position: absolute;
           top: 25px;
           left: 160px;
           z-index: 1;
         }
-        .container-1U-qVy {
+        .container-3g15px {
           padding: 0;
         }
         .divider-1NpGam {
@@ -393,14 +388,14 @@
         }
 
         // Menu
-        .tabBarContainer-2UG0vy {
+        .tabBarContainer-sCZC4w {
           position: absolute;
-          bottom: 20px;
+          bottom: 65px;
           left: 5px;
           z-index: 1;
           border-bottom: unset;
 
-          .tabBar-2StdUa {
+          .tabBar-2hXqzU {
             flex-direction: column;
             gap: 15px;
 
@@ -412,10 +407,10 @@
         }
 
         // Connected account
-        .connectedAccounts-1HaiEx {
+        .connectedAccounts-2R5M4w {
           padding-bottom: 80px;
 
-          .connectedAccountContainer-2TWiXT {
+          .connectedAccountContainer-3aLMHJ {
             width: 185px;
             border: none;
             border-radius: 8px;
@@ -423,14 +418,14 @@
         }
 
         // Mutuals
-        .listScroller-XCVa1H {
+        .listScroller-entkMk {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: repeat(20, 0fr);
           gap: 10px;
           padding-left: 8px;
 
-          .listRow-Y5zoF8 {
+          .listRow-2nO1T6 {
             position: relative;
             z-index: 1;
             height: 44px;
@@ -440,7 +435,7 @@
             overflow: hidden;
             background-color: #ffffff07;
 
-            .listAvatar-2GhWlb {
+            .listAvatar-2bU5Uh {
               position: absolute;
               right: 0;
               z-index: -1;
@@ -466,7 +461,7 @@
             }
           }
 
-          .empty-2-ONJW {
+          .empty-2zcusz {
             grid-column: 1/3;
             grid-row: 1/22;
             position: relative;
@@ -476,7 +471,7 @@
             padding-left: 10px;
             border-radius: 8px;
 
-            .emptyIconFriends-3MCBQa {
+            .emptyIconFriends-2LNxTX {
               position: absolute;
               z-index: -1;
               width: 80%;
