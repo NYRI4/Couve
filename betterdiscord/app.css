@@ -1284,7 +1284,7 @@
   z-index: 1;
   border-radius: 8px 0 0 10px;
   overflow: hidden;
-  width: calc(50% - 16px);
+  width: calc(55% - 16px);
   height: 100%;
   margin-bottom: 0;
 }
@@ -1326,6 +1326,7 @@
 }
 :root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA {
   top: 16px;
+  left: 16px;
 }
 :root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA circle,
 :root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .avatar-3QF_VA rect[fill=black] {
@@ -1334,7 +1335,7 @@
 :root .userProfileModalInner-3dx9L9 .topSection-13QKHs .header-S26rhB .badgeList-2aoHPw {
   position: absolute;
   top: 40px;
-  left: -5px;
+  left: -15px;
   background-color: transparent;
 }
 :root .userProfileModalInner-3dx9L9 .relationshipButtons-3ByBpj {
@@ -1351,7 +1352,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  width: calc(50% + 16px);
+  width: calc(45% + 16px);
   padding: 10px 20px;
   backdrop-filter: blur(8px);
   box-sizing: border-box;
@@ -1375,7 +1376,7 @@
 }
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg {
   position: static;
-  width: calc(50% + 16px);
+  width: calc(45% + 16px);
   margin: 0;
   overflow: visible;
   background-color: var(--background-primary);
@@ -1384,8 +1385,13 @@
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .nameTag-35jqbZ {
   position: absolute;
   top: 25px;
-  left: 160px;
+  left: 153px;
   z-index: 1;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .nameTag-35jqbZ > span {
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px {
   padding: 0;
@@ -1412,7 +1418,6 @@
   padding-bottom: 80px;
 }
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .connectedAccounts-2R5M4w .connectedAccountContainer-3aLMHJ {
-  width: 185px;
   border: none;
   border-radius: 8px;
 }
@@ -1480,7 +1485,7 @@
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .input-2g-os5 {
   background-color: transparent;
 }
-:root .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU {
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg {
   background-color: transparent;
 }
 

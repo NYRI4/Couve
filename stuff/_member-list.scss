@@ -253,7 +253,7 @@
       z-index: 1;
       border-radius: 8px 0 0 10px;
       overflow: hidden;
-      width: calc(50% - 16px);
+      width: calc(55% - 16px);
       height: 100%;
       margin-bottom: 0;
 
@@ -302,6 +302,7 @@
         // Avatar
         .avatar-3QF_VA {
           top: 16px;
+          left: 16px;
 
           circle,
           rect[fill="black"] {
@@ -312,7 +313,7 @@
         .badgeList-2aoHPw {
           position: absolute;
           top: 40px;
-          left: -5px;
+          left: -15px;
           background-color: transparent;
         }
       }
@@ -336,7 +337,7 @@
       bottom: 0;
       right: 0;
       z-index: 1;
-      width: calc(50% + 16px);
+      width: calc(45% + 16px);
       padding: 10px 20px;
       backdrop-filter: blur(8px);
       box-sizing: border-box;
@@ -366,7 +367,7 @@
     // Body
     .userProfileModalOverlayBackground-2dAaBg {
       position: static;
-      width: calc(50% + 16px);
+      width: calc(45% + 16px);
       margin: 0;
       overflow: visible;
       background-color: var(--background-primary);
@@ -377,8 +378,14 @@
         .nameTag-35jqbZ {
           position: absolute;
           top: 25px;
-          left: 160px;
+          left: 153px;
           z-index: 1;
+
+          & > span {
+            max-width: 200px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
         }
         .container-3g15px {
           padding: 0;
@@ -411,7 +418,6 @@
           padding-bottom: 80px;
 
           .connectedAccountContainer-3aLMHJ {
-            width: 185px;
             border: none;
             border-radius: 8px;
           }
@@ -494,7 +500,7 @@
     }
   }
 
-  .userProfileModalInner-3fh3QA .userProfileModalOverlayBackground-8p3-eU {
+  .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg {
     background-color: transparent;
   }
 }
