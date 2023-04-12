@@ -55,8 +55,10 @@
 <div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
     <b><p align="left">Vencord</b>
-    <br/>Navigate to <code>betterdiscord/couve.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
-</div><br/>
+    <br/>Watch this epic tutorial</p>
+</div>
+
+https://user-images.githubusercontent.com/65369563/231574735-89da88ef-2cf1-4aa5-a157-3a66ce8d274b.mp4
 
 ## 🫰 Credits
 
