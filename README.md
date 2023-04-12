@@ -47,14 +47,8 @@
 </div>
 
 <div align="left">
-    <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
-    <b><p align="left">Replugged</b>
-    <br/>Navigate to <code>betterdiscord/couve.theme.css</code> on Github, copy the content and paste it in Custom CSS, then modify variables</p>
-</div>
-
-<div align="left">
     <img align="left" src="https://i.imgur.com/fXYKU5q.png" alt="Vencord" width="45" height="45">
-    <b><p align="left">Vencord</b>
+    <b><p align="left">Vencord & Replugged</b>
     <br/>Watch this epic tutorial</p>
 </div>
 
