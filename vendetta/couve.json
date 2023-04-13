@@ -1,0 +1,36 @@
+{
+  "name": "Couve",
+  "description": "A new look to discord",
+  "authors": [
+    {
+      "name": "A user",
+      "id": "264062457448759296"
+    },
+
+    {
+      "name": "Nyria",
+      "id": "265924886461939712"
+    }
+  ],
+  "semanticColors": {
+    "INTERACTIVE_NORMAL": ["#419E85"],
+    "INTERACTIVE_HOVER": ["#419E85"],
+    "INTERACTIVE_ACTIVE": ["#419E85"],
+    "BACKGROUND_PRIMARY": ["#252A3E"],
+    "BACKGROUND_SECONDARY": ["#1E2337"],
+    "BACKGROUND_SECONDARY_ALT": ["#1C2438"],
+    "BACKGROUND_TERTIARY": ["#060C24"],
+    "BACKGROUND_ACCENT": ["#419E85"],
+    "BACKGROUND_FLOATING": ["#1E2337"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#252A3E"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#1E2337"],
+
+    "SCROLLBAR_THIN_THUMB": ["#1E2337"],
+    "SCROLLBAR_THIN_TRACK": ["transparent"],
+    "SCROLLBAR_AUTO_THUMB": ["#1E2337"],
+    "SCROLLBAR_AUTO_TRACK": ["#1E2337"],
+    "CHAT_BACKGROUND": ["#252A3E"]
+  },
+  "rawColors": {},
+  "spec": 2
+}
