@@ -13,7 +13,6 @@
     }
   ],
   "semanticColors": {
-    "INTERACTIVE_NORMAL": ["#419E85"],
     "BACKGROUND_PRIMARY": ["#252A3E"],
     "BACKGROUND_SECONDARY": ["#1E2337"],
     "BACKGROUND_SECONDARY_ALT": ["#1C2438"],
@@ -32,9 +31,12 @@
   },
   "rawColors": {
     "PRIMARY_800": "#060C24",
+    "PRIMARY_600": "#252A3E",
     "PRIMARY_630": "#1E2337",
     "PRIMARY_660": "#060C24",
-    "PRIMARY_700": "#060C24"
+    "PRIMARY_700": "#060C24",
+    "BRAND_260": "#419E85",
+    "BRAND_500": "#419E85"
   },
   "spec": 2
 }
