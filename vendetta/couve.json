@@ -30,6 +30,8 @@
     "CHANNELTEXTAREA_BACKGROUND": ["#252A3E"],
     "CHAT_BACKGROUND": ["#252A3E"]
   },
-  "rawColors": {},
+  "rawColors": {
+    "PRIMARY_800": ["#060C24"]
+  },
   "spec": 2
 }
