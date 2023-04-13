@@ -31,7 +31,10 @@
     "CHAT_BACKGROUND": ["#252A3E"]
   },
   "rawColors": {
-    "PRIMARY_800": ["#060C24"]
+    "PRIMARY_800": "#060C24",
+    "PRIMARY_630": "#1E2337",
+    "PRIMARY_660": "#060C24",
+    "PRIMARY_700": "#060C24"
   },
   "spec": 2
 }
