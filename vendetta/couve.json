@@ -39,9 +39,7 @@
     "PRIMARY_700": "#252A3E",
     "PRIMARY_800": "#060C24",
     "BRAND_260": "#419E85",
-    "BRAND_360": "#419E85",
-    "BRAND_500": "#419E85",
-    "BRAND_560": "#FFFFFF"
+    "BRAND_360": "#419E85"
   },
   "spec": 2
 }
