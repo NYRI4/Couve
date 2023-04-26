@@ -1229,7 +1229,7 @@
   left: 4px;
 }
 :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
-  top: 15px;
+  top: 15px !important;
   left: calc(50% - 40px);
 }
 :root .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop {
