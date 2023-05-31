@@ -116,7 +116,7 @@
       flex-direction: column;
 
       .bannerSVGWrapper-2CLfzN {
-        min-width: unset !important;
+        min-width: 0 !important;
         min-height: 150px !important;
 
         mask {
@@ -157,20 +157,20 @@
     background-color: var(--background-secondary);
 
     .bannerSVGWrapper-2CLfzN {
-      min-height: 270px;
+      min-height: 320px;
 
       mask {
         display: none;
       }
       foreignObject {
-        y: -85px;
+        y: -110px;
       }
     }
 
     // Banner
     .banner-1YaD3N {
       border-radius: 8px 0 0 8px;
-      height: 270px;
+      height: 320px;
       flex: 1;
     }
 

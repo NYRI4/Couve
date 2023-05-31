@@ -312,7 +312,7 @@
 
         .badgeList-2aoHPw {
           position: absolute;
-          top: 40px;
+          top: 65px;
           left: -15px;
           background-color: transparent;
         }
@@ -332,7 +332,7 @@
     }
 
     // Custom Status
-    .container-3g15px > div:not(.nameTag-35jqbZ) {
+    .container-3g15px > div:nth-child(2) {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -375,7 +375,7 @@
 
       .body-1Ukv50 {
         // Username
-        .nameTag-35jqbZ {
+        .container-3g15px > div:first-child {
           position: absolute;
           top: 25px;
           left: 153px;
