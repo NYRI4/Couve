@@ -2115,6 +2115,9 @@
 :root .wrapper-1gVUIN:not(.video-3n15R6) .leftTrayIcon-3kMl25 {
   background: var(--background-primary);
 }
+:root .wrapper-1gVUIN:not(.video-3n15R6) .wrapper-3t3Yqv > .controlButton-2PMNom > svg > foreignObject {
+  mask: none;
+}
 :root .quickSelectPopout-2F0PXw {
   background: var(--background-primary);
 }
@@ -3015,46 +3018,4 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root ul[data-list-id=guildfoldersnav] {
   margin-top: 12px;
-}
-
-:root {
-  --version: "2.3.0";
-  --main-color: #419e85;
-  --avatar-radius: 8px;
-}
-
-.theme-dark {
-  --background-primary: #252a3e;
-  --background-secondary: #1e2337;
-  --background-secondary-alt: #1c2438;
-  --background-secondary-alt-alt: #1b1d31;
-  --background-tertiary: #060c24;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --input-background: var(--background-secondary);
-  --modal-background: var(--background-primary);
-  --colortransparency: #0003;
-  --card: #252a3e;
-  --textcolor: #fff;
-  --epicshadow1: #fff3;
-  --font-display: var(--font-primary) !important;
-}
-
-.theme-light {
-  --background-primary: #fafafa;
-  --background-secondary: #f7f7f7;
-  --background-secondary-alt: #fff;
-  --background-secondary-alt-alt: #eee;
-  --background-tertiary: #fff;
-  --deprecated-store-bg: var(--background-primary);
-  --background-floating: var(--background-secondary);
-  --background-mobile-primary: var(--background-primary);
-  --activity-card-background: var(--background-secondary);
-  --modal-background: var(--background-primary);
-  --colortransparency: #0001;
-  --card: #aaaaaa;
-  --textcolor: #000;
-  --epicshadow1: #0003;
 }
