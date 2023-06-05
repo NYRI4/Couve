@@ -28,7 +28,7 @@
 <div align="left">
     <img align="left" src="https://i.imgur.com/pfS7jdg.png" alt="Replugged" width="45" height="45">
     <b><p align="left">Replugged</b>
-    <br/>Click <a href="https://replugged.dev/install?identifier=NYRI4/Couve&source=github">here</a> and confirm the install in the client</p>
+    <br/>Click <a href="https://replugged.dev/install?identifier=nyria.couve">here</a> and confirm the install in the client</p>
 </div>
 
 <div align="left">
