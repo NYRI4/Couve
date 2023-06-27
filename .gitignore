@@ -1,3 +1,6 @@
 prepros.config
 .vscode
 .prettierignore
+node_modules
+.parcel-cache
+dist
