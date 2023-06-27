@@ -204,7 +204,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
     .card-2TuZPZ,
     .iconMask-2fMR98 {
-      background: var(--card);
+      background-color: var(--card);
 
       &:hover,
       &:hover .iconMask-2fMR98 {
@@ -648,12 +648,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       // Banner
       .bannerSVGWrapper-2CLfzN {
         min-width: 330px !important;
+        min-height: 180px !important;
 
         .banner-1YaD3N {
+          height: 200px;
           border-radius: 0;
         }
         .pencilContainer-18TrEJ {
           display: none;
+        }
+
+        &[viewBox="0 0 340 60"] > foreignObject {
+          transform: translateY(-62px);
         }
       }
 
@@ -663,7 +669,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       }
 
       // Username section
-      .usernameSection-3FppkT {
+      .usernameSection-3FppkT .clickTarget-2uXro4 {
         position: absolute;
         top: 110px;
         left: 0;
@@ -671,10 +677,19 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
         box-sizing: border-box;
         text-align: center;
 
-        & .userText-1_v2Cq > h1,
-        & .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
-          position: fixed;
+        & > .copiableField-2DYmf7 {
+          padding-right: 0;
+
+          & > div:last-child {
+            display: none;
+          }
         }
+      }
+
+      // Badges
+      .profileBadges-2pItdR {
+        top: 160px;
+        width: 330px;
       }
 
       // Status selector
@@ -686,9 +701,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
         .scroller-nxCRu_ {
           padding: 0 !important;
 
-          #account-status-picker,
-          #account-set-custom-status,
-          #account-switch-account {
+          .item-5ApiZt {
             padding: 16px;
           }
 
@@ -817,11 +830,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
   // New channels and role thing
   .container-2IKOsH,
+  .background-12kWdX,
   .header-3xB4vB,
   .emptyPage-2TGR7j,
   .scrollerContainer-y16Rs9,
   .container-1um7CU {
     background-color: var(--background-primary);
+  }
+  .row--LCpto {
+    background-color: var(--background-secondary);
+  }
+  .inviteButton-17ob8h {
+    background-color: var(--main-color);
   }
 
   // Welcome popout

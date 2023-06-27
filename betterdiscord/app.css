@@ -2287,7 +2287,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .pageWrapper-2PwDoS .card-2TuZPZ,
 :root .pageWrapper-2PwDoS .iconMask-2fMR98 {
-  background: var(--card);
+  background-color: var(--card);
 }
 :root .pageWrapper-2PwDoS .card-2TuZPZ:hover, :root .pageWrapper-2PwDoS .card-2TuZPZ:hover .iconMask-2fMR98,
 :root .pageWrapper-2PwDoS .iconMask-2fMR98:hover,
@@ -2655,17 +2655,22 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN {
   min-width: 330px !important;
+  min-height: 180px !important;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
+  height: 200px;
   border-radius: 0;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .pencilContainer-18TrEJ {
   display: none;
 }
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 60"] > foreignObject {
+  transform: translateY(-62px);
+}
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
   left: calc(50% - 35px);
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 {
   position: absolute;
   top: 110px;
   left: 0;
@@ -2673,8 +2678,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   box-sizing: border-box;
   text-align: center;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .userText-1_v2Cq > h1, :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
-  position: fixed;
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 > .copiableField-2DYmf7 {
+  padding-right: 0;
+}
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 > .copiableField-2DYmf7 > div:last-child {
+  display: none;
+}
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
+  top: 160px;
+  width: 330px;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account {
   background-color: var(--background-secondary);
@@ -2684,9 +2696,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ {
   padding: 0 !important;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ #account-status-picker,
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ #account-set-custom-status,
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ #account-switch-account {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ .item-5ApiZt {
   padding: 16px;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_::-webkit-scrollbar {
@@ -2778,11 +2788,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   color: var(--header-secondary);
 }
 :root .container-2IKOsH,
+:root .background-12kWdX,
 :root .header-3xB4vB,
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
 :root .container-1um7CU {
   background-color: var(--background-primary);
+}
+:root .row--LCpto {
+  background-color: var(--background-secondary);
+}
+:root .inviteButton-17ob8h {
+  background-color: var(--main-color);
 }
 :root .contentWrapper-3oy4Xo {
   background: var(--background-primary);
