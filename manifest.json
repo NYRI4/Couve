@@ -13,6 +13,8 @@
     "id": "nyria.couve"
   },
   "license": "MIT",
+  "image": "https://i.imgur.com/3ibEfDD.png",
+  "source": "https://github.com/NYRI4/Couve",
   "type": "replugged-theme",
   "main": "betterdiscord/couve.theme.css"
 }
