@@ -658,7 +658,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
           display: none;
         }
 
-        &[viewBox="0 0 340 60"] > foreignObject {
+        & > foreignObject {
           transform: translateY(-62px);
         }
       }
