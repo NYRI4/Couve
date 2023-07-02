@@ -40,13 +40,12 @@
     // Banner
     .bannerSVGWrapper-2CLfzN {
       overflow: visible;
-      min-height: 150px !important;
+      min-height: 180px !important;
       contain: unset;
 
       .banner-1YaD3N {
         position: absolute;
-        height: 180px;
-        border-radius: 8px 8px 0 0;
+        height: 200px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
         clip-path: polygon(
           0 0,
@@ -63,17 +62,17 @@
 
       // Normal banners
       &[viewBox="0 0 340 60"] > foreignObject {
-        transform: translateY(-47px);
+        transform: translateY(-60px);
       }
 
       // Premium banners with image
       &[viewBox="0 0 340 120"] > foreignObject {
-        transform: translateY(-17px);
+        transform: translateY(-30px);
       }
 
       // Premium banners with colours
       &[viewBox="0 0 340 90"] > foreignObject {
-        transform: translateY(-35px);
+        transform: translateY(-45px);
       }
 
       & > foreignObject {
@@ -84,13 +83,18 @@
     // Badges
     .profileBadges-2pItdR {
       position: absolute;
-      top: 140px;
+      top: 160px;
       left: 0;
       width: 340px;
       max-width: unset;
       padding: 0;
       justify-content: center;
       background-color: transparent;
+    }
+
+    .section-28YDOf {
+      padding-top: 0;
+      padding-bottom: 12px;
     }
 
     // New body
@@ -102,8 +106,7 @@
         display: none;
       }
 
-      .usernameSection-3FppkT .userText-1_v2Cq > h1,
-      .usernameSection-3FppkT .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+      .usernameSection-3FppkT .userText-1_v2Cq {
         position: absolute;
         top: 110px;
         left: 0;

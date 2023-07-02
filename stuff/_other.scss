@@ -173,11 +173,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     white-space: pre;
   }
 
-  // Create server
-  .container-1Lk8p7 .input-3O04eu {
-    background-color: var(--background-secondary);
-  }
-
   // Discover
   .categoryItem-Kc_HK_ {
     margin: 3px 0 3px 8px;
@@ -637,8 +632,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       background: var(--background-tertiary);
       margin-right: 0;
 
-      .userPopoutInner-nv9Y92::before {
-        width: 100% !important;
+      .userPopoutInner-nv9Y92 {
+        max-height: 100vh;
+
+        &::before {
+          width: 100% !important;
+        }
       }
 
       .userProfileInnerThemedNonPremium-2AJg-H {
@@ -647,19 +646,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
       // Banner
       .bannerSVGWrapper-2CLfzN {
-        min-width: 330px !important;
-        min-height: 180px !important;
-
-        .banner-1YaD3N {
-          height: 200px;
-          border-radius: 0;
-        }
         .pencilContainer-18TrEJ {
           display: none;
-        }
-
-        & > foreignObject {
-          transform: translateY(-62px);
         }
       }
 
@@ -670,13 +658,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
       // Username section
       .usernameSection-3FppkT .clickTarget-2uXro4 {
-        position: absolute;
-        top: 110px;
-        left: 0;
-        width: 330px;
-        box-sizing: border-box;
-        text-align: center;
-
         & > .copiableField-2DYmf7 {
           padding-right: 0;
 
@@ -806,7 +787,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     }
   }
 
-  // Add a server
+  // Create a server
   .container-1Lk8p7 {
     background-color: var(--background-primary);
     border-radius: 8px;
@@ -814,13 +795,21 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     --background-primary: #252a3e;
     --background-secondary: #1e2337;
     --background-secondary-alt-alt: #1b1d31;
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
+    --header-primary: #d0d0d0;
+    --header-secondary: #fff;
     --text-normal: #dcddde;
+    --text-muted: #dcddde;
+    --interactive-normal: #fff9f9;
+    --primary-400: #fff;
 
     .container-x8Y1ix {
       border: none;
       background-color: var(--background-modifier-hover);
+    }
+
+    .input-3O04eu,
+    .input-m1-Y7Q {
+      background-color: var(--background-secondary);
     }
 
     .button-ejjZWC.lookBlank-FgPMy6 {
@@ -1046,4 +1035,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       content: "-_-";
     }
   }
+}
+
+// Replacing the brand colors
+:root {
+  --brand-400: var(--main-color);
+  --brand-500: var(--main-color);
+  --text-brand: var(--main-color);
+  --control-brand-foreground: var(--main-color);
 }

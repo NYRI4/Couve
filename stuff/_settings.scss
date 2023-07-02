@@ -236,7 +236,7 @@
     .banner-3D8GgT {
       position: absolute;
       left: 0;
-      height: 180px;
+      height: 200px;
       -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
       clip-path: polygon(
         0 0,
@@ -267,8 +267,7 @@
     }
 
     // User infos
-    .section-28YDOf .userText-1_v2Cq > h1,
-    .section-28YDOf .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+    .section-28YDOf .userText-1_v2Cq {
       position: absolute;
       top: 110px;
       left: 0;
@@ -500,10 +499,14 @@
   .contentWidth-3aWel5 {
     max-width: unset;
   }
-  .colorPickerCustom-1swUKF {
+  .customColorPicker-C_jddW {
     background: var(--background-secondary);
     border: none;
     border-radius: 8px;
+
+    .customColorPickerInputContainer-3q58yc .input-3O04eu {
+      background-color: var(--background-secondary);
+    }
   }
 
   // Emoji
@@ -533,7 +536,7 @@
   }
 
   // App directory
-  .directoryModal-YJsOMv {
+  .directoryContainer-z-0pgp {
     background-color: var(--background-primary);
   }
 

@@ -84,6 +84,9 @@
   border-radius: 5px;
   background: var(--main-color);
 }
+:root .botTagOP-3pUTXu {
+  color: white;
+}
 :root .wrapper-1ZcZW- {
   background: transparent !important;
   position: relative;
@@ -1127,13 +1130,12 @@
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN {
   overflow: visible;
-  min-height: 150px !important;
+  min-height: 180px !important;
   contain: unset;
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
   position: absolute;
-  height: 180px;
-  border-radius: 8px 8px 0 0;
+  height: 200px;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
 }
@@ -1141,26 +1143,30 @@
   background-color: transparent !important;
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 60"] > foreignObject {
-  transform: translateY(-47px);
+  transform: translateY(-60px);
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 120"] > foreignObject {
-  transform: translateY(-17px);
+  transform: translateY(-30px);
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox="0 0 340 90"] > foreignObject {
-  transform: translateY(-35px);
+  transform: translateY(-45px);
 }
 :root .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN > foreignObject {
   mask: none;
 }
 :root .userPopoutOuter-1OHwPL .profileBadges-2pItdR {
   position: absolute;
-  top: 140px;
+  top: 160px;
   left: 0;
   width: 340px;
   max-width: unset;
   padding: 0;
   justify-content: center;
   background-color: transparent;
+}
+:root .userPopoutOuter-1OHwPL .section-28YDOf {
+  padding-top: 0;
+  padding-bottom: 12px;
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz {
   position: static;
@@ -1169,8 +1175,7 @@
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz > .divider-2dDziJ {
   display: none;
 }
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq > h1,
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq {
   position: absolute;
   top: 110px;
   left: 0;
@@ -1178,8 +1183,7 @@
   box-sizing: border-box;
   text-align: center;
 }
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq > h1 .discrimBase-v65kTs,
-:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq > .userTagNoNickname-h9Bh88 .discrimBase-v65kTs {
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq .discrimBase-v65kTs {
   color: white;
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .scroller-15bIdk::-webkit-scrollbar {
@@ -1665,7 +1669,7 @@
 :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .banner-3D8GgT {
   position: absolute;
   left: 0;
-  height: 180px;
+  height: 200px;
   -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
 }
@@ -1684,8 +1688,7 @@
 :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .avatarUploader-qEFQS2 .status-170GHg {
   background-color: transparent;
 }
-:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq > h1,
-:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq > .userTagNoNickname-h9Bh88 {
+:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq {
   position: absolute;
   top: 110px;
   left: 0;
@@ -1693,8 +1696,7 @@
   box-sizing: border-box;
   text-align: center;
 }
-:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq > h1 .discrimBase-v65kTs,
-:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq > .userTagNoNickname-h9Bh88 .discrimBase-v65kTs {
+:root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .section-28YDOf .userText-1_v2Cq .discrimBase-v65kTs {
   color: white;
 }
 :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .customStatus-19KW6v {
@@ -1866,10 +1868,13 @@
 :root .contentWidth-3aWel5 {
   max-width: unset;
 }
-:root .colorPickerCustom-1swUKF {
+:root .customColorPicker-C_jddW {
   background: var(--background-secondary);
   border: none;
   border-radius: 8px;
+}
+:root .customColorPicker-C_jddW .customColorPickerInputContainer-3q58yc .input-3O04eu {
+  background-color: var(--background-secondary);
 }
 :root .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   background: var(--background-primary);
@@ -1890,7 +1895,7 @@
   border: none;
   border-radius: 8px;
 }
-:root .directoryModal-YJsOMv {
+:root .directoryContainer-z-0pgp {
   background-color: var(--background-primary);
 }
 :root .modal-1gWd9S .footer-1KGV6y,
@@ -2263,9 +2268,6 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   content: "\a Couve v" var(--version);
   text-transform: none;
   white-space: pre;
-}
-:root .container-1Lk8p7 .input-3O04eu {
-  background-color: var(--background-secondary);
 }
 :root .categoryItem-Kc_HK_ {
   margin: 3px 0 3px 8px;
@@ -2647,36 +2649,20 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   background: var(--background-tertiary);
   margin-right: 0;
 }
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92 {
+  max-height: 100vh;
+}
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92::before {
   width: 100% !important;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userProfileInnerThemedNonPremium-2AJg-H {
   background: transparent;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN {
-  min-width: 330px !important;
-  min-height: 180px !important;
-}
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .banner-1YaD3N {
-  height: 200px;
-  border-radius: 0;
-}
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN .pencilContainer-18TrEJ {
   display: none;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN > foreignObject {
-  transform: translateY(-62px);
-}
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .avatarWrapper-eenWra {
   left: calc(50% - 35px);
-}
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 {
-  position: absolute;
-  top: 110px;
-  left: 0;
-  width: 330px;
-  box-sizing: border-box;
-  text-align: center;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .usernameSection-3FppkT .clickTarget-2uXro4 > .copiableField-2DYmf7 {
   padding-right: 0;
@@ -2776,13 +2762,20 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   --background-primary: #252a3e;
   --background-secondary: #1e2337;
   --background-secondary-alt-alt: #1b1d31;
-  --header-primary: #fff;
-  --header-secondary: #b9bbbe;
+  --header-primary: #d0d0d0;
+  --header-secondary: #fff;
   --text-normal: #dcddde;
+  --text-muted: #dcddde;
+  --interactive-normal: #fff9f9;
+  --primary-400: #fff;
 }
 :root .container-1Lk8p7 .container-x8Y1ix {
   border: none;
   background-color: var(--background-modifier-hover);
+}
+:root .container-1Lk8p7 .input-3O04eu,
+:root .container-1Lk8p7 .input-m1-Y7Q {
+  background-color: var(--background-secondary);
 }
 :root .container-1Lk8p7 .button-ejjZWC.lookBlank-FgPMy6 {
   color: var(--header-secondary);
@@ -2964,6 +2957,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   100% {
     content: "-_-";
   }
+}
+
+:root {
+  --brand-400: var(--main-color);
+  --brand-500: var(--main-color);
+  --text-brand: var(--main-color);
+  --control-brand-foreground: var(--main-color);
 }
 
 :root .scale-3UGUBw.didRender-2SiRlm {
