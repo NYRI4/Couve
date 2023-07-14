@@ -3,11 +3,6 @@
   "description": "A new look to discord",
   "authors": [
     {
-      "name": "A user",
-      "id": "264062457448759296"
-    },
-
-    {
       "name": "Nyria",
       "id": "265924886461939712"
     }
@@ -24,7 +19,7 @@
     "BACKGROUND_MODIFIER_SELECTED": ["#4D51618B"],
     "BACKGROUND_MODIFIER_ACTIVE": ["#419E8534"],
     "BACKGROUND_MODIFIER_ACCENT": ["1C2438"],
-
+    "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#2c3145"],
     "SCROLLBAR_THIN_THUMB": ["#1E2337"],
     "SCROLLBAR_THIN_TRACK": ["transparent"],
     "SCROLLBAR_AUTO_THUMB": ["#1E2337"],
