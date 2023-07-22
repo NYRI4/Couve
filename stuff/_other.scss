@@ -679,10 +679,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
         overflow: hidden;
         margin-top: 20px;
 
-        .scroller-nxCRu_ {
+        & > .scroller-nxCRu_ {
           padding: 0 !important;
 
-          .item-5ApiZt {
+          #account-status-picker,
+          #account-set-custom-status,
+          #account-switch-account,
+          [id="account-devmode-copy-id-265924886461939712"] {
             padding: 16px;
           }
 

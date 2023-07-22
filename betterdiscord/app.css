@@ -856,6 +856,9 @@
   padding: 6px 20px;
   border-radius: 0;
 }
+:root .unread-36eUEm {
+  left: 0;
+}
 :root .typeThread-2Aqh6X .name-28HaxV {
   padding-left: 28px;
 }
@@ -1529,9 +1532,6 @@
   padding: 6px 30px;
   border-radius: 0;
 }
-:root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy:hover {
-  background: var(--background-secondary-alt);
-}
 :root .layer-86YKbF .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh .sidebar-nqHbhN .socialLinks-3ywLUf {
   justify-content: center;
   display: flex;
@@ -1704,6 +1704,9 @@
 }
 :root .profileCustomizationSection-53kreU .baseLayout-1_9QRm .divider-1wtgZ3 {
   display: none;
+}
+:root .bioTextArea-dDGOeC {
+  border-radius: 8px;
 }
 :root .item-2idW98 {
   background: var(--background-secondary);
@@ -2679,13 +2682,16 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   overflow: hidden;
   margin-top: 20px;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ {
   padding: 0 !important;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_ .item-5ApiZt {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-status-picker,
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-set-custom-status,
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-switch-account,
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ [id=account-devmode-copy-id-265924886461939712] {
   padding: 16px;
 }
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account .scroller-nxCRu_::-webkit-scrollbar {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_::-webkit-scrollbar {
   display: none;
 }
 :root div[role=group]:not(.profileGroup-1yKk23) .item-5ApiZt.colorDefault-CDqZdO.focused-3LIdPu, :root div[role=group]:not(.profileGroup-1yKk23) .item-5ApiZt.colorDefault-CDqZdO:hover:not(.hideInteraction-1vQrZJ) {
