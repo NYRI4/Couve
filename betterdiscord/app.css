@@ -20,12 +20,6 @@
   height: 30px;
   border-radius: var(--avatar-radius);
 }
-:root .messagesWrapper-RpOMA3 .cozy-VmLDNB.wrapper-30-Nkg .avatarDecoration-34OC0G {
-  left: calc(63px - 30px * var(--decoration-to-avatar-ratio) / 2);
-  margin-top: calc(20px - 0.125rem - 30px * var(--decoration-to-avatar-ratio) / 2);
-  width: calc(30px * var(--decoration-to-avatar-ratio));
-  height: calc(30px * var(--decoration-to-avatar-ratio));
-}
 :root .messagesWrapper-RpOMA3 .cozy-VmLDNB.wrapper-30-Nkg .header-2jRmjb {
   left: 38px;
   margin-top: -30px;
@@ -739,7 +733,7 @@
 
 :root .header-3OsQeK {
   box-shadow: none;
-  padding: 25px;
+  padding: 25px 25px 12px 25px;
   border-radius: 8px;
 }
 :root .channelNotice-tO6Tus,
@@ -835,6 +829,9 @@
 :root .clickable-vvKY2q .header-3OsQeK:hover,
 :root .selected-1GtAC5 .header-3OsQeK {
   background: transparent;
+}
+:root .container-1NXEtd > .scroller-1ox3I2 > .content-yjf30S > div:first-child[style="height: 16px;"] {
+  display: none;
 }
 :root .wrapper-1S43wv {
   padding: 0 22px;
@@ -1188,6 +1185,9 @@
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .usernameSection-3FppkT .userText-1_v2Cq .discrimBase-v65kTs {
   color: white;
+}
+:root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .pronouns-17_QV6 {
+  position: relative;
 }
 :root .userPopoutOuter-1OHwPL .userPopoutOverlayBackground-3A0Pcz .scroller-15bIdk::-webkit-scrollbar {
   display: none;
@@ -2651,12 +2651,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   border-radius: 0;
   background: var(--background-tertiary);
   margin-right: 0;
+  padding: 0;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92 {
+  height: 100vh;
   max-height: 100vh;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92::before {
   width: 100% !important;
+  height: 100% !important;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userProfileInnerThemedNonPremium-2AJg-H {
   background: transparent;
@@ -2688,8 +2691,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-status-picker,
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-set-custom-status,
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ #account-switch-account,
-:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ [id=account-devmode-copy-id-265924886461939712] {
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ [id^=account-devmode-copy-id-] {
   padding: 16px;
+}
+:root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_ [id^=account-devmode-copy-id-] {
+  color: var(--interactive-hover) !important;
 }
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL #account > .scroller-nxCRu_::-webkit-scrollbar {
   display: none;
@@ -2791,10 +2797,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .header-3xB4vB,
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
-:root .container-1um7CU {
+:root .container-1um7CU,
+:root .container-2qjEOK {
   background-color: var(--background-primary);
 }
-:root .row--LCpto {
+:root .row--LCpto,
+:root .container-2oNtJn {
   background-color: var(--background-secondary);
 }
 :root .inviteButton-17ob8h {

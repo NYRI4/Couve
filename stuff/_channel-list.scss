@@ -1,7 +1,7 @@
 :root {
   .header-3OsQeK {
     box-shadow: none;
-    padding: 25px;
+    padding: 25px 25px 12px 25px;
     border-radius: 8px;
   }
 
@@ -97,6 +97,10 @@
   .clickable-vvKY2q .header-3OsQeK:hover,
   .selected-1GtAC5 .header-3OsQeK {
     background: transparent;
+  }
+
+  .container-1NXEtd > .scroller-1ox3I2 > .content-yjf30S > div:first-child[style="height: 16px;"] {
+    display: none;
   }
 
   .wrapper-1S43wv {

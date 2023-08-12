@@ -21,16 +21,6 @@
         border-radius: var(--avatar-radius);
       }
 
-      // funny nitro feature
-      .avatarDecoration-34OC0G {
-        left: calc(63px - 30px * var(--decoration-to-avatar-ratio) / 2);
-        margin-top: calc(
-          20px - 0.125rem - 30px * var(--decoration-to-avatar-ratio) / 2
-        );
-        width: calc(30px * var(--decoration-to-avatar-ratio));
-        height: calc(30px * var(--decoration-to-avatar-ratio));
-      }
-
       // Username
       .header-2jRmjb {
         left: 38px;

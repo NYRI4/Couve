@@ -631,12 +631,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
       border-radius: 0;
       background: var(--background-tertiary);
       margin-right: 0;
+      padding: 0;
 
       .userPopoutInner-nv9Y92 {
+        height: 100vh;
         max-height: 100vh;
 
         &::before {
           width: 100% !important;
+          height: 100% !important;
         }
       }
 
@@ -685,8 +688,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
           #account-status-picker,
           #account-set-custom-status,
           #account-switch-account,
-          [id="account-devmode-copy-id-265924886461939712"] {
+          [id^="account-devmode-copy-id-"] {
             padding: 16px;
+          }
+
+          [id^="account-devmode-copy-id-"] {
+            color: var(--interactive-hover) !important;
           }
 
           &::-webkit-scrollbar {
@@ -820,16 +827,18 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     }
   }
 
-  // New channels and role thing
+  // New channels and role thing and member thing
   .container-2IKOsH,
   .background-12kWdX,
   .header-3xB4vB,
   .emptyPage-2TGR7j,
   .scrollerContainer-y16Rs9,
-  .container-1um7CU {
+  .container-1um7CU,
+  .container-2qjEOK {
     background-color: var(--background-primary);
   }
-  .row--LCpto {
+  .row--LCpto,
+  .container-2oNtJn{
     background-color: var(--background-secondary);
   }
   .inviteButton-17ob8h {
