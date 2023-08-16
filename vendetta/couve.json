@@ -1,44 +1,44 @@
 {
-  "name": "Couve",
-  "description": "A new look to discord",
-  "authors": [
-    {
-      "name": "Nyria",
-      "id": "265924886461939712"
-    }
-  ],
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#252A3E"],
-    "BACKGROUND_SECONDARY": ["#1E2337"],
-    "BACKGROUND_SECONDARY_ALT": ["#1C2438"],
-    "BACKGROUND_TERTIARY": ["#060c24"],
-    "BACKGROUND_ACCENT": ["#419E85"],
-    "BACKGROUND_FLOATING": ["#1E2337"],
-    "BACKGROUND_MOBILE_PRIMARY": ["#252A3E"],
-    "BACKGROUND_MOBILE_SECONDARY": ["#1E2337"],
-    "BACKGROUND_MODIFIER_SELECTED": ["#4D51618B"],
-    "BACKGROUND_MODIFIER_ACTIVE": ["#419E8534"],
-    "BACKGROUND_MODIFIER_ACCENT": ["1C2438"],
-    "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#2c3145"],
-    "SCROLLBAR_THIN_THUMB": ["#1E2337"],
-    "SCROLLBAR_THIN_TRACK": ["transparent"],
-    "SCROLLBAR_AUTO_THUMB": ["#1E2337"],
-    "SCROLLBAR_AUTO_TRACK": ["#1E2337"],
-    "CHANNELTEXTAREA_BACKGROUND": ["#252A3E"],
-    "CHAT_BACKGROUND": ["#252A3E"],
-    "SPOILER_HIDDEN_BACKGROUND": ["#1E2337"]
-  },
-  "rawColors": {
-    "PRIMARY_600": "#252A3E",
-    "PRIMARY_630": "#1E2337",
-    "PRIMARY_660": "#1C2438",
-    "PRIMARY_700": "#252A3E",
-    "PRIMARY_800": "#060C24",
-    "BRAND_260": "#419E85",
-    "BRAND_360": "#419E85",
-    "BRAND_500": "#419E85",
-    "BRAND_560": "#265C4D",
-    "RED_400": "#419E85"
-  },
-  "spec": 2
-}
+    "name": "Couve",
+    "description": "A new look to discord",
+    "authors": [
+      {
+        "name": "Nyria",
+        "id": "265924886461939712"
+      }
+    ],
+    "semanticColors": {
+      "BACKGROUND_PRIMARY": ["#252A3E"],
+      "BACKGROUND_SECONDARY": ["#1E2337"],
+      "BACKGROUND_SECONDARY_ALT": ["#1C2438"],
+      "BACKGROUND_TERTIARY": ["#060c24"],
+      "BACKGROUND_ACCENT": ["#419E85"],
+      "BACKGROUND_FLOATING": ["#1E2337"],
+      "BACKGROUND_MOBILE_PRIMARY": ["#252A3E"],
+      "BACKGROUND_MOBILE_SECONDARY": ["#1E2337"],
+      "BACKGROUND_MODIFIER_SELECTED": ["#4D51618B"],
+      "BACKGROUND_MODIFIER_ACTIVE": ["#419E8534"],
+      "BACKGROUND_MODIFIER_ACCENT": ["1C2438"],
+      "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#2c3145"],
+      "SCROLLBAR_THIN_THUMB": ["#1E2337"],
+      "SCROLLBAR_THIN_TRACK": ["transparent"],
+      "SCROLLBAR_AUTO_THUMB": ["#1E2337"],
+      "SCROLLBAR_AUTO_TRACK": ["#1E2337"],
+      "CHANNELTEXTAREA_BACKGROUND": ["#252A3E"],
+      "CHAT_BACKGROUND": ["#252A3E"],
+      "SPOILER_HIDDEN_BACKGROUND": ["#1E2337"]
+    },
+    "rawColors": {
+      "PRIMARY_600": "#252A3E",
+      "PRIMARY_630": "#1E2337",
+      "PRIMARY_660": "#1C2438",
+      "PRIMARY_700": "#1C2438",
+      "PRIMARY_800": "#060C24",
+      "BRAND_260": "#419E85",
+      "BRAND_360": "#419E85",
+      "BRAND_500": "#419E85",
+      "BRAND_560": "#265C4D",
+      "RED_400": "#419E85"
+    },
+    "spec": 2
+  }
