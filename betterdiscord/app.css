@@ -1270,7 +1270,7 @@
   width: 800px;
   height: 100%;
 }
-:root .root-8LYsGj.root-1CAIjD.small-2xUY-3 > div {
+:root .root-8LYsGj.root-1CAIjD.small-2xUY-3 > div, :root .root-8LYsGj.root-1CAIjD.small-2xUY-3 .userProfileModalOuter-2wdWjU {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -1354,7 +1354,7 @@
 :root .userProfileModalInner-3dx9L9 .mask-1y0tyc foreignObject {
   border-radius: calc(var(--avatar-radius) * 2.1) !important;
 }
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) {
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK) {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1365,19 +1365,19 @@
   box-sizing: border-box;
   border-bottom-right-radius: 5px;
 }
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2).activityProfile-1712BN {
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK).activityProfile-1712BN {
   right: unset;
   bottom: -140px;
   left: 5px;
   width: 750px;
   padding: 20px;
 }
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .customStatus-3qYNe4 {
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK) .customStatus-3qYNe4 {
   margin-top: 0;
 }
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageActivityFeed-3zBude,
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageActivityFeedXbox-3gGXXV,
-:root .userProfileModalInner-3dx9L9 .container-3g15px > div:nth-child(2) .assetsLargeImageProfile-1TX9jP {
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK) .assetsLargeImageActivityFeed-3zBude,
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK) .assetsLargeImageActivityFeedXbox-3gGXXV,
+:root .userProfileModalInner-3dx9L9 .container-3g15px > div:last-child:not(.pronouns-RGQpyK) .assetsLargeImageProfile-1TX9jP {
   width: 40px;
   height: 40px;
 }
@@ -1403,8 +1403,14 @@
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .container-3g15px {
   padding: 0;
 }
-:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .divider-1NpGam {
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .divider-SH6OnO {
   display: none;
+}
+:root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .pronouns-RGQpyK {
+  position: absolute;
+  left: 153px;
+  top: 112px;
+  z-index: 1;
 }
 :root .userProfileModalInner-3dx9L9 .userProfileModalOverlayBackground-2dAaBg .body-1Ukv50 .tabBarContainer-sCZC4w {
   position: absolute;
@@ -1621,6 +1627,7 @@
   y: -110px;
 }
 :root .accountProfileCard-lbN7n- .banner-1YaD3N {
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
   border-radius: 8px 0 0 8px;
   height: 320px;
   flex: 1;
@@ -2643,6 +2650,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   top: 0;
   left: 0;
 }
+:root .accountProfilePopoutWrapper-3GskID .container-5qN7ct {
+  background: var(--background-tertiary);
+}
+:root .accountProfilePopoutWrapper-3GskID .container-5qN7ct > .ctaContainer-3GjHpt {
+  background-color: transparent;
+}
 :root .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
   width: 330px;
   height: 100vh;
@@ -2798,7 +2811,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 :root .emptyPage-2TGR7j,
 :root .scrollerContainer-y16Rs9,
 :root .container-1um7CU,
-:root .container-2qjEOK {
+:root .container-2qjEOK,
+:root .page-2dwf_i {
   background-color: var(--background-primary);
 }
 :root .row--LCpto,
@@ -2807,6 +2821,12 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 }
 :root .inviteButton-17ob8h {
   background-color: var(--main-color);
+}
+:root .mainTableContainer-3Nxvkd {
+  background-color: var(--background-secondary);
+}
+:root .tableHeaderRow-2Jri1A:first-child:after {
+  box-shadow: none;
 }
 :root .contentWrapper-3oy4Xo {
   background: var(--background-primary);

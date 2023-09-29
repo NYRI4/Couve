@@ -235,7 +235,7 @@
     width: 800px;
     height: 100%;
 
-    & > div {
+    & > div, .userProfileModalOuter-2wdWjU {
       width: 100%;
       height: 100%;
       box-sizing: border-box;
@@ -339,7 +339,7 @@
     }
 
     // Custom Status
-    .container-3g15px > div:nth-child(2) {
+    .container-3g15px > div:last-child:not(.pronouns-RGQpyK) {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -397,8 +397,16 @@
         .container-3g15px {
           padding: 0;
         }
-        .divider-1NpGam {
+        .divider-SH6OnO {
           display: none;
+        }
+
+        // Pronouns
+        .pronouns-RGQpyK {
+          position: absolute;
+          left: 153px;
+          top: 112px;
+          z-index: 1;
         }
 
         // Menu

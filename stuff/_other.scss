@@ -623,6 +623,15 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     top: 0;
     left: 0;
 
+    // New decorations thingy
+    .container-5qN7ct {
+      background: var(--background-tertiary);
+
+      & > .ctaContainer-3GjHpt {
+        background-color: transparent;
+      }
+    }
+
     .userPopoutOuter-1OHwPL {
       width: 330px;
       height: 100vh;
@@ -834,7 +843,8 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   .emptyPage-2TGR7j,
   .scrollerContainer-y16Rs9,
   .container-1um7CU,
-  .container-2qjEOK {
+  .container-2qjEOK,
+  .page-2dwf_i {
     background-color: var(--background-primary);
   }
   .row--LCpto,
@@ -843,6 +853,14 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   }
   .inviteButton-17ob8h {
     background-color: var(--main-color);
+  }
+
+  .mainTableContainer-3Nxvkd {
+    background-color: var(--background-secondary);
+  }
+
+  .tableHeaderRow-2Jri1A:first-child:after {
+    box-shadow: none;
   }
 
   // Welcome popout
