@@ -15,14 +15,14 @@ body {
   pointer-events: none;
 
   // Discord
-  .wordmark-2u86JB {
+  .wordmark-3wYFg6 {
     top: unset;
     left: 16px;
     color: transparent;
   }
 
   // Windows buttons
-  .winButton-3UMjdg {
+  .winButton-3SigSb {
     color: var(--textcolor);
     top: -8px;
     right: -16px;
@@ -61,11 +61,11 @@ body.maximized .winButtonClose-3Q8ZH5 + .winButtonMinMax-3RsPUg {
 
 // Pushing things lower
 .platform-win {
-  .chat-2ZfjoI .wrapper-1gVUIN:not(.minimum-fXpVNc) .search-39IXmY {
+  .chat-9g_3Xj .wrapper-1gVUIN:not(.minimum-fXpVNc) .search-39IXmY {
     top: 50px;
   }
 
-  .appMount-2yBXZl .app-3xd6d0 {
+  .appMount-2yBXZl .app-1BipOi {
     .scroller-3X7KbA {
       padding-top: 20px;
     }
@@ -114,7 +114,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   .typeMacOS-3V4xXE {
     width: 90px;
 
-    .macButtons-eIdy0e {
+    .macButtons-2uz1Bu {
       width: 90px;
       padding: 10px 20px 10px 20px;
     }
@@ -618,7 +618,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   }
 
   // Account profile
-  .accountProfilePopoutWrapper-3GskID {
+  .accountProfilePopoutWrapper-Ag_Fip {
     position: fixed;
     top: 0;
     left: 0;
@@ -738,7 +738,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
     }
   }
 
-  .avatarWrapper-1B9FTW .avatarSpeaking-36V2PN {
+  .avatarWrapper-12uuu4 .avatarSpeaking-36V2PN {
     border-radius: var(--avatar-radius);
   }
 
@@ -899,7 +899,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   }
 
   // no dividers thx
-  .content-1jQy2l:before,
+  .content-18rAwf:before,
   .divider-q3P9HC,
   .separator-12G2Op {
     display: none;
@@ -907,7 +907,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
 
   // Removing borders
   .attachWrapper-3slhXI,
-  .panel-2ZFCRb,
+  .panel-ufc1-o,
   .peopleListItem-u6dGxF,
   .rowWrapper-N-4fji + .rowWrapper-N-4fji .row-1_1Nya,
   .header-2EadGG,
@@ -955,10 +955,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount-2yBXZl {
   }
 
   // Loading screen
-  .ready-3BZNWT {
+  .ready-3GlCTH {
     display: none;
 
-    & + .text-2bYgPB {
+    & + .text-2oT_0D {
       top: 82px;
 
       &::before {
