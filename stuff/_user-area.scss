@@ -1,23 +1,23 @@
 :root {
-  .panels-3wFtMD {
+  .panels__58331 {
     position: relative;
     z-index: unset;
 
     // Game part
-    .activityPanel-9icbyU {
+    .activityPanel__22355 {
       position: absolute;
       bottom: 20px;
       right: 105px;
       padding: 0;
       border-radius: 8px;
 
-      .gameWrapper-2TFy7F {
+      .gameWrapper__5b041 {
         display: none;
       }
-      .actions-zk2vB_ {
+      .actions__9256d {
         margin: 0;
 
-        .button-f2h6uQ {
+        .button_afdfd9 {
           color: var(--main-color);
         }
       }
@@ -27,12 +27,12 @@
       }
     }
 
-    & > .container-YkUktl {
+    & > .container_ca50b9 {
       padding: 10px 8px;
 
       // Avatar
-      .avatarWrapper-1B9FTW[aria-expanded] {
-        .wrapper-3Un6-K {
+      .avatarWrapper_ba5175[aria-expanded] {
+        .wrapper_edb6e0 {
           position: fixed;
           left: 29px;
           bottom: 23px;
@@ -42,7 +42,7 @@
         &:hover {
           background-color: transparent;
         }
-        .nameTag-sc-gpq {
+        .nameTag__0e320 {
         }
       }
 
@@ -52,10 +52,10 @@
       }
 
       // Buttons
-      .button-12Fmur {
+      .button__4f306 {
         color: #888;
 
-        &[aria-checked="false"].enabled-9OeuTA {
+        &[aria-checked="false"].enabled__470f0 {
           color: var(--main-color);
         }
       }
@@ -63,37 +63,37 @@
   }
 
   // Server call
-  .noChat-2UYgeE {
-    &.wrapper-1gVUIN {
+  .noChat_ce920d {
+    &.wrapper_bd2abe {
       background: #000;
       margin: 0;
       border-radius: 0;
       animation: unset;
 
       // Header top
-      .headerWrapper-1ULEPv .container-ZMc96U {
+      .headerWrapper__94dd8 .container__11d72 {
         width: unset;
       }
 
       // Speaking ring
-      .border-2Vy6FN.speaking-7QZEkv {
+      .border_d9a17b.speaking__9b95a {
         box-shadow: inset 0 0 0 2.5px #43b581,
           inset 0 0 0 4.5px var(--background-secondary);
       }
 
       // Button
-      .wrapper-3t3Yqv .button-f2h6uQ {
+      .wrapper__3f3a7 .button_afdfd9 {
         border-radius: 50%;
       }
-      .colorable-3rVGna.primaryDark-2UJt1G,
-      .participantsButton-1WBdFP,
-      .participantsButton-1WBdFP:hover {
+      .colorable_c84c4c.primaryDark__6b700,
+      .participantsButton__56586,
+      .participantsButton__56586:hover {
         background: var(--background-secondary);
       }
       .css-1k9nrkn {
         background: transparent;
       }
-      .controlButton-2PMNom foreignObject {
+      .controlButton_ab2899 foreignObject {
         mask: none;
       }
     }

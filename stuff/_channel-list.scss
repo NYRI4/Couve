@@ -1,5 +1,5 @@
 :root {
-  .header-3OsQeK {
+  .header__104ca {
     box-shadow: none;
     padding: 25px 25px 12px 25px;
     border-radius: 8px;
@@ -68,7 +68,7 @@
       transition: opacity 400ms;
     }
 
-    .button-f2h6uQ {
+    .button_afdfd9 {
       background: var(--background-secondary-alt-alt);
       opacity: 0;
       pointer-events: none;
@@ -86,7 +86,7 @@
       &::before {
         opacity: 0;
       }
-      .button-f2h6uQ {
+      .button_afdfd9 {
         opacity: 1;
         pointer-events: all;
       }
@@ -94,16 +94,16 @@
   }
 
   // Channel header
-  .clickable-vvKY2q .header-3OsQeK:hover,
-  .selected-1GtAC5 .header-3OsQeK {
+  .clickable__2d589 .header__104ca:hover,
+  .selected__0b1ad .header__104ca {
     background: transparent;
   }
 
-  .container-1NXEtd > .scroller-1ox3I2 > .content-yjf30S > div:first-child[style="height: 16px;"] {
+  .container__590e2 > .scroller_f0f183 > .content__23cab > div:first-child[style="height: 16px;"] {
     display: none;
   }
 
-  .wrapper-1S43wv {
+  .wrapper__9c483 {
     padding: 0 22px;
   }
 
@@ -115,43 +115,43 @@
   }
 
   // No arrows
-  .icon-3zI3d2 {
+  .icon_ef4486 {
     display: none;
   }
 
   // Channels
-  .wrapper-NhbLHG {
+  .wrapper__7bcde {
     height: 30px;
     margin: 0;
 
-    .link-1_kTxV {
+    .link__95dc0 {
       height: 30px;
       padding: 6px 20px;
       border-radius: 0;
     }
   }
-  .unread-36eUEm {
+  .unread__48cf4 {
     left: 0;
   }
 
   // Thread channels
-  .typeThread-2Aqh6X .name-28HaxV {
+  .typeThread__2f91c .name__8d1ec {
     padding-left: 28px;
   }
 
-  .unread-2wipsx,
-  .bar-wDIGjg {
+  .unread__75c9f,
+  .bar__004d9 {
     border-radius: 4px;
     background: var(--main-color);
 
-    .barText-1eIsLx {
+    .barText__1a44f {
       color: white !important;
     }
   }
 
   // No scrollbars
-  .scroller-1ox3I2,
-  .scroller-3X7KbA,
+  .scroller_f0f183,
+  .scroller__3d071,
   #channels {
     &::-webkit-scrollbar {
       display: none;
@@ -159,7 +159,7 @@
   }
 
   // Channel settings
-  .sidebarScrollable-2mW9Ls + .content-2ssVKB {
+  .sidebarScrollable__4aad1 + .content__5937e {
     max-width: unset;
   }
 }

@@ -4,3 +4,4 @@ prepros.config
 node_modules
 .parcel-cache
 dist
+/.idea/

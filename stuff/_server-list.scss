@@ -1,10 +1,10 @@
 :root {
-  .guilds-2JjMmN {
+  .guilds__2b93a {
     width: 90px;
     margin-top: -35px;
 
     // When full-screen video
-    &.hidden-10MsGQ {
+    &.hidden__7c832 {
       width: 0 !important;
     }
 
@@ -24,31 +24,31 @@
       pointer-events: none;
     }
 
-    .scroller-3X7KbA {
+    .scroller__3d071 {
       padding: 30px 0;
 
       // Home button
       &
         > .tutorialContainer-2sGCg9:first-child
-        > .listItem-3SmSlK
-        .childWrapper-1j_1ub {
+        > .listItem_fa7b36
+        .childWrapper__01b9c {
         background: var(--main-color);
         color: #fff;
       }
 
-      & > .listItem-3SmSlK:nth-last-child(2) {
+      & > .listItem_fa7b36:nth-last-child(2) {
         margin-bottom: 80px;
       }
 
       // Server
-      .listItem-3SmSlK {
+      .listItem_fa7b36 {
         width: 90px;
 
-        .wrapper-2PSQCG,
-        .svg-2ifYOU {
+        .wrapper__3af0b,
+        .svg_ad7356 {
           width: 42px;
         }
-        .wrapper-3kah-n {
+        .wrapper_d281dd {
           border-radius: 50%;
           overflow: hidden;
           transition: border-radius 200ms;
@@ -58,34 +58,34 @@
           }
         }
 
-        .upperBadge-1d6YsW {
+        .upperBadge_c7cfb3 {
           top: 2px;
           right: -1px;
         }
 
         // Mention badge
-        .lowerBadge-3j0ZAg {
+        .lowerBadge__669e7 {
           bottom: 4px;
           right: -5px;
 
-          .numberBadge-37OJ3S {
+          .numberBadge__50328 {
             min-width: 25px;
             background: var(--main-color) !important;
             font-size: 8px;
           }
-          &:last-child .numberBadge-37OJ3S {
+          &:last-child .numberBadge__50328 {
             box-shadow: 0 0 10px 0 #0008;
           }
         }
 
         // Server icon
-        .wrapper-3kah-n {
-          &.selected-1Drb7Z .childWrapper-1j_1ub,
-          &:hover .childWrapper-1j_1ub {
+        .wrapper_d281dd {
+          &.selected_f5ec8e .childWrapper__01b9c,
+          &:hover .childWrapper__01b9c {
             background: var(--main-color);
           }
 
-          .childWrapper-1j_1ub {
+          .childWrapper__01b9c {
             background: var(--background-secondary);
           }
         }
@@ -96,14 +96,14 @@
       }
 
       // Server Folders
-      .wrapper-38slSD {
+      .wrapper_ed1dea {
         width: 90px;
 
-        .expandedFolderBackground-1kSAf6 {
+        .expandedFolderBackground__1bec6 {
           left: 21px;
         }
 
-        .folderIconWrapper-1oRIZr {
+        .folderIconWrapper__72239 {
           transition: border-radius 200ms;
 
           &:hover {
@@ -111,23 +111,23 @@
           }
         }
 
-        .wrapper-2PSQCG > svg > foreignObject {
+        .wrapper__3af0b > svg > foreignObject {
           mask: none;
 
-          .folder-241Joy {
+          .folder__17546 {
             background: transparent;
           }
         }
 
         &.expanded {
-          .expandedFolderBackground-1kSAf6 {
+          .expandedFolderBackground__1bec6 {
             background: var(--background-secondary);
           }
         }
       }
 
       // Create server + Discover buttons
-      .circleIconButton-1VxDrg {
+      .circleIconButton_d8df29 {
         border-radius: 14px;
         border: dashed 2px var(--epicshadow1);
         background: transparent;
@@ -135,24 +135,24 @@
         transition: all 0.2s;
       }
 
-      .tutorialContainer-2jwoiB {
-        &:hover .circleIconButton-1VxDrg,
-        & + .listItem-3SmSlK:hover .circleIconButton-1VxDrg {
+      .tutorialContainer_dc6fde {
+        &:hover .circleIconButton_d8df29,
+        & + .listItem_fa7b36:hover .circleIconButton_d8df29 {
           background: transparent;
           color: var(--main-color);
           border-color: var(--main-color);
         }
 
-        .wrapperSimple-2SFl9K,
-        & + .listItem-3SmSlK .wrapperSimple-2SFl9K {
+        .wrapperSimple_a34580,
+        & + .listItem_fa7b36 .wrapperSimple_a34580 {
           overflow: visible;
         }
         svg > foreignObject,
-        & + .listItem-3SmSlK svg > foreignObject {
+        & + .listItem_fa7b36 svg > foreignObject {
           mask: none;
         }
       }
-      .wrapperSimple-2SFl9K foreignObject {
+      .wrapperSimple_a34580 foreignObject {
         mask: none;
       }
 
@@ -167,7 +167,7 @@
     }
 
     // Mentions & Unread
-    .mention-3XBnnZ {
+    .mention__1afd3 {
       height: 100%;
       background: linear-gradient(
         360deg,
@@ -185,13 +185,13 @@
         color: var(--main-color);
       }
     }
-    .unreadMentionsIndicatorBottom-BXS58x .mention-3XBnnZ {
+    .unreadMentionsIndicatorBottom-BXS58x .mention__1afd3 {
       background: transparent;
     }
 
     // In server
-    .unreadMentionsIndicatorTop-2bTgUU,
-    .unreadMentionsIndicatorBottom-3RJMnQ {
+    .unreadMentionsIndicatorTop_ada847,
+    .unreadMentionsIndicatorBottom_fdb943 {
       width: 100%;
       height: 30px;
       padding: 0;

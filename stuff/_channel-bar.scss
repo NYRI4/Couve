@@ -1,50 +1,50 @@
 :root {
   // Search bar
-  .inner-2pOSmK {
+  .inner__999f6 {
     background: var(--background-secondary);
   }
 
   // Removing help buttons
-  .toolbar-3_r2xA > :last-child[href="https://support.discord.com"], 
-  .searchLearnMore-1gNL3A {
+  .toolbar__88c63 > :last-child[href="https://support.discord.com"], 
+  .searchLearnMore_bf7b8e {
     display: none;
   }
 
   // Top bar
-  .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc) {
+  .container__11d72.title_b7d661:not(.minimum_ebf000) {
     z-index: 1;
     background: transparent;
     width: calc(100% - 240px);
 
-    .toolbar-3_r2xA,
-    .topic-11NuQZ {
+    .toolbar__88c63,
+    .topic__16ae3 {
       -webkit-app-region: no-drag;
     }
-    .icon-2xnN2Y {
+    .icon__4cb88 {
       -webkit-app-region: unset;
     }
-    .followButton-1N-GGp,
-    .children-3xh0VB:after {
+    .followButton__2e268,
+    .children__32014:after {
       display: none;
     }
 
     // Search bar
-    .search-39IXmY {
+    .search__07df0 {
       position: fixed;
       right: 10px;
 
-      .searchBar-jGtisZ {
+      .searchBar_e0c60b {
         background: var(--background-primary);
         width: 200px;
         height: 28px;
         padding: 2px 10px;
         border-radius: 4px;
 
-        .searchFilter-2UfsDk,
-        .searchAnswer-23w-CH {
+        .searchFilter__118cb,
+        .searchAnswer_b452e7 {
           background: transparent;
         }
-        .icon-18rqoe {
+        .icon_f50f05 {
           color: var(--main-color);
         }
       }
@@ -52,14 +52,14 @@
   }
 
   // Search popout
-  .container-2McqkF {
+  .container_d6dad3 {
     background: var(--background-secondary-alt-alt);
     box-shadow: none;
 
-    .queryContainer-ZunrLZ {
+    .queryContainer_c359fe {
       border: none;
 
-      &.focused-2FU0YH {
+      &.focused_f9cf2c {
         background: var(--background-secondary-alt-alt);
       }
 
@@ -68,13 +68,13 @@
       }
     }
 
-    .resultsGroup-cfY57t {
+    .resultsGroup_ea9b64 {
       &::before {
         display: none;
       }
 
       // Options
-      .option-ayUoaq {
+      .option_b5597b {
         padding: 0 20px;
         margin: 0;
         border-radius: 0;
@@ -90,7 +90,7 @@
     }
 
     // Datepicker (yeah this exist)
-    .calendarPicker-sDhzdi .react-datepicker {
+    .calendarPicker__5c474 .react-datepicker {
       background: transparent;
       border-radius: 0;
 
@@ -126,20 +126,20 @@
         }
       }
     }
-    .datePickerHint-Ir4715 .hintValue-V9hd8l {
+    .datePickerHint__7cc9b .hintValue_c2ce1f {
       background: var(--main-color);
     }
   }
 
   // Search results
-  .searchResultsWrap-5RVOkx {
+  .searchResultsWrap__9f374 {
     background: var(--background-secondary);
     top: -48px;
     padding-top: 48px;
     width: 480px;
     height: 100%;
 
-    .searchHeader-1r_ZSh {
+    .searchHeader__19d87 {
       position: absolute;
       width: 100%;
       background: linear-gradient(
@@ -149,7 +149,7 @@
       );
     }
 
-    .scroller-3iiyhZ {
+    .scroller_c8d5ad {
       padding: 0;
       padding-top: 48px;
 
@@ -162,16 +162,16 @@
         padding: 8px 0;
       }
 
-      .searchResult-O9NDji {
+      .searchResult_dcd237 {
         border: none;
         box-shadow: none;
         border-radius: 10px;
       }
 
-      .pageButton-uta6J3 {
+      .pageButton_bcd673 {
         background-color: var(--background-primary);
 
-        &.activeButton-2K2Fwx {
+        &.activeButton__7a550 {
           background-color: var(--main-color);
         }
       }
@@ -179,7 +179,7 @@
   }
 
   // Inbox
-  .recentMentionsPopout-2bI1ZN {
+  .recentMentionsPopout__826a9 {
     position: fixed;
     top: 0;
     right: 0;
@@ -189,7 +189,7 @@
     border-radius: 0;
 
     // Top
-    .header-1w9Q93 {
+    .header_f5cc88 {
       background: linear-gradient(
         360deg,
         transparent,
@@ -204,12 +204,12 @@
       .topPill-3DJJNV {
         margin: 0 auto;
 
-        .tab-TRrPC8.active-1grPyy {
+        .tab_a8a066.active__7e7af {
           background: var(--background-primary);
         }
       }
 
-      .secondary-2bzKEX {
+      .secondary_c96c46 {
         position: absolute;
         right: 16px;
         background: transparent;
@@ -217,40 +217,40 @@
     }
 
     // Body
-    .messagesPopout-eVzQcI,
-    .scrollerBase-1Pkza4 {
+    .messagesPopout__22763,
+    .scrollerBase_dc3aa9 {
       padding-top: 86px;
 
       // Card
-      .channelHeader-DFRX8q {
+      .channelHeader__5d30c {
         position: relative;
         background: transparent;
 
         // Cross button
-        .tertiary-1e-lAP {
+        .tertiary_bc0225 {
           background: var(--background-primary);
         }
       }
     }
 
     // Tutorial
-    .tutorial-Nb3Zz5 {
+    .tutorial__7b875 {
       background: var(--background-primary);
       margin-top: 66px;
     }
 
-    .tutorialIcon-25VF3Q {
+    .tutorialIcon__5c63f {
       background: var(--background-secondary);
       color: #fff;
     }
   }
-  .recentMentionsPopout-2bI1ZN {
+  .recentMentionsPopout__826a9 {
     background: var(--background-secondary);
     box-shadow: var(--elevation-high);
   }
 
   // Pinned messages
-  .messagesPopoutWrap-3zryHW:not(.recentMentionsPopout-2bI1ZN) {
+  .messagesPopoutWrap_b3b384:not(.recentMentionsPopout__826a9) {
     position: fixed;
     top: 84px;
     left: 330px;
@@ -261,17 +261,17 @@
     background: var(--background-primary);
     border-radius: 0;
 
-    .header-1w9Q93 {
+    .header_f5cc88 {
       background: var(--background-primary);
       text-align: center;
       box-shadow: none;
     }
 
-    .messagesPopout-eVzQcI {
+    .messagesPopout__22763 {
       padding: 0 32px;
       padding-top: 5px;
 
-      .messageGroupWrapper-1jf_7C {
+      .messageGroupWrapper_f8c6e9 {
         border: none;
         background: var(--background-secondary);
         margin-bottom: 32px;
