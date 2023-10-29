@@ -102,7 +102,7 @@
       position: static;
       background-color: transparent;
 
-      & > .divider_ed0c1d {
+      & > .divider__56f26 {
         display: none;
       }
 
@@ -231,7 +231,7 @@
   }
 
   // User modal
-  .root-8LYsGj.root_a28985.small__05f7b {
+  .root_ba16f0.root_a28985.small__05f7b {
     width: 800px;
     height: 100%;
 
@@ -256,7 +256,7 @@
     }
 
     // Header
-    .topSection-13QKHs {
+    .topSection_dfb73b {
       z-index: 1;
       overflow: hidden;
       width: calc(55% - 16px);
@@ -302,11 +302,11 @@
         }
       }
 
-      .header-S26rhB {
+      .header__7da4f {
         position: static;
 
         // Avatar
-        .avatar-3QF_VA {
+        .avatar__445f3 {
           top: 16px;
           left: 16px;
 
@@ -316,7 +316,7 @@
           }
         }
 
-        .badgeList-2aoHPw {
+        .badgeList_c193e3 {
           position: absolute;
           top: 65px;
           left: -15px;
@@ -325,7 +325,7 @@
       }
     }
 
-    .relationshipButtons-3ByBpj {
+    .relationshipButtons__5efdd {
       position: fixed;
       bottom: 15px;
       left: 15px;
@@ -338,7 +338,7 @@
     }
 
     // Custom Status
-    .customStatusText-1uNQ8w {
+    .customStatusText_ee5413 {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -357,7 +357,7 @@
         padding: 20px;
       }
 
-      .customStatus-3qYNe4 {
+      .customStatus_f55604 {
         margin-top: 0;
       }
 
@@ -379,9 +379,9 @@
       background-color: var(--background-primary);
       border-radius: 0;
 
-      .body-1Ukv50 {
+      .body_ea740e {
         // Username
-        .container-3g15px > div:first-child {
+        .container_b6b15b > div:first-child {
           position: absolute;
           top: 25px;
           left: 153px;
@@ -393,15 +393,15 @@
             white-space: nowrap;
           }
         }
-        .container-3g15px {
+        .container_b6b15b {
           padding: 0;
         }
-        .divider-SH6OnO {
+        .divider__07b2a {
           display: none;
         }
 
         // Pronouns
-        .pronouns-RGQpyK {
+        .pronouns_be950a {
           position: absolute;
           left: 153px;
           top: 112px;
@@ -409,14 +409,14 @@
         }
 
         // Menu
-        .tabBarContainer-sCZC4w {
+        .tabBarContainer__63f55 {
           position: absolute;
           bottom: 65px;
           left: 5px;
           z-index: 1;
           border-bottom: unset;
 
-          .tabBar-2hXqzU {
+          .tabBar__35f81 {
             flex-direction: column;
             gap: 15px;
 

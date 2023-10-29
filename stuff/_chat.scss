@@ -427,47 +427,47 @@
       position: absolute;
       right: 20px;
       bottom: 10px;
+    }
 
-      .checkboxWrapper-2fDzaA .checkbox-f1HnKB {
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.2s;
+    .checkboxWrapper__02583 .checkbox_c7f690 {
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.2s;
 
-        &.checked-1pZh2h::before {
-          color: var(--textcolor);
-          content: "visibility_off";
-        }
-
-        &:hover,
-        .checked-1pZh2h {
-          opacity: 1;
-        }
-
-        &::before {
-          content: "visibility";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: #0008;
-          text-align: center;
-          line-height: 350px;
-          color: #fff6;
-          font-size: 72px;
-          font-family: "Material Icons", sans-serif;
-          visibility: visible;
-          border-radius: 19px;
-        }
+      &.checked__24ad6::before {
+        color: var(--textcolor);
+        content: "visibility_off";
       }
 
-      .labelForward-2yqkcf {
-        display: none;
+      &:hover,
+      .checked__24ad6 {
+        opacity: 1;
+      }
+
+      &::before {
+        content: "visibility";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #0008;
+        text-align: center;
+        line-height: 350px;
+        color: #fff6;
+        font-size: 72px;
+        font-family: "Material Icons", sans-serif;
+        visibility: visible;
+        border-radius: 19px;
       }
     }
 
+    .labelForward__9779e {
+      display: none;
+    }
+
     .inner__7afe9 .file_f309f6 .icon__25b13.image__00ac0,
-    .footer_ceda43 .checkboxWrapper-2fDzaA,
+    .checkboxWrapper__02583,
     .inner__7afe9 .file_f309f6 .icon__25b13 {
       position: fixed;
       top: 20px;
@@ -495,19 +495,19 @@
 
     .categoryHeader_f97a5f {
       background-color: var(--background-tertiary);
-      border-radius: 3px;
+      border-radius: 6px;
 
       &::after {
         content: none;
       }
     }
 
-    .selected-3H3-RC {
-      background: var(--background-primary);
-    }
-
     .contentTitle_b7c496 {
       color: var(--textcolor);
+    }
+
+    .scroller_e89578 {
+      overflow: visible !important;
     }
   }
 
@@ -706,11 +706,6 @@
     .lookFilled-yCfaCM.colorPrimary-2AuQVo {
       background-color: var(--main-color);
     }
-  }
-
-  // Forum channels
-  .container-3wLKDe {
-    background-color: var(--background-secondary);
   }
 
   // Attach button

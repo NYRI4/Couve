@@ -685,6 +685,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
         width: 330px;
       }
 
+      // Divider
+      .divider__2bbbc {
+        display: none;
+      }
+
       // Status selector
       #account {
         background-color: var(--background-secondary);
@@ -697,6 +702,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
           #account-status-picker,
           #account-set-custom-status,
           #account-switch-account,
+          #account-edit-custom-status,
           [id^="account-devmode-copy-id-"] {
             padding: 16px;
           }
@@ -807,7 +813,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
   }
 
   // Create a server
-  .container-1Lk8p7 {
+  .container__0d1a7 {
     background-color: var(--background-primary);
     border-radius: 8px;
 
@@ -821,13 +827,13 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
     --interactive-normal: #fff9f9;
     --primary-400: #fff;
 
-    .container-x8Y1ix {
+    .container__73245 {
       border: none;
       background-color: var(--background-modifier-hover);
     }
 
     .input_d266e7,
-    .input-m1-Y7Q {
+    .input__0c269 {
       background-color: var(--background-secondary);
     }
 
