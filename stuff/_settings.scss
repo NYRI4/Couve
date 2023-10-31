@@ -1,15 +1,15 @@
 :root {
-  .layer_e552e0 {
+  .layer__2efaa {
     transform: unset !important;
 
-    &.baseLayer__13b6b {
+    &.baseLayer__8fda3 {
       opacity: 1 !important;
 
       &.stop-animations {
         transform: scale(1) !important;
       }
     }
-    &:not(.baseLayer__13b6b) {
+    &:not(.baseLayer__8fda3) {
       margin-left: 90px;
     }
 
@@ -303,14 +303,6 @@
   }
 
   // Connections
-  .accountList-305sx3 {
-    background: var(--background-secondary);
-
-    .accountBtn-1YkMgV .accountBtnInner-3XK70s {
-      background-color: transparent;
-    }
-  }
-
   .connectionHeader__3c82d {
     background: transparent;
 
@@ -407,19 +399,8 @@
   }
 
   // Voice settings
-  .micTest_aff6cf {
-    .previewOverlay-2reuWf {
-      background: var(--background-secondary);
-      border: none;
-      border-radius: 7px;
-    }
-    .media-engine-video {
-      border-radius: 10px;
-    }
-
-    .notches__065e9.gray__4fb3f {
-      color: var(--background-primary);
-    }
+  .micTest_aff6cf .notches__065e9.gray__4fb3f {
+    color: var(--background-primary);
   }
 
   // Activity status
