@@ -68,8 +68,8 @@
     // Panel
     .contentColumn_dc7d36,
     .customColumn_e22a6e {
-      max-width: 95%;
       min-width: unset;
+      max-width: 95%;
     }
 
     // Close button
@@ -113,8 +113,9 @@
       flex-direction: column;
 
       .bannerSVGWrapper__3e7b0 {
-        min-width: 0 !important;
+        position: absolute;
         min-height: 150px !important;
+        max-width: 100% !important;
 
         mask {
           display: none;
@@ -144,6 +145,7 @@
       }
 
       .background_b61fcc {
+        margin-top: 150px !important;
         flex: unset !important;
       }
     }
@@ -154,8 +156,6 @@
     background-color: var(--background-secondary);
 
     .bannerSVGWrapper__3e7b0 {
-      min-height: 320px;
-
       mask {
         display: none;
       }
@@ -166,7 +166,10 @@
 
     // Banner
     .banner__6d414 {
-      -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0.7607843137), rgba(0, 0, 0, 0.7607843137));
+      -webkit-mask-image: linear-gradient(
+        rgba(0, 0, 0, 0.7607843137),
+        rgba(0, 0, 0, 0.7607843137)
+      );
       border-radius: 8px 0 0 8px;
       height: 320px;
       flex: 1;

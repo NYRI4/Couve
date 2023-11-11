@@ -81,9 +81,18 @@
       &.hasThread__58ee2 {
         &::after {
           margin-left: 24px;
+          border-bottom: none;
+          border-radius: 0;
+          bottom: 70px;
         }
 
-        .container_dbadf5 {
+        & > .contents_f41bb2 > [id^="message-content-"] {
+          padding-left: calc(
+            var(--custom-message-margin-left-content-cozy) + 40px
+          );
+        }
+
+        .container_dbadf5 > *:not(.container__767d1) {
           margin-left: 48px;
           border-radius: 8px;
         }
@@ -275,7 +284,9 @@
     .premiumPromo__2d678 {
       background: var(--background-secondary);
       opacity: 1;
-      animation: fade 0.3s ease, zoom 0.3s ease;
+      animation:
+        fade 0.3s ease,
+        zoom 0.3s ease;
     }
 
     &.wrapper__66cd5 {

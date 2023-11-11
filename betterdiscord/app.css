@@ -63,8 +63,14 @@
 }
 :root .messagesWrapper_ea2b0b .cozy_f5c119.wrapper__09ecc.hasThread__58ee2::after {
   margin-left: 24px;
+  border-bottom: none;
+  border-radius: 0;
+  bottom: 70px;
 }
-:root .messagesWrapper_ea2b0b .cozy_f5c119.wrapper__09ecc.hasThread__58ee2 .container_dbadf5 {
+:root .messagesWrapper_ea2b0b .cozy_f5c119.wrapper__09ecc.hasThread__58ee2 > .contents_f41bb2 > [id^=message-content-] {
+  padding-left: calc(var(--custom-message-margin-left-content-cozy) + 40px);
+}
+:root .messagesWrapper_ea2b0b .cozy_f5c119.wrapper__09ecc.hasThread__58ee2 .container_dbadf5 > *:not(.container__767d1) {
   margin-left: 48px;
   border-radius: 8px;
 }
@@ -1557,8 +1563,8 @@
 }
 :root .layer__2efaa .contentColumn_dc7d36,
 :root .layer__2efaa .customColumn_e22a6e {
-  max-width: 95%;
   min-width: unset;
+  max-width: 95%;
 }
 :root .layer__2efaa .toolsContainer_f5d55d {
   position: absolute;
@@ -1588,8 +1594,9 @@
     flex-direction: column;
   }
   :root .accountProfileCard__22589 .bannerSVGWrapper__3e7b0 {
-    min-width: 0 !important;
+    position: absolute;
     min-height: 150px !important;
+    max-width: 100% !important;
   }
   :root .accountProfileCard__22589 .bannerSVGWrapper__3e7b0 mask {
     display: none;
@@ -1611,15 +1618,13 @@
     justify-content: center;
   }
   :root .accountProfileCard__22589 .background_b61fcc {
+    margin-top: 150px !important;
     flex: unset !important;
   }
 }
 :root .accountProfileCard__22589 {
   display: flex;
   background-color: var(--background-secondary);
-}
-:root .accountProfileCard__22589 .bannerSVGWrapper__3e7b0 {
-  min-height: 320px;
 }
 :root .accountProfileCard__22589 .bannerSVGWrapper__3e7b0 mask {
   display: none;
@@ -2696,7 +2701,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
 }
 :root .grabber_d2868c {
   border: none;
-  background: transparent;
+  background: transparent !important;
   box-shadow: none;
 }
 :root .cardPrimary_cb7a0e,

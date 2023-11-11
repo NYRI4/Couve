@@ -168,7 +168,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
 
   // Version
   .info__755e1 .text-xs-normal_ccc5fb:last-child::after {
-    content: "\a Couve v"var(--version);
+    content: "\a Couve v" var(--version);
     text-transform: none;
     white-space: pre;
   }
@@ -518,7 +518,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
   }
   .grabber_d2868c {
     border: none;
-    background: transparent;
+    background: transparent !important;
     box-shadow: none;
   }
 
@@ -636,7 +636,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
       width: 330px;
       height: 100vh;
       max-height: unset;
-      animation: sidebarStatusTransalteX 0.5s ease, fade 0.4s ease;
+      animation:
+        sidebarStatusTransalteX 0.5s ease,
+        fade 0.4s ease;
       border-radius: 0;
       background: var(--background-tertiary);
       margin-right: 0;
@@ -854,7 +856,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
     background-color: var(--background-primary);
   }
   .row__70f4c,
-  .container__7712a{
+  .container__7712a {
     background-color: var(--background-secondary);
   }
   .inviteButton_eb675f {
@@ -1001,7 +1003,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
   // Animation
   &.full-motion .translate-PeW1wK {
     transform: translateZ(0);
-    animation: zoom 0.3s ease, fade 0.3s ease;
+    animation:
+      zoom 0.3s ease,
+      fade 0.3s ease;
   }
 
   // ==> Keyframes <==
