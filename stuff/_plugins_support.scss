@@ -100,4 +100,11 @@
   ul[data-list-id="guildfoldersnav"] {
     margin-top: 12px;
   }
+
+  // Vendetta plugins
+  .vc-addon-name-author {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

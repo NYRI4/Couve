@@ -162,4 +162,9 @@
   .sidebarScrollable__4aad1 + .content__5937e {
     max-width: unset;
   }
+
+  // Call channels
+  .containerDefault__3187b:has(.linkBottom_bac113) .list__02208 {
+    padding-top: 15px;
+  }
 }

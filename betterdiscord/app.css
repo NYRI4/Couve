@@ -884,6 +884,9 @@
 :root .sidebarScrollable__4aad1 + .content__5937e {
   max-width: unset;
 }
+:root .containerDefault__3187b:has(.linkBottom_bac113) .list__02208 {
+  padding-top: 15px;
+}
 
 :root .inner__999f6 {
   background: var(--background-secondary);
@@ -3208,4 +3211,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_fae9dd {
 }
 :root ul[data-list-id=guildfoldersnav] {
   margin-top: 12px;
+}
+:root .vc-addon-name-author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
