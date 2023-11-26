@@ -1174,6 +1174,7 @@
   padding: 0;
   justify-content: center;
   background-color: transparent;
+  box-sizing: border-box;
 }
 :root .userPopoutOuter_d739b2 .section__6f61e {
   padding-top: 0;
