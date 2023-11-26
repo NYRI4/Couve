@@ -9,12 +9,12 @@
 @forward "stuff/other";
 @forward "stuff/plugins_support";
 
-// Custom Avatar Hint
-@import url("https://custom-avatar-hints.github.io/hints/app/database.css");
-@import url("https://custom-avatar-hints.github.io/hints/app/language-hell.css");
-
 // Premium shit
 @import url("https://nyri4.github.io/donators/donators.css");
 
 // Font Importing
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
+
+.member_aa4760 .username__11d8c::after {
+    left: 15px !important;
+}
