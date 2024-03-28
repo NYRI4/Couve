@@ -24,31 +24,31 @@
       pointer-events: none;
     }
 
-    .scroller__3d071 {
+    .scroller_de945b {
       padding: 30px 0;
 
       // Home button
       &
-        > .tutorialContainer_dc6fde:first-child
-        > .listItem_fa7b36
-        .childWrapper__01b9c {
+        > .tutorialContainer__6835f:first-child
+        > .listItem__48528
+        .childWrapper_a6ce15 {
         background: var(--main-color);
         color: #fff;
       }
 
-      & > .listItem_fa7b36:nth-last-child(4) {
+      & > .listItem__48528:nth-last-child(4) {
         margin-bottom: 80px;
       }
 
       // Server
-      .listItem_fa7b36 {
+      .listItem__48528 {
         width: 90px;
 
-        .wrapper__3af0b,
-        .svg_ad7356 {
+        .wrapper__9916c,
+        .svg__34dd4 {
           width: 42px;
         }
-        .wrapper_d281dd {
+        .wrapper__8436d {
           border-radius: 50%;
           overflow: hidden;
           transition: border-radius 200ms;
@@ -58,34 +58,34 @@
           }
         }
 
-        .upperBadge_c7cfb3 {
+        .upperBadge__00ad0 {
           top: 2px;
           right: -1px;
         }
 
         // Mention badge
-        .lowerBadge__669e7 {
+        .lowerBadge_e89e22 {
           bottom: 4px;
           right: -5px;
 
-          .numberBadge__50328 {
+          .numberBadge__40d6f {
             min-width: 25px;
             background: var(--main-color) !important;
             font-size: 8px;
           }
-          &:last-child .numberBadge__50328 {
+          &:last-child .numberBadge__40d6f {
             box-shadow: 0 0 10px 0 #0008;
           }
         }
 
         // Server icon
-        .wrapper_d281dd {
-          &.selected_f5ec8e .childWrapper__01b9c,
-          &:hover .childWrapper__01b9c {
+        .wrapper__8436d {
+          &.selected_ae80f7 .childWrapper_a6ce15,
+          &:hover .childWrapper_a6ce15 {
             background: var(--main-color);
           }
 
-          .childWrapper__01b9c {
+          .childWrapper_a6ce15 {
             background: var(--background-secondary);
           }
         }
@@ -96,14 +96,14 @@
       }
 
       // Server Folders
-      .wrapper_ed1dea {
+      .wrapper__832f2 {
         width: 90px;
 
-        .expandedFolderBackground__1bec6 {
+        .expandedFolderBackground_b1385f {
           left: 21px;
         }
 
-        .folderIconWrapper__72239 {
+        .folderIconWrapper__11165 {
           transition: border-radius 200ms;
 
           &:hover {
@@ -111,7 +111,7 @@
           }
         }
 
-        .wrapper__3af0b > svg > foreignObject {
+        .wrapper__9916c > svg > foreignObject {
           mask: none;
 
           .folder__17546 {
@@ -120,14 +120,14 @@
         }
 
         &.expanded {
-          .expandedFolderBackground__1bec6 {
+          .expandedFolderBackground_b1385f {
             background: var(--background-secondary);
           }
         }
       }
 
       // Create server + Discover buttons
-      .circleIconButton_d8df29 {
+      .circleIconButton__05cf2 {
         border-radius: 14px;
         border: dashed 2px var(--epicshadow1);
         background: transparent;
@@ -135,24 +135,24 @@
         transition: all 0.2s;
       }
 
-      .tutorialContainer_dc6fde {
-        &:hover .circleIconButton_d8df29,
-        & + .listItem_fa7b36:hover .circleIconButton_d8df29 {
+      .tutorialContainer__6835f {
+        &:hover .circleIconButton__05cf2,
+        & + .listItem__48528:hover .circleIconButton__05cf2 {
           background: transparent;
           color: var(--main-color);
           border-color: var(--main-color);
         }
 
-        .wrapperSimple_a34580,
-        & + .listItem_fa7b36 .wrapperSimple_a34580 {
+        .wrapperSimple__9e2b0,
+        & + .listItem__48528 .wrapperSimple__9e2b0 {
           overflow: visible;
         }
         svg > foreignObject,
-        & + .listItem_fa7b36 svg > foreignObject {
+        & + .listItem__48528 svg > foreignObject {
           mask: none;
         }
       }
-      .wrapperSimple_a34580 foreignObject {
+      .wrapperSimple__9e2b0 foreignObject {
         mask: none;
       }
 
@@ -167,7 +167,7 @@
     }
 
     // Mentions & Unread
-    .mention__1afd3 {
+    .mention_dd733a {
       height: 100%;
       background: linear-gradient(
         360deg,
@@ -185,13 +185,13 @@
         color: var(--main-color);
       }
     }
-    .unreadMentionsIndicatorBottom_fdb943 .mention__1afd3 {
+    .unreadMentionsIndicatorBottom__9351c .mention_dd733a {
       background: transparent;
     }
 
     // In server
-    .unreadMentionsIndicatorTop_ada847,
-    .unreadMentionsIndicatorBottom_fdb943 {
+    .unreadMentionsIndicatorTop__153ad,
+    .unreadMentionsIndicatorBottom__9351c {
       width: 100%;
       height: 30px;
       padding: 0;

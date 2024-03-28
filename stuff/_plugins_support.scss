@@ -4,12 +4,12 @@
     transform: scale(1) !important;
   }
 
-  #status-picker.menu_dc52c6 #status-picker-custom-status {
+  #status-picker.menu__088f7 #status-picker-custom-status {
     .labelContainer-2vJzYL {
       padding: 0 16px;
     }
 
-    & + .layer_ec16dd {
+    & + .layer__6b5c3 {
       top: 432px !important;
       left: 359px !important;
 
@@ -25,7 +25,7 @@
     color: var(--main-color);
   }
 
-  .activityPanel__22355
+  .activityPanel_b73e7a
     ~ .gameActivityToggleAdded-Yd-YxC
     > div:last-child
     button:first-child {
@@ -36,19 +36,19 @@
   #MemberCount {
     top: 48px;
 
-    .membersGroup__85843 {
+    .membersGroup_cad095 {
       margin-top: 0;
       padding: 18px 8px 0 16px;
     }
 
-    & + .members__9f47b {
+    & + .members__573eb {
       margin-top: 0;
       padding-top: 70px;
     }
   }
 
   // Status weird behavior with BetterDiscord
-  .mask__1979f > svg > mask > :not(:first-child) {
+  .mask_d5067d > svg > mask > :not(:first-child) {
     display: none;
   }
 
@@ -57,7 +57,7 @@
     margin: -30px 240px 0px 90px;
     border-radius: 8px 8px 0 0 !important;
 
-    & ~ .layers_a40797 .sidebar_ded4b5 {
+    & ~ .layers__1c917 .sidebar_e031be {
       border-radius: 0;
     }
   }
@@ -73,11 +73,11 @@
       background: var(--background-secondary);
       border-bottom-width: 0px;
 
-      & + div .membersWrap__90226 {
+      & + div .membersWrap__5ca6b {
         margin-top: 0;
         max-height: unset;
 
-        .members__9f47b {
+        .members__573eb {
           padding-top: 0;
         }
       }
@@ -91,7 +91,7 @@
     width: calc(100% - 96px);
     background-color: var(--background-tertiary);
 
-    & ~ .layers_a40797 .guilds__2b93a {
+    & ~ .layers__1c917 .guilds__2b93a {
       margin-top: -85px;
     }
   }
