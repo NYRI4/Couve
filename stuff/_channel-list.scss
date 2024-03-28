@@ -1,5 +1,5 @@
 :root {
-  .header__104ca {
+  .header__77c95 {
     box-shadow: none;
     padding: 25px 25px 12px 25px;
     border-radius: 8px;
@@ -68,7 +68,7 @@
       transition: opacity 400ms;
     }
 
-    .button_afdfd9 {
+    .button__581d0 {
       background: var(--background-secondary-alt-alt);
       opacity: 0;
       pointer-events: none;
@@ -86,7 +86,7 @@
       &::before {
         opacity: 0;
       }
-      .button_afdfd9 {
+      .button__581d0 {
         opacity: 1;
         pointer-events: all;
       }
@@ -94,37 +94,37 @@
   }
 
   // Channel header
-  .clickable__2d589 .header__104ca:hover,
-  .selected__0b1ad .header__104ca {
+  .clickable__1383f .header__77c95:hover,
+  .selected__987e6 .header__77c95 {
     background: transparent;
   }
 
-  .container__590e2 > .scroller_f0f183 > .content__23cab > div:first-child[style="height: 16px;"] {
+  .container__7e23c > .scroller__1f498 > .content__690c5 > div:first-child[style="height: 16px;"] {
     display: none;
   }
 
-  .wrapper__9c483 {
+  .wrapper__07e2f {
     padding: 0 22px;
   }
 
   // Categories
-  .container_de798d {
+  .container__43554 {
     color: var(--textcolor);
     text-transform: unset;
     font-size: 14px;
   }
 
   // No arrows
-  .icon_ef4486 {
+  .icon__3aa8e {
     display: none;
   }
 
   // Channels
-  .wrapper__7bcde {
+  .wrapper__612a5 {
     height: 30px;
     margin: 0;
 
-    .link__95dc0 {
+    .link_ddbb36 {
       height: 30px;
       padding: 6px 20px;
       border-radius: 0;
@@ -135,7 +135,7 @@
   }
 
   // Thread channels
-  .typeThread__2f91c .name__8d1ec {
+  .typeThread__5fb37 .name__4eb92 {
     padding-left: 28px;
   }
 
@@ -144,14 +144,14 @@
     border-radius: 4px;
     background: var(--main-color);
 
-    .barText__1a44f {
+    .barText__32a63 {
       color: white !important;
     }
   }
 
   // No scrollbars
-  .scroller_f0f183,
-  .scroller__3d071,
+  .scroller__1f498,
+  .scroller_de945b,
   #channels {
     &::-webkit-scrollbar {
       display: none;
@@ -159,12 +159,12 @@
   }
 
   // Channel settings
-  .sidebarScrollable__4aad1 + .content__5937e {
+  .sidebarScrollable_d64933 + .content__5eeb2 {
     max-width: unset;
   }
 
   // Call channels
-  .containerDefault__3187b:has(.linkBottom_bac113) .list__02208 {
+  .containerDefault_ae2ea4:has(.linkBottom__942a1) .list__02208 {
     padding-top: 15px;
   }
 }
