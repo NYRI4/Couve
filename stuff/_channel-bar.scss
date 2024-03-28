@@ -5,26 +5,26 @@
   }
 
   // Removing help buttons
-  .toolbar__88c63 > :last-child[href="https://support.discord.com"], 
-  .searchLearnMore_bf7b8e {
+  .toolbar__62fb5 > :last-child[href="https://support.discord.com"], 
+  .searchLearnMore__17e18 {
     display: none;
   }
 
   // Top bar
-  .container__11d72.title_b7d661:not(.minimum_ebf000) {
+  .container__26baa.title_d4ba1a:not(.minimum__7f356) {
     z-index: 1;
     background: transparent;
     width: calc(100% - 240px);
 
-    .toolbar__88c63,
+    .toolbar__62fb5,
     .topic__16ae3 {
       -webkit-app-region: no-drag;
     }
-    .icon__4cb88 {
+    .icon_ae0b42 {
       -webkit-app-region: unset;
     }
-    .followButton__2e268,
-    .children__32014:after {
+    .followButton_eb1ca8,
+    .children_cde9af:after {
       display: none;
     }
 
@@ -33,18 +33,18 @@
       position: fixed;
       right: 10px;
 
-      .searchBar_e0c60b {
+      .searchBar__5a20a {
         background: var(--background-primary);
         width: 200px;
         height: 28px;
         padding: 2px 10px;
         border-radius: 4px;
 
-        .searchFilter__118cb,
-        .searchAnswer_b452e7 {
+        .searchFilter_dbda51,
+        .searchAnswer__2ccaf {
           background: transparent;
         }
-        .icon_f50f05 {
+        .icon__5c8c7 {
           color: var(--main-color);
         }
       }
@@ -52,14 +52,14 @@
   }
 
   // Search popout
-  .container_d6dad3 {
+  .container__84c26 {
     background: var(--background-secondary-alt-alt);
     box-shadow: none;
 
-    .queryContainer_c359fe {
+    .queryContainer_c1cb2f {
       border: none;
 
-      &.focused_f9cf2c {
+      &.focused__68b93 {
         background: var(--background-secondary-alt-alt);
       }
 
@@ -68,13 +68,13 @@
       }
     }
 
-    .resultsGroup_ea9b64 {
+    .resultsGroup_b221b0 {
       &::before {
         display: none;
       }
 
       // Options
-      .option_b5597b {
+      .option__91497 {
         padding: 0 20px;
         margin: 0;
         border-radius: 0;
@@ -90,7 +90,7 @@
     }
 
     // Datepicker (yeah this exist)
-    .calendarPicker__5c474 .react-datepicker {
+    .calendarPicker__47c85 .react-datepicker {
       background: transparent;
       border-radius: 0;
 
@@ -126,20 +126,20 @@
         }
       }
     }
-    .datePickerHint__7cc9b .hintValue_c2ce1f {
+    .datePickerHint_d023b6 .hintValue__0c960 {
       background: var(--main-color);
     }
   }
 
   // Search results
-  .searchResultsWrap__9f374 {
+  .searchResultsWrap__2e184 {
     background: var(--background-secondary);
     top: -48px;
     padding-top: 48px;
     width: 480px;
     height: 100%;
 
-    .searchHeader__19d87 {
+    .searchHeader__4d70e {
       position: absolute;
       width: 100%;
       background: linear-gradient(
@@ -149,7 +149,7 @@
       );
     }
 
-    .scroller_c8d5ad {
+    .scroller__5f036 {
       padding: 0;
       padding-top: 48px;
 
@@ -162,16 +162,16 @@
         padding: 8px 0;
       }
 
-      .searchResult_dcd237 {
+      .searchResult__00093 {
         border: none;
         box-shadow: none;
         border-radius: 10px;
       }
 
-      .pageButton_bcd673 {
+      .pageButton_bf9853 {
         background-color: var(--background-primary);
 
-        &.activeButton__7a550 {
+        &.activeButton__70b70 {
           background-color: var(--main-color);
         }
       }
@@ -179,7 +179,7 @@
   }
 
   // Inbox
-  .recentMentionsPopout__826a9 {
+  .recentMentionsPopout__40c54 {
     position: fixed;
     top: 0;
     right: 0;
@@ -189,7 +189,7 @@
     border-radius: 0;
 
     // Top
-    .header_f5cc88 {
+    .header__21b33 {
       background: linear-gradient(
         360deg,
         transparent,
@@ -209,7 +209,7 @@
         }
       }
 
-      .secondary_c96c46 {
+      .secondary__45d4f {
         position: absolute;
         right: 16px;
         background: transparent;
@@ -217,40 +217,40 @@
     }
 
     // Body
-    .messagesPopout__22763,
-    .scrollerBase_dc3aa9 {
+    .messagesPopout__28784,
+    .scrollerBase_f742b2 {
       padding-top: 86px;
 
       // Card
-      .channelHeader__5d30c {
+      .channelHeader_ea0f89 {
         position: relative;
         background: transparent;
 
         // Cross button
-        .tertiary_bc0225 {
+        .tertiary_ad6d80 {
           background: var(--background-primary);
         }
       }
     }
 
     // Tutorial
-    .tutorial__7b875 {
+    .tutorial__5bb77 {
       background: var(--background-primary);
       margin-top: 66px;
     }
 
-    .tutorialIcon__5c63f {
+    .tutorialIcon__51741 {
       background: var(--background-secondary);
       color: #fff;
     }
   }
-  .recentMentionsPopout__826a9 {
+  .recentMentionsPopout__40c54 {
     background: var(--background-secondary);
     box-shadow: var(--elevation-high);
   }
 
   // Pinned messages
-  .messagesPopoutWrap_b3b384:not(.recentMentionsPopout__826a9) {
+  .messagesPopoutWrap__10dd1:not(.recentMentionsPopout__40c54) {
     position: fixed;
     top: 84px;
     left: 330px;
@@ -261,17 +261,17 @@
     background: var(--background-primary);
     border-radius: 0;
 
-    .header_f5cc88 {
+    .header__21b33 {
       background: var(--background-primary);
       text-align: center;
       box-shadow: none;
     }
 
-    .messagesPopout__22763 {
+    .messagesPopout__28784 {
       padding: 0 32px;
       padding-top: 5px;
 
-      .messageGroupWrapper_f8c6e9 {
+      .messageGroupWrapper__1fce2 {
         border: none;
         background: var(--background-secondary);
         margin-bottom: 32px;
