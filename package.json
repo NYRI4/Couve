@@ -16,10 +16,7 @@
   "author": "A user#8169, Nyria#3863",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.7",
-    "replugged": "^4.2.3"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9"
   }
 }
