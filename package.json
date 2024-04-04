@@ -10,11 +10,13 @@
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
-    "lint": "prettier ./src --check",
-    "lint:fix": "prettier ./src --write"
+    "lint": "prettier ./ --check",
+    "lint:fix": "prettier ./ --write",
+    "release": "replugged release"
   },
   "author": "A user#8169, Nyria#3863",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "prettier": "^3.2.5",
     "replugged": "^4.7.9"
