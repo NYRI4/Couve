@@ -185,7 +185,9 @@
     right: 0;
     min-height: 100%;
     max-height: 100% !important;
-    animation: sidebarStatusTransalteXReverse 0.5s ease, fade 0.4s ease;
+    animation:
+      sidebarStatusTransalteXReverse 0.5s ease,
+      fade 0.4s ease;
     border-radius: 0;
 
     // Top
