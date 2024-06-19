@@ -1,16 +1,16 @@
 :root {
-  .membersWrap__5ca6b {
+  .membersWrap_cbd271 {
     margin-top: -48px;
     max-height: calc(100% + 48px);
 
-    .members__573eb {
+    .members_cbd271 {
       padding-top: 48px;
 
       // Members
-      .member_aa4760 {
+      .member_a31c43 {
         margin: 0;
 
-        .layout_bb8e67 {
+        .layout_e9f61e {
           padding: 0 22px;
           width: calc(100% - 22px);
           border-radius: 0;
@@ -28,22 +28,22 @@
     background: var(--background-secondary);
   }
 
-  .userPopoutOuter__3884e {
+  .userPopoutOuter_c69a7b {
     max-height: unset !important;
     box-shadow: unset !important;
     border-radius: 8px;
 
-    .userPopoutInner_e90432::before {
+    .userPopoutInner_c69a7b::before {
       max-height: unset !important;
     }
 
     // Banner
-    .bannerSVGWrapper__8a38c {
+    .bannerSVGWrapper_b32cc2 {
       overflow: visible;
       min-height: 180px !important;
       contain: unset;
 
-      .banner__6d414 {
+      .banner_c3e427 {
         position: absolute;
         height: 200px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
@@ -55,7 +55,7 @@
           0 calc(100% - 25px)
         );
 
-        &.bannerPremium__69560 {
+        &.bannerPremium_c3e427 {
           background-color: transparent !important;
         }
       }
@@ -81,7 +81,7 @@
     }
 
     // Badges
-    .profileBadges__1f2ab {
+    .profileBadges_f89da9 {
       position: absolute;
       top: 160px;
       left: 0;
@@ -93,21 +93,21 @@
       box-sizing: border-box;
     }
 
-    .section__62b44 {
+    .section_d7a21f {
       padding-top: 0;
       padding-bottom: 12px;
     }
 
     // New body
-    .userPopoutOverlayBackground_bf6444 {
+    .userPopoutOverlayBackground_c69a7b {
       position: static;
       background-color: transparent;
 
-      & > .divider__126d2 {
+      & > .divider_d2b491 {
         display: none;
       }
 
-      .usernameSection_dd6196 .userText_c26b46 {
+      .usernameSection_d2b491 .userText_c9ccf6 {
         position: absolute;
         top: 110px;
         left: 0;
@@ -115,16 +115,16 @@
         box-sizing: border-box;
         text-align: center;
 
-        .discrimBase__5555e {
+        .discrimBase_c9ccf6 {
           color: white;
         }
       }
 
-      .pronouns__8aa38 {
+      .pronouns_c9ccf6 {
         position: relative;
       }
 
-      .scroller_f9a667::-webkit-scrollbar {
+      .scroller_d2b491::-webkit-scrollbar {
         display: none;
       }
 
@@ -132,28 +132,28 @@
       .activity__20c1e {
         z-index: 1;
 
-        .assetsLargeImageSpotify__3df69 {
+        .assetsLargeImageSpotify_d5089b {
           border-radius: 8px !important;
           margin-left: 6px;
         }
 
-        .content__7246b {
+        .null {
           margin-right: 8px;
         }
 
         // Button
-        .button__88ad4 {
+        .button_da7790 {
           background-color: var(--main-color);
           opacity: 1;
         }
 
         // Platform icon
-        .platformIcon_a2d873 {
+        .platformIcon_d5089b {
           display: none;
         }
 
         // Time bar
-        .timeBarUserPopoutV2__5d401 {
+        .timeBarUserPopoutV2_d5089b {
           position: absolute;
           top: 7px;
           left: 0;
@@ -162,12 +162,12 @@
           height: 70px;
           border-radius: 8px;
 
-          .bar_e63719 {
+          .bar_aa267a {
             border-radius: 8px;
             height: 100%;
           }
 
-          .barInner__0f713 {
+          .barInner_aa267a {
             border-radius: 8px 0 0 8px;
             opacity: 0.2;
           }
@@ -183,17 +183,17 @@
     }
 
     // Username adjustements for premium popouts
-    &.userProfileOuterThemed__1fbd7 .usernameSection_dd6196 {
+    &.userProfileOuterThemed_c69a7b .usernameSection_d2b491 {
       left: 4px;
     }
 
     // Avatar
-    .avatarWrapper__0cd44 {
+    .avatarWrapper_f89da9 {
       top: 15px !important;
       left: calc(50% - 40px);
 
       // View profile mask
-      .avatarHint__15059 {
+      .avatarHint_f89da9 {
         top: 0;
         left: 0;
         border-radius: calc(var(--avatar-radius) * 2) !important;
@@ -202,7 +202,7 @@
           mask: none !important;
 
           // Custom Avatar Hint
-          .avatarHintInner_c8ddb1 {
+          .avatarHintInner_f89da9 {
             font-size: 0;
             text-transform: none;
 
@@ -220,7 +220,7 @@
     }
 
     // Avatar mask
-    .mask_d5067d {
+    .mask_c51b4e {
       foreignObject {
         border-radius: calc(var(--avatar-radius) * 2) !important;
       }
@@ -232,18 +232,18 @@
   }
 
   // User modal
-  .root_ba16f0.root_a28985.small_f8e677 {
+  .root_b9fccc.root_f9a4c9.small_f9a4c9 {
     width: 800px;
     height: 100%;
 
-    & > div, .userProfileModalOuter_a65559 {
+    & > div, .userProfileModalOuter_c69a7b {
       width: 100%;
       height: 100%;
       box-sizing: border-box;
     }
   }
 
-  .userProfileModalInner__99b1e {
+  .userProfileModalInner_c69a7b {
     width: 100%;
     height: 100%;
     flex-direction: row;
@@ -257,7 +257,7 @@
     }
 
     // Header
-    .topSection__2d8b8 {
+    .topSection_b9fccc {
       z-index: 1;
       overflow: hidden;
       width: calc(55% - 16px);
@@ -269,13 +269,13 @@
         height: 100%;
       }
 
-      .bannerSVGWrapper__8a38c {
+      .bannerSVGWrapper_b32cc2 {
         min-width: unset !important;
         min-height: unset !important;
         width: 100%;
         height: 100%;
 
-        .banner__6d414 {
+        .banner_c3e427 {
           position: absolute;
           top: 0;
           left: 0;
@@ -303,11 +303,11 @@
         }
       }
 
-      .header_dda341 {
+      .header_ec3b75 {
         position: static;
 
         // Avatar
-        .avatar__445f3 {
+        .avatar_ec3b75 {
           top: 16px;
           left: 16px;
 
@@ -317,7 +317,7 @@
           }
         }
 
-        .badgeList__126b0 {
+        .badgeList_ec3b75 {
           position: absolute;
           top: 65px;
           left: -15px;
@@ -326,7 +326,7 @@
       }
     }
 
-    .relationshipButtons_b880ad {
+    .relationshipButtons_ec3b75 {
       position: fixed;
       bottom: 15px;
       left: 15px;
@@ -334,12 +334,12 @@
     }
 
     // Avatar mask
-    .mask_d5067d foreignObject {
+    .mask_c51b4e foreignObject {
       border-radius: calc(var(--avatar-radius) * 2.1) !important;
     }
 
     // Custom Status
-    .customStatusText__358c7 {
+    .customStatusText_afed89 {
       position: absolute;
       bottom: 0;
       right: 0;
@@ -350,7 +350,7 @@
       box-sizing: border-box;
       border-bottom-right-radius: 5px;
 
-      &.activityProfile__5d0ec {
+      &.activityProfile_d5089b {
         right: unset;
         bottom: -140px;
         left: 5px;
@@ -358,21 +358,21 @@
         padding: 20px;
       }
 
-      .customStatus__928b7 {
+      .customStatus_b2ca13 {
         margin-top: 0;
       }
 
       // Player
-      .assetsLargeImageActivityFeed__56b16,
-      .assetsLargeImageActivityFeedXbox_a24562,
-      .assetsLargeImageProfile__8a5b1 {
+      .assetsLargeImageActivityFeed_d5089b,
+      .assetsLargeImageActivityFeedXbox_d5089b,
+      .assetsLargeImageProfile_d5089b {
         width: 40px;
         height: 40px;
       }
     }
 
     // Body
-    .userProfileModalOverlayBackground__7ec35 {
+    .userProfileModalOverlayBackground_c69a7b {
       position: static;
       width: calc(45% + 16px);
       margin: 0;
@@ -380,9 +380,9 @@
       background-color: var(--background-primary);
       border-radius: 0;
 
-      .body_bd4552 {
+      .body_b9fccc {
         // Username
-        .container__9f51c > div:first-child {
+        .container_afed89 > div:first-child {
           position: absolute;
           top: 25px;
           left: 153px;
@@ -394,15 +394,15 @@
             white-space: nowrap;
           }
         }
-        .container__9f51c {
+        .container_afed89 {
           padding: 0;
         }
-        .divider__7116f {
+        .divider_b9fccc {
           display: none;
         }
 
         // Pronouns
-        .pronouns__3d468 {
+        .pronouns_afed89 {
           position: absolute;
           left: 153px;
           top: 112px;
@@ -410,18 +410,18 @@
         }
 
         // Menu
-        .tabBarContainer_b283be {
+        .tabBarContainer_b9fccc {
           position: absolute;
           bottom: 65px;
           left: 5px;
           z-index: 1;
           border-bottom: unset;
 
-          .tabBar__35f81 {
+          .tabBar_b9fccc {
             flex-direction: column;
             gap: 15px;
 
-            .item__48dda {
+            .item_a0 {
               height: 20px;
               border-bottom: unset;
             }
@@ -429,24 +429,24 @@
         }
 
         // Connected account
-        .connectedAccounts__7a8e6 {
+        .connectedAccounts_f3eb60 {
           padding-bottom: 80px;
 
-          .connectedAccountContainer__5972d {
+          .connectedAccountContainer_f3eb60 {
             border: none;
             border-radius: 8px;
           }
         }
 
         // Mutuals
-        .listScroller__18a19 {
+        .listScroller_e4be58 {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-rows: repeat(20, 0fr);
           gap: 10px;
           padding-left: 8px;
 
-          .listRow__50619 {
+          .listRow_e4be58 {
             position: relative;
             z-index: 1;
             height: 44px;
@@ -456,7 +456,7 @@
             overflow: hidden;
             background-color: #ffffff07;
 
-            .listAvatar__67297 {
+            .listAvatar_e4be58 {
               position: absolute;
               right: 0;
               z-index: -1;
@@ -482,7 +482,7 @@
             }
           }
 
-          .empty__18e40 {
+          .empty_e4be58 {
             grid-column: 1/3;
             grid-row: 1/22;
             position: relative;
@@ -492,7 +492,7 @@
             padding-left: 10px;
             border-radius: 8px;
 
-            .emptyIconFriends_b554b1 {
+            .emptyIconFriends_e4be58 {
               position: absolute;
               z-index: -1;
               width: 80%;
@@ -503,7 +503,7 @@
             }
           }
 
-          .activityProfileV2_f5335f {
+          .activityProfileV2_d5089b {
             grid-column: 1/3;
           }
         }
@@ -515,7 +515,7 @@
     }
   }
 
-  .userProfileModalInner__99b1e .userProfileModalOverlayBackground__7ec35 {
+  .userProfileModalInner_c69a7b .userProfileModalOverlayBackground_c69a7b {
     background-color: transparent;
   }
 }

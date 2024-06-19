@@ -1,5 +1,5 @@
 :root {
-  .header__77c95 {
+  .header_fd6364 {
     box-shadow: none;
     padding: 25px 25px 12px 25px;
     border-radius: 8px;
@@ -68,7 +68,7 @@
       transition: opacity 400ms;
     }
 
-    .button__581d0 {
+    .button_dd4f85 {
       background: var(--background-secondary-alt-alt);
       opacity: 0;
       pointer-events: none;
@@ -86,7 +86,7 @@
       &::before {
         opacity: 0;
       }
-      .button__581d0 {
+      .button_dd4f85 {
         opacity: 1;
         pointer-events: all;
       }
@@ -94,64 +94,64 @@
   }
 
   // Channel header
-  .clickable__1383f .header__77c95:hover,
-  .selected__987e6 .header__77c95 {
+  .clickable_fd6364 .header_fd6364:hover,
+  .selected_fd6364 .header_fd6364 {
     background: transparent;
   }
 
-  .container__7e23c > .scroller__1f498 > .content__690c5 > div:first-child[style="height: 16px;"] {
+  .container_ee69e0 > .scroller_c43953 > .content_eed6a8 > div:first-child[style="height: 16px;"] {
     display: none;
   }
 
-  .wrapper__07e2f {
+  .wrapper_a08117 {
     padding: 0 22px;
   }
 
   // Categories
-  .container__43554 {
+  .container_cc72c1 {
     color: var(--textcolor);
     text-transform: unset;
     font-size: 14px;
   }
 
   // No arrows
-  .icon__3aa8e {
+  .icon_a08117 {
     display: none;
   }
 
   // Channels
-  .wrapper__612a5 {
+  .wrapper_d8bfb3 {
     height: 30px;
     margin: 0;
 
-    .link_ddbb36 {
+    .link_d8bfb3 {
       height: 30px;
       padding: 6px 20px;
       border-radius: 0;
     }
   }
-  .unread__48cf4 {
+  .unread_d8bfb3 {
     left: 0;
   }
 
   // Thread channels
-  .typeThread__5fb37 .name__4eb92 {
+  .typeThread_d8bfb3 .name_d8bfb3 {
     padding-left: 28px;
   }
 
-  .unread__75c9f,
-  .bar__004d9 {
+  .unread_c10249,
+  .bar_eba0ba {
     border-radius: 4px;
     background: var(--main-color);
 
-    .barText__32a63 {
+    .barText_eba0ba {
       color: white !important;
     }
   }
 
   // No scrollbars
-  .scroller__1f498,
-  .scroller_de945b,
+  .scroller_c43953,
+  .scroller_fea3ef,
   #channels {
     &::-webkit-scrollbar {
       display: none;
@@ -159,12 +159,12 @@
   }
 
   // Channel settings
-  .sidebarScrollable_d64933 + .content__5eeb2 {
+  .sidebarScrollable_e9196a + .content_e9196a {
     max-width: unset;
   }
 
   // Call channels
-  .containerDefault_ae2ea4:has(.linkBottom__942a1) .list__02208 {
+  .containerDefault_f6f816:has(.linkBottom_d8bfb3) .list_a478e5 {
     padding-top: 15px;
   }
 }

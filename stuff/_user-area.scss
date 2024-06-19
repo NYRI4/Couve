@@ -1,23 +1,23 @@
 :root {
-  .panels__58331 {
+  .panels_a4d4d9 {
     position: relative;
     z-index: unset;
 
     // Game part
-    .activityPanel_b73e7a {
+    .activityPanel_a4d4d9 {
       position: absolute;
       bottom: 20px;
       right: 105px;
       padding: 0;
       border-radius: 8px;
 
-      .gameWrapper_da7443 {
+      .gameWrapper_bf1a22 {
         display: none;
       }
-      .actions_d57dc4 {
+      .actions_bf1a22 {
         margin: 0;
 
-        .button__581d0 {
+        .button_dd4f85 {
           color: var(--main-color);
         }
       }
@@ -27,12 +27,12 @@
       }
     }
 
-    & > .container_debb33 {
+    & > .container_b2ca13 {
       padding: 10px 8px;
 
       // Avatar
-      .avatarWrapper__500a6[aria-expanded] {
-        .wrapper__3ed10 {
+      .avatarWrapper_b2ca13[aria-expanded] {
+        .wrapper_c51b4e {
           position: fixed;
           left: 29px;
           bottom: 23px;
@@ -50,10 +50,10 @@
       }
 
       // Buttons
-      .button_ae40a4 {
+      .button_f67531 {
         color: #888;
 
-        &[aria-checked="false"].enabled__214db {
+        &[aria-checked="false"].enabled_f67531 {
           color: var(--main-color);
         }
       }
@@ -61,37 +61,37 @@
   }
 
   // Server call
-  .noChat_ce920d {
-    &.wrapper__6bf2d {
+  .noChat_d880dc {
+    &.wrapper_d880dc {
       background: #000;
       margin: 0;
       border-radius: 0;
       animation: unset;
 
       // Header top
-      .headerWrapper_ea51a0 .container__26baa {
+      .headerWrapper_d880dc .container_e44302 {
         width: unset;
       }
 
       // Speaking ring
-      .border_d9a17b.speaking_c28527 {
+      .border_ba4b17.speaking_ba4b17 {
         box-shadow: inset 0 0 0 2.5px #43b581,
           inset 0 0 0 4.5px var(--background-secondary);
       }
 
       // Button
-      .wrapper__4d4fe .button__581d0 {
+      .wrapper_b6e2f9 .button_dd4f85 {
         border-radius: 50%;
       }
-      .colorable__4f530.primaryDark_ec74a7,
-      .participantsButton__11fa3,
-      .participantsButton__11fa3:hover {
+      .colorable_ef18ee.primaryDark_ef18ee,
+      .participantsButton_b83b18,
+      .participantsButton_b83b18:hover {
         background: var(--background-secondary);
       }
       .css-1k9nrkn {
         background: transparent;
       }
-      .controlButton__863c7 foreignObject {
+      .controlButton_b6e2f9 foreignObject {
         mask: none;
       }
     }

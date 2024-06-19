@@ -1,6 +1,6 @@
 :root {
   // Left bar
-  .searchBar__621ec {
+  .searchBar_f0963d {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     );
     box-shadow: none;
 
-    .searchBarComponent__8f95f {
+    .searchBarComponent_f0963d {
       background: var(--background-primary);
       border-radius: 20px;
       font-size: 10px;
@@ -20,11 +20,11 @@
     }
   }
 
-  .input__2a648 {
+  .input_f4e139 {
     background: var(--background-primary);
   }
 
-  .privateChannels__9b518 > .scroller__89969 {
+  .privateChannels_f0963d > .scroller_c47fa9 {
     padding-top: 48px;
     background: transparent;
 
@@ -34,12 +34,12 @@
   }
 
   // Channels
-  .channel__0aef5 {
+  .channel_c91bad {
     margin: 0;
     max-width: unset;
     border-radius: 0;
 
-    .layout__59abc {
+    .layout_f9647d {
       padding: 0 22px;
       width: calc(100% - 22px);
       border-radius: 0;
@@ -47,11 +47,11 @@
   }
 
   // Wide friend list
-  .container_bd15da {
+  .container_c2739c {
     background: var(--background-primary);
 
     // Buttons
-    .actionButton__2b4bb {
+    .actionButton_e01b91 {
       background: transparent;
 
       &:hover {
@@ -60,57 +60,57 @@
     }
 
     // Scrollbar
-    .peopleColumn__0c784 ::-webkit-scrollbar {
+    .peopleColumn_c2739c ::-webkit-scrollbar {
       display: none;
     }
 
     // Get rid of box-shadow
-    .tabBody_a90ea8::before,
-    .libraryHeader__19be0::before {
+    .tabBody_c2739c::before,
+    .libraryHeader_cb9493::before {
       content: none;
     }
-    .header_e5d8b2,
-    .header__643ce,
+    .header_c6ee36,
+    .header_d8cdac,
     .header-JHwfVI {
       display: none;
     }
 
     // Now playing
-    .nowPlayingColumn_b025fe {
+    .nowPlayingColumn_c2739c {
       background: transparent;
       margin: 3px 0 10px 0;
 
-      .container__3673d {
+      .container_bf550a {
         background: var(--background-secondary);
         border-radius: 15px 0 0 15px;
 
-        .scroller__7c25e {
+        .scroller_bf550a {
           border: none;
           padding: 16px 0 !important;
           margin: 0;
 
-          .header_c56a27 {
+          .header_bf550a {
             text-align: center;
           }
 
-          .emptyCard__204d9 {
+          .emptyCard_f02fcf {
             margin: 16px;
           }
-          .outer_a41cf3 {
+          .outer_c0f6a6 {
             background: transparent;
           }
 
-          .wrapper__3c6d5 {
+          .wrapper_cd82a7 {
             background: var(--background-secondary);
             margin: 16px;
             border-radius: 10px;
             border: none;
 
-            .body__616e6 {
+            .body_cd82a7 {
               & > :nth-last-child(3) {
                 border-radius: 8px 8px 0 0;
               }
-              .separator_fc3370 {
+              .separator_cd82a7 {
                 display: none;
               }
               & > :nth-child(3) {
@@ -134,39 +134,39 @@
   }
 
   // Call
-  .wrapper__6bf2d:not(.video__004a2) {
+  .wrapper_d880dc:not(.video_d880dc) {
     background: var(--background-secondary);
     margin: 15px;
     border-radius: 10px;
     animation: callzoom 2s ease;
 
-    .tile_a411a4 {
+    .tile_dc5fc4 {
       background: var(--background-primary);
 
-      .button_c5d028,
-      .buttonColor__40507 {
+      .button_e5cc00,
+      .buttonColor_d4af21 {
         background-color: var(--main-color);
       }
     }
 
     // Video background
-    .videoWrapper__3ffda {
+    .videoWrapper_ba4b17 {
       background: var(--background-primary);
     }
 
     // Speaking ring
-    .border_e782de.speaking_b20122 {
+    .border_a5cd29.speaking_a5cd29 {
       box-shadow: inset 0 0 0 2.5px #43b581,
         inset 0 0 0 6px var(--background-secondary);
     }
 
     // Call buttons
-    .colorable__4f530.primaryDark_ec74a7,
-    .leftTrayIcon_e01f72 {
+    .colorable_ef18ee.primaryDark_ef18ee,
+    .leftTrayIcon_d880dc {
       background: var(--background-primary);
     }
 
-    .wrapper__4d4fe > .controlButton__863c7 > svg > foreignObject {
+    .wrapper_b6e2f9 > .controlButton_b6e2f9 > svg > foreignObject {
       mask: none;
     }
   }
@@ -177,7 +177,7 @@
   }
 
   // Nitro
-  .applicationStore__444b9 .container__26baa {
+  .applicationStore_cecc86 .container_e44302 {
     width: calc(100% - 240px);
     position: absolute;
     top: 0;
@@ -186,20 +186,20 @@
   }
 
   // User profile
-  .userPanelOuter_eb00b1 {
+  .userPanelOuter_c69a7b {
 
-    .scrollerBase_f742b2 {
+    .scrollerBase_eed6a8 {
       overflow: unset !important
     }
 
     // Banner
-    .bannerSVGWrapper__8a38c {
+    .bannerSVGWrapper_b32cc2 {
       overflow: visible;
       min-height: 180px !important;
       contain: unset;
       max-width: 340px;
 
-      .banner__6d414 {
+      .banner_c3e427 {
         position: absolute;
         height: 200px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
@@ -232,15 +232,15 @@
       }
     }
 
-    .divider_d6f39c {
+    .divider_ae36e5 {
       display: none;
     }
 
     // Badges
-    .badgelistGroup__8f7c7 {
+    .badgelistGroup_ab525a {
       min-height: 10px;
     }
-    .badgeList__76720 {
+    .badgeList_ab525a {
       position: absolute;
       top: 160px;
       left: 0;
@@ -252,15 +252,15 @@
       background-color: transparent;
     }
 
-    .section__62b44 {
+    .section_d7a21f {
       padding-top: 0;
       padding-bottom: 12px;
     }
 
-    .userPanelOverlayBackground__41589:nth-child(2) {
+    .userPanelOverlayBackground_a2b6ae:nth-child(2) {
       position: static;
 
-      .section__62b44 .userText_c26b46 {
+      .section_d7a21f .userText_c9ccf6 {
         position: absolute;
         top: 110px;
         left: 0;
@@ -268,17 +268,17 @@
         box-sizing: border-box;
         text-align: center;
 
-        .discrimBase__5555e {
+        .discrimBase_c9ccf6 {
           color: white;
         }
       }
 
-      .pronouns__8aa38 {
+      .pronouns_c9ccf6 {
         position: relative;
         margin-top: 8px;
       }
 
-      .scroller_f9a667::-webkit-scrollbar {
+      .scroller_d2b491::-webkit-scrollbar {
         display: none;
       }
 
@@ -286,28 +286,28 @@
       .activity__20c1e {
         z-index: 1;
 
-        .assetsLargeImageSpotify__3df69 {
+        .assetsLargeImageSpotify_d5089b {
           border-radius: 8px !important;
           margin-left: 6px;
         }
 
-        .content__7246b {
+        .null {
           margin-right: 8px;
         }
 
         // Button
-        .button__88ad4 {
+        .button_da7790 {
           background-color: var(--main-color);
           opacity: 1;
         }
 
         // Platform icon
-        .platformIcon_a2d873 {
+        .platformIcon_d5089b {
           display: none;
         }
 
         // Time bar
-        .timeBarUserPopoutV2__5d401 {
+        .timeBarUserPopoutV2_d5089b {
           position: absolute;
           top: 7px;
           left: 0;
@@ -316,12 +316,12 @@
           height: 70px;
           border-radius: 8px;
 
-          .bar_e63719 {
+          .bar_aa267a {
             border-radius: 8px;
             height: 100%;
           }
 
-          .barInner__0f713 {
+          .barInner_aa267a {
             border-radius: 8px 0 0 8px;
             opacity: 0.2;
           }
@@ -337,17 +337,17 @@
     }
 
     // Username adjustements for premium popouts
-    &.userProfileOuterThemed__1fbd7 .usernameSection_dd6196 {
+    &.userProfileOuterThemed_c69a7b .usernameSection_d2b491 {
       left: 4px;
     }
 
     // Avatar
-    .avatarWrapper__0cd44 {
+    .avatarWrapper_f89da9 {
       top: 15px !important;
       left: calc(50% - 40px);
 
       // View profile mask
-      .avatarHint__15059 {
+      .avatarHint_f89da9 {
         top: 0;
         left: 0;
         border-radius: calc(var(--avatar-radius) * 2) !important;
@@ -356,7 +356,7 @@
           mask: none !important;
 
           // Custom Avatar Hint
-          .avatarHintInner_c8ddb1 {
+          .avatarHintInner_f89da9 {
             font-size: 0;
             text-transform: none;
 
@@ -374,7 +374,7 @@
     }
 
     // Avatar mask
-    .mask_d5067d {
+    .mask_c51b4e {
       foreignObject {
         border-radius: calc(var(--avatar-radius) * 2) !important;
       }
