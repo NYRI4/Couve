@@ -1,7 +1,7 @@
 :root {
   .guilds_a4d4d9 {
     width: 90px;
-    margin-top: -35px;
+    margin-top: -40px;
 
     // When full-screen video
     &.hidden_fea3ef {
@@ -11,15 +11,15 @@
     &::before {
       content: "";
       position: absolute;
-      bottom: 0;
+      bottom: 135px;
       left: 0;
       z-index: 1;
       width: 90px;
       height: 100px;
       background: linear-gradient(
-        360deg,
-        var(--background-tertiary),
-        transparent
+                      360deg,
+                      var(--background-tertiary),
+                      transparent
       );
       pointer-events: none;
     }
@@ -29,9 +29,9 @@
 
       // Home button
       &
-        > .tutorialContainer_c96c45:first-child
-        > .listItem_c96c45
-        .childWrapper_a6ce15 {
+      > .tutorialContainer_c96c45:first-child
+      > .listItem_c96c45
+      .childWrapper_a6ce15 {
         background: var(--main-color);
         color: #fff;
       }
@@ -53,6 +53,16 @@
           width: 42px;
           height: 42px;
         }
+        .wrapper_c5f96a > svg > foreignObject {
+          border-radius: 9999px;
+          mask: none;
+          transition: border-radius 200ms;
+
+          &:hover {
+            border-radius: 20px;
+          }
+        }
+
         .wrapper__8436d {
           border-radius: 50%;
           overflow: hidden;
@@ -73,12 +83,12 @@
           bottom: 4px;
           right: -5px;
 
-          .numberBadge__40d6f {
+          .numberBadge_df8943 {
             min-width: 25px;
             background: var(--main-color) !important;
             font-size: 8px;
           }
-          &:last-child .numberBadge__40d6f {
+          &:last-child .numberBadge_df8943 {
             box-shadow: 0 0 10px 0 #0008;
           }
         }
@@ -126,7 +136,7 @@
         }
 
         .wrapper_c5f96a {
-            width: 42px;
+          width: 42px;
 
           & > svg > foreignObject {
             mask: none;
@@ -146,7 +156,7 @@
 
       // Create server + Discover buttons
       .circleIconButton_db6521 {
-        border-radius: 14px;
+        border-radius: 999px;
         border: dashed 2px var(--epicshadow1);
         background: transparent;
         color: var(--epicshadow1);
@@ -180,13 +190,22 @@
       }
     }
 
+    .footer_aa1bff {
+      width: 100%;
+      padding-bottom: 70px;
+
+      .listItem_c96c45 {
+        width: 100%;
+      }
+    }
+
     // Mentions & Unread
-    .mention_c10249 {
+    .mention_edf32f {
       height: 100%;
       background: linear-gradient(
-        360deg,
-        transparent,
-        var(--background-tertiary)
+                      360deg,
+                      transparent,
+                      var(--background-tertiary)
       );
       transition: color 0.2s;
       opacity: 1;
@@ -199,7 +218,7 @@
         color: var(--main-color);
       }
     }
-    .unreadMentionsIndicatorBottom_fea3ef .mention_c10249 {
+    .unreadMentionsIndicatorBottom_fea3ef .mention_edf32f {
       background: transparent;
     }
 

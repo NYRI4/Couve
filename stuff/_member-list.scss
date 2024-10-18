@@ -10,7 +10,7 @@
       .member_a31c43 {
         margin: 0;
 
-        .layout_e9f61e {
+        .layout_d808b0 {
           padding: 0 22px;
           width: calc(100% - 22px);
           border-radius: 0;
@@ -23,56 +23,41 @@
     }
   }
 
-  // User popout
+  // -- User popout --
   .loadingPopout-1feYe_ {
     background: var(--background-secondary);
   }
 
   .userPopoutOuter_c69a7b {
-    max-height: unset !important;
-    box-shadow: unset !important;
     border-radius: 8px;
+    overflow: unset;
 
-    .userPopoutInner_c69a7b::before {
-      max-height: unset !important;
+    .userProfileInner_c69a7b {
+      background-color: var(--background-tertiary);
+      overflow: unset;
     }
 
     // Banner
-    .bannerSVGWrapper_b32cc2 {
+    .header_b8cc6d {
+      min-height: 210px;
+    }
+
+    .header_b8cc6d > .mask_d5fdb1 {
       overflow: visible;
-      min-height: 180px !important;
+      min-height: unset !important;
       contain: unset;
 
-      .banner_c3e427 {
+      .banner_d5fdb1 {
         position: absolute;
-        height: 200px;
+        height: 200px !important;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
         clip-path: polygon(
-          0 0,
-          100% 0,
-          100% calc(100% - 25px),
-          50% 100%,
-          0 calc(100% - 25px)
+                        0 0,
+                        100% 0,
+                        100% calc(100% - 25px),
+                        50% 100%,
+                        0 calc(100% - 25px)
         );
-
-        &.bannerPremium_c3e427 {
-          background-color: transparent !important;
-        }
-      }
-
-      // Normal banners
-      &[viewBox="0 0 340 60"] > foreignObject {
-        transform: translateY(-60px);
-      }
-
-      // Premium banners with image
-      &[viewBox="0 0 340 120"] > foreignObject {
-        transform: translateY(-30px);
-      }
-
-      // Premium banners with colours
-      &[viewBox="0 0 340 90"] > foreignObject {
-        transform: translateY(-45px);
       }
 
       & > foreignObject {
@@ -80,120 +65,35 @@
       }
     }
 
-    // Badges
-    .profileBadges_f89da9 {
+    // Action buttons
+    .wrapper_cb78f1 {
+      flex-direction: column;
+    }
+
+    // Bubble goofy thing
+    .addCustomStatusButtonBubble_e6ac4a, .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
       position: absolute;
-      top: 160px;
-      left: 0;
-      width: 340px;
-      max-width: unset;
-      padding: 0;
-      justify-content: center;
-      background-color: transparent;
-      box-sizing: border-box;
+      top: -60px;
+
+      --custom-status-bubble-background: var(--background-tertiary);
     }
-
-    .section_d7a21f {
-      padding-top: 0;
-      padding-bottom: 12px;
-    }
-
-    // New body
-    .userPopoutOverlayBackground_c69a7b {
-      position: static;
-      background-color: transparent;
-
-      & > .divider_d2b491 {
-        display: none;
-      }
-
-      .usernameSection_d2b491 .userText_c9ccf6 {
-        position: absolute;
-        top: 110px;
-        left: 0;
-        width: 340px;
-        box-sizing: border-box;
-        text-align: center;
-
-        .discrimBase_c9ccf6 {
-          color: white;
-        }
-      }
-
-      .pronouns_c9ccf6 {
-        position: relative;
-      }
-
-      .scroller_d2b491::-webkit-scrollbar {
-        display: none;
-      }
-
-      // Activities
-      .activity__20c1e {
-        z-index: 1;
-
-        .assetsLargeImageSpotify_d5089b {
-          border-radius: 8px !important;
-          margin-left: 6px;
-        }
-
-        .null {
-          margin-right: 8px;
-        }
-
-        // Button
-        .button_da7790 {
-          background-color: var(--main-color);
-          opacity: 1;
-        }
-
-        // Platform icon
-        .platformIcon_d5089b {
-          display: none;
-        }
-
-        // Time bar
-        .timeBarUserPopoutV2_d5089b {
-          position: absolute;
-          top: 7px;
-          left: 0;
-          z-index: -1;
-          width: 100%;
-          height: 70px;
-          border-radius: 8px;
-
-          .bar_aa267a {
-            border-radius: 8px;
-            height: 100%;
-          }
-
-          .barInner_aa267a {
-            border-radius: 8px 0 0 8px;
-            opacity: 0.2;
-          }
-          & > :last-child {
-            display: none;
-          }
-        }
-      }
-
-      .input-2g-os5 {
-        background-color: transparent !important;
-      }
-    }
-
-    // Username adjustements for premium popouts
-    &.userProfileOuterThemed_c69a7b .usernameSection_d2b491 {
-      left: 4px;
+    .statusBubbleOuter_d22603:before { top: 28px;}
+    .statusBubbleOuter_d22603:after {
+      top: 50px;
+      left: 25px;
     }
 
     // Avatar
-    .avatarWrapper_f89da9 {
+    .avatar_f94206 {
       top: 15px !important;
       left: calc(50% - 40px);
 
+      .overlay_f94206:after {
+        border-radius: var(--avatar-radius);
+      }
+
       // View profile mask
-      .avatarHint_f89da9 {
+      .avatarPopover_a64b81 {
         top: 0;
         left: 0;
         border-radius: calc(var(--avatar-radius) * 2) !important;
@@ -229,12 +129,49 @@
         display: none;
       }
     }
+
+    .body_b8cc6d {
+      position: static;
+    }
+
+    // Username
+    .container_c32acf {
+      position: absolute;
+      top: 115px;
+      left: 20px;
+      width: calc(100% - 38px);
+    }
+    .usernameRow_c32acf .clickableUsername_c32acf {
+      width: 100%;
+
+      h1 {
+        display: block;
+        text-align: center;
+      }
+    }
+    .usernameRow_c32acf .nicknameIcons_c32acf {
+      display: none;
+    }
+
+    // uuh old name and pronouns and badges and ...
+    .tags_c32acf {
+      margin-top: 5px;
+      justify-content: center;
+
+      // badges
+      .container_b64375 {
+        border: none;
+        background: transparent;
+      }
+    }
   }
 
-  // User modal
+
+
+  // -- User modal --
   .root_b9fccc.root_f9a4c9.small_f9a4c9 {
     width: 800px;
-    height: 100%;
+    height: 400px;
 
     & > div, .userProfileModalOuter_c69a7b {
       width: 100%;
@@ -257,76 +194,112 @@
     }
 
     // Header
-    .topSection_b9fccc {
-      z-index: 1;
-      overflow: hidden;
+    header {
       width: calc(55% - 16px);
       height: 100%;
-      margin-bottom: 0;
+    }
 
-      header {
+    header > .mask_d5fdb1 {
+      min-width: unset !important;
+      min-height: unset !important;
+      width: 100%;
+      height: 100%;
+
+      .banner_d5fdb1 {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: 100%;
+        height: 100% !important;
+        z-index: -1;
+        opacity: 0.6;
+        border-radius: 10px 0 0 10px;
+        mask-image: linear-gradient(90deg, #000c, #00000049); // vscode thing
+        -webkit-mask-image: linear-gradient(90deg, #000000cc, #00000049);
       }
 
-      .bannerSVGWrapper_b32cc2 {
-        min-width: unset !important;
-        min-height: unset !important;
-        width: 100%;
-        height: 100%;
+      & > foreignObject {
+        mask: none;
+      }
 
-        .banner_c3e427 {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: -1;
-          opacity: 0.6;
-          border-radius: 10px 0 0 10px;
-          mask-image: linear-gradient(90deg, #000c, #00000049); // vscode thing
-          -webkit-mask-image: linear-gradient(90deg, #000000cc, #00000049);
-        }
+      &[viewBox="0 0 600 106"] > foreignObject {
+        y: -350px;
+        height: 800px;
+      }
 
-        & > foreignObject {
-          mask: none;
-        }
+      &[viewBox="0 0 600 210"] > foreignObject {
+        y: -250px;
+        height: 700px;
+      }
+    }
 
-        &[viewBox="0 0 600 106"] > foreignObject {
-          y: -350px;
-          height: 800px;
-        }
+    .headerInner_b9fccc {
+      position: static;
 
-        &[viewBox="0 0 600 212"] > foreignObject {
-          y: -250px;
-          height: 700px;
+      // Avatar
+      .avatar_f94206 {
+        top: 16px;
+        left: 16px;
+
+        circle,
+        rect[fill="black"] {
+          display: none;
         }
       }
 
-      .header_ec3b75 {
-        position: static;
+      .addCustomStatusButtonBubble_d22603, .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
+        position: absolute;
+        top: unset;
+        left: unset;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        width: calc(45% + 16px);
+        padding: 20px;
+        backdrop-filter: blur(8px);
+        box-sizing: border-box;
+        border-bottom-right-radius: 5px;
 
-        // Avatar
-        .avatar_ec3b75 {
-          top: 16px;
-          left: 16px;
+        & > .statusBubbleOuter_d22603 {
+          border: none;
+          box-shadow: none;
+          background: transparent;
+          min-width: unset;
+          max-width: unset;
 
-          circle,
-          rect[fill="black"] {
+          &::before, &::after {
             display: none;
+          }
+
+          & > .statusBubble_d22603 {
+            padding: 0;
+            background: transparent;
           }
         }
 
-        .badgeList_ec3b75 {
-          position: absolute;
-          top: 65px;
-          left: -15px;
-          background-color: transparent;
+        &.activityProfile_c1d9fd {
+          right: unset;
+          bottom: -140px;
+          left: 5px;
+          width: 750px;
+          padding: 20px;
+        }
+
+        .customStatus_b2ca13 {
+          margin-top: 0;
+        }
+
+        // Player
+        .assetsLargeImageActivityFeed_c1d9fd,
+        .assetsLargeImageActivityFeedXbox_c1d9fd,
+        .assetsLargeImageProfile_c1d9fd {
+          width: 40px;
+          height: 40px;
         }
       }
     }
 
-    .relationshipButtons_ec3b75 {
+    .headerButtons_b9fccc {
       position: fixed;
       bottom: 15px;
       left: 15px;
@@ -338,179 +311,140 @@
       border-radius: calc(var(--avatar-radius) * 2.1) !important;
     }
 
-    // Custom Status
-    .customStatusText_afed89 {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      z-index: 1;
-      width: calc(45% + 16px);
-      padding: 10px 20px;
-      backdrop-filter: blur(8px);
-      box-sizing: border-box;
-      border-bottom-right-radius: 5px;
-
-      &.activityProfile_d5089b {
-        right: unset;
-        bottom: -140px;
-        left: 5px;
-        width: 750px;
-        padding: 20px;
-      }
-
-      .customStatus_b2ca13 {
-        margin-top: 0;
-      }
-
-      // Player
-      .assetsLargeImageActivityFeed_d5089b,
-      .assetsLargeImageActivityFeedXbox_d5089b,
-      .assetsLargeImageProfile_d5089b {
-        width: 40px;
-        height: 40px;
-      }
-    }
-
     // Body
-    .userProfileModalOverlayBackground_c69a7b {
-      position: static;
+    .body_b9fccc {
       width: calc(45% + 16px);
       margin: 0;
       overflow: visible;
       background-color: var(--background-primary);
       border-radius: 0;
 
-      .body_b9fccc {
-        // Username
-        .container_afed89 > div:first-child {
-          position: absolute;
-          top: 25px;
-          left: 153px;
-          z-index: 1;
+      .fullSizeOverlayBackground_c69a7b {
+        position: static;
+        background: transparent;
+        border: none;
 
-          & > span {
-            max-width: 200px;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-          }
+        .container_ecc04c {
+          height: 100%;
         }
-        .container_afed89 {
-          padding: 0;
-        }
-        .divider_b9fccc {
-          display: none;
-        }
+      }
 
-        // Pronouns
-        .pronouns_afed89 {
-          position: absolute;
-          left: 153px;
-          top: 112px;
-          z-index: 1;
-        }
+      // Username + old username + ....
+      .container_c32acf {
+        position: absolute;
+        top: 25px;
+        left: 153px;
+        z-index: 1;
+        max-width: 250px;
 
-        // Menu
-        .tabBarContainer_b9fccc {
-          position: absolute;
-          bottom: 65px;
-          left: 5px;
-          z-index: 1;
+        // Badges
+        .container_b64375 {
+          border: none;
+        }
+      }
+
+      // Menu
+      .tabBar_ecc04c {
+        position: absolute;
+        bottom: 65px;
+        left: 5px;
+        z-index: 1;
+        border-bottom: unset;
+        flex-direction: column;
+        gap: 15px;
+
+        .item_a0 {
+          height: 20px;
           border-bottom: unset;
 
-          .tabBar_b9fccc {
-            flex-direction: column;
-            gap: 15px;
+          & > div {
+            transition: font-weight 200ms;
+          }
 
-            .item_a0 {
-              height: 20px;
-              border-bottom: unset;
-            }
+          &.selected_a0 > div {
+            font-weight: bold;
           }
         }
+      }
 
-        // Connected account
-        .connectedAccounts_f3eb60 {
-          padding-bottom: 80px;
+      .section_ba4d80:nth-last-child(3) {
+        margin-bottom: 50px;
+      }
 
-          .connectedAccountContainer_f3eb60 {
-            border: none;
-            border-radius: 8px;
-          }
-        }
+      // Connected account
+      .connectedAccountContainer_ab12c6 {
+        border: none;
+        background-color: rgba(255, 255, 255, 0.05);
+      }
 
-        // Mutuals
-        .listScroller_e4be58 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: repeat(20, 0fr);
-          gap: 10px;
-          padding-left: 8px;
+      // Mutuals
+      .listScroller_d2d6cb {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(20, 0fr);
+        gap: 10px;
+        padding-left: 8px;
 
-          .listRow_e4be58 {
-            position: relative;
-            z-index: 1;
-            height: 44px;
-            margin: 0;
-            padding-left: 10px;
-            border-radius: 8px;
-            overflow: hidden;
-            background-color: #ffffff07;
+        .listRow_d2d6cb {
+          position: relative;
+          z-index: 1;
+          height: 44px;
+          margin: 0;
+          padding-left: 10px;
+          border-radius: 8px;
+          overflow: hidden;
+          background-color: #ffffff07;
 
-            .listAvatar_e4be58 {
-              position: absolute;
-              right: 0;
-              z-index: -1;
-              width: 62% !important;
-              height: 250% !important;
-              margin-right: 0;
-              border-radius: 0;
-              -webkit-mask-image: linear-gradient(90deg, #00000000, #000000cb);
+          .listAvatar_d2d6cb {
+            position: absolute;
+            right: 0;
+            z-index: -1;
+            width: 62% !important;
+            height: 250% !important;
+            margin-right: 0;
+            border-radius: 0;
+            -webkit-mask-image: linear-gradient(90deg, #00000000, #000000cb);
 
-              svg {
-                position: relative;
+            svg {
+              position: relative;
+              width: 100%;
+              height: 100%;
+
+              foreignObject {
                 width: 100%;
                 height: 100%;
-
-                foreignObject {
-                  width: 100%;
-                  height: 100%;
-                }
-                rect {
-                  display: none;
-                }
+              }
+              rect {
+                display: none;
               }
             }
           }
-
-          .empty_e4be58 {
-            grid-column: 1/3;
-            grid-row: 1/22;
-            position: relative;
-            z-index: 0;
-            overflow: hidden;
-            margin: 0;
-            padding-left: 10px;
-            border-radius: 8px;
-
-            .emptyIconFriends_e4be58 {
-              position: absolute;
-              z-index: -1;
-              width: 80%;
-              height: 80%;
-              margin-left: -10px;
-              opacity: 0.2;
-              background-size: 100%;
-            }
-          }
-
-          .activityProfileV2_d5089b {
-            grid-column: 1/3;
-          }
         }
 
-        .input-2g-os5 {
-          background-color: transparent;
+        .empty_d2d6cb {
+          grid-column: 1/3;
+          grid-row: 1/22;
+          position: relative;
+          z-index: 0;
+          overflow: hidden;
+          margin: 0;
+          padding-left: 10px;
+          border-radius: 8px;
+
+          .emptyIconFriends_d2d6cb {
+            position: absolute;
+            z-index: -1;
+            width: 80%;
+            height: 80%;
+            margin-left: -10px;
+            opacity: 0.2;
+            background-size: 100%;
+          }
         }
+      }
+
+      .input-2g-os5 {
+        background-color: transparent;
       }
     }
   }

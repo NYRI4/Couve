@@ -6,9 +6,9 @@
     left: 0;
     width: calc(100% - 20px);
     background: linear-gradient(
-      180deg,
-      var(--background-secondary),
-      transparent
+                    180deg,
+                    var(--background-secondary),
+                    transparent
     );
     box-shadow: none;
 
@@ -39,7 +39,7 @@
     max-width: unset;
     border-radius: 0;
 
-    .layout_f9647d {
+    .layout_ec8679 {
       padding: 0 22px;
       width: calc(100% - 22px);
       border-radius: 0;
@@ -96,7 +96,7 @@
           .emptyCard_f02fcf {
             margin: 16px;
           }
-          .outer_c0f6a6 {
+          .outer_ac5d22 {
             background: transparent;
           }
 
@@ -155,9 +155,9 @@
     }
 
     // Speaking ring
-    .border_a5cd29.speaking_a5cd29 {
+    .border_db83a2.speaking_db83a2 {
       box-shadow: inset 0 0 0 2.5px #43b581,
-        inset 0 0 0 6px var(--background-secondary);
+      inset 0 0 0 6px var(--background-secondary);
     }
 
     // Call buttons
@@ -172,12 +172,12 @@
   }
 
   // Call region selector
-  .quickSelectPopout__56a98 {
+  .quickSelectPopout_abbf45 {
     background: var(--background-primary);
   }
 
   // Nitro
-  .applicationStore_cecc86 .container_e44302 {
+  .applicationStore_cecc86 .container_fc4f04 {
     width: calc(100% - 240px);
     position: absolute;
     top: 0;
@@ -199,16 +199,16 @@
       contain: unset;
       max-width: 340px;
 
-      .banner_c3e427 {
+      .banner_d5fdb1 {
         position: absolute;
         height: 200px;
         -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
         clip-path: polygon(
-          0 0,
-          100% 0,
-          100% calc(100% - 25px),
-          50% 100%,
-          0 calc(100% - 25px)
+                        0 0,
+                        100% 0,
+                        100% calc(100% - 25px),
+                        50% 100%,
+                        0 calc(100% - 25px)
         );
       }
 
@@ -286,7 +286,7 @@
       .activity__20c1e {
         z-index: 1;
 
-        .assetsLargeImageSpotify_d5089b {
+        .assetsLargeImageSpotify_c1d9fd {
           border-radius: 8px !important;
           margin-left: 6px;
         }
@@ -302,12 +302,12 @@
         }
 
         // Platform icon
-        .platformIcon_d5089b {
+        .platformIcon_c1d9fd {
           display: none;
         }
 
         // Time bar
-        .timeBarUserPopoutV2_d5089b {
+        .timeBarUserPopoutV2_c1d9fd {
           position: absolute;
           top: 7px;
           left: 0;
@@ -316,12 +316,12 @@
           height: 70px;
           border-radius: 8px;
 
-          .bar_aa267a {
+          .bar_ec2fa7 {
             border-radius: 8px;
             height: 100%;
           }
 
-          .barInner_aa267a {
+          .barInner_ec2fa7 {
             border-radius: 8px 0 0 8px;
             opacity: 0.2;
           }

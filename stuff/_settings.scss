@@ -54,7 +54,7 @@
           }
         }
         .sidebar_c25c6d,
-        .flexChild_bba380 {
+        .flexChild_dc333f {
           padding-left: 0 !important;
           padding-right: 0 !important;
         }
@@ -112,7 +112,7 @@
     .accountProfileCard_b69b77 {
       flex-direction: column;
 
-      .bannerSVGWrapper_b32cc2 {
+      .mask_d5fdb1 {
         position: absolute;
         min-height: 150px !important;
         max-width: 100% !important;
@@ -126,7 +126,7 @@
       }
 
       // Banner
-      .banner_c3e427 {
+      .banner_d5fdb1 {
         border-radius: 8px 8px 0 0 !important;
         height: 200px !important;
         flex: unset !important;
@@ -155,7 +155,7 @@
     display: flex;
     background-color: var(--background-secondary);
 
-    .bannerSVGWrapper_b32cc2 {
+    .mask_d5fdb1 {
       mask {
         display: none;
       }
@@ -165,13 +165,13 @@
     }
 
     // Banner
-    .banner_c3e427 {
+    .banner_d5fdb1 {
       -webkit-mask-image: linear-gradient(
-        rgba(0, 0, 0, 0.7607843137),
-        rgba(0, 0, 0, 0.7607843137)
+                      rgba(0, 0, 0, 0.7607843137),
+                      rgba(0, 0, 0, 0.7607843137)
       );
       border-radius: 8px 0 0 8px;
-      height: 320px;
+      height: 320px !important;
       flex: 1;
     }
 
@@ -238,22 +238,34 @@
     }
 
     // Banner
-    .banner_ab876d {
-      position: absolute;
-      left: 0;
-      height: 200px;
-      -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
-      clip-path: polygon(
-        0 0,
-        100% 0,
-        100% calc(100% - 25px),
-        50% 100%,
-        0 calc(100% - 25px)
-      );
+    .header_f4c122 {
+      min-height: 210px;
+    }
+    .header_f4c122 > .mask_d5fdb1 {
+      overflow: visible;
+      min-height: unset !important;
+      contain: unset;
+
+      .banner_d5fdb1 {
+        position: absolute;
+        height: 200px !important;
+        -webkit-mask-image: linear-gradient(#000000c2, #000000c2);
+        clip-path: polygon(
+                        0 0,
+                        100% 0,
+                        100% calc(100% - 25px),
+                        50% 100%,
+                        0 calc(100% - 25px)
+        );
+      }
+
+      & > foreignObject {
+        mask: none;
+      }
     }
 
     // Avatar
-    .avatarUploader_ab876d {
+    .avatar_f18fcb {
       top: 15px;
       left: 50%;
       margin-left: -40px;
@@ -272,18 +284,7 @@
     }
 
     // User infos
-    .section_d7a21f .userText_c9ccf6 {
-      position: absolute;
-      top: 110px;
-      left: 0;
-      width: 340px;
-      box-sizing: border-box;
-      text-align: center;
 
-      .discrimBase_c9ccf6 {
-        color: white;
-      }
-    }
 
     // Status + About Me
     .customStatus__3aa7f {
@@ -341,7 +342,7 @@
   }
 
   // Boost
-  .cardWrapper_bc8d2a {
+  .cardWrapper_f9902b {
     transform: translateZ(0);
     overflow: hidden;
     background: #0008;
@@ -360,7 +361,7 @@
       }
     }
 
-    .icon_f11207 {
+    .icon_a64689 {
       border-radius: 8px;
 
       &::before {
@@ -433,12 +434,12 @@
   .notificationSettings-1U0JsJ {
     max-width: unset;
 
-    .wrapper_d2da9c {
+    .wrapper_b877fa {
       border: none;
       background: var(--background-secondary);
       border-radius: 20px;
 
-      .option_d2da9c {
+      .option_b877fa {
         margin: 10px;
         border-radius: 16px;
         background: var(--epicshadow1);
@@ -447,7 +448,7 @@
           background: var(--main-color);
           opacity: 0.4;
         }
-        &.selected_d2da9c {
+        &.selected_b877fa {
           background: var(--main-color);
           box-shadow: unset;
         }
@@ -520,7 +521,7 @@
   }
 
   // Widget
-  .copyInput_f549fd {
+  .copyInput_d7e343 {
     border: none;
     border-radius: 8px;
   }
@@ -553,10 +554,10 @@
   }
 
   // Server Boost Status
-  .background_a4fd01 {
+  .background_bfac79 {
     color: var(--background-secondary);
   }
-  .tierInProgress_a4fd01,
+  .tierInProgress_bfac79,
   .tierBody_da77bd,
   .tierHeaderLocked_da77bd,
   .tierHeaderUnlocked_da77bd {

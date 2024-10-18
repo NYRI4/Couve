@@ -50,10 +50,10 @@
       }
 
       // Buttons
-      .button_f67531 {
+      .button_adca65 {
         color: #888;
 
-        &[aria-checked="false"].enabled_f67531 {
+        &[aria-checked="false"].enabled_adca65 {
           color: var(--main-color);
         }
       }
@@ -69,14 +69,14 @@
       animation: unset;
 
       // Header top
-      .headerWrapper_d880dc .container_e44302 {
+      .headerWrapper_d880dc .container_fc4f04 {
         width: unset;
       }
 
       // Speaking ring
       .border_ba4b17.speaking_ba4b17 {
         box-shadow: inset 0 0 0 2.5px #43b581,
-          inset 0 0 0 4.5px var(--background-secondary);
+        inset 0 0 0 4.5px var(--background-secondary);
       }
 
       // Button

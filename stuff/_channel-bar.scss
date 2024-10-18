@@ -1,30 +1,25 @@
 :root {
-  // Search bar
-  .inner__999f6 {
-    background: var(--background-secondary);
-  }
-
   // Removing help buttons
-  .toolbar_e44302 > :last-child[href="https://support.discord.com"], 
+  .toolbar_fc4f04 > :last-child[href="https://support.discord.com"],
   .searchLearnMore_b0286e {
     display: none;
   }
 
   // Top bar
-  .container_e44302.title_a7d72e:not(.minimum_d880dc) {
+  .container_fc4f04.title_a7d72e:not(.minimum_d880dc) {
     z-index: 1;
     background: transparent;
     width: calc(100% - 240px);
 
-    .toolbar_e44302,
+    .toolbar_fc4f04,
     .topic_bf3bbb {
       -webkit-app-region: no-drag;
     }
-    .icon_e44302 {
+    .icon_fc4f04 {
       -webkit-app-region: unset;
     }
     .followButton_a7d72e,
-    .children_e44302:after {
+    .children_fc4f04:after {
       display: none;
     }
 
@@ -56,23 +51,7 @@
     background: var(--background-secondary-alt-alt);
     box-shadow: none;
 
-    .queryContainer_eedf95 {
-      border: none;
-
-      &.focused_eedf95 {
-        background: var(--background-secondary-alt-alt);
-      }
-
-      .keybindShortcut-3zF1P9 {
-        display: none;
-      }
-    }
-
     .resultsGroup_b0286e {
-      &::before {
-        display: none;
-      }
-
       // Options
       .option_b0286e {
         padding: 0 20px;
@@ -90,7 +69,7 @@
     }
 
     // Datepicker (yeah this exist)
-    .calendarPicker__47c85 .react-datepicker {
+    .calendarPicker_be05cd .react-datepicker {
       background: transparent;
       border-radius: 0;
 
@@ -143,9 +122,9 @@
       position: absolute;
       width: 100%;
       background: linear-gradient(
-        180deg,
-        var(--background-secondary),
-        transparent
+                      180deg,
+                      var(--background-secondary),
+                      transparent
       );
     }
 
@@ -187,66 +166,28 @@
     max-height: 100% !important;
     animation: sidebarStatusTransalteXReverse 0.5s ease, fade 0.4s ease;
     border-radius: 0;
-
-    // Top
-    .header_ac90a2 {
-      background: linear-gradient(
-        360deg,
-        transparent,
-        var(--background-secondary)
-      );
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-
-      .topPill-3DJJNV {
-        margin: 0 auto;
-
-        .tab_f0cd33.active_f0cd33 {
-          background: var(--background-primary);
-        }
-      }
-
-      .secondary__45d4f {
-        position: absolute;
-        right: 16px;
-        background: transparent;
-      }
-    }
-
-    // Body
-    .messagesPopout_ac90a2,
-    .scrollerBase_eed6a8 {
-      padding-top: 86px;
-
-      // Card
-      .channelHeader_f3978e {
-        position: relative;
-        background: transparent;
-
-        // Cross button
-        .tertiary_ad6d80 {
-          background: var(--background-primary);
-        }
-      }
-    }
-
-    // Tutorial
-    .tutorial_f1c3d9 {
-      background: var(--background-primary);
-      margin-top: 66px;
-    }
-
-    .tutorialIcon_f1c3d9 {
-      background: var(--background-secondary);
-      color: #fff;
-    }
-  }
-  .recentMentionsPopout_ddb5b4 {
     background: var(--background-secondary);
     box-shadow: var(--elevation-high);
+
+    // Header
+    .header_ac90a2 {
+      background-color: var(--background-tertiary);
+    }
+
+    .item_a0 {
+      margin-bottom: 0 !important;
+
+      &.brand_a0.selected_a0.item_a0, &.brand_a0.item_a0:active {
+        border-bottom-color: var(--main-color) !important;
+      }
+    }
+
+    // For you tab > Friend requests
+    .row_fd8ff1 {
+      background: var(--background-primary);
+      margin: 12px;
+      border-radius: 12px;
+    }
   }
 
   // Pinned messages
@@ -268,13 +209,14 @@
     }
 
     .messagesPopout_ac90a2 {
-      padding: 0 32px;
-      padding-top: 5px;
+      padding: 12px 0 0 12px;
 
       .messageGroupWrapper_ac90a2 {
+        padding: 8px;
+        margin-bottom: 12px;
         border: none;
         background: var(--background-secondary);
-        margin-bottom: 32px;
+        border-radius: 12px;
       }
 
       &::-webkit-scrollbar {
