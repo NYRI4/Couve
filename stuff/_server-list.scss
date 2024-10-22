@@ -39,34 +39,12 @@
       // Server
       .listItem_c96c45 {
         width: 90px;
-
-        & > div:nth-child(2) {
-          padding: 4px 0;
-        }
+        margin: 0 0 12px;
 
         .wrapper_c5f96a,
         .svg_c5f96a {
           width: 42px;
           height: 42px;
-        }
-        .wrapper_c5f96a > svg > foreignObject {
-          border-radius: 9999px;
-          mask: none;
-          transition: border-radius 200ms;
-
-          &:hover {
-            border-radius: 20px;
-          }
-        }
-
-        .wrapper__8436d {
-          border-radius: 50%;
-          overflow: hidden;
-          transition: border-radius 200ms;
-
-          &:hover {
-            border-radius: calc(50% - 4px);
-          }
         }
 
         .upperBadge_c5f96a {
@@ -111,6 +89,8 @@
         width: 90px;
 
         .expandedFolderBackground_bc7085 {
+          --custom-folder-item-guild-icon-margin: 12px !important;
+
           left: 21px;
 
           & ~ ul {

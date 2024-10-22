@@ -639,30 +639,12 @@
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 {
   width: 90px;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 > div:nth-child(2) {
-  padding: 4px 0;
+  margin: 0 0 12px;
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .wrapper_c5f96a,
 :root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .svg_c5f96a {
   width: 42px;
   height: 42px;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .wrapper_c5f96a > svg > foreignObject {
-  border-radius: 9999px;
-  mask: none;
-  transition: border-radius 200ms;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .wrapper_c5f96a > svg > foreignObject:hover {
-  border-radius: 20px;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .wrapper__8436d {
-  border-radius: 50%;
-  overflow: hidden;
-  transition: border-radius 200ms;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .wrapper__8436d:hover {
-  border-radius: calc(50% - 4px);
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 .upperBadge_c5f96a {
   top: 2px;
@@ -693,6 +675,7 @@
   width: 90px;
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .wrapper_bc7085 .expandedFolderBackground_bc7085 {
+  --custom-folder-item-guild-icon-margin: 12px !important;
   left: 21px;
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .wrapper_bc7085 .expandedFolderBackground_bc7085 ~ ul .wrapper_c5f96a {
