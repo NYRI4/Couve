@@ -339,6 +339,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
     .item_eef3ef {
       margin-right: 5px;
     }
+
+    .container_c18ec9 {
+      border-radius: 8px;
+    }
   }
 
   // Roles in settings
@@ -380,6 +384,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
     background: var(--background-primary);
     box-shadow: unset;
     border-radius: 10px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     form {
       display: flex;
@@ -831,7 +839,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
       background-color: var(--background-secondary);
     }
 
-    .button_dd4f85.lookBlank_dd4f85 {
+    .footer_f9a4c9 .button_dd4f85.lookBlank_dd4f85 {
       color: var(--header-secondary);
     }
   }
@@ -844,13 +852,20 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
   .scrollerContainer_c6b11b,
   .container_c2efea,
   .container_d20375,
-  .page_d20375 {
+  .page_d20375,
+  .pageBody_c2efea {
     background-color: var(--background-primary) !important;
   }
   .row_b53f4f,
-  .container__33507 {
+  .container__33507,
+  .channelRow_f04d06 {
     background-color: var(--background-secondary);
   }
+
+  .container_b6cd66 {
+    background-color: var(--background-tertiary) !important;
+  }
+
   .inviteButton_d32e26 {
     background-color: var(--main-color);
   }
@@ -861,6 +876,11 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
 
   .tableHeaderRow_e6d0a5:first-child:after {
     box-shadow: none;
+  }
+
+  .checkbox_f6cde8 {
+    background-color: var(--background-primary);
+    border: none;
   }
 
   // Welcome popout

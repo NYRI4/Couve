@@ -25,6 +25,12 @@
         .sidebar_c25c6d {
           width: 240px;
 
+          // New search bar
+          .searchBar_e7c031 {
+            margin: 0 30px 15px 30px;
+            border-radius: 8px;
+          }
+
           .side_a0 .header_a0 {
             color: var(--textcolor);
           }
@@ -308,6 +314,11 @@
     &:hover {
       background: var(--background-secondary);
     }
+  }
+
+  // Family center
+   #family-center-tab .max-width_d00e26, #family-center-tab .max-width_a2e886, #requests-tab .container_f70f48 {
+    max-width: unset;
   }
 
   // Connections

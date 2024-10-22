@@ -71,7 +71,7 @@
     }
 
     // Bubble goofy thing
-    .addCustomStatusButtonBubble_e6ac4a, .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
+    .addCustomStatusButtonBubble_d22603, .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
       position: absolute;
       top: -60px;
 
@@ -274,6 +274,10 @@
           & > .statusBubble_d22603 {
             padding: 0;
             background: transparent;
+
+            & > .content_d22603 {
+              text-align: left;
+            }
           }
         }
 

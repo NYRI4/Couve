@@ -571,6 +571,18 @@
 :root .typing_d7ebeb {
   z-index: 0;
 }
+:root .button_df39bd {
+  background-color: var(--background-secondary);
+}
+:root .contentWrapper_f7506e {
+  background-color: var(--background-primary);
+}
+:root .container_e5da8b {
+  background-color: var(--background-secondary);
+}
+:root .container_c18ec9 {
+  border-radius: 8px;
+}
 :root .message_ddcc45 {
   background: var(--background-secondary);
   box-shadow: none;
@@ -624,9 +636,6 @@
 :root .guilds_a4d4d9 .scroller_fea3ef > .tutorialContainer_c96c45:first-child > .listItem_c96c45 .childWrapper_a6ce15 {
   background: var(--main-color);
   color: #fff;
-}
-:root .guilds_a4d4d9 .scroller_fea3ef > .listItem_c96c45:nth-last-child(4) {
-  margin-bottom: 80px;
 }
 :root .guilds_a4d4d9 .scroller_fea3ef .listItem_c96c45 {
   width: 90px;
@@ -1051,7 +1060,6 @@
   right: 0;
   min-height: 100%;
   max-height: 100% !important;
-  animation: sidebarStatusTransalteXReverse 0.5s ease, fade 0.4s ease;
   border-radius: 0;
   background: var(--background-secondary);
   box-shadow: var(--elevation-high);
@@ -1158,7 +1166,7 @@
 :root .userPopoutOuter_c69a7b .wrapper_cb78f1 {
   flex-direction: column;
 }
-:root .userPopoutOuter_c69a7b .addCustomStatusButtonBubble_e6ac4a, :root .userPopoutOuter_c69a7b .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
+:root .userPopoutOuter_c69a7b .addCustomStatusButtonBubble_d22603, :root .userPopoutOuter_c69a7b .statusBubbleOuter_d22603 + .visibleContainer_d22603 {
   position: absolute;
   top: -60px;
   --custom-status-bubble-background: var(--background-tertiary);
@@ -1322,6 +1330,9 @@
 :root .userProfileModalInner_c69a7b .headerInner_b9fccc .addCustomStatusButtonBubble_d22603 > .statusBubbleOuter_d22603 > .statusBubble_d22603, :root .userProfileModalInner_c69a7b .headerInner_b9fccc .statusBubbleOuter_d22603 + .visibleContainer_d22603 > .statusBubbleOuter_d22603 > .statusBubble_d22603 {
   padding: 0;
   background: transparent;
+}
+:root .userProfileModalInner_c69a7b .headerInner_b9fccc .addCustomStatusButtonBubble_d22603 > .statusBubbleOuter_d22603 > .statusBubble_d22603 > .content_d22603, :root .userProfileModalInner_c69a7b .headerInner_b9fccc .statusBubbleOuter_d22603 + .visibleContainer_d22603 > .statusBubbleOuter_d22603 > .statusBubble_d22603 > .content_d22603 {
+  text-align: left;
 }
 :root .userProfileModalInner_c69a7b .headerInner_b9fccc .addCustomStatusButtonBubble_d22603.activityProfile_c1d9fd, :root .userProfileModalInner_c69a7b .headerInner_b9fccc .statusBubbleOuter_d22603 + .visibleContainer_d22603.activityProfile_c1d9fd {
   right: unset;
@@ -1488,6 +1499,10 @@
 }
 :root .layer_d4b6c5 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d .sidebar_c25c6d {
   width: 240px;
+}
+:root .layer_d4b6c5 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d .sidebar_c25c6d .searchBar_e7c031 {
+  margin: 0 30px 15px 30px;
+  border-radius: 8px;
 }
 :root .layer_d4b6c5 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d .sidebar_c25c6d .side_a0 .header_a0 {
   color: var(--textcolor);
@@ -1686,6 +1701,9 @@
 }
 :root .item-2idW98:hover {
   background: var(--background-secondary);
+}
+:root #family-center-tab .max-width_d00e26, :root #family-center-tab .max-width_a2e886, :root #requests-tab .container_f70f48 {
+  max-width: unset;
 }
 :root .connectionHeader_e2a436 {
   background: transparent;
@@ -2503,6 +2521,9 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
 :root .container_ac201b .item_eef3ef {
   margin-right: 5px;
 }
+:root .container_ac201b .container_c18ec9 {
+  border-radius: 8px;
+}
 :root .sidebar_e87574 {
   border: none;
 }
@@ -2532,6 +2553,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
   background: var(--background-primary);
   box-shadow: unset;
   border-radius: 10px;
+}
+:root .root_f9a4c9::-webkit-scrollbar,
+:root .modal_c97cbd::-webkit-scrollbar {
+  display: none;
 }
 :root .root_f9a4c9 form,
 :root .modal_c97cbd form {
@@ -2897,7 +2922,7 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
 :root .container_a4d79f .input_e8a9c7 {
   background-color: var(--background-secondary);
 }
-:root .container_a4d79f .button_dd4f85.lookBlank_dd4f85 {
+:root .container_a4d79f .footer_f9a4c9 .button_dd4f85.lookBlank_dd4f85 {
   color: var(--header-secondary);
 }
 :root .container_f1fd9c,
@@ -2907,12 +2932,17 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
 :root .scrollerContainer_c6b11b,
 :root .container_c2efea,
 :root .container_d20375,
-:root .page_d20375 {
+:root .page_d20375,
+:root .pageBody_c2efea {
   background-color: var(--background-primary) !important;
 }
 :root .row_b53f4f,
-:root .container__33507 {
+:root .container__33507,
+:root .channelRow_f04d06 {
   background-color: var(--background-secondary);
+}
+:root .container_b6cd66 {
+  background-color: var(--background-tertiary) !important;
 }
 :root .inviteButton_d32e26 {
   background-color: var(--main-color);
@@ -2922,6 +2952,10 @@ html:not(.platform-linux) body:not(.maximized).transparent .appMount_ea7e65 {
 }
 :root .tableHeaderRow_e6d0a5:first-child:after {
   box-shadow: none;
+}
+:root .checkbox_f6cde8 {
+  background-color: var(--background-primary);
+  border: none;
 }
 :root .contentWrapper_ed5743 {
   background: var(--background-primary);
